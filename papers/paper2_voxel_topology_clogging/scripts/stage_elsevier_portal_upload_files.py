@@ -210,6 +210,8 @@ def stage_portal_upload_files(out_dir: Path = DEFAULT_OUT, force: bool = False) 
     for item in PORTAL_UPLOAD_ITEMS:
         group_dir = out_dir / item["group"]
         for path_text in item["paths"]:
+            if "/figures/paper2_figS" in path_text:
+                continue
             src = PROJECT_ROOT / path_text
             if not src.exists():
                 missing.append(path_text)

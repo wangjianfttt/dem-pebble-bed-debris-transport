@@ -19,203 +19,71 @@ Jian Wang, Mingzhun Lei, Haoxi Wang, Zhiyuan Liu, Haishun Deng, Wei Wen, and Gan
 \end{center}
 \section*{Scope of the Supplementary Material}
 This document collects the supplementary figures and table descriptors that support the bounded mechanism interpretation in the main manuscript. The supplementary material is used for traceability, sensitivity checks and evidence-boundary documentation. It does not introduce a universal clogging-transition law, a pressure-calibrated safety criterion or experimental validation of the DEM workflow.
+The journal-facing version is intentionally concise: only eight non-redundant supplementary figures are retained, while internal diagnostics and weak or visually ambiguous exports are excluded from the upload package.
 \section*{Supplementary Figure Roadmap}
 \begin{longtable}{P{0.12\linewidth}P{0.40\linewidth}P{0.40\linewidth}}
 \toprule
 Figure & Role & Evidence boundary \\
 \midrule
 \endhead
-Fig. S1 & voxel-size sensitivity & Resolution support for the chosen voxel size; coarse grids under-resolve connectivity. \\
-Fig. S2 & voxel coarsening stress test & Used to bound reconstruction sensitivity, not as independent physical evidence. \\
-Fig. S3 & Ergun pressure-gradient proxy & Not CFD, not measured pressure and not pressure-calibrated Ib. \\
-Fig. S4 & time-resolved deposition and BTC for representative loading case & Supports delayed leading-tail breakthrough for one representative case only. \\
-Fig. S5 & front-migration speed fits & One representative case; not a universal speed law. \\
-Fig. S8 & localized-release production status and available production summaries & Production mode includes target-time 906, 907 and 908 localized-release rows; the comparison remains bounded because it is not a fitted source-position or source-strength law. \\
-Fig. S9 & completed 907 downstream-release tail-capture mechanism & Supports 907 near-outlet retention to 10 ms; does not establish a general no-breakthrough law. \\
-Fig. S10 & source-position comparison for available 906 and 907 production windows & Compares completed localized-release windows only; 906 is a longer 40 ms upstream-source check while 907 and 908 are 10 ms target-time checks. \\
-Fig. S11 & integrated mechanism-evidence map & Synthesizes existing evidence for pre-clogging migration/filtering; does not add new transition or pressure-calibration claims. \\
-Fig. S12 & voxel-network pressure pilot & Solves a scalar Darcy-Laplace problem on connected pore voxels; not CFD, not LBM and not a calibrated pressure-drop measurement. \\
-Fig. S13 & cropped pore-domain inputs for future pressure-flow solvers & Defines cropped pore-domain inputs only; not CFD, not LBM and not a measured or calibrated pressure result. \\
-Fig. S14 & local voxel-network conductance response in cropped peak-blockage domains & Solves a scalar Darcy-Laplace network problem on cropped pore voxels; not CFD, not LBM and not a calibrated pressure-drop measurement. \\
-Fig. S15 & conductance-exponent sensitivity for cropped peak-blockage domains & Tests sensitivity of a scalar voxel-network proxy to conductance exponent; not CFD, not LBM and not a calibrated pressure-drop measurement. \\
-Fig. S16 & dimensionless mechanism map separating transport penetration, local blockage and topology loss & Derived synthesis of existing evidence; not a full parameter sweep, not a universal regime diagram and not pressure-calibrated. \\
-Fig. S17 & near-threshold repeat-seed stochastic variability & Bounds stochastic variability for the near-threshold DEM setting; not a critical-transition law. \\
-Fig. S18 & sub-voxel blockage hydraulic-response scale check & Scale-check evidence for sub-voxel hydraulic response only; not CFD, not measured pressure and not pressure-calibrated clogging. \\
-Fig. S19 & localized-release source retention, downstream release and sparse-front decoupling & Supports retained-bulk and sparse-front decoupling; not a source-position scaling law, completed BTC, outlet breakthrough or critical clogging. \\
-Fig. S20 & mechanistic decoupling matrix linking source release, sparse-front advance, local blockage and connectivity loss & Derived synthesis of existing localized-release and loading evidence; not a fitted law, completed BTC, pressure-calibrated criterion or critical-transition map. \\
-Fig. S21 & cross-observable response map separating transport, deposition, pressure-proxy and topology observables & Derived synthesis of existing DEM and voxel observables; not a fitted response law, not outlet breakthrough, not CFD validation and not a pressure-calibrated critical-clogging criterion. \\
-Fig. S22 & 3D hydraulic-resistance amplification sensitivity in cropped peak-blockage domains & Reduced scalar voxel-network sensitivity to debris-induced 3D resistance amplification; not OpenFOAM CFD, not LBM and not pressure-calibrated. \\
-Fig. S23 & returned cropped-domain OpenFOAM pressure evidence for peak-blockage handoff cases & Returned cropped-domain numerical pressure evidence only; not experimental pressure validation, not full-device CFD and not pressure-calibrated Ib. \\
-Fig. S24 & ParaView-rendered OpenFOAM cropped-domain model and mesh slice & Visualization of one representative returned cropped-domain OpenFOAM case and its mesh only; not new pressure evidence, not experimental validation and not blanket-scale CFD. \\
-Fig. S25 & parameter-evidence coverage map for bounded mechanism support & Discrete coverage audit of current mechanism evidence; not a full factorial parameter sweep, not an interpolated phase map and not a universal critical-clogging diagram. \\
-Fig. S26 & ParaView-rendered OpenFOAM cropped-domain and mesh comparison across returned pressure cases & Visual comparison of the three returned cropped-domain OpenFOAM cases and their mesh slices only; not new pressure evidence, not experimental validation and not blanket-scale CFD. \\
-Fig. S27 & cross-observable data-mining synthesis of drive, localized release, loading and topology-response separation & Exploratory derived synthesis from existing source tables; not a fitted universal transition law, not a phase map and not pressure-calibrated safety evidence. \\
-Fig. S28 & time-resolved tail-lag data mining linking leading-tail breakthrough, retained bulk and rare sparse-front survival & Exploratory tail-lag synthesis from existing time-resolved source tables; not an experimentally calibrated residence-time distribution, not a universal tailing law and not a critical-clogging transition. \\
-Fig. S29 & spatial heterogeneity data mining of axial deposition profiles, localization relaxation and downstream spreading & Derived spatial-heterogeneity synthesis from existing axial blockage profiles; not pore-scale bridge statistics, not experimental imaging and not a universal clogging law. \\
+Fig. S1 & time-resolved deposition and BTC for representative loading case & Supports delayed leading-tail breakthrough for one representative case only. \\
+Fig. S2 & front-migration speed fits & One representative case; not a universal speed law. \\
+Fig. S3 & voxel-network pressure pilot & Solves a scalar Darcy-Laplace problem on connected pore voxels; not CFD, not LBM and not a calibrated pressure-drop measurement. \\
+Fig. S4 & conductance-exponent sensitivity for cropped peak-blockage domains & Tests sensitivity of a scalar voxel-network proxy to conductance exponent; not CFD, not LBM and not a calibrated pressure-drop measurement. \\
+Fig. S5 & near-threshold repeat-seed stochastic variability & Bounds stochastic variability for the near-threshold DEM setting; not a critical-transition law. \\
+Fig. S6 & returned cropped-domain OpenFOAM pressure evidence for peak-blockage handoff cases & Returned cropped-domain numerical pressure evidence only; not experimental pressure validation, not full-device CFD and not pressure-calibrated Ib. \\
+Fig. S7 & ParaView-rendered OpenFOAM cropped-domain model and mesh slice & Visualization of one representative returned cropped-domain OpenFOAM case and its mesh only; not new pressure evidence, not experimental validation and not blanket-scale CFD. \\
+Fig. S8 & spatial heterogeneity data mining of axial deposition profiles, localization relaxation and downstream spreading & Derived spatial-heterogeneity synthesis from existing axial blockage profiles; not pore-scale bridge statistics, not experimental imaging and not a universal clogging law. \\
 \bottomrule
 \end{longtable}
 \clearpage
 \section*{Supplementary Figures}
 \begin{figure}[p]
 \centering
-\includegraphics[width=0.96\linewidth,height=0.78\textheight,keepaspectratio]{../figures/paper2_figS1_voxel_size_sensitivity.pdf}
-\caption*{\textbf{Fig. S1.} voxel-size sensitivity. \textit{Boundary:} Resolution support for the chosen voxel size; coarse grids under-resolve connectivity.}
-\end{figure}
-\clearpage
-\begin{figure}[p]
-\centering
-\includegraphics[width=0.96\linewidth,height=0.78\textheight,keepaspectratio]{../figures/paper2_figS2_voxel_coarsening_stress_test.pdf}
-\caption*{\textbf{Fig. S2.} voxel coarsening stress test. \textit{Boundary:} Used to bound reconstruction sensitivity, not as independent physical evidence.}
-\end{figure}
-\clearpage
-\begin{figure}[p]
-\centering
-\includegraphics[width=0.96\linewidth,height=0.78\textheight,keepaspectratio]{../figures/paper2_figS3_ergun_pressure_proxy.pdf}
-\caption*{\textbf{Fig. S3.} Ergun pressure-gradient proxy. \textit{Boundary:} Not CFD, not measured pressure and not pressure-calibrated Ib.}
-\end{figure}
-\clearpage
-\begin{figure}[p]
-\centering
 \includegraphics[width=0.96\linewidth,height=0.78\textheight,keepaspectratio]{../figures/paper2_figS4_time_resolved_deposition.pdf}
-\caption*{\textbf{Fig. S4.} time-resolved deposition and BTC for representative loading case. \textit{Boundary:} Supports delayed leading-tail breakthrough for one representative case only.}
+\caption*{\textbf{Fig. S1.} time-resolved deposition and BTC for representative loading case. \textit{Boundary:} Supports delayed leading-tail breakthrough for one representative case only.}
 \end{figure}
 \clearpage
 \begin{figure}[p]
 \centering
 \includegraphics[width=0.96\linewidth,height=0.78\textheight,keepaspectratio]{../figures/paper2_figS5_front_migration_metrics.pdf}
-\caption*{\textbf{Fig. S5.} front-migration speed fits. \textit{Boundary:} One representative case; not a universal speed law.}
-\end{figure}
-\clearpage
-\begin{figure}[p]
-\centering
-\includegraphics[width=0.96\linewidth,height=0.78\textheight,keepaspectratio]{../figures/paper2_figS8_explicit_localized_production_summary.pdf}
-\caption*{\textbf{Fig. S8.} localized-release production status and available production summaries. \textit{Boundary:} Production mode includes target-time 906, 907 and 908 localized-release rows; the comparison remains bounded because it is not a fitted source-position or source-strength law.}
-\end{figure}
-\clearpage
-\begin{figure}[p]
-\centering
-\includegraphics[width=0.96\linewidth,height=0.78\textheight,keepaspectratio]{../figures/paper2_figS9_907_tail_capture_mechanism.pdf}
-\caption*{\textbf{Fig. S9.} completed 907 downstream-release tail-capture mechanism. \textit{Boundary:} Supports 907 near-outlet retention to 10 ms; does not establish a general no-breakthrough law.}
-\end{figure}
-\clearpage
-\begin{figure}[p]
-\centering
-\includegraphics[width=0.96\linewidth,height=0.78\textheight,keepaspectratio]{../figures/paper2_figS10_source_position_comparison.pdf}
-\caption*{\textbf{Fig. S10.} source-position comparison for available 906 and 907 production windows. \textit{Boundary:} Compares completed localized-release windows only; 906 is a longer 40 ms upstream-source check while 907 and 908 are 10 ms target-time checks.}
-\end{figure}
-\clearpage
-\begin{figure}[p]
-\centering
-\includegraphics[width=0.96\linewidth,height=0.78\textheight,keepaspectratio]{../figures/paper2_figS11_mechanism_evidence_map.pdf}
-\caption*{\textbf{Fig. S11.} integrated mechanism-evidence map. \textit{Boundary:} Synthesizes existing evidence for pre-clogging migration/filtering; does not add new transition or pressure-calibration claims.}
+\caption*{\textbf{Fig. S2.} front-migration speed fits. \textit{Boundary:} One representative case; not a universal speed law.}
 \end{figure}
 \clearpage
 \begin{figure}[p]
 \centering
 \includegraphics[width=0.96\linewidth,height=0.78\textheight,keepaspectratio]{../figures/paper2_figS12_voxel_pressure_pilot.pdf}
-\caption*{\textbf{Fig. S12.} voxel-network pressure pilot. \textit{Boundary:} Solves a scalar Darcy-Laplace problem on connected pore voxels; not CFD, not LBM and not a calibrated pressure-drop measurement.}
-\end{figure}
-\clearpage
-\begin{figure}[p]
-\centering
-\includegraphics[width=0.96\linewidth,height=0.78\textheight,keepaspectratio]{../figures/paper2_figS13_cropped_flow_domains.pdf}
-\caption*{\textbf{Fig. S13.} cropped pore-domain inputs for future pressure-flow solvers. \textit{Boundary:} Defines cropped pore-domain inputs only; not CFD, not LBM and not a measured or calibrated pressure result.}
-\end{figure}
-\clearpage
-\begin{figure}[p]
-\centering
-\includegraphics[width=0.96\linewidth,height=0.78\textheight,keepaspectratio]{../figures/paper2_figS14_cropped_flow_permeability.pdf}
-\caption*{\textbf{Fig. S14.} local voxel-network conductance response in cropped peak-blockage domains. \textit{Boundary:} Solves a scalar Darcy-Laplace network problem on cropped pore voxels; not CFD, not LBM and not a calibrated pressure-drop measurement.}
+\caption*{\textbf{Fig. S3.} voxel-network pressure pilot. \textit{Boundary:} Solves a scalar Darcy-Laplace problem on connected pore voxels; not CFD, not LBM and not a calibrated pressure-drop measurement.}
 \end{figure}
 \clearpage
 \begin{figure}[p]
 \centering
 \includegraphics[width=0.96\linewidth,height=0.78\textheight,keepaspectratio]{../figures/paper2_figS15_cropped_flow_permeability_sensitivity.pdf}
-\caption*{\textbf{Fig. S15.} conductance-exponent sensitivity for cropped peak-blockage domains. \textit{Boundary:} Tests sensitivity of a scalar voxel-network proxy to conductance exponent; not CFD, not LBM and not a calibrated pressure-drop measurement.}
-\end{figure}
-\clearpage
-\begin{figure}[p]
-\centering
-\includegraphics[width=0.96\linewidth,height=0.78\textheight,keepaspectratio]{../figures/paper2_figS16_dimensionless_mechanism_map.pdf}
-\caption*{\textbf{Fig. S16.} dimensionless mechanism map separating transport penetration, local blockage and topology loss. \textit{Boundary:} Derived synthesis of existing evidence; not a full parameter sweep, not a universal regime diagram and not pressure-calibrated.}
+\caption*{\textbf{Fig. S4.} conductance-exponent sensitivity for cropped peak-blockage domains. \textit{Boundary:} Tests sensitivity of a scalar voxel-network proxy to conductance exponent; not CFD, not LBM and not a calibrated pressure-drop measurement.}
 \end{figure}
 \clearpage
 \begin{figure}[p]
 \centering
 \includegraphics[width=0.96\linewidth,height=0.78\textheight,keepaspectratio]{../figures/paper2_figS17_near_threshold_repeat_seed_status.pdf}
-\caption*{\textbf{Fig. S17.} near-threshold repeat-seed stochastic variability. \textit{Boundary:} Bounds stochastic variability for the near-threshold DEM setting; not a critical-transition law.}
-\end{figure}
-\clearpage
-\begin{figure}[p]
-\centering
-\includegraphics[width=0.96\linewidth,height=0.78\textheight,keepaspectratio]{../figures/paper2_figS18_subvoxel_hydraulic_evidence.pdf}
-\caption*{\textbf{Fig. S18.} sub-voxel blockage hydraulic-response scale check. \textit{Boundary:} Scale-check evidence for sub-voxel hydraulic response only; not CFD, not measured pressure and not pressure-calibrated clogging.}
-\end{figure}
-\clearpage
-\begin{figure}[p]
-\centering
-\includegraphics[width=0.96\linewidth,height=0.78\textheight,keepaspectratio]{../figures/paper2_figS19_localized_mechanism_axes.pdf}
-\caption*{\textbf{Fig. S19.} localized-release source retention, downstream release and sparse-front decoupling. \textit{Boundary:} Supports retained-bulk and sparse-front decoupling; not a source-position scaling law, completed BTC, outlet breakthrough or critical clogging.}
-\end{figure}
-\clearpage
-\begin{figure}[p]
-\centering
-\includegraphics[width=0.96\linewidth,height=0.78\textheight,keepaspectratio]{../figures/paper2_figS20_mechanistic_decoupling_matrix.pdf}
-\caption*{\textbf{Fig. S20.} mechanistic decoupling matrix linking source release, sparse-front advance, local blockage and connectivity loss. \textit{Boundary:} Derived synthesis of existing localized-release and loading evidence; not a fitted law, completed BTC, pressure-calibrated criterion or critical-transition map.}
-\end{figure}
-\clearpage
-\begin{figure}[p]
-\centering
-\includegraphics[width=0.96\linewidth,height=0.78\textheight,keepaspectratio]{../figures/paper2_figS21_observable_response_map.pdf}
-\caption*{\textbf{Fig. S21.} cross-observable response map separating transport, deposition, pressure-proxy and topology observables. \textit{Boundary:} Derived synthesis of existing DEM and voxel observables; not a fitted response law, not outlet breakthrough, not CFD validation and not a pressure-calibrated critical-clogging criterion.}
-\end{figure}
-\clearpage
-\begin{figure}[p]
-\centering
-\includegraphics[width=0.96\linewidth,height=0.78\textheight,keepaspectratio]{../figures/paper2_figS22_3d_resistance_amplification_sensitivity.pdf}
-\caption*{\textbf{Fig. S22.} 3D hydraulic-resistance amplification sensitivity in cropped peak-blockage domains. \textit{Boundary:} Reduced scalar voxel-network sensitivity to debris-induced 3D resistance amplification; not OpenFOAM CFD, not LBM and not pressure-calibrated.}
+\caption*{\textbf{Fig. S5.} near-threshold repeat-seed stochastic variability. \textit{Boundary:} Bounds stochastic variability for the near-threshold DEM setting; not a critical-transition law.}
 \end{figure}
 \clearpage
 \begin{figure}[p]
 \centering
 \includegraphics[width=0.96\linewidth,height=0.78\textheight,keepaspectratio]{../figures/paper2_figS23_openfoam_pressure_evidence.pdf}
-\caption*{\textbf{Fig. S23.} returned cropped-domain OpenFOAM pressure evidence for peak-blockage handoff cases. \textit{Boundary:} Returned cropped-domain numerical pressure evidence only; not experimental pressure validation, not full-device CFD and not pressure-calibrated Ib.}
+\caption*{\textbf{Fig. S6.} returned cropped-domain OpenFOAM pressure evidence for peak-blockage handoff cases. \textit{Boundary:} Returned cropped-domain numerical pressure evidence only; not experimental pressure validation, not full-device CFD and not pressure-calibrated Ib.}
 \end{figure}
 \clearpage
 \begin{figure}[p]
 \centering
 \includegraphics[width=0.96\linewidth,height=0.78\textheight,keepaspectratio]{../figures/paper2_figS24_openfoam_model_mesh.pdf}
-\caption*{\textbf{Fig. S24.} ParaView-rendered OpenFOAM cropped-domain model and mesh slice. \textit{Boundary:} Visualization of one representative returned cropped-domain OpenFOAM case and its mesh only; not new pressure evidence, not experimental validation and not blanket-scale CFD.}
-\end{figure}
-\clearpage
-\begin{figure}[p]
-\centering
-\includegraphics[width=0.96\linewidth,height=0.78\textheight,keepaspectratio]{../figures/paper2_figS25_parameter_evidence_coverage.pdf}
-\caption*{\textbf{Fig. S25.} parameter-evidence coverage map for bounded mechanism support. \textit{Boundary:} Discrete coverage audit of current mechanism evidence; not a full factorial parameter sweep, not an interpolated phase map and not a universal critical-clogging diagram.}
-\end{figure}
-\clearpage
-\begin{figure}[p]
-\centering
-\includegraphics[width=0.96\linewidth,height=0.78\textheight,keepaspectratio]{../figures/paper2_figS26_openfoam_case_matrix.pdf}
-\caption*{\textbf{Fig. S26.} ParaView-rendered OpenFOAM cropped-domain and mesh comparison across returned pressure cases. \textit{Boundary:} Visual comparison of the three returned cropped-domain OpenFOAM cases and their mesh slices only; not new pressure evidence, not experimental validation and not blanket-scale CFD.}
-\end{figure}
-\clearpage
-\begin{figure}[p]
-\centering
-\includegraphics[width=0.96\linewidth,height=0.78\textheight,keepaspectratio]{../figures/paper2_figS27_deep_mechanism_mining.pdf}
-\caption*{\textbf{Fig. S27.} cross-observable data-mining synthesis of drive, localized release, loading and topology-response separation. \textit{Boundary:} Exploratory derived synthesis from existing source tables; not a fitted universal transition law, not a phase map and not pressure-calibrated safety evidence.}
-\end{figure}
-\clearpage
-\begin{figure}[p]
-\centering
-\includegraphics[width=0.96\linewidth,height=0.78\textheight,keepaspectratio]{../figures/paper2_figS28_tail_lag_mechanism_mining.pdf}
-\caption*{\textbf{Fig. S28.} time-resolved tail-lag data mining linking leading-tail breakthrough, retained bulk and rare sparse-front survival. \textit{Boundary:} Exploratory tail-lag synthesis from existing time-resolved source tables; not an experimentally calibrated residence-time distribution, not a universal tailing law and not a critical-clogging transition.}
+\caption*{\textbf{Fig. S7.} ParaView-rendered OpenFOAM cropped-domain model and mesh slice. \textit{Boundary:} Visualization of one representative returned cropped-domain OpenFOAM case and its mesh only; not new pressure evidence, not experimental validation and not blanket-scale CFD.}
 \end{figure}
 \clearpage
 \begin{figure}[p]
 \centering
 \includegraphics[width=0.96\linewidth,height=0.78\textheight,keepaspectratio]{../figures/paper2_figS29_deposition_heterogeneity_mining.pdf}
-\caption*{\textbf{Fig. S29.} spatial heterogeneity data mining of axial deposition profiles, localization relaxation and downstream spreading. \textit{Boundary:} Derived spatial-heterogeneity synthesis from existing axial blockage profiles; not pore-scale bridge statistics, not experimental imaging and not a universal clogging law.}
+\caption*{\textbf{Fig. S8.} spatial heterogeneity data mining of axial deposition profiles, localization relaxation and downstream spreading. \textit{Boundary:} Derived spatial-heterogeneity synthesis from existing axial blockage profiles; not pore-scale bridge statistics, not experimental imaging and not a universal clogging law.}
 \end{figure}
 \clearpage
 \section*{Supplementary Table Roadmap}

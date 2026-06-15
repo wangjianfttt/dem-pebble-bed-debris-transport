@@ -234,6 +234,8 @@ def stage_submission_files(out_dir: Path, force: bool = False) -> dict[str, obje
         copied = []
         group_dir = out_dir / item["group"]
         for rel_path in item["paths"]:
+            if "/figures/paper2_figS" in rel_path:
+                continue
             src = PROJECT_ROOT / rel_path
             if not src.exists():
                 missing.append(rel_path)

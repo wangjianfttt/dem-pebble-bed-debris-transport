@@ -15,12 +15,24 @@ FIGURE_CATALOG = SUPP_DIR / "supplementary_figures.md"
 TABLE_CATALOG = SUPP_DIR / "supplementary_tables.md"
 OUT_TEX = SUPP_DIR / "supplementary_material.tex"
 
+CURATED_FIGURE_LABELS = {
+    "Fig. S4": "Fig. S1",
+    "Fig. S5": "Fig. S2",
+    "Fig. S12": "Fig. S3",
+    "Fig. S15": "Fig. S4",
+    "Fig. S17": "Fig. S5",
+    "Fig. S23": "Fig. S6",
+    "Fig. S24": "Fig. S7",
+    "Fig. S29": "Fig. S8",
+}
+
 
 @dataclass(frozen=True)
 class SupplementaryFigure:
     """Metadata for one supplementary figure."""
 
     label: str
+    source_label: str
     role: str
     pdf_path: str
     boundary: str
@@ -67,12 +79,22 @@ def parse_figures() -> list[SupplementaryFigure]:
         cells = parse_markdown_table_row(line)
         if len(cells) < 6:
             continue
-        label, role, _png, pdf_cell, _svg, boundary = cells[:6]
+        source_label, role, _png, pdf_cell, _svg, boundary = cells[:6]
+        if source_label not in CURATED_FIGURE_LABELS:
+            continue
         match = re.search(r"`([^`]+\.pdf)`", pdf_cell)
         if not match:
             continue
         pdf_path = Path(match.group(1)).name
-        figures.append(SupplementaryFigure(label=label, role=role, pdf_path=pdf_path, boundary=boundary))
+        figures.append(
+            SupplementaryFigure(
+                label=CURATED_FIGURE_LABELS[source_label],
+                source_label=source_label,
+                role=role,
+                pdf_path=pdf_path,
+                boundary=boundary,
+            )
+        )
     return figures
 
 
@@ -148,6 +170,11 @@ def build_tex(figures: list[SupplementaryFigure], tables: list[SupplementaryTabl
             "for traceability, sensitivity checks and evidence-boundary documentation. It does not introduce "
             "a universal clogging-transition law, a pressure-calibrated safety criterion or experimental "
             "validation of the DEM workflow."
+        ),
+        (
+            "The journal-facing version is intentionally concise: only eight non-redundant supplementary "
+            "figures are retained, while internal diagnostics and weak or visually ambiguous exports are "
+            "excluded from the upload package."
         ),
         r"\section*{Supplementary Figure Roadmap}",
         r"\begin{longtable}{P{0.12\linewidth}P{0.40\linewidth}P{0.40\linewidth}}",

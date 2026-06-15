@@ -2,6 +2,8 @@
 
 Tag: `v1.0.0-ces-submission`
 
+Archived DOI: `10.5281/zenodo.20699272`
+
 This release contains the lightweight code and processed data package supporting the CES-targeted manuscript on DEM-derived fine-debris transport and pore-network clogging indicators in Li4SiO4 pebble beds.
 
 ## Included

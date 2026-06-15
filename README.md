@@ -26,6 +26,12 @@ The repository does not provide a universal clogging transition law, a safety cr
 
 Large raw DEM dump/restart files are not included in this lightweight repository because of size. They are retained by the authors and can be requested for audit or reproduction needs.
 
+## Archived DOI
+
+This repository release is archived on Zenodo:
+
+**DOI:** [10.5281/zenodo.20699272](https://doi.org/10.5281/zenodo.20699272)
+
 ## Quick Start
 
 Create a Python environment with common scientific packages:

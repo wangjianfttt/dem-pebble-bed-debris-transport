@@ -23,8 +23,8 @@ keywords:
   - purge gas
   - breakthrough curve
   - voxel topology
-license: "TBC"
-repository-code: "TBC"
-url: "TBC"
-doi: "TBC"
+license: "GitHub-Zenodo archived public repository for manuscript review and reuse"
+repository-code: "https://github.com/wangjianfttt/dem-pebble-bed-debris-transport"
+url: "https://doi.org/10.5281/zenodo.20699272"
+doi: "10.5281/zenodo.20699272"
 abstract: "Data, scripts and reproducibility material supporting a DEM-derived voxel-topology study of gas-driven fine-debris transport and retention in Li4SiO4 ceramic breeder pebble beds."

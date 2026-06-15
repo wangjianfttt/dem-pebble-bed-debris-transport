@@ -1,0 +1,103 @@
+{
+  "gate_status": "not_ready_for_submission",
+  "decision": "Files are staged and repeat-seed production has completed, but author/repository confirmations remain before journal submission.",
+  "readiness_counts": {
+    "supported": 139,
+    "needs_confirmation": 1,
+    "not_required_for_preclogging_scope": 1,
+    "not_supported_current_scope": 1
+  },
+  "reviewer_risk_counts": {
+    "unresolved": 3,
+    "bounded": 6,
+    "resolved": 1,
+    "needs_confirmation": 1
+  },
+  "metadata_gap_counts": {
+    "required_open": 1,
+    "optional_open": 1
+  },
+  "upload_files": {
+    "journal_submission_archive": {
+      "path": "papers/paper2_voxel_topology_clogging/submission_package/archives/paper2_journal_submission_files.zip",
+      "exists": true,
+      "size_bytes": 17560411
+    },
+    "journal_submission_archive_sha256": {
+      "path": "papers/paper2_voxel_topology_clogging/submission_package/archives/paper2_journal_submission_files.zip.sha256",
+      "exists": true,
+      "size_bytes": 102
+    },
+    "journal_submission_archive_summary": {
+      "path": "papers/paper2_voxel_topology_clogging/submission_package/archives/paper2_journal_submission_files_archive_summary.json",
+      "exists": true,
+      "size_bytes": 974
+    },
+    "journal_submission_manifest": {
+      "path": "papers/paper2_voxel_topology_clogging/submission_package/journal_submission_files/MANIFEST.json",
+      "exists": true,
+      "size_bytes": 50514
+    },
+    "journal_submission_readme": {
+      "path": "papers/paper2_voxel_topology_clogging/submission_package/journal_submission_files/README.md",
+      "exists": true,
+      "size_bytes": 918
+    },
+    "data_code_archive": {
+      "path": "papers/paper2_voxel_topology_clogging/deposit/archives/paper2_lightweight_deposit.zip",
+      "exists": true,
+      "size_bytes": 32636860
+    },
+    "data_code_archive_sha256": {
+      "path": "papers/paper2_voxel_topology_clogging/deposit/archives/paper2_lightweight_deposit.zip.sha256",
+      "exists": true,
+      "size_bytes": 97
+    },
+    "data_code_archive_summary": {
+      "path": "papers/paper2_voxel_topology_clogging/deposit/archives/paper2_lightweight_deposit_archive_summary.json",
+      "exists": true,
+      "size_bytes": 933
+    }
+  },
+  "missing_upload_files": [],
+  "admin_blockers": [
+    {
+      "item": "metadata_corresponding_author",
+      "action": "Confirm corresponding-author name and email for the journal submission system. Missing: name, email.",
+      "evidence": "papers/paper2_voxel_topology_clogging/submission/submission_metadata_gaps.json"
+    }
+  ],
+  "scientific_scope_warnings": [
+    {
+      "item": "critical_clogging_transition",
+      "status": "not_supported_current_scope",
+      "evidence": "Current loading scan has three single-seed states and no measurable connectivity loss.",
+      "gate_interpretation": "acceptable only if manuscript remains bounded to pre-clogging migration/retention scope"
+    }
+  ],
+  "high_impact_pending_scientific_actions": [],
+  "unresolved_reviewer_risks": [
+    {
+      "risk_id": "R01",
+      "risk": "Pressure-free clogging index could be misread as a pressure-calibrated safety criterion.",
+      "mitigation_action": "Keep the current boundary language; upgrade only after CFD/OpenLB/OpenFOAM or measured pressure-gradient data are added."
+    },
+    {
+      "risk_id": "R02",
+      "risk": "Critical clogging transition is not demonstrated by the current data.",
+      "mitigation_action": "Do not claim critical transition in title, abstract, or conclusions unless new localized/high-loading production runs generate connectivity loss or pressure increase."
+    },
+    {
+      "risk_id": "R09",
+      "risk": "Title and framing could sound like an experiment or a critical-clogging paper.",
+      "mitigation_action": "Do not reintroduce experiment, CT, or critical transition wording unless the evidence changes."
+    }
+  ],
+  "blocker_reviewer_risks": [
+    {
+      "risk_id": "R11",
+      "risk": "Administrative submission items remain unconfirmed.",
+      "mitigation_action": "Confirm repository DOI/accession, funding, competing interests, acknowledgements, author email/ORCID, and AI disclosure before submission."
+    }
+  ]
+}

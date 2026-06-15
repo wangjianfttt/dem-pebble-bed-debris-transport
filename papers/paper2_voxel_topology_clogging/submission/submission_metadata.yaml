@@ -4,10 +4,10 @@
 
 repository:
   confirmed: true
-  name: Submitted Paper 2 project package
-  identifier: Processed source data and scripts are included with the submitted project package; no public DOI is assigned in the manuscript.
-  url: Not applicable for the submitted project package.
-  license: Available for peer review and journal-supported supplementary-material use.
+  name: DEM Pebble-Bed Debris Transport
+  identifier: 10.5281/zenodo.20699272
+  url: https://github.com/wangjianfttt/dem-pebble-bed-debris-transport
+  license: GitHub-Zenodo archived public repository for manuscript review and reuse.
 
 funding:
   confirmed: true

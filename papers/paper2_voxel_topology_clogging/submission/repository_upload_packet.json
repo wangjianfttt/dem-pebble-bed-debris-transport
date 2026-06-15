@@ -1,0 +1,115 @@
+{
+  "decision": "ready_for_repository_upload_packet",
+  "repository_doi_assigned": true,
+  "upload_files": [
+    {
+      "role": "data_code_archive",
+      "path": "papers/paper2_voxel_topology_clogging/deposit/archives/paper2_lightweight_deposit.zip",
+      "sha256": "2a1b14bb852219a68b56967e2cca1e775bd9e49706b1749301b119c2ee76846a",
+      "size_bytes": 32636860
+    },
+    {
+      "role": "data_code_archive_sha256",
+      "path": "papers/paper2_voxel_topology_clogging/deposit/archives/paper2_lightweight_deposit.zip.sha256",
+      "sha256": null,
+      "size_bytes": 97
+    }
+  ],
+  "metadata_source": "papers/paper2_voxel_topology_clogging/submission/repository_deposit/repository_metadata.yaml",
+  "citation_source": "papers/paper2_voxel_topology_clogging/submission/repository_deposit/CITATION.cff",
+  "upload_instructions": "papers/paper2_voxel_topology_clogging/submission/repository_deposit/UPLOAD_INSTRUCTIONS.md",
+  "zenodo_metadata_draft_path": "papers/paper2_voxel_topology_clogging/submission/repository_deposit/zenodo_metadata_draft.json",
+  "zenodo_metadata_draft": {
+    "title": "Separating breakthrough from pore-network clogging indicators in gas-driven fine-debris transport through Li4SiO4 pebble beds",
+    "upload_type": "dataset",
+    "publication_type": "article",
+    "creators": [
+      {
+        "name": "Wang, Jian",
+        "affiliation": "School of Mechanical Engineering, Anhui University of Science and Technology, Huainan 232001, China"
+      },
+      {
+        "name": "Liu, Mingzong",
+        "affiliation": "School of Mechanical Engineering, Anhui University of Science and Technology, Huainan 232001, China"
+      },
+      {
+        "name": "Lei, Mingzhun",
+        "affiliation": "Institute of Plasma Physics, Chinese Academy of Sciences, Hefei 230031, China"
+      },
+      {
+        "name": "Wu, Qigang",
+        "affiliation": "Institute of Plasma Physics, Chinese Academy of Sciences, Hefei 230031, China"
+      },
+      {
+        "name": "Wang, Kaisong",
+        "affiliation": "School of Mechanical Engineering, Anhui University of Science and Technology, Huainan 232001, China"
+      },
+      {
+        "name": "Deng, Haishun",
+        "affiliation": "School of Mechanical Engineering, Anhui University of Science and Technology, Huainan 232001, China"
+      }
+    ],
+    "description": "Lightweight data and code deposit supporting a DEM-derived voxel-topology study of gas-driven fine-debris transport and retention in Li4SiO4 ceramic breeder pebble beds. The deposit contains manuscript source, processed source data, figure-generation scripts, exported figures, supplementary material, metadata audits, and shared DEM post-processing, voxel-topology and transport analysis utilities. Large raw DEM dump/restart files are documented as optional raw-archive material and may be deposited separately if repository size limits require it.\n",
+    "keywords": [
+      "Li4SiO4",
+      "ceramic breeder pebble bed",
+      "discrete element method",
+      "fine debris",
+      "purge gas",
+      "breakthrough curve",
+      "voxel topology",
+      "particle retention"
+    ],
+    "license": "GitHub-Zenodo archived public repository for manuscript review and reuse",
+    "related_identifiers": {
+      "manuscript_doi": "TBC",
+      "repository_doi": "10.5281/zenodo.20699272"
+    },
+    "notes": {
+      "scientific_scope": "Bounded DEM-derived voxel-topology study of pre-clogging migration, retention and pore-network response.",
+      "not_claimed": [
+        "Experimental CT validation",
+        "Pressure-calibrated safety limit",
+        "Universal critical clogging transition"
+      ],
+      "raw_data_boundary": "Large DEM dump/restart files can be archived separately when repository size limits require it."
+    },
+    "access_right": "open"
+  },
+  "license_options_to_confirm": [
+    "CC-BY-4.0 for data/figures if authors want a permissive attribution data license",
+    "MIT or BSD-3-Clause for reusable code if a separate software license is desired",
+    "A single repository-level license chosen by the corresponding author or institution"
+  ],
+  "fields_to_confirm_after_upload": [
+    "repository.name",
+    "repository.identifier",
+    "repository.url",
+    "repository.license",
+    "repository.confirmed"
+  ],
+  "remaining_required_actions": [
+    "A01_repository",
+    "A02_funding",
+    "A03_competing_interests",
+    "A04_acknowledgements",
+    "A05_corresponding_author"
+  ],
+  "post_upload_commands": [
+    "python3 papers/paper2_voxel_topology_clogging/scripts/audit_submission_metadata_gaps.py",
+    "python3 papers/paper2_voxel_topology_clogging/scripts/apply_submission_metadata.py --apply",
+    "cd papers/paper2_voxel_topology_clogging/latex && latexmk -pdf -interaction=nonstopmode -halt-on-error main.tex",
+    "PYTHONPATH=. python3 papers/paper2_voxel_topology_clogging/scripts/audit_paper2_manuscript_readiness.py",
+    "python3 papers/paper2_voxel_topology_clogging/scripts/audit_latex_citations.py",
+    "python3 papers/paper2_voxel_topology_clogging/scripts/audit_final_submission_gate.py",
+    "python3 papers/paper2_voxel_topology_clogging/scripts/stage_data_code_deposit.py --force",
+    "python3 papers/paper2_voxel_topology_clogging/scripts/archive_data_code_deposit.py --force",
+    "python3 papers/paper2_voxel_topology_clogging/scripts/stage_journal_submission_files.py --force",
+    "python3 papers/paper2_voxel_topology_clogging/scripts/archive_journal_submission_files.py --force",
+    "python3 papers/paper2_voxel_topology_clogging/scripts/stage_elsevier_portal_upload_files.py --force",
+    "python3 papers/paper2_voxel_topology_clogging/scripts/archive_elsevier_portal_upload_files.py --force",
+    "python3 papers/paper2_voxel_topology_clogging/scripts/audit_release_archive_consistency.py",
+    "python3 papers/paper2_voxel_topology_clogging/scripts/make_current_project_status.py"
+  ],
+  "boundary": "Repository DOI/accession has been assigned and inserted into the repository metadata."
+}

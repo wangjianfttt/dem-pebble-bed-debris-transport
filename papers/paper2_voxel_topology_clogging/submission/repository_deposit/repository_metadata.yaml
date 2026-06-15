@@ -32,10 +32,10 @@ keywords:
   - "breakthrough curve"
   - "voxel topology"
   - "particle retention"
-license: "TBC"
+license: "GitHub-Zenodo archived public repository for manuscript review and reuse"
 related_identifiers:
   manuscript_doi: "TBC"
-  repository_doi: "TBC"
+  repository_doi: "10.5281/zenodo.20699272"
 notes:
   scientific_scope: "Bounded DEM-derived voxel-topology study of pre-clogging migration, retention and pore-network response."
   not_claimed:

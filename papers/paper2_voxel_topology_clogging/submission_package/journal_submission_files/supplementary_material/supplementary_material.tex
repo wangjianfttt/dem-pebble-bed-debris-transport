@@ -18,22 +18,22 @@
 Jian Wang, Mingzhun Lei, Haoxi Wang, Zhiyuan Liu, Haishun Deng, Wei Wen, and Gang Shen
 \end{center}
 \section*{Scope of the Supplementary Material}
-This document collects the supplementary figures and table descriptors that support the bounded mechanism interpretation in the main manuscript. The supplementary material is used for traceability, sensitivity checks and evidence-boundary documentation. It does not introduce a universal clogging-transition law, a pressure-calibrated safety criterion or experimental validation of the DEM workflow.
-The journal-facing version is intentionally concise: only eight non-redundant supplementary figures are retained, while internal diagnostics and weak or visually ambiguous exports are excluded from the upload package.
+This Supplementary Material provides supporting figures and table descriptors for the DEM-derived pore reconstruction, debris-transport analysis, hydraulic-response checks and reproducibility records discussed in the main manuscript.
+The numerical source tables are provided as comma-separated files to keep the quantitative evidence traceable and reusable.
 \section*{Supplementary Figure Roadmap}
 \begin{longtable}{P{0.12\linewidth}P{0.40\linewidth}P{0.40\linewidth}}
 \toprule
 Figure & Role & Evidence boundary \\
 \midrule
 \endhead
-Fig. S1 & time-resolved deposition and BTC for representative loading case & Supports delayed leading-tail breakthrough for one representative case only. \\
-Fig. S2 & front-migration speed fits & One representative case; not a universal speed law. \\
-Fig. S3 & voxel-network pressure pilot & Solves a scalar Darcy-Laplace problem on connected pore voxels; not CFD, not LBM and not a calibrated pressure-drop measurement. \\
-Fig. S4 & conductance-exponent sensitivity for cropped peak-blockage domains & Tests sensitivity of a scalar voxel-network proxy to conductance exponent; not CFD, not LBM and not a calibrated pressure-drop measurement. \\
-Fig. S5 & near-threshold repeat-seed stochastic variability & Bounds stochastic variability for the near-threshold DEM setting; not a critical-transition law. \\
-Fig. S6 & returned cropped-domain OpenFOAM pressure evidence for peak-blockage handoff cases & Returned cropped-domain numerical pressure evidence only; not experimental pressure validation, not full-device CFD and not pressure-calibrated Ib. \\
-Fig. S7 & ParaView-rendered OpenFOAM cropped-domain model and mesh slice & Visualization of one representative returned cropped-domain OpenFOAM case and its mesh only; not new pressure evidence, not experimental validation and not blanket-scale CFD. \\
-Fig. S8 & spatial heterogeneity data mining of axial deposition profiles, localization relaxation and downstream spreading & Derived spatial-heterogeneity synthesis from existing axial blockage profiles; not pore-scale bridge statistics, not experimental imaging and not a universal clogging law. \\
+Fig. S1 & time-resolved deposition and BTC for representative loading case & Representative time-resolved support for the delayed leading-tail interpretation. \\
+Fig. S2 & front-migration speed fits & Front-speed estimates for the representative drive case. \\
+Fig. S3 & voxel-network pressure pilot & Scalar voxel-network pressure-response check. \\
+Fig. S4 & conductance-exponent sensitivity for cropped peak-blockage domains & Sensitivity of the scalar conductance response to the conductance exponent. \\
+Fig. S5 & near-threshold repeat-seed stochastic variability & Repeat-seed variability for the near-threshold DEM setting. \\
+Fig. S6 & returned cropped-domain OpenFOAM pressure evidence for peak-blockage handoff cases & Cropped-domain OpenFOAM pressure-response check. \\
+Fig. S7 & ParaView-rendered OpenFOAM cropped-domain model and mesh slice & Representative cropped-domain OpenFOAM geometry and mesh visualization. \\
+Fig. S8 & spatial heterogeneity data mining of axial deposition profiles, localization relaxation and downstream spreading & Spatial-deposition heterogeneity metrics derived from the axial blockage profiles. \\
 \bottomrule
 \end{longtable}
 \clearpage
@@ -41,49 +41,49 @@ Fig. S8 & spatial heterogeneity data mining of axial deposition profiles, locali
 \begin{figure}[p]
 \centering
 \includegraphics[width=0.96\linewidth,height=0.78\textheight,keepaspectratio]{../figures/paper2_figS4_time_resolved_deposition.pdf}
-\caption*{\textbf{Fig. S1.} time-resolved deposition and BTC for representative loading case. \textit{Boundary:} Supports delayed leading-tail breakthrough for one representative case only.}
+\caption*{\textbf{Fig. S1.} time-resolved deposition and BTC for representative loading case. \textit{Boundary:} Representative time-resolved support for the delayed leading-tail interpretation.}
 \end{figure}
 \clearpage
 \begin{figure}[p]
 \centering
 \includegraphics[width=0.96\linewidth,height=0.78\textheight,keepaspectratio]{../figures/paper2_figS5_front_migration_metrics.pdf}
-\caption*{\textbf{Fig. S2.} front-migration speed fits. \textit{Boundary:} One representative case; not a universal speed law.}
+\caption*{\textbf{Fig. S2.} front-migration speed fits. \textit{Boundary:} Front-speed estimates for the representative drive case.}
 \end{figure}
 \clearpage
 \begin{figure}[p]
 \centering
 \includegraphics[width=0.96\linewidth,height=0.78\textheight,keepaspectratio]{../figures/paper2_figS12_voxel_pressure_pilot.pdf}
-\caption*{\textbf{Fig. S3.} voxel-network pressure pilot. \textit{Boundary:} Solves a scalar Darcy-Laplace problem on connected pore voxels; not CFD, not LBM and not a calibrated pressure-drop measurement.}
+\caption*{\textbf{Fig. S3.} voxel-network pressure pilot. \textit{Boundary:} Scalar voxel-network pressure-response check.}
 \end{figure}
 \clearpage
 \begin{figure}[p]
 \centering
 \includegraphics[width=0.96\linewidth,height=0.78\textheight,keepaspectratio]{../figures/paper2_figS15_cropped_flow_permeability_sensitivity.pdf}
-\caption*{\textbf{Fig. S4.} conductance-exponent sensitivity for cropped peak-blockage domains. \textit{Boundary:} Tests sensitivity of a scalar voxel-network proxy to conductance exponent; not CFD, not LBM and not a calibrated pressure-drop measurement.}
+\caption*{\textbf{Fig. S4.} conductance-exponent sensitivity for cropped peak-blockage domains. \textit{Boundary:} Sensitivity of the scalar conductance response to the conductance exponent.}
 \end{figure}
 \clearpage
 \begin{figure}[p]
 \centering
 \includegraphics[width=0.96\linewidth,height=0.78\textheight,keepaspectratio]{../figures/paper2_figS17_near_threshold_repeat_seed_status.pdf}
-\caption*{\textbf{Fig. S5.} near-threshold repeat-seed stochastic variability. \textit{Boundary:} Bounds stochastic variability for the near-threshold DEM setting; not a critical-transition law.}
+\caption*{\textbf{Fig. S5.} near-threshold repeat-seed stochastic variability. \textit{Boundary:} Repeat-seed variability for the near-threshold DEM setting.}
 \end{figure}
 \clearpage
 \begin{figure}[p]
 \centering
 \includegraphics[width=0.96\linewidth,height=0.78\textheight,keepaspectratio]{../figures/paper2_figS23_openfoam_pressure_evidence.pdf}
-\caption*{\textbf{Fig. S6.} returned cropped-domain OpenFOAM pressure evidence for peak-blockage handoff cases. \textit{Boundary:} Returned cropped-domain numerical pressure evidence only; not experimental pressure validation, not full-device CFD and not pressure-calibrated Ib.}
+\caption*{\textbf{Fig. S6.} returned cropped-domain OpenFOAM pressure evidence for peak-blockage handoff cases. \textit{Boundary:} Cropped-domain OpenFOAM pressure-response check.}
 \end{figure}
 \clearpage
 \begin{figure}[p]
 \centering
 \includegraphics[width=0.96\linewidth,height=0.78\textheight,keepaspectratio]{../figures/paper2_figS24_openfoam_model_mesh.pdf}
-\caption*{\textbf{Fig. S7.} ParaView-rendered OpenFOAM cropped-domain model and mesh slice. \textit{Boundary:} Visualization of one representative returned cropped-domain OpenFOAM case and its mesh only; not new pressure evidence, not experimental validation and not blanket-scale CFD.}
+\caption*{\textbf{Fig. S7.} ParaView-rendered OpenFOAM cropped-domain model and mesh slice. \textit{Boundary:} Representative cropped-domain OpenFOAM geometry and mesh visualization.}
 \end{figure}
 \clearpage
 \begin{figure}[p]
 \centering
 \includegraphics[width=0.96\linewidth,height=0.78\textheight,keepaspectratio]{../figures/paper2_figS29_deposition_heterogeneity_mining.pdf}
-\caption*{\textbf{Fig. S8.} spatial heterogeneity data mining of axial deposition profiles, localization relaxation and downstream spreading. \textit{Boundary:} Derived spatial-heterogeneity synthesis from existing axial blockage profiles; not pore-scale bridge statistics, not experimental imaging and not a universal clogging law.}
+\caption*{\textbf{Fig. S8.} spatial heterogeneity data mining of axial deposition profiles, localization relaxation and downstream spreading. \textit{Boundary:} Spatial-deposition heterogeneity metrics derived from the axial blockage profiles.}
 \end{figure}
 \clearpage
 \section*{Supplementary Table Roadmap}

@@ -1,5 +1,5 @@
 {
-  "created_utc": "2026-06-15T10:42:01.902402+00:00",
+  "created_utc": "2026-06-15T11:02:04.591222+00:00",
   "purpose": "Minimal Elsevier portal-facing upload package for Paper 2.",
   "boundary": "Excludes internal fallback, reviewer-risk, audit-ledger and author-confirmation materials.",
   "items": [
@@ -97,7 +97,7 @@
   "missing": [],
   "forbidden_internal_files": [],
   "file_count": 50,
-  "total_size_bytes": 11563531,
+  "total_size_bytes": 11558409,
   "files": [
     {
       "path": "README.md",
@@ -201,13 +201,13 @@
     },
     {
       "path": "manuscript/main.pdf",
-      "size_bytes": 3580746,
-      "sha256": "8494d2da870a239db0dd0220d2bebf10ab105a6d45c3aed92c1a01c401f06816"
+      "size_bytes": 3579556,
+      "sha256": "f0fae0bb2f49c34c907f96202433296d848876a73d8d79ed43d3c86eaed09386"
     },
     {
       "path": "manuscript/main.tex",
-      "size_bytes": 56076,
-      "sha256": "8030e70bdd439c399f8ed792d5c73d8471ede64419e9703b3cea3a43cc8c2219"
+      "size_bytes": 55129,
+      "sha256": "23bd52cd6462c89f252c35e6722c46205982c4558839f8ba141236c1402c1891"
     },
     {
       "path": "manuscript/paper2_references.bib",
@@ -341,13 +341,13 @@
     },
     {
       "path": "supplementary_material/supplementary_material.pdf",
-      "size_bytes": 3920565,
-      "sha256": "8ee436a869c8e89b07ceb48db2e6fbf1a3e9334ac128cf71c3d336c1d95bc711"
+      "size_bytes": 3918770,
+      "sha256": "38e32ef1427b9de42e07dfdca9012a020a4864ba9f84054c40aeb6e0b30fe085"
     },
     {
       "path": "supplementary_material/supplementary_material.tex",
-      "size_bytes": 11216,
-      "sha256": "4fa8fe96a2b0ae3a60613e72b9d22077d6dfb523221c3f4643d1ec7831140e6c"
+      "size_bytes": 10026,
+      "sha256": "7008045004f997b0d8b320962ec47d2fb83be6eba565a40e1eeda992e8a735e0"
     }
   ]
 }

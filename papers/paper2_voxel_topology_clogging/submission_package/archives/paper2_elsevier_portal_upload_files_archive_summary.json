@@ -1,0 +1,10 @@
+{
+  "created_utc": "2026-06-15T10:17:50.110298+00:00",
+  "staging_dir": "/Users/wangjian-macbook13/Library/CloudStorage/SynologyDrive-mac/\u8bba\u6587\u76f8\u5173/\u5206\u6570\u9636\u6a21\u578b\u7814\u7a76/project/papers/paper2_voxel_topology_clogging/submission_package/elsevier_portal_upload_files",
+  "archive_path": "/Users/wangjian-macbook13/Library/CloudStorage/SynologyDrive-mac/\u8bba\u6587\u76f8\u5173/\u5206\u6570\u9636\u6a21\u578b\u7814\u7a76/project/papers/paper2_voxel_topology_clogging/submission_package/archives/paper2_elsevier_portal_upload_files.zip",
+  "sha256_path": "/Users/wangjian-macbook13/Library/CloudStorage/SynologyDrive-mac/\u8bba\u6587\u76f8\u5173/\u5206\u6570\u9636\u6a21\u578b\u7814\u7a76/project/papers/paper2_voxel_topology_clogging/submission_package/archives/paper2_elsevier_portal_upload_files.zip.sha256",
+  "archive_size_bytes": 17785779,
+  "sha256": "d7f0d7d54102021861267cbc56853ab81c6403f9b8d8c4ec5b5ed9fc87388633",
+  "staged_file_count": 76,
+  "purpose": "Minimal Elsevier portal-facing upload archive for Paper 2."
+}

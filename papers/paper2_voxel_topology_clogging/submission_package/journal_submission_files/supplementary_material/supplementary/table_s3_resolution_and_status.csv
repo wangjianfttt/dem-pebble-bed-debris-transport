@@ -1,0 +1,9 @@
+group,item,status,metric_1,metric_2,note
+voxel_resolution,0.20 mm,available,0.4183332227750138,0.9962788966928694,"porosity, outlet-connected void fraction"
+voxel_resolution,0.25 mm,available,0.4113976240391335,0.99208014132595,"porosity, outlet-connected void fraction"
+voxel_resolution,0.30 mm,available,0.4230192592592592,0.9836519132304632,"porosity, outlet-connected void fraction"
+voxel_resolution,0.40 mm,available,0.4444573823940382,0.9528271355699732,"porosity, outlet-connected void fraction"
+voxel_resolution,0.50 mm,available,0.4099725651577503,0.7426974938936661,"porosity, outlet-connected void fraction"
+localized_release_job,"906 upstream source, N=15000",production_target_reached,0.04,0.04,"target_time_s, available_time_s; Does the upstream internal source eventually produce outlet breakthrough over the full 40 ms window?"
+localized_release_job,"907 downstream source, N=15000",production_target_reached,0.01,0.01005,"target_time_s, available_time_s; Does a downstream source reach the outlet faster than the upstream source under the same physical drag?"
+localized_release_job,"908 upstream source, N=30000",production_target_reached,0.01,0.01,"target_time_s, available_time_s; Does higher local source inventory intensify release or blockage without changing drag?"

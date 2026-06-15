@@ -1,0 +1,119 @@
+{
+  "summary": {
+    "decision": "pass",
+    "argument_count": 6,
+    "missing_argument_ids": [],
+    "support_levels": [
+      "bounded_dem_mechanism_slowdown_evidence",
+      "bounded_quantitative_proxy",
+      "conceptual_plus_evidence_map",
+      "quantitative_within_study",
+      "reviewer_facing_evidence_map"
+    ],
+    "boundary": "Argument map organizes existing manuscript evidence; it does not create new scientific evidence."
+  },
+  "rows": [
+    {
+      "argument_id": "A01_problem_and_workflow",
+      "manuscript_step": "Introduction-to-Fig1 bridge",
+      "main_claim": "BTC, local blockage and connected-pore degradation must be interpreted as distinct packed-bed responses.",
+      "primary_figure": "papers/paper2_voxel_topology_clogging/figures/paper2_fig1_voxel_topology_framework.pdf",
+      "source_tables": [
+        "papers/paper2_voxel_topology_clogging/tables/paper2_mechanism_evidence_matrix.csv",
+        "papers/paper2_voxel_topology_clogging/data/paper2_claim_evidence_ledger.json"
+      ],
+      "missing_files": [],
+      "status": "supported",
+      "support_level": "conceptual_plus_evidence_map",
+      "boundary": "Framework figure organizes existing evidence; it does not add a new DEM result.",
+      "next_upgrade": "Keep the framework tied to the completed repeat-seed uncertainty and current bounded hydraulic checks."
+    },
+    {
+      "argument_id": "A02_baseline_connected_pore_skeleton",
+      "manuscript_step": "Baseline structural reference",
+      "main_claim": "The baseline DEM-derived pore reconstruction is highly connected and provides a structural reference independent of outlet breakthrough.",
+      "primary_figure": "papers/paper2_voxel_topology_clogging/figures/paper2_fig2_baseline_voxel_topology.pdf",
+      "source_tables": [
+        "papers/paper2_voxel_topology_clogging/tables/paper2_fig1_baseline_topology_source.csv",
+        "papers/paper2_voxel_topology_clogging/tables/paper2_fig2_box_counting_source.csv"
+      ],
+      "missing_files": [],
+      "status": "supported",
+      "support_level": "quantitative_within_study",
+      "boundary": "DEM-derived pore reconstruction is numerical post-processing, not experimental CT.",
+      "next_upgrade": "Add voxel-size sensitivity or pressure-flow evidence if a journal asks for structural robustness beyond the existing supplement."
+    },
+    {
+      "argument_id": "A03_drive_controls_migration_not_clogging",
+      "manuscript_step": "Representative drive states",
+      "main_claim": "Increasing drag-to-weight ratio shifts debris downstream and enables weak breakthrough without measurable connected-pore loss.",
+      "primary_figure": "papers/paper2_voxel_topology_clogging/figures/paper2_fig3_representative_debris_blockage.pdf",
+      "source_tables": [
+        "papers/paper2_voxel_topology_clogging/tables/paper2_fig3_representative_state_source.csv",
+        "papers/paper2_voxel_topology_clogging/tables/paper2_front_migration_metrics_source.csv"
+      ],
+      "missing_files": [],
+      "status": "supported",
+      "support_level": "quantitative_within_study",
+      "boundary": "One-way Stokes drag is a physical driving scale, not resolved pore-scale gas redistribution.",
+      "next_upgrade": "A stronger upgrade would require resolved pore-scale gas redistribution or coupled flow-particle simulations."
+    },
+    {
+      "argument_id": "A04_loading_remains_preclogging",
+      "manuscript_step": "Loading response",
+      "main_claim": "Increasing injected debris inventory raises local sub-voxel blockage but remains in a pressure-free pre-clogging regime in the current window.",
+      "primary_figure": "papers/paper2_voxel_topology_clogging/figures/paper2_fig4_loading_clogging_response.pdf",
+      "source_tables": [
+        "papers/paper2_voxel_topology_clogging/tables/paper2_fig4_loading_summary_source.csv",
+        "papers/paper2_voxel_topology_clogging/supplementary/table_s6_pressure_proxy_summary.csv"
+      ],
+      "missing_files": [],
+      "status": "supported",
+      "support_level": "bounded_quantitative_proxy",
+      "boundary": "The pressure-free Ib and pressure proxies are not pressure-calibrated safety limits.",
+      "next_upgrade": "Replace the bounded cropped-domain OpenFOAM checks with validation-grade pressure-flow or experimental pressure-drop data before making safety-limit claims."
+    },
+    {
+      "argument_id": "A05_benchmark_and_boundary",
+      "manuscript_step": "Discussion and supplementary crosswalk",
+      "main_claim": "The paper is benchmarked by separating within-study quantitative evidence, semi-quantitative mechanism comparison and bounded pressure proxies.",
+      "primary_figure": "papers/paper2_voxel_topology_clogging/figures/paper2_figS11_mechanism_evidence_map.pdf",
+      "source_tables": [
+        "papers/paper2_voxel_topology_clogging/tables/paper2_benchmark_crosswalk.csv",
+        "papers/paper2_voxel_topology_clogging/supplementary/table_s5_literature_positioning_matrix.csv",
+        "papers/paper2_voxel_topology_clogging/data/paper2_overclaim_guard.json"
+      ],
+      "missing_files": [],
+      "status": "supported",
+      "support_level": "reviewer_facing_evidence_map",
+      "boundary": "Benchmarking is positioning and crosswalk evidence, not experimental or CFD validation.",
+      "next_upgrade": "Upgrade journal tier by adding repeat uncertainty and pressure-flow validation."
+    },
+    {
+      "argument_id": "A06_high_inventory_sparse_front_slowdown",
+      "manuscript_step": "High-inventory localized-release mechanism",
+      "main_claim": "A high-inventory localized release forms a near-outlet sparse front that slows without outlet crossing while cross-case mechanism axes show that rare-front formation is separated from bulk source release.",
+      "primary_figure": "papers/paper2_voxel_topology_clogging/figures/paper2_908_spatial_distribution_evidence.pdf",
+      "source_tables": [
+        "papers/paper2_voxel_topology_clogging/tables/paper2_908_spatial_quantiles.csv",
+        "papers/paper2_voxel_topology_clogging/tables/paper2_908_tail_event_table.csv",
+        "papers/paper2_voxel_topology_clogging/tables/paper2_908_front_saturation_metrics.csv",
+        "papers/paper2_voxel_topology_clogging/tables/paper2_908_population_split_evidence.csv",
+        "papers/paper2_voxel_topology_clogging/tables/paper2_localized_mechanism_axes.csv",
+        "papers/paper2_voxel_topology_clogging/tables/paper2_tail_lag_mechanism_source.csv",
+        "papers/paper2_voxel_topology_clogging/tables/paper2_tail_lag_event_source.csv",
+        "papers/paper2_voxel_topology_clogging/tables/paper2_deposition_heterogeneity_timeseries.csv",
+        "papers/paper2_voxel_topology_clogging/data/paper2_deposition_heterogeneity_mining.json",
+        "papers/paper2_voxel_topology_clogging/data/paper2_908_manuscript_snippet_gate.json",
+        "papers/paper2_voxel_topology_clogging/figures/paper2_figS19_localized_mechanism_axes.pdf",
+        "papers/paper2_voxel_topology_clogging/figures/paper2_figS28_tail_lag_mechanism_mining.pdf",
+        "papers/paper2_voxel_topology_clogging/figures/paper2_figS29_deposition_heterogeneity_mining.pdf"
+      ],
+      "missing_files": [],
+      "status": "supported",
+      "support_level": "bounded_dem_mechanism_slowdown_evidence",
+      "boundary": "The 908 target-time high-inventory case, tail-lag mining and deposition-heterogeneity mining support near-outlet sparse-front formation, tail-bulk separation and relaxation from localized filtration to axial spreading; use them as bounded mechanism evidence, not a completed BTC, source-position law or critical-clogging result.",
+      "next_upgrade": "Upgrade by extending localized-source cases to outlet crossing or by fitting a controlled source-position/source-inventory residence-time law."
+    }
+  ]
+}

@@ -1,24 +1,24 @@
 # Paper 2 Final Submission Gate
 
-Gate status: `not_ready_for_submission`
+Gate status: `ready_for_bounded_submission`
 
-Files are staged and repeat-seed production has completed, but author/repository confirmations remain before journal submission.
+Ready for bounded pre-clogging migration/retention submission.
 
 ## Audit Summary
 
-- Manuscript readiness: `{"needs_confirmation": 1, "not_required_for_preclogging_scope": 1, "not_supported_current_scope": 1, "supported": 139}`
-- Reviewer risks: `{"bounded": 6, "needs_confirmation": 1, "resolved": 1, "unresolved": 3}`
-- Submission metadata gaps: `{"optional_open": 1, "required_open": 1}`
+- Manuscript readiness: `{"not_required_for_preclogging_scope": 1, "not_supported_current_scope": 1, "partial": 1, "supported": 138}`
+- Reviewer risks: `{"bounded": 6, "resolved": 2, "unresolved": 3}`
+- Submission metadata gaps: `{"optional_open": 0, "required_open": 0}`
 
 ## Upload-Ready Files
 
 | Item | Exists | Size | Path |
 |---|---:|---:|---|
-| journal_submission_archive | True | 17560411 | `papers/paper2_voxel_topology_clogging/submission_package/archives/paper2_journal_submission_files.zip` |
+| journal_submission_archive | True | 17896089 | `papers/paper2_voxel_topology_clogging/submission_package/archives/paper2_journal_submission_files.zip` |
 | journal_submission_archive_sha256 | True | 102 | `papers/paper2_voxel_topology_clogging/submission_package/archives/paper2_journal_submission_files.zip.sha256` |
 | journal_submission_archive_summary | True | 974 | `papers/paper2_voxel_topology_clogging/submission_package/archives/paper2_journal_submission_files_archive_summary.json` |
-| journal_submission_manifest | True | 50514 | `papers/paper2_voxel_topology_clogging/submission_package/journal_submission_files/MANIFEST.json` |
-| journal_submission_readme | True | 918 | `papers/paper2_voxel_topology_clogging/submission_package/journal_submission_files/README.md` |
+| journal_submission_manifest | True | 51751 | `papers/paper2_voxel_topology_clogging/submission_package/journal_submission_files/MANIFEST.json` |
+| journal_submission_readme | True | 908 | `papers/paper2_voxel_topology_clogging/submission_package/journal_submission_files/README.md` |
 | data_code_archive | True | 32636860 | `papers/paper2_voxel_topology_clogging/deposit/archives/paper2_lightweight_deposit.zip` |
 | data_code_archive_sha256 | True | 97 | `papers/paper2_voxel_topology_clogging/deposit/archives/paper2_lightweight_deposit.zip.sha256` |
 | data_code_archive_summary | True | 933 | `papers/paper2_voxel_topology_clogging/deposit/archives/paper2_lightweight_deposit_archive_summary.json` |
@@ -27,7 +27,7 @@ Files are staged and repeat-seed production has completed, but author/repository
 
 | Item | Action | Evidence |
 |---|---|---|
-| metadata_corresponding_author | Confirm corresponding-author name and email for the journal submission system. Missing: name, email. | `papers/paper2_voxel_topology_clogging/submission/submission_metadata_gaps.json` |
+| none | none | none |
 
 ## Scientific Scope Warnings
 

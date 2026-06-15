@@ -1,0 +1,14 @@
+{
+  "decision": "pass",
+  "failure_count": 0,
+  "failures": [],
+  "main_figure_count": 11,
+  "formal_supplementary_figure_count": 27,
+  "formal_supplementary_table_count": 19,
+  "portal_file_count": 72,
+  "missing_main": [],
+  "missing_supplementary_figures": [],
+  "missing_supplementary_tables": [],
+  "missing_catalogue": [],
+  "boundary": "Upload-package consistency audit only; it does not create or validate new scientific evidence."
+}

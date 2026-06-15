@@ -1,0 +1,146 @@
+{
+  "purpose": "Pre-submission reviewer-question readiness package.",
+  "risk_summary": {
+    "bounded": 8,
+    "resolved": 2,
+    "needs_confirmation": 1
+  },
+  "major_risk_count": 7,
+  "unresolved_risk_count": 0,
+  "needs_confirmation_count": 1,
+  "literature_rows": 9,
+  "literature_keys": [
+    "Natsui2012FinesClogging",
+    "Boccardo2019PackedBedDeposition",
+    "Wang2024IJMF",
+    "Mays2005Clogging",
+    "Dressaire2017Clogging",
+    "Parvan2020Clogging",
+    "Armstrong2019Minkowski",
+    "Dathe2005Fractal",
+    "ThisWork"
+  ],
+  "qa_items": [
+    {
+      "topic": "Pressure calibration",
+      "likely_question": "Is the clogging index pressure-calibrated, and can it be interpreted as a safety limit?",
+      "short_answer": "No. The structural index is not pressure-calibrated; Supplementary Table S19 separates pressure-free structural screening, closure proxies, scalar conductance tests and returned cropped-domain OpenFOAM checks so that the current evidence is not overread as validation-grade flow evidence.",
+      "evidence": [
+        "latex/main.tex: Methods and Results hydraulic-consequence checks",
+        "tables/paper2_openfoam_pressure_evidence_source.csv",
+        "supplementary/openfoam_model_mesh_pressure_note.md",
+        "supplementary/supplementary_figures.md: Fig. S23--S24",
+        "supplementary/table_s6_pressure_proxy_summary.csv",
+        "supplementary/table_s19_pressure_evidence_ladder.csv",
+        "data/paper2_pressure_evidence_ladder.json",
+        "submission/claim_boundary_statement.md"
+      ],
+      "safe_wording": "structural pre-screening index with a bounded pressure/flow evidence ladder",
+      "avoid_wording": "pressure-calibrated safety criterion"
+    },
+    {
+      "topic": "Critical clogging",
+      "likely_question": "Do the current simulations demonstrate a critical clogging transition?",
+      "short_answer": "No. The current cases support a pre-clogging migration/filtering regime.",
+      "evidence": [
+        "latex/main.tex: Discussion and Conclusions",
+        "tables/paper2_fig4_loading_summary_source.csv",
+        "data/reviewer_risk_matrix.json"
+      ],
+      "safe_wording": "pre-clogging migration/filtering regime",
+      "avoid_wording": "universal critical clogging transition"
+    },
+    {
+      "topic": "Experimental imaging",
+      "likely_question": "Are the voxel fields experimental CT data?",
+      "short_answer": "No. They are DEM-derived voxel reconstructions from simulated particle coordinates.",
+      "evidence": [
+        "latex/main.tex: Introduction and Methods",
+        "submission/claim_boundary_statement.md",
+        "data/figure_provenance_manifest.json"
+      ],
+      "safe_wording": "DEM-derived voxel reconstruction",
+      "avoid_wording": "experimental CT validation"
+    },
+    {
+      "topic": "Gas-particle forcing",
+      "likely_question": "Does the model resolve local purge-gas redistribution inside the pore space?",
+      "short_answer": "No. The current model uses one-way Stokes drag; Supplementary Table S18 reports the dimensional debris diameter, nominal particle-Reynolds-number and drag-to-weight range so that the force scale is auditable, while coupled pore-flow remains future work.",
+      "evidence": [
+        "latex/main.tex: DEM debris transport and voxel analysis workflow",
+        "supplementary/table_s18_drag_scaling_summary.csv",
+        "data/paper2_drag_scaling_summary.json",
+        "submission/claim_boundary_statement.md",
+        "RESEARCH_PLAN.md"
+      ],
+      "safe_wording": "one-way Stokes drag with a dimensional drag-scaling audit",
+      "avoid_wording": "resolved pore-scale gas flow"
+    },
+    {
+      "topic": "Localized release",
+      "likely_question": "Do the localized internal-release cases establish a source-position or source-strength law?",
+      "short_answer": "No. Three localized-release production rows reached their target windows and support retained-bulk/sparse-front decoupling, but they do not define a source-position or source-strength law.",
+      "evidence": [
+        "latex/main.tex: Results and Discussion",
+        "tables/explicit_localized_production_summary.csv",
+        "figures/paper2_908_spatial_distribution_evidence.pdf",
+        "figures/paper2_fig9_sparse_front_diagnostics.pdf",
+        "supplementary/supplementary_tables.md"
+      ],
+      "safe_wording": "target-time mechanism evidence for retained-bulk/sparse-front decoupling",
+      "avoid_wording": "complete source-location scaling law"
+    },
+    {
+      "topic": "Loading scan",
+      "likely_question": "Can the three loading states be interpreted as a monotonic law?",
+      "short_answer": "No. They are single-seed bounded loading responses with different injection histories.",
+      "evidence": [
+        "latex/main.tex: Debris loading amplifies local accumulation",
+        "tables/paper2_fig4_loading_summary_source.csv",
+        "figures/paper2_fig4_loading_clogging_response.pdf"
+      ],
+      "safe_wording": "bounded loading responses",
+      "avoid_wording": "monotonic breakthrough law"
+    },
+    {
+      "topic": "Repeat-seed uncertainty",
+      "likely_question": "Are near-threshold repeat-seed results available, and are partial repeat runs cited as evidence?",
+      "short_answer": "Yes. Three formal near-threshold repeat-seed rows have been post-processed and are used only to bound stochastic variability, not to define a sharp transition.",
+      "evidence": [
+        "data/paper2_near_threshold_repeat_summary.json",
+        "tables/paper2_near_threshold_repeat_summary.csv",
+        "supplementary/table_s14_near_threshold_repeat_seed_summary.csv",
+        "submission/submission_decision_ledger.md"
+      ],
+      "safe_wording": "repeat-seed uncertainty bounds stochastic variability",
+      "avoid_wording": "partial repeat-run results prove robustness"
+    },
+    {
+      "topic": "Literature positioning",
+      "likely_question": "How is this work positioned relative to packed-bed deposition, clogging and morphology studies?",
+      "short_answer": "It integrates BTC, retention, local blockage and DEM-derived topology in a bounded pre-clogging framework.",
+      "evidence": [
+        "supplementary/table_s5_literature_positioning_matrix.csv",
+        "references/citation_support_map.md",
+        "latex/main.tex: Introduction"
+      ],
+      "safe_wording": "qualitative positioning matrix",
+      "avoid_wording": "numerical validation against experiments or CFD"
+    },
+    {
+      "topic": "Parameter coverage",
+      "likely_question": "Does the available parameter evidence define a phase map, full factorial sweep or universal critical-clogging diagram?",
+      "short_answer": "No. Supplementary Fig. S25 is a discrete parameter-evidence coverage map that records which drive-state, loading-state and localized-source points support the bounded mechanism interpretation.",
+      "evidence": [
+        "latex/main.tex: mechanism synthesis paragraph citing Supplementary Fig. S25",
+        "figures/paper2_figS25_parameter_evidence_coverage.pdf",
+        "tables/paper2_parameter_evidence_coverage_source.csv",
+        "data/paper2_parameter_evidence_coverage_map.json",
+        "notes/paper2_parameter_evidence_coverage_map.md"
+      ],
+      "safe_wording": "discrete parameter-evidence coverage map",
+      "avoid_wording": "phase map or full factorial critical-clogging diagram"
+    }
+  ],
+  "pre_submission_decision": "scientifically_bounded_admin_pending"
+}

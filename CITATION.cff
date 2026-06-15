@@ -4,16 +4,18 @@ title: "DEM-derived pore reconstruction and fine-debris transport analysis in Li
 authors:
   - family-names: Wang
     given-names: Jian
-  - family-names: Liu
-    given-names: Mingzong
   - family-names: Lei
     given-names: Mingzhun
-  - family-names: Wu
-    given-names: Qigang
   - family-names: Wang
-    given-names: Kaisong
+    given-names: Haoxi
+  - family-names: Liu
+    given-names: Zhiyuan
   - family-names: Deng
     given-names: Haishun
+  - family-names: Wen
+    given-names: Wei
+  - family-names: Shen
+    given-names: Gang
 repository-code: "https://github.com/wangjianfttt/dem-pebble-bed-debris-transport"
 doi: "10.5281/zenodo.20699272"
 version: "v1.0.0-ces-submission"

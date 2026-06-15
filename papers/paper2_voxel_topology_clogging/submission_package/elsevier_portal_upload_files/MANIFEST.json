@@ -1,0 +1,476 @@
+{
+  "created_utc": "2026-06-15T10:17:49.152358+00:00",
+  "purpose": "Minimal Elsevier portal-facing upload package for Paper 2.",
+  "boundary": "Excludes internal fallback, reviewer-risk, audit-ledger and author-confirmation materials.",
+  "items": [
+    {
+      "group": "manuscript",
+      "paths": [
+        "papers/paper2_voxel_topology_clogging/latex/main.pdf",
+        "papers/paper2_voxel_topology_clogging/latex/main.tex",
+        "papers/paper2_voxel_topology_clogging/references/paper2_references.bib",
+        "papers/paper2_voxel_topology_clogging/submission/highlights.md",
+        "papers/paper2_voxel_topology_clogging/submission/word/highlights_CES.docx"
+      ],
+      "purpose": "Main manuscript, source files, bibliography and highlights."
+    },
+    {
+      "group": "main_figures",
+      "paths": [
+        "papers/paper2_voxel_topology_clogging/figures/paper2_fig1_voxel_topology_framework.pdf",
+        "papers/paper2_voxel_topology_clogging/figures/paper2_fig2_baseline_voxel_topology.pdf",
+        "papers/paper2_voxel_topology_clogging/figures/paper2_fig10_time_resolved_deposition.pdf",
+        "papers/paper2_voxel_topology_clogging/figures/paper2_fig3_representative_debris_blockage.pdf",
+        "papers/paper2_voxel_topology_clogging/figures/paper2_908_spatial_distribution_evidence.pdf",
+        "papers/paper2_voxel_topology_clogging/figures/paper2_fig7_localized_time_dynamics.pdf",
+        "papers/paper2_voxel_topology_clogging/figures/paper2_openfoam_model_mesh_main.pdf",
+        "papers/paper2_voxel_topology_clogging/figures/paper2_fig9_sparse_front_diagnostics.pdf",
+        "papers/paper2_voxel_topology_clogging/figures/paper2_fig4_loading_clogging_response.pdf",
+        "papers/paper2_voxel_topology_clogging/figures/paper2_fig6_mechanism_synthesis.pdf",
+        "papers/paper2_voxel_topology_clogging/figures/paper2_fig8_response_landscape.pdf"
+      ],
+      "purpose": "All figure PDFs referenced as main-text figures."
+    },
+    {
+      "group": "graphical_abstract",
+      "paths": [
+        "papers/paper2_voxel_topology_clogging/figures/paper2_graphical_abstract.png",
+        "papers/paper2_voxel_topology_clogging/figures/paper2_graphical_abstract.pdf",
+        "papers/paper2_voxel_topology_clogging/figures/paper2_graphical_abstract.svg",
+        "papers/paper2_voxel_topology_clogging/submission/word/graphical_abstract_CES.docx"
+      ],
+      "purpose": "Graphical abstract in raster, editable/vector and Word-preview formats."
+    },
+    {
+      "group": "supplementary_material",
+      "paths": [
+        "papers/paper2_voxel_topology_clogging/supplementary",
+        "papers/paper2_voxel_topology_clogging/figures/paper2_figS1_voxel_size_sensitivity.pdf",
+        "papers/paper2_voxel_topology_clogging/figures/paper2_figS2_voxel_coarsening_stress_test.pdf",
+        "papers/paper2_voxel_topology_clogging/figures/paper2_figS3_ergun_pressure_proxy.pdf",
+        "papers/paper2_voxel_topology_clogging/figures/paper2_figS4_time_resolved_deposition.pdf",
+        "papers/paper2_voxel_topology_clogging/figures/paper2_figS5_front_migration_metrics.pdf",
+        "papers/paper2_voxel_topology_clogging/figures/paper2_figS8_explicit_localized_production_summary.pdf",
+        "papers/paper2_voxel_topology_clogging/figures/paper2_figS9_907_tail_capture_mechanism.pdf",
+        "papers/paper2_voxel_topology_clogging/figures/paper2_figS10_source_position_comparison.pdf",
+        "papers/paper2_voxel_topology_clogging/figures/paper2_figS11_mechanism_evidence_map.pdf",
+        "papers/paper2_voxel_topology_clogging/figures/paper2_figS12_voxel_pressure_pilot.pdf",
+        "papers/paper2_voxel_topology_clogging/figures/paper2_figS13_cropped_flow_domains.pdf",
+        "papers/paper2_voxel_topology_clogging/figures/paper2_figS14_cropped_flow_permeability.pdf",
+        "papers/paper2_voxel_topology_clogging/figures/paper2_figS15_cropped_flow_permeability_sensitivity.pdf",
+        "papers/paper2_voxel_topology_clogging/figures/paper2_figS16_dimensionless_mechanism_map.pdf",
+        "papers/paper2_voxel_topology_clogging/figures/paper2_figS17_near_threshold_repeat_seed_status.pdf",
+        "papers/paper2_voxel_topology_clogging/figures/paper2_figS18_subvoxel_hydraulic_evidence.pdf",
+        "papers/paper2_voxel_topology_clogging/figures/paper2_figS19_localized_mechanism_axes.pdf",
+        "papers/paper2_voxel_topology_clogging/figures/paper2_figS20_mechanistic_decoupling_matrix.pdf",
+        "papers/paper2_voxel_topology_clogging/figures/paper2_figS21_observable_response_map.pdf",
+        "papers/paper2_voxel_topology_clogging/figures/paper2_figS22_3d_resistance_amplification_sensitivity.pdf",
+        "papers/paper2_voxel_topology_clogging/figures/paper2_figS23_openfoam_pressure_evidence.pdf",
+        "papers/paper2_voxel_topology_clogging/figures/paper2_figS24_openfoam_model_mesh.pdf",
+        "papers/paper2_voxel_topology_clogging/figures/paper2_figS25_parameter_evidence_coverage.pdf",
+        "papers/paper2_voxel_topology_clogging/figures/paper2_figS26_openfoam_case_matrix.pdf",
+        "papers/paper2_voxel_topology_clogging/figures/paper2_figS27_deep_mechanism_mining.pdf",
+        "papers/paper2_voxel_topology_clogging/figures/paper2_figS28_tail_lag_mechanism_mining.pdf",
+        "papers/paper2_voxel_topology_clogging/figures/paper2_figS29_deposition_heterogeneity_mining.pdf"
+      ],
+      "purpose": "Formal supplementary text, tables and supplementary-figure PDFs."
+    },
+    {
+      "group": "cover_letter",
+      "paths": [
+        "papers/paper2_voxel_topology_clogging/submission/cover_letter_draft.md",
+        "papers/paper2_voxel_topology_clogging/submission/word/cover_letter_CES.docx"
+      ],
+      "purpose": "Journal-facing cover letter in Word format plus markdown source."
+    },
+    {
+      "group": "portal_copy_text",
+      "paths": [
+        "papers/paper2_voxel_topology_clogging/submission/submission_form_packet.md",
+        "papers/paper2_voxel_topology_clogging/submission/elsevier_portal_checklist.md"
+      ],
+      "purpose": "Copy-ready text helpers for the submission system; not intended as scientific evidence files."
+    }
+  ],
+  "missing": [],
+  "forbidden_internal_files": [],
+  "file_count": 75,
+  "total_size_bytes": 18218270,
+  "files": [
+    {
+      "path": "README.md",
+      "size_bytes": 1000,
+      "sha256": "30a6955b6aa456396814a120ef4805616968a86854f1e4d7f56b5419c0d13a2f"
+    },
+    {
+      "path": "cover_letter/cover_letter_CES.docx",
+      "size_bytes": 37942,
+      "sha256": "9bfe1312e7e849de1e7780e4aa8e62ab7bbfcc46e32687a3b021ce99a2120883"
+    },
+    {
+      "path": "cover_letter/cover_letter_draft.md",
+      "size_bytes": 2484,
+      "sha256": "ee4b36b964e7d1235b9d8c452611d1f68e9fdb472afa09d1d1f13046de29a2b8"
+    },
+    {
+      "path": "graphical_abstract/graphical_abstract_CES.docx",
+      "size_bytes": 214816,
+      "sha256": "ae63a63d9b3b4c5e2337ad54f8c6cd311231bb07bc80a8923f0bcd11478d6f4c"
+    },
+    {
+      "path": "graphical_abstract/paper2_graphical_abstract.pdf",
+      "size_bytes": 54247,
+      "sha256": "577f766c8ab845a60a8b6b6212d7d55e25f83c58fb233a9f87611f103cb46f39"
+    },
+    {
+      "path": "graphical_abstract/paper2_graphical_abstract.png",
+      "size_bytes": 185368,
+      "sha256": "ddd7a037123097e9efe587c1eb705b0ce33bd76beed1ccb28957b19498121e6f"
+    },
+    {
+      "path": "graphical_abstract/paper2_graphical_abstract.svg",
+      "size_bytes": 82015,
+      "sha256": "a855c3e49ee5939d571aeb66b39cba4dba5c195383444499a8341fd4d8d2a4e5"
+    },
+    {
+      "path": "main_figures/paper2_908_spatial_distribution_evidence.pdf",
+      "size_bytes": 52214,
+      "sha256": "9e3d3884008dbab86a72cdd8914df593d10ec111a1d16dffd6118f0df95dddfc"
+    },
+    {
+      "path": "main_figures/paper2_fig10_time_resolved_deposition.pdf",
+      "size_bytes": 71651,
+      "sha256": "ab7307878a81b4e237f620648339c5a6ba8db44dfd7d26853288e6d14ba2f9b5"
+    },
+    {
+      "path": "main_figures/paper2_fig1_voxel_topology_framework.pdf",
+      "size_bytes": 55728,
+      "sha256": "6dd83924b23bbeb818a21f7825a95b50130824bd6defb94cf57038244a30f7af"
+    },
+    {
+      "path": "main_figures/paper2_fig2_baseline_voxel_topology.pdf",
+      "size_bytes": 99608,
+      "sha256": "24ae9994beddb2deb50ab1d2b4cbd14decd4a4839961001dc4e4c51e6e9f91f3"
+    },
+    {
+      "path": "main_figures/paper2_fig3_representative_debris_blockage.pdf",
+      "size_bytes": 64069,
+      "sha256": "ff3e4001d115f84f07566e0ecc814c539340ff56419eb322059b18077db8297d"
+    },
+    {
+      "path": "main_figures/paper2_fig4_loading_clogging_response.pdf",
+      "size_bytes": 51050,
+      "sha256": "eb0e21236a050e89be32512cb6278dd504b56b4e89ee283b3e480e5641f3d723"
+    },
+    {
+      "path": "main_figures/paper2_fig6_mechanism_synthesis.pdf",
+      "size_bytes": 50855,
+      "sha256": "e3ca5169432193d33de1268fb256bcd1555a4f710b98dfc23da2603c28af859b"
+    },
+    {
+      "path": "main_figures/paper2_fig7_localized_time_dynamics.pdf",
+      "size_bytes": 52969,
+      "sha256": "246a9274d1bf5d92e5879c6a30db796a35f8e202c0ff1c18c42069355d363c5a"
+    },
+    {
+      "path": "main_figures/paper2_fig8_response_landscape.pdf",
+      "size_bytes": 53218,
+      "sha256": "9762be287fd96a7bb614c9a302783f6d12533bf091ac54206032dda5a28c58e2"
+    },
+    {
+      "path": "main_figures/paper2_fig9_sparse_front_diagnostics.pdf",
+      "size_bytes": 52080,
+      "sha256": "793fbbb7c9cc009689fec05a58cb17e91ff0464cd18587c16b1f44269f19076d"
+    },
+    {
+      "path": "main_figures/paper2_openfoam_model_mesh_main.pdf",
+      "size_bytes": 2634694,
+      "sha256": "63e214dd0c6f853eb77a7bcc2fbc48855571d8e3c331e14da7a908c2b58b1bcd"
+    },
+    {
+      "path": "manuscript/highlights.md",
+      "size_bytes": 407,
+      "sha256": "4389bc4a3af22066c4d7b1af84f69de6260e5603002c447f44e515690e4624f0"
+    },
+    {
+      "path": "manuscript/highlights_CES.docx",
+      "size_bytes": 37016,
+      "sha256": "7ddbd6eca6a0772e42456b096baadf85800fb79a3a48f315304dbed125cd352b"
+    },
+    {
+      "path": "manuscript/main.pdf",
+      "size_bytes": 3580809,
+      "sha256": "3f497ea0d489abc3b5b6bfd4a70fe6ceb393729995b92b5d8a6c08b2b9ae0b0e"
+    },
+    {
+      "path": "manuscript/main.tex",
+      "size_bytes": 56435,
+      "sha256": "5fdfdcf4666cf51aef3a73976aff508e658d3cf45a3f5c73653dfaba983fa4cd"
+    },
+    {
+      "path": "manuscript/paper2_references.bib",
+      "size_bytes": 5296,
+      "sha256": "68c9132c6b6b9bc3bbfacdb0cd0319ca9bb99d2feec3eb9e538873871f5fff9c"
+    },
+    {
+      "path": "portal_copy_text/elsevier_portal_checklist.md",
+      "size_bytes": 7961,
+      "sha256": "83ac6e69c05dc2974399b067077c4649c3b24fa7d76f634162d3c06d8e4b50bc"
+    },
+    {
+      "path": "portal_copy_text/submission_form_packet.md",
+      "size_bytes": 6897,
+      "sha256": "a2647fc7c31129a6e351d3e31a5eda018db1ffbba61c75118228de01f3a5da41"
+    },
+    {
+      "path": "supplementary_material/paper2_figS10_source_position_comparison.pdf",
+      "size_bytes": 2155,
+      "sha256": "22e42889d8bcb161f027807e937f54fbca8c40cf95eb67b42885cb187b01145f"
+    },
+    {
+      "path": "supplementary_material/paper2_figS11_mechanism_evidence_map.pdf",
+      "size_bytes": 2155,
+      "sha256": "91f33e8d108c680200ffa4cfa2ecc2ea6629311dcb23af70d52ba14db944030d"
+    },
+    {
+      "path": "supplementary_material/paper2_figS12_voxel_pressure_pilot.pdf",
+      "size_bytes": 29361,
+      "sha256": "e79cfba1384c9f0ac1d44a8b4cd43426059d5f9ccdadafc1493550636bd65cf0"
+    },
+    {
+      "path": "supplementary_material/paper2_figS13_cropped_flow_domains.pdf",
+      "size_bytes": 36308,
+      "sha256": "2be0686c81f8d44bef4fbbec42a8a35c2d7ac0ff08daa8d14bb8f66297ae67b6"
+    },
+    {
+      "path": "supplementary_material/paper2_figS14_cropped_flow_permeability.pdf",
+      "size_bytes": 27475,
+      "sha256": "365506b0dfdde6db3aadb756530b586233c814fe3475fe986ead2e921bb82a6e"
+    },
+    {
+      "path": "supplementary_material/paper2_figS15_cropped_flow_permeability_sensitivity.pdf",
+      "size_bytes": 33695,
+      "sha256": "4db6d575608a1aa092f8c8a9d49e38ee33cbc97998378ae4905687b0c9075c89"
+    },
+    {
+      "path": "supplementary_material/paper2_figS16_dimensionless_mechanism_map.pdf",
+      "size_bytes": 55855,
+      "sha256": "51cf01444e3c0db2611985bf61d9f8a73e4107b090f71c987aa2d20a162afa66"
+    },
+    {
+      "path": "supplementary_material/paper2_figS17_near_threshold_repeat_seed_status.pdf",
+      "size_bytes": 18646,
+      "sha256": "4030880de4d4735cd27b0f3ec23418b84e26bf63d6cf4df1065d0941a3a97b57"
+    },
+    {
+      "path": "supplementary_material/paper2_figS18_subvoxel_hydraulic_evidence.pdf",
+      "size_bytes": 28608,
+      "sha256": "4fb4f2a5dee3568bc6784886795701849d6744fe3011a993b6eb82679e94bef6"
+    },
+    {
+      "path": "supplementary_material/paper2_figS19_localized_mechanism_axes.pdf",
+      "size_bytes": 35209,
+      "sha256": "021408a279c3ff1ae69fc6ccb1449d4ee0b3464d210cc6ff6c20b0448720a1ea"
+    },
+    {
+      "path": "supplementary_material/paper2_figS1_voxel_size_sensitivity.pdf",
+      "size_bytes": 2155,
+      "sha256": "917bc945babfd4a6d7dfcd4233533a83772be705967a0170f968addfb8327b52"
+    },
+    {
+      "path": "supplementary_material/paper2_figS20_mechanistic_decoupling_matrix.pdf",
+      "size_bytes": 2155,
+      "sha256": "30c462295ccb6892528a87aac1c1df42a32c66ecfcfe5c05d38bcc5e9ce455ba"
+    },
+    {
+      "path": "supplementary_material/paper2_figS21_observable_response_map.pdf",
+      "size_bytes": 35066,
+      "sha256": "f3e045b655bd6041d27af6423e1b199d898d18104797ec37fd78d1861f29339e"
+    },
+    {
+      "path": "supplementary_material/paper2_figS22_3d_resistance_amplification_sensitivity.pdf",
+      "size_bytes": 2155,
+      "sha256": "6427b0b2c49b3129fae519b99f1128e7cd262112fc78c12725972a52b5b637fe"
+    },
+    {
+      "path": "supplementary_material/paper2_figS23_openfoam_pressure_evidence.pdf",
+      "size_bytes": 17792,
+      "sha256": "4f15aa5f86206900d2a5f6d0f9b163e975add9ae90ee7a2f0d60407884732a1b"
+    },
+    {
+      "path": "supplementary_material/paper2_figS24_openfoam_model_mesh.pdf",
+      "size_bytes": 3603236,
+      "sha256": "edf91713d8bd3c022af69c5d8e2ecb48b9981d90ff1528cd2f77957f4020cde4"
+    },
+    {
+      "path": "supplementary_material/paper2_figS25_parameter_evidence_coverage.pdf",
+      "size_bytes": 49091,
+      "sha256": "15012b26c7aece9cf867c086eac9142aecb6cb39b9fe42104b9a5e2162dab1a8"
+    },
+    {
+      "path": "supplementary_material/paper2_figS26_openfoam_case_matrix.pdf",
+      "size_bytes": 6347854,
+      "sha256": "2b8f4869f5db9e93f985ad7f011d1fdd3222e0a541b6d8645e7a7ff3ba75cd07"
+    },
+    {
+      "path": "supplementary_material/paper2_figS27_deep_mechanism_mining.pdf",
+      "size_bytes": 40708,
+      "sha256": "da40e555081d2a8313e2db2047104453cc448c95d60670140c0a47bb2e460ed4"
+    },
+    {
+      "path": "supplementary_material/paper2_figS28_tail_lag_mechanism_mining.pdf",
+      "size_bytes": 32867,
+      "sha256": "fd2336c63518c3c939b030f0a8a960b5ef085e24c9ca4f6c115d0b9a2741c585"
+    },
+    {
+      "path": "supplementary_material/paper2_figS29_deposition_heterogeneity_mining.pdf",
+      "size_bytes": 51357,
+      "sha256": "d3fdf91db2a7803a7e9acc750990d7a4437baaf768bea68731249039348e7103"
+    },
+    {
+      "path": "supplementary_material/paper2_figS2_voxel_coarsening_stress_test.pdf",
+      "size_bytes": 2155,
+      "sha256": "56bd2fd838a5da580bbfeeecb37de32e86bf80caec89ac1031f3fb197a70b07d"
+    },
+    {
+      "path": "supplementary_material/paper2_figS3_ergun_pressure_proxy.pdf",
+      "size_bytes": 2155,
+      "sha256": "952ed1e1f6aee90746949f5dba5e44ff0f5e52c88d74c4a31d152221060a8992"
+    },
+    {
+      "path": "supplementary_material/paper2_figS4_time_resolved_deposition.pdf",
+      "size_bytes": 43060,
+      "sha256": "983d9ec4c4ccdc71b28623cf15a69b0c1bde7bcc2259f4472b75ab71354ef433"
+    },
+    {
+      "path": "supplementary_material/paper2_figS5_front_migration_metrics.pdf",
+      "size_bytes": 43167,
+      "sha256": "50a37552070257308a5aebf941ebeb407f5765e22c8ce9f23f146c20e12af67f"
+    },
+    {
+      "path": "supplementary_material/paper2_figS8_explicit_localized_production_summary.pdf",
+      "size_bytes": 39503,
+      "sha256": "a596c9d8f066db1e44ab51f8ae2b8fdcc778eb85453095c5990eacdb05c1c9f6"
+    },
+    {
+      "path": "supplementary_material/paper2_figS9_907_tail_capture_mechanism.pdf",
+      "size_bytes": 2155,
+      "sha256": "6a702b59e9e1308c0307c712c53066cf568d670dc5a546be2461adcf7ff1383e"
+    },
+    {
+      "path": "supplementary_material/supplementary/openfoam_model_mesh_pressure_note.md",
+      "size_bytes": 5076,
+      "sha256": "590a7aba5649e1f3119e7d65e734afd2fd9c80718d4e7b2f1d338eebe0f2cf63"
+    },
+    {
+      "path": "supplementary_material/supplementary/supplementary_figures.md",
+      "size_bytes": 14509,
+      "sha256": "a5c47fc98ebc7c02de0dbb8a034231a8adc228051eee8158b5df7459eac0cf86"
+    },
+    {
+      "path": "supplementary_material/supplementary/supplementary_tables.md",
+      "size_bytes": 49718,
+      "sha256": "8d7c547b9a635869eaa84220a4e0d5ced29bbdc9b45853d09e7b11dc0b28513c"
+    },
+    {
+      "path": "supplementary_material/supplementary/supplementary_tables_metadata.json",
+      "size_bytes": 1811,
+      "sha256": "a947cab787671888430893ebc7f3d19dd2ff70a982d3feeb5cadd870c1854cdc"
+    },
+    {
+      "path": "supplementary_material/supplementary/table_s10_cropped_flow_permeability_sensitivity.csv",
+      "size_bytes": 3675,
+      "sha256": "dbbee070464c5934f23deaefdc7fe1b9e2549300c3974a60d67fa86cca21ad70"
+    },
+    {
+      "path": "supplementary_material/supplementary/table_s11_benchmark_crosswalk.csv",
+      "size_bytes": 3158,
+      "sha256": "0420751985284577dfdbdbe2050bdae3e5aac076bb65ac70d8985261c95f2ab3"
+    },
+    {
+      "path": "supplementary_material/supplementary/table_s12_dimensionless_mechanism_map.csv",
+      "size_bytes": 3417,
+      "sha256": "13ddb008e330913b22dde3322329153654457a412b3bf822685979b390dfae9e"
+    },
+    {
+      "path": "supplementary_material/supplementary/table_s13_mechanism_claim_table.csv",
+      "size_bytes": 1615,
+      "sha256": "589a7f54b46f9aa8259a89d9e811de228ad8b22a81b32a3994ea9b10e86703d7"
+    },
+    {
+      "path": "supplementary_material/supplementary/table_s14_near_threshold_repeat_seed_summary.csv",
+      "size_bytes": 600,
+      "sha256": "c831f657905a2d295429e47aa20f614c2367969328aade51abeb6df5c8bc39e4"
+    },
+    {
+      "path": "supplementary_material/supplementary/table_s15_3d_resistance_amplification_sensitivity.csv",
+      "size_bytes": 5568,
+      "sha256": "0ed33673d029f1a85a11a2cd2003390ebb850795f754196dc1f8b6d76b53acfc"
+    },
+    {
+      "path": "supplementary_material/supplementary/table_s16_reviewer_evidence_closure_matrix.csv",
+      "size_bytes": 5581,
+      "sha256": "91eaba715118210b98840f52b21ab8a69be21e30e271a4c8bf0bc8bb47d88275"
+    },
+    {
+      "path": "supplementary_material/supplementary/table_s17_mechanism_state_classifier.csv",
+      "size_bytes": 3825,
+      "sha256": "02b291f253d3c9540ddd416e078c02ba12ad233d846a43f6d7e4f022ba317c93"
+    },
+    {
+      "path": "supplementary_material/supplementary/table_s18_drag_scaling_summary.csv",
+      "size_bytes": 3165,
+      "sha256": "fd62d5f7b959a0124f339c2c55ca5204527e815f22e7431032b995a0f2d6725d"
+    },
+    {
+      "path": "supplementary_material/supplementary/table_s19_pressure_evidence_ladder.csv",
+      "size_bytes": 3803,
+      "sha256": "83c0cb16d103ac2e16599c655d47d15b01a7e9ba162b8bb28e4a9268ae99e6e3"
+    },
+    {
+      "path": "supplementary_material/supplementary/table_s1_case_matrix.csv",
+      "size_bytes": 1879,
+      "sha256": "a50c5777797457f2d0809818682365346f72ea88dc6684f2b9c8cb6ce77e14d2"
+    },
+    {
+      "path": "supplementary_material/supplementary/table_s2_structural_metrics.csv",
+      "size_bytes": 1098,
+      "sha256": "61abc1775edbbfe07864344c697819103e21a063e4c41e6f9a7e7acf6e0c407b"
+    },
+    {
+      "path": "supplementary_material/supplementary/table_s3_resolution_and_status.csv",
+      "size_bytes": 1289,
+      "sha256": "2b7ec9adb8e14924550e230557236c584c77ee43a74af0bed6c1cb39b33543d4"
+    },
+    {
+      "path": "supplementary_material/supplementary/table_s4_mechanism_evidence_matrix.csv",
+      "size_bytes": 3282,
+      "sha256": "abea707001923ea864965c0bc269577458c164d6ec2d5a7d96dcab36a137a0e3"
+    },
+    {
+      "path": "supplementary_material/supplementary/table_s5_literature_positioning_matrix.csv",
+      "size_bytes": 2903,
+      "sha256": "d8a114a266f33bc966be02cdaff26ef01c7aaf5dd074b185dca600c5c2c700e4"
+    },
+    {
+      "path": "supplementary_material/supplementary/table_s6_pressure_proxy_summary.csv",
+      "size_bytes": 1325,
+      "sha256": "93eb3ea7a29c15a4cc4c3deacca5efdd71e69adb9f239be44f38cea084695b9d"
+    },
+    {
+      "path": "supplementary_material/supplementary/table_s7_voxel_pressure_pilot_summary.csv",
+      "size_bytes": 1079,
+      "sha256": "8ad8adac1af929d2f86fafc24db5b25c98b326dc11d5b3bfabf97e4f694a7b55"
+    },
+    {
+      "path": "supplementary_material/supplementary/table_s8_cropped_flow_domain_manifest.csv",
+      "size_bytes": 1639,
+      "sha256": "77ccd3661aa40b75c3099209582485f56577ec41f3b4b09606a3f015b6de8746"
+    },
+    {
+      "path": "supplementary_material/supplementary/table_s9_cropped_flow_permeability_summary.csv",
+      "size_bytes": 1328,
+      "sha256": "18e4f05d02649dc04a6e93c8ab42d21e6ba2ad2b994051f22f3f7722bf7f10ea"
+    }
+  ]
+}

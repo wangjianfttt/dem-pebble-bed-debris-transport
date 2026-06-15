@@ -9,23 +9,15 @@ repository:
   url: https://github.com/wangjianfttt/dem-pebble-bed-debris-transport
   license: GitHub-Zenodo archived public repository for manuscript review and reuse.
 
-funding:
-  confirmed: true
-  statement: This research did not receive any specific grant from funding agencies in the public, commercial or not-for-profit sectors.
-
 competing_interests:
   confirmed: true
   statement: "The authors declare that they have no known competing financial interests or personal relationships that could have appeared to influence the work reported in this paper."
 
 acknowledgements:
   confirmed: true
-  statement: The authors thank the maintainers of LIGGGHTS-INL and the open-source Python scientific-computing ecosystem used in this work.
+  statement: This work was supported by the Anhui Provincial Natural Science Foundation (2408085QA030), the Anhui Intelligent Mine Technology and Equipment Engineering Research Center (AIMTEERC202307), the Science Foundation of the Institute of Plasma Physics, Chinese Academy of Sciences (DSJJ-2025-08), and the China Post-doctoral Science Foundation under Grant Number 2024M753266.
 
 corresponding_author:
-  confirmed: false
-  name: TBC
-  email: TBC
-
-ai_tool_use:
-  confirmed: false
-  statement: TBC
+  confirmed: true
+  name: Jian Wang
+  email: wjfttt@mail.ustc.edu.cn

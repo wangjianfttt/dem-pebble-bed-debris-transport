@@ -1,0 +1,5 @@
+case_label,debris_total_number,pressure_model,status,through_pore_voxels,conductance,relative_conductance,relative_resistance,conductance_loss,max_blockage_ratio,not_cfd,not_lbm,evidence_boundary
+baseline,0,voxel-network Darcy-Laplace,solved,233619,2.275788925938801,1.0,1.0,0.0,0.0,True,True,voxel-network pressure pilot; not CFD/LBM and not pressure-calibrated Ib
+N=3000,3000,voxel-network Darcy-Laplace,solved,233619,2.275782660748604,0.9999972470249217,1.0000027529826574,2.752975078457176e-06,5.932561127131031e-06,True,True,voxel-network pressure pilot; not CFD/LBM and not pressure-calibrated Ib
+N=6000,6000,voxel-network Darcy-Laplace,solved,233619,2.2757762973769875,0.9999944509081358,1.000005549122657,5.549091864232025e-06,1.1524315551181274e-05,True,True,voxel-network pressure pilot; not CFD/LBM and not pressure-calibrated Ib
+N=10000,10000,voxel-network Darcy-Laplace,solved,233619,2.27576803687726,0.9999908211779648,1.0000091789062868,9.17882203521625e-06,1.9520650602178335e-05,True,True,voxel-network pressure pilot; not CFD/LBM and not pressure-calibrated Ib

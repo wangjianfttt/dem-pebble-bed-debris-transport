@@ -1,0 +1,83 @@
+{
+  "decision": "pass",
+  "failure_count": 0,
+  "archive_path": "/Users/wangjian-macbook13/Library/CloudStorage/SynologyDrive-mac/\u8bba\u6587\u76f8\u5173/\u5206\u6570\u9636\u6a21\u578b\u7814\u7a76/project/papers/paper2_voxel_topology_clogging/submission_package/archives/paper2_journal_submission_files.zip",
+  "sha256": "945c78a0ad1e31934fcb8d3bf94f64d6ba51becfc85f2fb023a84c5ab43a2953",
+  "archive_size_bytes": 17452130,
+  "member_count": 124,
+  "staged_file_count": 124,
+  "checks": [
+    {
+      "check": "archive_exists",
+      "pass": true,
+      "details": "/Users/wangjian-macbook13/Library/CloudStorage/SynologyDrive-mac/\u8bba\u6587\u76f8\u5173/\u5206\u6570\u9636\u6a21\u578b\u7814\u7a76/project/papers/paper2_voxel_topology_clogging/submission_package/archives/paper2_journal_submission_files.zip"
+    },
+    {
+      "check": "sha_sidecar_matches_archive",
+      "pass": true,
+      "details": {
+        "sidecar": "945c78a0ad1e31934fcb8d3bf94f64d6ba51becfc85f2fb023a84c5ab43a2953",
+        "actual": "945c78a0ad1e31934fcb8d3bf94f64d6ba51becfc85f2fb023a84c5ab43a2953"
+      }
+    },
+    {
+      "check": "summary_sha_matches_archive",
+      "pass": true,
+      "details": {
+        "summary": "945c78a0ad1e31934fcb8d3bf94f64d6ba51becfc85f2fb023a84c5ab43a2953",
+        "actual": "945c78a0ad1e31934fcb8d3bf94f64d6ba51becfc85f2fb023a84c5ab43a2953"
+      }
+    },
+    {
+      "check": "summary_size_matches_archive",
+      "pass": true,
+      "details": {
+        "summary": 17452130,
+        "actual": 17452130
+      }
+    },
+    {
+      "check": "summary_count_matches_staging",
+      "pass": true,
+      "details": {
+        "summary": 124,
+        "actual": 124
+      }
+    },
+    {
+      "check": "required_members_present",
+      "pass": true,
+      "details": {
+        "missing": []
+      }
+    },
+    {
+      "check": "forbidden_members_absent",
+      "pass": true,
+      "details": {
+        "forbidden": []
+      }
+    },
+    {
+      "check": "main_text_s13_reference_present",
+      "pass": true,
+      "details": "main.tex references Supplementary Table S13 as claim-level evidence rows"
+    },
+    {
+      "check": "table_s13_core_claim_present",
+      "pass": true,
+      "details": "S13 contains breakthrough-topology decoupling claim"
+    },
+    {
+      "check": "main_text_s14_repeat_reference_present",
+      "pass": true,
+      "details": "main.tex references Supplementary Table S14 for repeat-seed uncertainty"
+    },
+    {
+      "check": "table_s14_repeat_boundary_present",
+      "pass": true,
+      "details": "S14 contains repeat-seed count and non-transition boundary"
+    }
+  ],
+  "boundary": "Archive audit only; it does not refresh archives or create new scientific evidence."
+}

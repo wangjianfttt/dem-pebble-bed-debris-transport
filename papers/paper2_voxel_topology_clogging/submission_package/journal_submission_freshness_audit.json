@@ -1,0 +1,1264 @@
+{
+  "summary": {
+    "decision": "pass",
+    "staging_dir": "/Users/wangjian-macbook13/Library/CloudStorage/SynologyDrive-mac/论文相关/分数阶模型研究/project/papers/paper2_voxel_topology_clogging/submission_package/journal_submission_files",
+    "checked_file_count": 125,
+    "missing_source_count": 0,
+    "missing_staged_count": 0,
+    "stale_file_count": 0,
+    "stale_files": [],
+    "boundary": "Freshness audit only; it does not rebuild staging or archives."
+  },
+  "files": [
+    {
+      "group": "manuscript",
+      "source": "/Users/wangjian-macbook13/Library/CloudStorage/SynologyDrive-mac/论文相关/分数阶模型研究/project/papers/paper2_voxel_topology_clogging/latex/main.pdf",
+      "staged": "/Users/wangjian-macbook13/Library/CloudStorage/SynologyDrive-mac/论文相关/分数阶模型研究/project/papers/paper2_voxel_topology_clogging/submission_package/journal_submission_files/manuscript/main.pdf",
+      "source_exists": true,
+      "staged_exists": true,
+      "source_sha256": "396a530a8b5c2d2c2d20b9e4e8450cb8888ba555cef24e4d2bf9a30582c8640f",
+      "staged_sha256": "396a530a8b5c2d2c2d20b9e4e8450cb8888ba555cef24e4d2bf9a30582c8640f",
+      "fresh": true
+    },
+    {
+      "group": "manuscript",
+      "source": "/Users/wangjian-macbook13/Library/CloudStorage/SynologyDrive-mac/论文相关/分数阶模型研究/project/papers/paper2_voxel_topology_clogging/latex/main.tex",
+      "staged": "/Users/wangjian-macbook13/Library/CloudStorage/SynologyDrive-mac/论文相关/分数阶模型研究/project/papers/paper2_voxel_topology_clogging/submission_package/journal_submission_files/manuscript/main.tex",
+      "source_exists": true,
+      "staged_exists": true,
+      "source_sha256": "b163d321b3025eaf5910764e2376568ab88d9d7ac6492a55da612812b1b65d68",
+      "staged_sha256": "b163d321b3025eaf5910764e2376568ab88d9d7ac6492a55da612812b1b65d68",
+      "fresh": true
+    },
+    {
+      "group": "manuscript",
+      "source": "/Users/wangjian-macbook13/Library/CloudStorage/SynologyDrive-mac/论文相关/分数阶模型研究/project/papers/paper2_voxel_topology_clogging/references/paper2_references.bib",
+      "staged": "/Users/wangjian-macbook13/Library/CloudStorage/SynologyDrive-mac/论文相关/分数阶模型研究/project/papers/paper2_voxel_topology_clogging/submission_package/journal_submission_files/manuscript/paper2_references.bib",
+      "source_exists": true,
+      "staged_exists": true,
+      "source_sha256": "68c9132c6b6b9bc3bbfacdb0cd0319ca9bb99d2feec3eb9e538873871f5fff9c",
+      "staged_sha256": "68c9132c6b6b9bc3bbfacdb0cd0319ca9bb99d2feec3eb9e538873871f5fff9c",
+      "fresh": true
+    },
+    {
+      "group": "manuscript",
+      "source": "/Users/wangjian-macbook13/Library/CloudStorage/SynologyDrive-mac/论文相关/分数阶模型研究/project/papers/paper2_voxel_topology_clogging/submission/highlights.md",
+      "staged": "/Users/wangjian-macbook13/Library/CloudStorage/SynologyDrive-mac/论文相关/分数阶模型研究/project/papers/paper2_voxel_topology_clogging/submission_package/journal_submission_files/manuscript/highlights.md",
+      "source_exists": true,
+      "staged_exists": true,
+      "source_sha256": "9ad1147c7bd5a5a6bd5f132cc81871a8710cb6256280e40c6051698466e49645",
+      "staged_sha256": "9ad1147c7bd5a5a6bd5f132cc81871a8710cb6256280e40c6051698466e49645",
+      "fresh": true
+    },
+    {
+      "group": "main_figures",
+      "source": "/Users/wangjian-macbook13/Library/CloudStorage/SynologyDrive-mac/论文相关/分数阶模型研究/project/papers/paper2_voxel_topology_clogging/figures/paper2_fig1_voxel_topology_framework.pdf",
+      "staged": "/Users/wangjian-macbook13/Library/CloudStorage/SynologyDrive-mac/论文相关/分数阶模型研究/project/papers/paper2_voxel_topology_clogging/submission_package/journal_submission_files/main_figures/paper2_fig1_voxel_topology_framework.pdf",
+      "source_exists": true,
+      "staged_exists": true,
+      "source_sha256": "6dd83924b23bbeb818a21f7825a95b50130824bd6defb94cf57038244a30f7af",
+      "staged_sha256": "6dd83924b23bbeb818a21f7825a95b50130824bd6defb94cf57038244a30f7af",
+      "fresh": true
+    },
+    {
+      "group": "main_figures",
+      "source": "/Users/wangjian-macbook13/Library/CloudStorage/SynologyDrive-mac/论文相关/分数阶模型研究/project/papers/paper2_voxel_topology_clogging/figures/paper2_fig2_baseline_voxel_topology.pdf",
+      "staged": "/Users/wangjian-macbook13/Library/CloudStorage/SynologyDrive-mac/论文相关/分数阶模型研究/project/papers/paper2_voxel_topology_clogging/submission_package/journal_submission_files/main_figures/paper2_fig2_baseline_voxel_topology.pdf",
+      "source_exists": true,
+      "staged_exists": true,
+      "source_sha256": "24ae9994beddb2deb50ab1d2b4cbd14decd4a4839961001dc4e4c51e6e9f91f3",
+      "staged_sha256": "24ae9994beddb2deb50ab1d2b4cbd14decd4a4839961001dc4e4c51e6e9f91f3",
+      "fresh": true
+    },
+    {
+      "group": "main_figures",
+      "source": "/Users/wangjian-macbook13/Library/CloudStorage/SynologyDrive-mac/论文相关/分数阶模型研究/project/papers/paper2_voxel_topology_clogging/figures/paper2_fig3_representative_debris_blockage.pdf",
+      "staged": "/Users/wangjian-macbook13/Library/CloudStorage/SynologyDrive-mac/论文相关/分数阶模型研究/project/papers/paper2_voxel_topology_clogging/submission_package/journal_submission_files/main_figures/paper2_fig3_representative_debris_blockage.pdf",
+      "source_exists": true,
+      "staged_exists": true,
+      "source_sha256": "ff3e4001d115f84f07566e0ecc814c539340ff56419eb322059b18077db8297d",
+      "staged_sha256": "ff3e4001d115f84f07566e0ecc814c539340ff56419eb322059b18077db8297d",
+      "fresh": true
+    },
+    {
+      "group": "main_figures",
+      "source": "/Users/wangjian-macbook13/Library/CloudStorage/SynologyDrive-mac/论文相关/分数阶模型研究/project/papers/paper2_voxel_topology_clogging/figures/paper2_908_spatial_distribution_evidence.pdf",
+      "staged": "/Users/wangjian-macbook13/Library/CloudStorage/SynologyDrive-mac/论文相关/分数阶模型研究/project/papers/paper2_voxel_topology_clogging/submission_package/journal_submission_files/main_figures/paper2_908_spatial_distribution_evidence.pdf",
+      "source_exists": true,
+      "staged_exists": true,
+      "source_sha256": "9e3d3884008dbab86a72cdd8914df593d10ec111a1d16dffd6118f0df95dddfc",
+      "staged_sha256": "9e3d3884008dbab86a72cdd8914df593d10ec111a1d16dffd6118f0df95dddfc",
+      "fresh": true
+    },
+    {
+      "group": "main_figures",
+      "source": "/Users/wangjian-macbook13/Library/CloudStorage/SynologyDrive-mac/论文相关/分数阶模型研究/project/papers/paper2_voxel_topology_clogging/figures/paper2_fig7_localized_time_dynamics.pdf",
+      "staged": "/Users/wangjian-macbook13/Library/CloudStorage/SynologyDrive-mac/论文相关/分数阶模型研究/project/papers/paper2_voxel_topology_clogging/submission_package/journal_submission_files/main_figures/paper2_fig7_localized_time_dynamics.pdf",
+      "source_exists": true,
+      "staged_exists": true,
+      "source_sha256": "246a9274d1bf5d92e5879c6a30db796a35f8e202c0ff1c18c42069355d363c5a",
+      "staged_sha256": "246a9274d1bf5d92e5879c6a30db796a35f8e202c0ff1c18c42069355d363c5a",
+      "fresh": true
+    },
+    {
+      "group": "main_figures",
+      "source": "/Users/wangjian-macbook13/Library/CloudStorage/SynologyDrive-mac/论文相关/分数阶模型研究/project/papers/paper2_voxel_topology_clogging/figures/paper2_openfoam_model_mesh_main.pdf",
+      "staged": "/Users/wangjian-macbook13/Library/CloudStorage/SynologyDrive-mac/论文相关/分数阶模型研究/project/papers/paper2_voxel_topology_clogging/submission_package/journal_submission_files/main_figures/paper2_openfoam_model_mesh_main.pdf",
+      "source_exists": true,
+      "staged_exists": true,
+      "source_sha256": "63e214dd0c6f853eb77a7bcc2fbc48855571d8e3c331e14da7a908c2b58b1bcd",
+      "staged_sha256": "63e214dd0c6f853eb77a7bcc2fbc48855571d8e3c331e14da7a908c2b58b1bcd",
+      "fresh": true
+    },
+    {
+      "group": "main_figures",
+      "source": "/Users/wangjian-macbook13/Library/CloudStorage/SynologyDrive-mac/论文相关/分数阶模型研究/project/papers/paper2_voxel_topology_clogging/figures/paper2_fig4_loading_clogging_response.pdf",
+      "staged": "/Users/wangjian-macbook13/Library/CloudStorage/SynologyDrive-mac/论文相关/分数阶模型研究/project/papers/paper2_voxel_topology_clogging/submission_package/journal_submission_files/main_figures/paper2_fig4_loading_clogging_response.pdf",
+      "source_exists": true,
+      "staged_exists": true,
+      "source_sha256": "eb0e21236a050e89be32512cb6278dd504b56b4e89ee283b3e480e5641f3d723",
+      "staged_sha256": "eb0e21236a050e89be32512cb6278dd504b56b4e89ee283b3e480e5641f3d723",
+      "fresh": true
+    },
+    {
+      "group": "main_figures",
+      "source": "/Users/wangjian-macbook13/Library/CloudStorage/SynologyDrive-mac/论文相关/分数阶模型研究/project/papers/paper2_voxel_topology_clogging/figures/paper2_fig6_mechanism_synthesis.pdf",
+      "staged": "/Users/wangjian-macbook13/Library/CloudStorage/SynologyDrive-mac/论文相关/分数阶模型研究/project/papers/paper2_voxel_topology_clogging/submission_package/journal_submission_files/main_figures/paper2_fig6_mechanism_synthesis.pdf",
+      "source_exists": true,
+      "staged_exists": true,
+      "source_sha256": "e3ca5169432193d33de1268fb256bcd1555a4f710b98dfc23da2603c28af859b",
+      "staged_sha256": "e3ca5169432193d33de1268fb256bcd1555a4f710b98dfc23da2603c28af859b",
+      "fresh": true
+    },
+    {
+      "group": "main_figures",
+      "source": "/Users/wangjian-macbook13/Library/CloudStorage/SynologyDrive-mac/论文相关/分数阶模型研究/project/papers/paper2_voxel_topology_clogging/figures/paper2_fig8_response_landscape.pdf",
+      "staged": "/Users/wangjian-macbook13/Library/CloudStorage/SynologyDrive-mac/论文相关/分数阶模型研究/project/papers/paper2_voxel_topology_clogging/submission_package/journal_submission_files/main_figures/paper2_fig8_response_landscape.pdf",
+      "source_exists": true,
+      "staged_exists": true,
+      "source_sha256": "9762be287fd96a7bb614c9a302783f6d12533bf091ac54206032dda5a28c58e2",
+      "staged_sha256": "9762be287fd96a7bb614c9a302783f6d12533bf091ac54206032dda5a28c58e2",
+      "fresh": true
+    },
+    {
+      "group": "main_figures",
+      "source": "/Users/wangjian-macbook13/Library/CloudStorage/SynologyDrive-mac/论文相关/分数阶模型研究/project/papers/paper2_voxel_topology_clogging/figures/paper2_fig9_sparse_front_diagnostics.pdf",
+      "staged": "/Users/wangjian-macbook13/Library/CloudStorage/SynologyDrive-mac/论文相关/分数阶模型研究/project/papers/paper2_voxel_topology_clogging/submission_package/journal_submission_files/main_figures/paper2_fig9_sparse_front_diagnostics.pdf",
+      "source_exists": true,
+      "staged_exists": true,
+      "source_sha256": "793fbbb7c9cc009689fec05a58cb17e91ff0464cd18587c16b1f44269f19076d",
+      "staged_sha256": "793fbbb7c9cc009689fec05a58cb17e91ff0464cd18587c16b1f44269f19076d",
+      "fresh": true
+    },
+    {
+      "group": "main_figures",
+      "source": "/Users/wangjian-macbook13/Library/CloudStorage/SynologyDrive-mac/论文相关/分数阶模型研究/project/papers/paper2_voxel_topology_clogging/figures/paper2_fig10_time_resolved_deposition.pdf",
+      "staged": "/Users/wangjian-macbook13/Library/CloudStorage/SynologyDrive-mac/论文相关/分数阶模型研究/project/papers/paper2_voxel_topology_clogging/submission_package/journal_submission_files/main_figures/paper2_fig10_time_resolved_deposition.pdf",
+      "source_exists": true,
+      "staged_exists": true,
+      "source_sha256": "ab7307878a81b4e237f620648339c5a6ba8db44dfd7d26853288e6d14ba2f9b5",
+      "staged_sha256": "ab7307878a81b4e237f620648339c5a6ba8db44dfd7d26853288e6d14ba2f9b5",
+      "fresh": true
+    },
+    {
+      "group": "main_figures",
+      "source": "/Users/wangjian-macbook13/Library/CloudStorage/SynologyDrive-mac/论文相关/分数阶模型研究/project/papers/paper2_voxel_topology_clogging/figures/paper2_graphical_abstract.png",
+      "staged": "/Users/wangjian-macbook13/Library/CloudStorage/SynologyDrive-mac/论文相关/分数阶模型研究/project/papers/paper2_voxel_topology_clogging/submission_package/journal_submission_files/main_figures/paper2_graphical_abstract.png",
+      "source_exists": true,
+      "staged_exists": true,
+      "source_sha256": "245a00d5fc9d9165b3c638df203c3f2f5ca1198ad0a8aaf51f6f9066818321cc",
+      "staged_sha256": "245a00d5fc9d9165b3c638df203c3f2f5ca1198ad0a8aaf51f6f9066818321cc",
+      "fresh": true
+    },
+    {
+      "group": "main_figures",
+      "source": "/Users/wangjian-macbook13/Library/CloudStorage/SynologyDrive-mac/论文相关/分数阶模型研究/project/papers/paper2_voxel_topology_clogging/figures/paper2_graphical_abstract.pdf",
+      "staged": "/Users/wangjian-macbook13/Library/CloudStorage/SynologyDrive-mac/论文相关/分数阶模型研究/project/papers/paper2_voxel_topology_clogging/submission_package/journal_submission_files/main_figures/paper2_graphical_abstract.pdf",
+      "source_exists": true,
+      "staged_exists": true,
+      "source_sha256": "40dd6e4347e32b5ac114ad6a9fb3d75a9aa2c368561978a74271b8465e1b44c4",
+      "staged_sha256": "40dd6e4347e32b5ac114ad6a9fb3d75a9aa2c368561978a74271b8465e1b44c4",
+      "fresh": true
+    },
+    {
+      "group": "main_figures",
+      "source": "/Users/wangjian-macbook13/Library/CloudStorage/SynologyDrive-mac/论文相关/分数阶模型研究/project/papers/paper2_voxel_topology_clogging/figures/paper2_graphical_abstract.svg",
+      "staged": "/Users/wangjian-macbook13/Library/CloudStorage/SynologyDrive-mac/论文相关/分数阶模型研究/project/papers/paper2_voxel_topology_clogging/submission_package/journal_submission_files/main_figures/paper2_graphical_abstract.svg",
+      "source_exists": true,
+      "staged_exists": true,
+      "source_sha256": "e2baf9b80bffe75d4e2fd44fc055106c626882ca73bb800fb0dedd911bf362ef",
+      "staged_sha256": "e2baf9b80bffe75d4e2fd44fc055106c626882ca73bb800fb0dedd911bf362ef",
+      "fresh": true
+    },
+    {
+      "group": "supplementary_material",
+      "source": "/Users/wangjian-macbook13/Library/CloudStorage/SynologyDrive-mac/论文相关/分数阶模型研究/project/papers/paper2_voxel_topology_clogging/supplementary/openfoam_model_mesh_pressure_note.md",
+      "staged": "/Users/wangjian-macbook13/Library/CloudStorage/SynologyDrive-mac/论文相关/分数阶模型研究/project/papers/paper2_voxel_topology_clogging/submission_package/journal_submission_files/supplementary_material/supplementary/openfoam_model_mesh_pressure_note.md",
+      "source_exists": true,
+      "staged_exists": true,
+      "source_sha256": "590a7aba5649e1f3119e7d65e734afd2fd9c80718d4e7b2f1d338eebe0f2cf63",
+      "staged_sha256": "590a7aba5649e1f3119e7d65e734afd2fd9c80718d4e7b2f1d338eebe0f2cf63",
+      "fresh": true
+    },
+    {
+      "group": "supplementary_material",
+      "source": "/Users/wangjian-macbook13/Library/CloudStorage/SynologyDrive-mac/论文相关/分数阶模型研究/project/papers/paper2_voxel_topology_clogging/supplementary/supplementary_figures.md",
+      "staged": "/Users/wangjian-macbook13/Library/CloudStorage/SynologyDrive-mac/论文相关/分数阶模型研究/project/papers/paper2_voxel_topology_clogging/submission_package/journal_submission_files/supplementary_material/supplementary/supplementary_figures.md",
+      "source_exists": true,
+      "staged_exists": true,
+      "source_sha256": "a5c47fc98ebc7c02de0dbb8a034231a8adc228051eee8158b5df7459eac0cf86",
+      "staged_sha256": "a5c47fc98ebc7c02de0dbb8a034231a8adc228051eee8158b5df7459eac0cf86",
+      "fresh": true
+    },
+    {
+      "group": "supplementary_material",
+      "source": "/Users/wangjian-macbook13/Library/CloudStorage/SynologyDrive-mac/论文相关/分数阶模型研究/project/papers/paper2_voxel_topology_clogging/supplementary/supplementary_tables.md",
+      "staged": "/Users/wangjian-macbook13/Library/CloudStorage/SynologyDrive-mac/论文相关/分数阶模型研究/project/papers/paper2_voxel_topology_clogging/submission_package/journal_submission_files/supplementary_material/supplementary/supplementary_tables.md",
+      "source_exists": true,
+      "staged_exists": true,
+      "source_sha256": "8d7c547b9a635869eaa84220a4e0d5ced29bbdc9b45853d09e7b11dc0b28513c",
+      "staged_sha256": "8d7c547b9a635869eaa84220a4e0d5ced29bbdc9b45853d09e7b11dc0b28513c",
+      "fresh": true
+    },
+    {
+      "group": "supplementary_material",
+      "source": "/Users/wangjian-macbook13/Library/CloudStorage/SynologyDrive-mac/论文相关/分数阶模型研究/project/papers/paper2_voxel_topology_clogging/supplementary/supplementary_tables_metadata.json",
+      "staged": "/Users/wangjian-macbook13/Library/CloudStorage/SynologyDrive-mac/论文相关/分数阶模型研究/project/papers/paper2_voxel_topology_clogging/submission_package/journal_submission_files/supplementary_material/supplementary/supplementary_tables_metadata.json",
+      "source_exists": true,
+      "staged_exists": true,
+      "source_sha256": "a947cab787671888430893ebc7f3d19dd2ff70a982d3feeb5cadd870c1854cdc",
+      "staged_sha256": "a947cab787671888430893ebc7f3d19dd2ff70a982d3feeb5cadd870c1854cdc",
+      "fresh": true
+    },
+    {
+      "group": "supplementary_material",
+      "source": "/Users/wangjian-macbook13/Library/CloudStorage/SynologyDrive-mac/论文相关/分数阶模型研究/project/papers/paper2_voxel_topology_clogging/supplementary/table_s10_cropped_flow_permeability_sensitivity.csv",
+      "staged": "/Users/wangjian-macbook13/Library/CloudStorage/SynologyDrive-mac/论文相关/分数阶模型研究/project/papers/paper2_voxel_topology_clogging/submission_package/journal_submission_files/supplementary_material/supplementary/table_s10_cropped_flow_permeability_sensitivity.csv",
+      "source_exists": true,
+      "staged_exists": true,
+      "source_sha256": "dbbee070464c5934f23deaefdc7fe1b9e2549300c3974a60d67fa86cca21ad70",
+      "staged_sha256": "dbbee070464c5934f23deaefdc7fe1b9e2549300c3974a60d67fa86cca21ad70",
+      "fresh": true
+    },
+    {
+      "group": "supplementary_material",
+      "source": "/Users/wangjian-macbook13/Library/CloudStorage/SynologyDrive-mac/论文相关/分数阶模型研究/project/papers/paper2_voxel_topology_clogging/supplementary/table_s11_benchmark_crosswalk.csv",
+      "staged": "/Users/wangjian-macbook13/Library/CloudStorage/SynologyDrive-mac/论文相关/分数阶模型研究/project/papers/paper2_voxel_topology_clogging/submission_package/journal_submission_files/supplementary_material/supplementary/table_s11_benchmark_crosswalk.csv",
+      "source_exists": true,
+      "staged_exists": true,
+      "source_sha256": "0420751985284577dfdbdbe2050bdae3e5aac076bb65ac70d8985261c95f2ab3",
+      "staged_sha256": "0420751985284577dfdbdbe2050bdae3e5aac076bb65ac70d8985261c95f2ab3",
+      "fresh": true
+    },
+    {
+      "group": "supplementary_material",
+      "source": "/Users/wangjian-macbook13/Library/CloudStorage/SynologyDrive-mac/论文相关/分数阶模型研究/project/papers/paper2_voxel_topology_clogging/supplementary/table_s12_dimensionless_mechanism_map.csv",
+      "staged": "/Users/wangjian-macbook13/Library/CloudStorage/SynologyDrive-mac/论文相关/分数阶模型研究/project/papers/paper2_voxel_topology_clogging/submission_package/journal_submission_files/supplementary_material/supplementary/table_s12_dimensionless_mechanism_map.csv",
+      "source_exists": true,
+      "staged_exists": true,
+      "source_sha256": "13ddb008e330913b22dde3322329153654457a412b3bf822685979b390dfae9e",
+      "staged_sha256": "13ddb008e330913b22dde3322329153654457a412b3bf822685979b390dfae9e",
+      "fresh": true
+    },
+    {
+      "group": "supplementary_material",
+      "source": "/Users/wangjian-macbook13/Library/CloudStorage/SynologyDrive-mac/论文相关/分数阶模型研究/project/papers/paper2_voxel_topology_clogging/supplementary/table_s13_mechanism_claim_table.csv",
+      "staged": "/Users/wangjian-macbook13/Library/CloudStorage/SynologyDrive-mac/论文相关/分数阶模型研究/project/papers/paper2_voxel_topology_clogging/submission_package/journal_submission_files/supplementary_material/supplementary/table_s13_mechanism_claim_table.csv",
+      "source_exists": true,
+      "staged_exists": true,
+      "source_sha256": "589a7f54b46f9aa8259a89d9e811de228ad8b22a81b32a3994ea9b10e86703d7",
+      "staged_sha256": "589a7f54b46f9aa8259a89d9e811de228ad8b22a81b32a3994ea9b10e86703d7",
+      "fresh": true
+    },
+    {
+      "group": "supplementary_material",
+      "source": "/Users/wangjian-macbook13/Library/CloudStorage/SynologyDrive-mac/论文相关/分数阶模型研究/project/papers/paper2_voxel_topology_clogging/supplementary/table_s14_near_threshold_repeat_seed_summary.csv",
+      "staged": "/Users/wangjian-macbook13/Library/CloudStorage/SynologyDrive-mac/论文相关/分数阶模型研究/project/papers/paper2_voxel_topology_clogging/submission_package/journal_submission_files/supplementary_material/supplementary/table_s14_near_threshold_repeat_seed_summary.csv",
+      "source_exists": true,
+      "staged_exists": true,
+      "source_sha256": "c831f657905a2d295429e47aa20f614c2367969328aade51abeb6df5c8bc39e4",
+      "staged_sha256": "c831f657905a2d295429e47aa20f614c2367969328aade51abeb6df5c8bc39e4",
+      "fresh": true
+    },
+    {
+      "group": "supplementary_material",
+      "source": "/Users/wangjian-macbook13/Library/CloudStorage/SynologyDrive-mac/论文相关/分数阶模型研究/project/papers/paper2_voxel_topology_clogging/supplementary/table_s15_3d_resistance_amplification_sensitivity.csv",
+      "staged": "/Users/wangjian-macbook13/Library/CloudStorage/SynologyDrive-mac/论文相关/分数阶模型研究/project/papers/paper2_voxel_topology_clogging/submission_package/journal_submission_files/supplementary_material/supplementary/table_s15_3d_resistance_amplification_sensitivity.csv",
+      "source_exists": true,
+      "staged_exists": true,
+      "source_sha256": "0ed33673d029f1a85a11a2cd2003390ebb850795f754196dc1f8b6d76b53acfc",
+      "staged_sha256": "0ed33673d029f1a85a11a2cd2003390ebb850795f754196dc1f8b6d76b53acfc",
+      "fresh": true
+    },
+    {
+      "group": "supplementary_material",
+      "source": "/Users/wangjian-macbook13/Library/CloudStorage/SynologyDrive-mac/论文相关/分数阶模型研究/project/papers/paper2_voxel_topology_clogging/supplementary/table_s16_reviewer_evidence_closure_matrix.csv",
+      "staged": "/Users/wangjian-macbook13/Library/CloudStorage/SynologyDrive-mac/论文相关/分数阶模型研究/project/papers/paper2_voxel_topology_clogging/submission_package/journal_submission_files/supplementary_material/supplementary/table_s16_reviewer_evidence_closure_matrix.csv",
+      "source_exists": true,
+      "staged_exists": true,
+      "source_sha256": "91eaba715118210b98840f52b21ab8a69be21e30e271a4c8bf0bc8bb47d88275",
+      "staged_sha256": "91eaba715118210b98840f52b21ab8a69be21e30e271a4c8bf0bc8bb47d88275",
+      "fresh": true
+    },
+    {
+      "group": "supplementary_material",
+      "source": "/Users/wangjian-macbook13/Library/CloudStorage/SynologyDrive-mac/论文相关/分数阶模型研究/project/papers/paper2_voxel_topology_clogging/supplementary/table_s17_mechanism_state_classifier.csv",
+      "staged": "/Users/wangjian-macbook13/Library/CloudStorage/SynologyDrive-mac/论文相关/分数阶模型研究/project/papers/paper2_voxel_topology_clogging/submission_package/journal_submission_files/supplementary_material/supplementary/table_s17_mechanism_state_classifier.csv",
+      "source_exists": true,
+      "staged_exists": true,
+      "source_sha256": "02b291f253d3c9540ddd416e078c02ba12ad233d846a43f6d7e4f022ba317c93",
+      "staged_sha256": "02b291f253d3c9540ddd416e078c02ba12ad233d846a43f6d7e4f022ba317c93",
+      "fresh": true
+    },
+    {
+      "group": "supplementary_material",
+      "source": "/Users/wangjian-macbook13/Library/CloudStorage/SynologyDrive-mac/论文相关/分数阶模型研究/project/papers/paper2_voxel_topology_clogging/supplementary/table_s18_drag_scaling_summary.csv",
+      "staged": "/Users/wangjian-macbook13/Library/CloudStorage/SynologyDrive-mac/论文相关/分数阶模型研究/project/papers/paper2_voxel_topology_clogging/submission_package/journal_submission_files/supplementary_material/supplementary/table_s18_drag_scaling_summary.csv",
+      "source_exists": true,
+      "staged_exists": true,
+      "source_sha256": "fd62d5f7b959a0124f339c2c55ca5204527e815f22e7431032b995a0f2d6725d",
+      "staged_sha256": "fd62d5f7b959a0124f339c2c55ca5204527e815f22e7431032b995a0f2d6725d",
+      "fresh": true
+    },
+    {
+      "group": "supplementary_material",
+      "source": "/Users/wangjian-macbook13/Library/CloudStorage/SynologyDrive-mac/论文相关/分数阶模型研究/project/papers/paper2_voxel_topology_clogging/supplementary/table_s19_pressure_evidence_ladder.csv",
+      "staged": "/Users/wangjian-macbook13/Library/CloudStorage/SynologyDrive-mac/论文相关/分数阶模型研究/project/papers/paper2_voxel_topology_clogging/submission_package/journal_submission_files/supplementary_material/supplementary/table_s19_pressure_evidence_ladder.csv",
+      "source_exists": true,
+      "staged_exists": true,
+      "source_sha256": "83c0cb16d103ac2e16599c655d47d15b01a7e9ba162b8bb28e4a9268ae99e6e3",
+      "staged_sha256": "83c0cb16d103ac2e16599c655d47d15b01a7e9ba162b8bb28e4a9268ae99e6e3",
+      "fresh": true
+    },
+    {
+      "group": "supplementary_material",
+      "source": "/Users/wangjian-macbook13/Library/CloudStorage/SynologyDrive-mac/论文相关/分数阶模型研究/project/papers/paper2_voxel_topology_clogging/supplementary/table_s1_case_matrix.csv",
+      "staged": "/Users/wangjian-macbook13/Library/CloudStorage/SynologyDrive-mac/论文相关/分数阶模型研究/project/papers/paper2_voxel_topology_clogging/submission_package/journal_submission_files/supplementary_material/supplementary/table_s1_case_matrix.csv",
+      "source_exists": true,
+      "staged_exists": true,
+      "source_sha256": "a50c5777797457f2d0809818682365346f72ea88dc6684f2b9c8cb6ce77e14d2",
+      "staged_sha256": "a50c5777797457f2d0809818682365346f72ea88dc6684f2b9c8cb6ce77e14d2",
+      "fresh": true
+    },
+    {
+      "group": "supplementary_material",
+      "source": "/Users/wangjian-macbook13/Library/CloudStorage/SynologyDrive-mac/论文相关/分数阶模型研究/project/papers/paper2_voxel_topology_clogging/supplementary/table_s2_structural_metrics.csv",
+      "staged": "/Users/wangjian-macbook13/Library/CloudStorage/SynologyDrive-mac/论文相关/分数阶模型研究/project/papers/paper2_voxel_topology_clogging/submission_package/journal_submission_files/supplementary_material/supplementary/table_s2_structural_metrics.csv",
+      "source_exists": true,
+      "staged_exists": true,
+      "source_sha256": "61abc1775edbbfe07864344c697819103e21a063e4c41e6f9a7e7acf6e0c407b",
+      "staged_sha256": "61abc1775edbbfe07864344c697819103e21a063e4c41e6f9a7e7acf6e0c407b",
+      "fresh": true
+    },
+    {
+      "group": "supplementary_material",
+      "source": "/Users/wangjian-macbook13/Library/CloudStorage/SynologyDrive-mac/论文相关/分数阶模型研究/project/papers/paper2_voxel_topology_clogging/supplementary/table_s3_resolution_and_status.csv",
+      "staged": "/Users/wangjian-macbook13/Library/CloudStorage/SynologyDrive-mac/论文相关/分数阶模型研究/project/papers/paper2_voxel_topology_clogging/submission_package/journal_submission_files/supplementary_material/supplementary/table_s3_resolution_and_status.csv",
+      "source_exists": true,
+      "staged_exists": true,
+      "source_sha256": "2b7ec9adb8e14924550e230557236c584c77ee43a74af0bed6c1cb39b33543d4",
+      "staged_sha256": "2b7ec9adb8e14924550e230557236c584c77ee43a74af0bed6c1cb39b33543d4",
+      "fresh": true
+    },
+    {
+      "group": "supplementary_material",
+      "source": "/Users/wangjian-macbook13/Library/CloudStorage/SynologyDrive-mac/论文相关/分数阶模型研究/project/papers/paper2_voxel_topology_clogging/supplementary/table_s4_mechanism_evidence_matrix.csv",
+      "staged": "/Users/wangjian-macbook13/Library/CloudStorage/SynologyDrive-mac/论文相关/分数阶模型研究/project/papers/paper2_voxel_topology_clogging/submission_package/journal_submission_files/supplementary_material/supplementary/table_s4_mechanism_evidence_matrix.csv",
+      "source_exists": true,
+      "staged_exists": true,
+      "source_sha256": "abea707001923ea864965c0bc269577458c164d6ec2d5a7d96dcab36a137a0e3",
+      "staged_sha256": "abea707001923ea864965c0bc269577458c164d6ec2d5a7d96dcab36a137a0e3",
+      "fresh": true
+    },
+    {
+      "group": "supplementary_material",
+      "source": "/Users/wangjian-macbook13/Library/CloudStorage/SynologyDrive-mac/论文相关/分数阶模型研究/project/papers/paper2_voxel_topology_clogging/supplementary/table_s5_literature_positioning_matrix.csv",
+      "staged": "/Users/wangjian-macbook13/Library/CloudStorage/SynologyDrive-mac/论文相关/分数阶模型研究/project/papers/paper2_voxel_topology_clogging/submission_package/journal_submission_files/supplementary_material/supplementary/table_s5_literature_positioning_matrix.csv",
+      "source_exists": true,
+      "staged_exists": true,
+      "source_sha256": "d8a114a266f33bc966be02cdaff26ef01c7aaf5dd074b185dca600c5c2c700e4",
+      "staged_sha256": "d8a114a266f33bc966be02cdaff26ef01c7aaf5dd074b185dca600c5c2c700e4",
+      "fresh": true
+    },
+    {
+      "group": "supplementary_material",
+      "source": "/Users/wangjian-macbook13/Library/CloudStorage/SynologyDrive-mac/论文相关/分数阶模型研究/project/papers/paper2_voxel_topology_clogging/supplementary/table_s6_pressure_proxy_summary.csv",
+      "staged": "/Users/wangjian-macbook13/Library/CloudStorage/SynologyDrive-mac/论文相关/分数阶模型研究/project/papers/paper2_voxel_topology_clogging/submission_package/journal_submission_files/supplementary_material/supplementary/table_s6_pressure_proxy_summary.csv",
+      "source_exists": true,
+      "staged_exists": true,
+      "source_sha256": "93eb3ea7a29c15a4cc4c3deacca5efdd71e69adb9f239be44f38cea084695b9d",
+      "staged_sha256": "93eb3ea7a29c15a4cc4c3deacca5efdd71e69adb9f239be44f38cea084695b9d",
+      "fresh": true
+    },
+    {
+      "group": "supplementary_material",
+      "source": "/Users/wangjian-macbook13/Library/CloudStorage/SynologyDrive-mac/论文相关/分数阶模型研究/project/papers/paper2_voxel_topology_clogging/supplementary/table_s7_voxel_pressure_pilot_summary.csv",
+      "staged": "/Users/wangjian-macbook13/Library/CloudStorage/SynologyDrive-mac/论文相关/分数阶模型研究/project/papers/paper2_voxel_topology_clogging/submission_package/journal_submission_files/supplementary_material/supplementary/table_s7_voxel_pressure_pilot_summary.csv",
+      "source_exists": true,
+      "staged_exists": true,
+      "source_sha256": "8ad8adac1af929d2f86fafc24db5b25c98b326dc11d5b3bfabf97e4f694a7b55",
+      "staged_sha256": "8ad8adac1af929d2f86fafc24db5b25c98b326dc11d5b3bfabf97e4f694a7b55",
+      "fresh": true
+    },
+    {
+      "group": "supplementary_material",
+      "source": "/Users/wangjian-macbook13/Library/CloudStorage/SynologyDrive-mac/论文相关/分数阶模型研究/project/papers/paper2_voxel_topology_clogging/supplementary/table_s8_cropped_flow_domain_manifest.csv",
+      "staged": "/Users/wangjian-macbook13/Library/CloudStorage/SynologyDrive-mac/论文相关/分数阶模型研究/project/papers/paper2_voxel_topology_clogging/submission_package/journal_submission_files/supplementary_material/supplementary/table_s8_cropped_flow_domain_manifest.csv",
+      "source_exists": true,
+      "staged_exists": true,
+      "source_sha256": "77ccd3661aa40b75c3099209582485f56577ec41f3b4b09606a3f015b6de8746",
+      "staged_sha256": "77ccd3661aa40b75c3099209582485f56577ec41f3b4b09606a3f015b6de8746",
+      "fresh": true
+    },
+    {
+      "group": "supplementary_material",
+      "source": "/Users/wangjian-macbook13/Library/CloudStorage/SynologyDrive-mac/论文相关/分数阶模型研究/project/papers/paper2_voxel_topology_clogging/supplementary/table_s9_cropped_flow_permeability_summary.csv",
+      "staged": "/Users/wangjian-macbook13/Library/CloudStorage/SynologyDrive-mac/论文相关/分数阶模型研究/project/papers/paper2_voxel_topology_clogging/submission_package/journal_submission_files/supplementary_material/supplementary/table_s9_cropped_flow_permeability_summary.csv",
+      "source_exists": true,
+      "staged_exists": true,
+      "source_sha256": "18e4f05d02649dc04a6e93c8ab42d21e6ba2ad2b994051f22f3f7722bf7f10ea",
+      "staged_sha256": "18e4f05d02649dc04a6e93c8ab42d21e6ba2ad2b994051f22f3f7722bf7f10ea",
+      "fresh": true
+    },
+    {
+      "group": "supplementary_material",
+      "source": "/Users/wangjian-macbook13/Library/CloudStorage/SynologyDrive-mac/论文相关/分数阶模型研究/project/papers/paper2_voxel_topology_clogging/notes/paper2_figure_package_audit.md",
+      "staged": "/Users/wangjian-macbook13/Library/CloudStorage/SynologyDrive-mac/论文相关/分数阶模型研究/project/papers/paper2_voxel_topology_clogging/submission_package/journal_submission_files/supplementary_material/paper2_figure_package_audit.md",
+      "source_exists": true,
+      "staged_exists": true,
+      "source_sha256": "6d1e4927b4001ec68e653d84e1d2e08337d3f654ac895e2b2c2404c8d14f04af",
+      "staged_sha256": "6d1e4927b4001ec68e653d84e1d2e08337d3f654ac895e2b2c2404c8d14f04af",
+      "fresh": true
+    },
+    {
+      "group": "supplementary_material",
+      "source": "/Users/wangjian-macbook13/Library/CloudStorage/SynologyDrive-mac/论文相关/分数阶模型研究/project/papers/paper2_voxel_topology_clogging/data/paper2_figure_package_audit.json",
+      "staged": "/Users/wangjian-macbook13/Library/CloudStorage/SynologyDrive-mac/论文相关/分数阶模型研究/project/papers/paper2_voxel_topology_clogging/submission_package/journal_submission_files/supplementary_material/paper2_figure_package_audit.json",
+      "source_exists": true,
+      "staged_exists": true,
+      "source_sha256": "184bcca23d7886612072363149954fec96cac80227d295d47c14fd076aea6e61",
+      "staged_sha256": "184bcca23d7886612072363149954fec96cac80227d295d47c14fd076aea6e61",
+      "fresh": true
+    },
+    {
+      "group": "supplementary_material",
+      "source": "/Users/wangjian-macbook13/Library/CloudStorage/SynologyDrive-mac/论文相关/分数阶模型研究/project/papers/paper2_voxel_topology_clogging/tables/paper2_figure_package_audit.csv",
+      "staged": "/Users/wangjian-macbook13/Library/CloudStorage/SynologyDrive-mac/论文相关/分数阶模型研究/project/papers/paper2_voxel_topology_clogging/submission_package/journal_submission_files/supplementary_material/paper2_figure_package_audit.csv",
+      "source_exists": true,
+      "staged_exists": true,
+      "source_sha256": "f7418145f4079bc5ab160b34e38151ca9a09cb002b4e0ba751b9bf1104cc2936",
+      "staged_sha256": "f7418145f4079bc5ab160b34e38151ca9a09cb002b4e0ba751b9bf1104cc2936",
+      "fresh": true
+    },
+    {
+      "group": "supplementary_material",
+      "source": "/Users/wangjian-macbook13/Library/CloudStorage/SynologyDrive-mac/论文相关/分数阶模型研究/project/papers/paper2_voxel_topology_clogging/notes/paper2_main_figure_order_audit.md",
+      "staged": "/Users/wangjian-macbook13/Library/CloudStorage/SynologyDrive-mac/论文相关/分数阶模型研究/project/papers/paper2_voxel_topology_clogging/submission_package/journal_submission_files/supplementary_material/paper2_main_figure_order_audit.md",
+      "source_exists": true,
+      "staged_exists": true,
+      "source_sha256": "9ecdfdda12e84fb62f99f47531416b32f598c5d95b7239c5040beff4e5ed66de",
+      "staged_sha256": "9ecdfdda12e84fb62f99f47531416b32f598c5d95b7239c5040beff4e5ed66de",
+      "fresh": true
+    },
+    {
+      "group": "supplementary_material",
+      "source": "/Users/wangjian-macbook13/Library/CloudStorage/SynologyDrive-mac/论文相关/分数阶模型研究/project/papers/paper2_voxel_topology_clogging/data/paper2_main_figure_order_audit.json",
+      "staged": "/Users/wangjian-macbook13/Library/CloudStorage/SynologyDrive-mac/论文相关/分数阶模型研究/project/papers/paper2_voxel_topology_clogging/submission_package/journal_submission_files/supplementary_material/paper2_main_figure_order_audit.json",
+      "source_exists": true,
+      "staged_exists": true,
+      "source_sha256": "c39be7d525acd56cfa96ef415707dcef5f2464884a2476f6e3ffd733d10f8451",
+      "staged_sha256": "c39be7d525acd56cfa96ef415707dcef5f2464884a2476f6e3ffd733d10f8451",
+      "fresh": true
+    },
+    {
+      "group": "supplementary_material",
+      "source": "/Users/wangjian-macbook13/Library/CloudStorage/SynologyDrive-mac/论文相关/分数阶模型研究/project/papers/paper2_voxel_topology_clogging/notes/paper2_latex_figure_layout_audit.md",
+      "staged": "/Users/wangjian-macbook13/Library/CloudStorage/SynologyDrive-mac/论文相关/分数阶模型研究/project/papers/paper2_voxel_topology_clogging/submission_package/journal_submission_files/supplementary_material/paper2_latex_figure_layout_audit.md",
+      "source_exists": true,
+      "staged_exists": true,
+      "source_sha256": "1d28c0909effea497e77a54d67cd6265829188d750730c1936eb9d59add99a41",
+      "staged_sha256": "1d28c0909effea497e77a54d67cd6265829188d750730c1936eb9d59add99a41",
+      "fresh": true
+    },
+    {
+      "group": "supplementary_material",
+      "source": "/Users/wangjian-macbook13/Library/CloudStorage/SynologyDrive-mac/论文相关/分数阶模型研究/project/papers/paper2_voxel_topology_clogging/data/paper2_latex_figure_layout_audit.json",
+      "staged": "/Users/wangjian-macbook13/Library/CloudStorage/SynologyDrive-mac/论文相关/分数阶模型研究/project/papers/paper2_voxel_topology_clogging/submission_package/journal_submission_files/supplementary_material/paper2_latex_figure_layout_audit.json",
+      "source_exists": true,
+      "staged_exists": true,
+      "source_sha256": "e4c9343e96a5756a91fabd6d36063bd71e636e64d7b3408ae29e3cd5850ba9bd",
+      "staged_sha256": "e4c9343e96a5756a91fabd6d36063bd71e636e64d7b3408ae29e3cd5850ba9bd",
+      "fresh": true
+    },
+    {
+      "group": "supplementary_material",
+      "source": "/Users/wangjian-macbook13/Library/CloudStorage/SynologyDrive-mac/论文相关/分数阶模型研究/project/papers/paper2_voxel_topology_clogging/notes/elsevier_portal_visual_consistency_audit.md",
+      "staged": "/Users/wangjian-macbook13/Library/CloudStorage/SynologyDrive-mac/论文相关/分数阶模型研究/project/papers/paper2_voxel_topology_clogging/submission_package/journal_submission_files/supplementary_material/elsevier_portal_visual_consistency_audit.md",
+      "source_exists": true,
+      "staged_exists": true,
+      "source_sha256": "97e96dd0e8223542730b3e19be09d27caff8004f31bcf77ca025d83acfba89b5",
+      "staged_sha256": "97e96dd0e8223542730b3e19be09d27caff8004f31bcf77ca025d83acfba89b5",
+      "fresh": true
+    },
+    {
+      "group": "supplementary_material",
+      "source": "/Users/wangjian-macbook13/Library/CloudStorage/SynologyDrive-mac/论文相关/分数阶模型研究/project/papers/paper2_voxel_topology_clogging/data/elsevier_portal_visual_consistency_audit.json",
+      "staged": "/Users/wangjian-macbook13/Library/CloudStorage/SynologyDrive-mac/论文相关/分数阶模型研究/project/papers/paper2_voxel_topology_clogging/submission_package/journal_submission_files/supplementary_material/elsevier_portal_visual_consistency_audit.json",
+      "source_exists": true,
+      "staged_exists": true,
+      "source_sha256": "1c811eda264294cc7bf937639fa02ca5372a083cdb35781962cf8ca1d3e2d7e2",
+      "staged_sha256": "1c811eda264294cc7bf937639fa02ca5372a083cdb35781962cf8ca1d3e2d7e2",
+      "fresh": true
+    },
+    {
+      "group": "supplementary_material",
+      "source": "/Users/wangjian-macbook13/Library/CloudStorage/SynologyDrive-mac/论文相关/分数阶模型研究/project/papers/paper2_voxel_topology_clogging/figures/paper2_figS1_voxel_size_sensitivity.pdf",
+      "staged": "/Users/wangjian-macbook13/Library/CloudStorage/SynologyDrive-mac/论文相关/分数阶模型研究/project/papers/paper2_voxel_topology_clogging/submission_package/journal_submission_files/supplementary_material/paper2_figS1_voxel_size_sensitivity.pdf",
+      "source_exists": true,
+      "staged_exists": true,
+      "source_sha256": "917bc945babfd4a6d7dfcd4233533a83772be705967a0170f968addfb8327b52",
+      "staged_sha256": "917bc945babfd4a6d7dfcd4233533a83772be705967a0170f968addfb8327b52",
+      "fresh": true
+    },
+    {
+      "group": "supplementary_material",
+      "source": "/Users/wangjian-macbook13/Library/CloudStorage/SynologyDrive-mac/论文相关/分数阶模型研究/project/papers/paper2_voxel_topology_clogging/figures/paper2_figS2_voxel_coarsening_stress_test.pdf",
+      "staged": "/Users/wangjian-macbook13/Library/CloudStorage/SynologyDrive-mac/论文相关/分数阶模型研究/project/papers/paper2_voxel_topology_clogging/submission_package/journal_submission_files/supplementary_material/paper2_figS2_voxel_coarsening_stress_test.pdf",
+      "source_exists": true,
+      "staged_exists": true,
+      "source_sha256": "56bd2fd838a5da580bbfeeecb37de32e86bf80caec89ac1031f3fb197a70b07d",
+      "staged_sha256": "56bd2fd838a5da580bbfeeecb37de32e86bf80caec89ac1031f3fb197a70b07d",
+      "fresh": true
+    },
+    {
+      "group": "supplementary_material",
+      "source": "/Users/wangjian-macbook13/Library/CloudStorage/SynologyDrive-mac/论文相关/分数阶模型研究/project/papers/paper2_voxel_topology_clogging/figures/paper2_figS3_ergun_pressure_proxy.pdf",
+      "staged": "/Users/wangjian-macbook13/Library/CloudStorage/SynologyDrive-mac/论文相关/分数阶模型研究/project/papers/paper2_voxel_topology_clogging/submission_package/journal_submission_files/supplementary_material/paper2_figS3_ergun_pressure_proxy.pdf",
+      "source_exists": true,
+      "staged_exists": true,
+      "source_sha256": "952ed1e1f6aee90746949f5dba5e44ff0f5e52c88d74c4a31d152221060a8992",
+      "staged_sha256": "952ed1e1f6aee90746949f5dba5e44ff0f5e52c88d74c4a31d152221060a8992",
+      "fresh": true
+    },
+    {
+      "group": "supplementary_material",
+      "source": "/Users/wangjian-macbook13/Library/CloudStorage/SynologyDrive-mac/论文相关/分数阶模型研究/project/papers/paper2_voxel_topology_clogging/figures/paper2_figS4_time_resolved_deposition.pdf",
+      "staged": "/Users/wangjian-macbook13/Library/CloudStorage/SynologyDrive-mac/论文相关/分数阶模型研究/project/papers/paper2_voxel_topology_clogging/submission_package/journal_submission_files/supplementary_material/paper2_figS4_time_resolved_deposition.pdf",
+      "source_exists": true,
+      "staged_exists": true,
+      "source_sha256": "983d9ec4c4ccdc71b28623cf15a69b0c1bde7bcc2259f4472b75ab71354ef433",
+      "staged_sha256": "983d9ec4c4ccdc71b28623cf15a69b0c1bde7bcc2259f4472b75ab71354ef433",
+      "fresh": true
+    },
+    {
+      "group": "supplementary_material",
+      "source": "/Users/wangjian-macbook13/Library/CloudStorage/SynologyDrive-mac/论文相关/分数阶模型研究/project/papers/paper2_voxel_topology_clogging/figures/paper2_figS5_front_migration_metrics.pdf",
+      "staged": "/Users/wangjian-macbook13/Library/CloudStorage/SynologyDrive-mac/论文相关/分数阶模型研究/project/papers/paper2_voxel_topology_clogging/submission_package/journal_submission_files/supplementary_material/paper2_figS5_front_migration_metrics.pdf",
+      "source_exists": true,
+      "staged_exists": true,
+      "source_sha256": "50a37552070257308a5aebf941ebeb407f5765e22c8ce9f23f146c20e12af67f",
+      "staged_sha256": "50a37552070257308a5aebf941ebeb407f5765e22c8ce9f23f146c20e12af67f",
+      "fresh": true
+    },
+    {
+      "group": "supplementary_material",
+      "source": "/Users/wangjian-macbook13/Library/CloudStorage/SynologyDrive-mac/论文相关/分数阶模型研究/project/papers/paper2_voxel_topology_clogging/figures/paper2_figS8_explicit_localized_production_summary.pdf",
+      "staged": "/Users/wangjian-macbook13/Library/CloudStorage/SynologyDrive-mac/论文相关/分数阶模型研究/project/papers/paper2_voxel_topology_clogging/submission_package/journal_submission_files/supplementary_material/paper2_figS8_explicit_localized_production_summary.pdf",
+      "source_exists": true,
+      "staged_exists": true,
+      "source_sha256": "a596c9d8f066db1e44ab51f8ae2b8fdcc778eb85453095c5990eacdb05c1c9f6",
+      "staged_sha256": "a596c9d8f066db1e44ab51f8ae2b8fdcc778eb85453095c5990eacdb05c1c9f6",
+      "fresh": true
+    },
+    {
+      "group": "supplementary_material",
+      "source": "/Users/wangjian-macbook13/Library/CloudStorage/SynologyDrive-mac/论文相关/分数阶模型研究/project/papers/paper2_voxel_topology_clogging/figures/paper2_figS9_907_tail_capture_mechanism.pdf",
+      "staged": "/Users/wangjian-macbook13/Library/CloudStorage/SynologyDrive-mac/论文相关/分数阶模型研究/project/papers/paper2_voxel_topology_clogging/submission_package/journal_submission_files/supplementary_material/paper2_figS9_907_tail_capture_mechanism.pdf",
+      "source_exists": true,
+      "staged_exists": true,
+      "source_sha256": "6a702b59e9e1308c0307c712c53066cf568d670dc5a546be2461adcf7ff1383e",
+      "staged_sha256": "6a702b59e9e1308c0307c712c53066cf568d670dc5a546be2461adcf7ff1383e",
+      "fresh": true
+    },
+    {
+      "group": "supplementary_material",
+      "source": "/Users/wangjian-macbook13/Library/CloudStorage/SynologyDrive-mac/论文相关/分数阶模型研究/project/papers/paper2_voxel_topology_clogging/figures/paper2_figS10_source_position_comparison.pdf",
+      "staged": "/Users/wangjian-macbook13/Library/CloudStorage/SynologyDrive-mac/论文相关/分数阶模型研究/project/papers/paper2_voxel_topology_clogging/submission_package/journal_submission_files/supplementary_material/paper2_figS10_source_position_comparison.pdf",
+      "source_exists": true,
+      "staged_exists": true,
+      "source_sha256": "22e42889d8bcb161f027807e937f54fbca8c40cf95eb67b42885cb187b01145f",
+      "staged_sha256": "22e42889d8bcb161f027807e937f54fbca8c40cf95eb67b42885cb187b01145f",
+      "fresh": true
+    },
+    {
+      "group": "supplementary_material",
+      "source": "/Users/wangjian-macbook13/Library/CloudStorage/SynologyDrive-mac/论文相关/分数阶模型研究/project/papers/paper2_voxel_topology_clogging/figures/paper2_figS11_mechanism_evidence_map.pdf",
+      "staged": "/Users/wangjian-macbook13/Library/CloudStorage/SynologyDrive-mac/论文相关/分数阶模型研究/project/papers/paper2_voxel_topology_clogging/submission_package/journal_submission_files/supplementary_material/paper2_figS11_mechanism_evidence_map.pdf",
+      "source_exists": true,
+      "staged_exists": true,
+      "source_sha256": "91f33e8d108c680200ffa4cfa2ecc2ea6629311dcb23af70d52ba14db944030d",
+      "staged_sha256": "91f33e8d108c680200ffa4cfa2ecc2ea6629311dcb23af70d52ba14db944030d",
+      "fresh": true
+    },
+    {
+      "group": "supplementary_material",
+      "source": "/Users/wangjian-macbook13/Library/CloudStorage/SynologyDrive-mac/论文相关/分数阶模型研究/project/papers/paper2_voxel_topology_clogging/figures/paper2_figS12_voxel_pressure_pilot.pdf",
+      "staged": "/Users/wangjian-macbook13/Library/CloudStorage/SynologyDrive-mac/论文相关/分数阶模型研究/project/papers/paper2_voxel_topology_clogging/submission_package/journal_submission_files/supplementary_material/paper2_figS12_voxel_pressure_pilot.pdf",
+      "source_exists": true,
+      "staged_exists": true,
+      "source_sha256": "e79cfba1384c9f0ac1d44a8b4cd43426059d5f9ccdadafc1493550636bd65cf0",
+      "staged_sha256": "e79cfba1384c9f0ac1d44a8b4cd43426059d5f9ccdadafc1493550636bd65cf0",
+      "fresh": true
+    },
+    {
+      "group": "supplementary_material",
+      "source": "/Users/wangjian-macbook13/Library/CloudStorage/SynologyDrive-mac/论文相关/分数阶模型研究/project/papers/paper2_voxel_topology_clogging/figures/paper2_figS13_cropped_flow_domains.pdf",
+      "staged": "/Users/wangjian-macbook13/Library/CloudStorage/SynologyDrive-mac/论文相关/分数阶模型研究/project/papers/paper2_voxel_topology_clogging/submission_package/journal_submission_files/supplementary_material/paper2_figS13_cropped_flow_domains.pdf",
+      "source_exists": true,
+      "staged_exists": true,
+      "source_sha256": "2be0686c81f8d44bef4fbbec42a8a35c2d7ac0ff08daa8d14bb8f66297ae67b6",
+      "staged_sha256": "2be0686c81f8d44bef4fbbec42a8a35c2d7ac0ff08daa8d14bb8f66297ae67b6",
+      "fresh": true
+    },
+    {
+      "group": "supplementary_material",
+      "source": "/Users/wangjian-macbook13/Library/CloudStorage/SynologyDrive-mac/论文相关/分数阶模型研究/project/papers/paper2_voxel_topology_clogging/figures/paper2_figS14_cropped_flow_permeability.pdf",
+      "staged": "/Users/wangjian-macbook13/Library/CloudStorage/SynologyDrive-mac/论文相关/分数阶模型研究/project/papers/paper2_voxel_topology_clogging/submission_package/journal_submission_files/supplementary_material/paper2_figS14_cropped_flow_permeability.pdf",
+      "source_exists": true,
+      "staged_exists": true,
+      "source_sha256": "365506b0dfdde6db3aadb756530b586233c814fe3475fe986ead2e921bb82a6e",
+      "staged_sha256": "365506b0dfdde6db3aadb756530b586233c814fe3475fe986ead2e921bb82a6e",
+      "fresh": true
+    },
+    {
+      "group": "supplementary_material",
+      "source": "/Users/wangjian-macbook13/Library/CloudStorage/SynologyDrive-mac/论文相关/分数阶模型研究/project/papers/paper2_voxel_topology_clogging/figures/paper2_figS15_cropped_flow_permeability_sensitivity.pdf",
+      "staged": "/Users/wangjian-macbook13/Library/CloudStorage/SynologyDrive-mac/论文相关/分数阶模型研究/project/papers/paper2_voxel_topology_clogging/submission_package/journal_submission_files/supplementary_material/paper2_figS15_cropped_flow_permeability_sensitivity.pdf",
+      "source_exists": true,
+      "staged_exists": true,
+      "source_sha256": "4db6d575608a1aa092f8c8a9d49e38ee33cbc97998378ae4905687b0c9075c89",
+      "staged_sha256": "4db6d575608a1aa092f8c8a9d49e38ee33cbc97998378ae4905687b0c9075c89",
+      "fresh": true
+    },
+    {
+      "group": "supplementary_material",
+      "source": "/Users/wangjian-macbook13/Library/CloudStorage/SynologyDrive-mac/论文相关/分数阶模型研究/project/papers/paper2_voxel_topology_clogging/figures/paper2_figS16_dimensionless_mechanism_map.pdf",
+      "staged": "/Users/wangjian-macbook13/Library/CloudStorage/SynologyDrive-mac/论文相关/分数阶模型研究/project/papers/paper2_voxel_topology_clogging/submission_package/journal_submission_files/supplementary_material/paper2_figS16_dimensionless_mechanism_map.pdf",
+      "source_exists": true,
+      "staged_exists": true,
+      "source_sha256": "51cf01444e3c0db2611985bf61d9f8a73e4107b090f71c987aa2d20a162afa66",
+      "staged_sha256": "51cf01444e3c0db2611985bf61d9f8a73e4107b090f71c987aa2d20a162afa66",
+      "fresh": true
+    },
+    {
+      "group": "supplementary_material",
+      "source": "/Users/wangjian-macbook13/Library/CloudStorage/SynologyDrive-mac/论文相关/分数阶模型研究/project/papers/paper2_voxel_topology_clogging/figures/paper2_figS17_near_threshold_repeat_seed_status.pdf",
+      "staged": "/Users/wangjian-macbook13/Library/CloudStorage/SynologyDrive-mac/论文相关/分数阶模型研究/project/papers/paper2_voxel_topology_clogging/submission_package/journal_submission_files/supplementary_material/paper2_figS17_near_threshold_repeat_seed_status.pdf",
+      "source_exists": true,
+      "staged_exists": true,
+      "source_sha256": "4030880de4d4735cd27b0f3ec23418b84e26bf63d6cf4df1065d0941a3a97b57",
+      "staged_sha256": "4030880de4d4735cd27b0f3ec23418b84e26bf63d6cf4df1065d0941a3a97b57",
+      "fresh": true
+    },
+    {
+      "group": "supplementary_material",
+      "source": "/Users/wangjian-macbook13/Library/CloudStorage/SynologyDrive-mac/论文相关/分数阶模型研究/project/papers/paper2_voxel_topology_clogging/figures/paper2_figS18_subvoxel_hydraulic_evidence.pdf",
+      "staged": "/Users/wangjian-macbook13/Library/CloudStorage/SynologyDrive-mac/论文相关/分数阶模型研究/project/papers/paper2_voxel_topology_clogging/submission_package/journal_submission_files/supplementary_material/paper2_figS18_subvoxel_hydraulic_evidence.pdf",
+      "source_exists": true,
+      "staged_exists": true,
+      "source_sha256": "4fb4f2a5dee3568bc6784886795701849d6744fe3011a993b6eb82679e94bef6",
+      "staged_sha256": "4fb4f2a5dee3568bc6784886795701849d6744fe3011a993b6eb82679e94bef6",
+      "fresh": true
+    },
+    {
+      "group": "supplementary_material",
+      "source": "/Users/wangjian-macbook13/Library/CloudStorage/SynologyDrive-mac/论文相关/分数阶模型研究/project/papers/paper2_voxel_topology_clogging/figures/paper2_figS19_localized_mechanism_axes.pdf",
+      "staged": "/Users/wangjian-macbook13/Library/CloudStorage/SynologyDrive-mac/论文相关/分数阶模型研究/project/papers/paper2_voxel_topology_clogging/submission_package/journal_submission_files/supplementary_material/paper2_figS19_localized_mechanism_axes.pdf",
+      "source_exists": true,
+      "staged_exists": true,
+      "source_sha256": "021408a279c3ff1ae69fc6ccb1449d4ee0b3464d210cc6ff6c20b0448720a1ea",
+      "staged_sha256": "021408a279c3ff1ae69fc6ccb1449d4ee0b3464d210cc6ff6c20b0448720a1ea",
+      "fresh": true
+    },
+    {
+      "group": "supplementary_material",
+      "source": "/Users/wangjian-macbook13/Library/CloudStorage/SynologyDrive-mac/论文相关/分数阶模型研究/project/papers/paper2_voxel_topology_clogging/figures/paper2_figS20_mechanistic_decoupling_matrix.pdf",
+      "staged": "/Users/wangjian-macbook13/Library/CloudStorage/SynologyDrive-mac/论文相关/分数阶模型研究/project/papers/paper2_voxel_topology_clogging/submission_package/journal_submission_files/supplementary_material/paper2_figS20_mechanistic_decoupling_matrix.pdf",
+      "source_exists": true,
+      "staged_exists": true,
+      "source_sha256": "30c462295ccb6892528a87aac1c1df42a32c66ecfcfe5c05d38bcc5e9ce455ba",
+      "staged_sha256": "30c462295ccb6892528a87aac1c1df42a32c66ecfcfe5c05d38bcc5e9ce455ba",
+      "fresh": true
+    },
+    {
+      "group": "supplementary_material",
+      "source": "/Users/wangjian-macbook13/Library/CloudStorage/SynologyDrive-mac/论文相关/分数阶模型研究/project/papers/paper2_voxel_topology_clogging/figures/paper2_figS21_observable_response_map.pdf",
+      "staged": "/Users/wangjian-macbook13/Library/CloudStorage/SynologyDrive-mac/论文相关/分数阶模型研究/project/papers/paper2_voxel_topology_clogging/submission_package/journal_submission_files/supplementary_material/paper2_figS21_observable_response_map.pdf",
+      "source_exists": true,
+      "staged_exists": true,
+      "source_sha256": "f3e045b655bd6041d27af6423e1b199d898d18104797ec37fd78d1861f29339e",
+      "staged_sha256": "f3e045b655bd6041d27af6423e1b199d898d18104797ec37fd78d1861f29339e",
+      "fresh": true
+    },
+    {
+      "group": "supplementary_material",
+      "source": "/Users/wangjian-macbook13/Library/CloudStorage/SynologyDrive-mac/论文相关/分数阶模型研究/project/papers/paper2_voxel_topology_clogging/figures/paper2_figS22_3d_resistance_amplification_sensitivity.pdf",
+      "staged": "/Users/wangjian-macbook13/Library/CloudStorage/SynologyDrive-mac/论文相关/分数阶模型研究/project/papers/paper2_voxel_topology_clogging/submission_package/journal_submission_files/supplementary_material/paper2_figS22_3d_resistance_amplification_sensitivity.pdf",
+      "source_exists": true,
+      "staged_exists": true,
+      "source_sha256": "6427b0b2c49b3129fae519b99f1128e7cd262112fc78c12725972a52b5b637fe",
+      "staged_sha256": "6427b0b2c49b3129fae519b99f1128e7cd262112fc78c12725972a52b5b637fe",
+      "fresh": true
+    },
+    {
+      "group": "supplementary_material",
+      "source": "/Users/wangjian-macbook13/Library/CloudStorage/SynologyDrive-mac/论文相关/分数阶模型研究/project/papers/paper2_voxel_topology_clogging/figures/paper2_figS23_openfoam_pressure_evidence.pdf",
+      "staged": "/Users/wangjian-macbook13/Library/CloudStorage/SynologyDrive-mac/论文相关/分数阶模型研究/project/papers/paper2_voxel_topology_clogging/submission_package/journal_submission_files/supplementary_material/paper2_figS23_openfoam_pressure_evidence.pdf",
+      "source_exists": true,
+      "staged_exists": true,
+      "source_sha256": "4f15aa5f86206900d2a5f6d0f9b163e975add9ae90ee7a2f0d60407884732a1b",
+      "staged_sha256": "4f15aa5f86206900d2a5f6d0f9b163e975add9ae90ee7a2f0d60407884732a1b",
+      "fresh": true
+    },
+    {
+      "group": "supplementary_material",
+      "source": "/Users/wangjian-macbook13/Library/CloudStorage/SynologyDrive-mac/论文相关/分数阶模型研究/project/papers/paper2_voxel_topology_clogging/figures/paper2_figS24_openfoam_model_mesh.pdf",
+      "staged": "/Users/wangjian-macbook13/Library/CloudStorage/SynologyDrive-mac/论文相关/分数阶模型研究/project/papers/paper2_voxel_topology_clogging/submission_package/journal_submission_files/supplementary_material/paper2_figS24_openfoam_model_mesh.pdf",
+      "source_exists": true,
+      "staged_exists": true,
+      "source_sha256": "edf91713d8bd3c022af69c5d8e2ecb48b9981d90ff1528cd2f77957f4020cde4",
+      "staged_sha256": "edf91713d8bd3c022af69c5d8e2ecb48b9981d90ff1528cd2f77957f4020cde4",
+      "fresh": true
+    },
+    {
+      "group": "supplementary_material",
+      "source": "/Users/wangjian-macbook13/Library/CloudStorage/SynologyDrive-mac/论文相关/分数阶模型研究/project/papers/paper2_voxel_topology_clogging/figures/paper2_figS25_parameter_evidence_coverage.pdf",
+      "staged": "/Users/wangjian-macbook13/Library/CloudStorage/SynologyDrive-mac/论文相关/分数阶模型研究/project/papers/paper2_voxel_topology_clogging/submission_package/journal_submission_files/supplementary_material/paper2_figS25_parameter_evidence_coverage.pdf",
+      "source_exists": true,
+      "staged_exists": true,
+      "source_sha256": "15012b26c7aece9cf867c086eac9142aecb6cb39b9fe42104b9a5e2162dab1a8",
+      "staged_sha256": "15012b26c7aece9cf867c086eac9142aecb6cb39b9fe42104b9a5e2162dab1a8",
+      "fresh": true
+    },
+    {
+      "group": "supplementary_material",
+      "source": "/Users/wangjian-macbook13/Library/CloudStorage/SynologyDrive-mac/论文相关/分数阶模型研究/project/papers/paper2_voxel_topology_clogging/figures/paper2_figS26_openfoam_case_matrix.pdf",
+      "staged": "/Users/wangjian-macbook13/Library/CloudStorage/SynologyDrive-mac/论文相关/分数阶模型研究/project/papers/paper2_voxel_topology_clogging/submission_package/journal_submission_files/supplementary_material/paper2_figS26_openfoam_case_matrix.pdf",
+      "source_exists": true,
+      "staged_exists": true,
+      "source_sha256": "2b8f4869f5db9e93f985ad7f011d1fdd3222e0a541b6d8645e7a7ff3ba75cd07",
+      "staged_sha256": "2b8f4869f5db9e93f985ad7f011d1fdd3222e0a541b6d8645e7a7ff3ba75cd07",
+      "fresh": true
+    },
+    {
+      "group": "supplementary_material",
+      "source": "/Users/wangjian-macbook13/Library/CloudStorage/SynologyDrive-mac/论文相关/分数阶模型研究/project/papers/paper2_voxel_topology_clogging/figures/paper2_figS27_deep_mechanism_mining.pdf",
+      "staged": "/Users/wangjian-macbook13/Library/CloudStorage/SynologyDrive-mac/论文相关/分数阶模型研究/project/papers/paper2_voxel_topology_clogging/submission_package/journal_submission_files/supplementary_material/paper2_figS27_deep_mechanism_mining.pdf",
+      "source_exists": true,
+      "staged_exists": true,
+      "source_sha256": "da40e555081d2a8313e2db2047104453cc448c95d60670140c0a47bb2e460ed4",
+      "staged_sha256": "da40e555081d2a8313e2db2047104453cc448c95d60670140c0a47bb2e460ed4",
+      "fresh": true
+    },
+    {
+      "group": "supplementary_material",
+      "source": "/Users/wangjian-macbook13/Library/CloudStorage/SynologyDrive-mac/论文相关/分数阶模型研究/project/papers/paper2_voxel_topology_clogging/figures/paper2_figS28_tail_lag_mechanism_mining.pdf",
+      "staged": "/Users/wangjian-macbook13/Library/CloudStorage/SynologyDrive-mac/论文相关/分数阶模型研究/project/papers/paper2_voxel_topology_clogging/submission_package/journal_submission_files/supplementary_material/paper2_figS28_tail_lag_mechanism_mining.pdf",
+      "source_exists": true,
+      "staged_exists": true,
+      "source_sha256": "fd2336c63518c3c939b030f0a8a960b5ef085e24c9ca4f6c115d0b9a2741c585",
+      "staged_sha256": "fd2336c63518c3c939b030f0a8a960b5ef085e24c9ca4f6c115d0b9a2741c585",
+      "fresh": true
+    },
+    {
+      "group": "supplementary_material",
+      "source": "/Users/wangjian-macbook13/Library/CloudStorage/SynologyDrive-mac/论文相关/分数阶模型研究/project/papers/paper2_voxel_topology_clogging/figures/paper2_figS29_deposition_heterogeneity_mining.pdf",
+      "staged": "/Users/wangjian-macbook13/Library/CloudStorage/SynologyDrive-mac/论文相关/分数阶模型研究/project/papers/paper2_voxel_topology_clogging/submission_package/journal_submission_files/supplementary_material/paper2_figS29_deposition_heterogeneity_mining.pdf",
+      "source_exists": true,
+      "staged_exists": true,
+      "source_sha256": "d3fdf91db2a7803a7e9acc750990d7a4437baaf768bea68731249039348e7103",
+      "staged_sha256": "d3fdf91db2a7803a7e9acc750990d7a4437baaf768bea68731249039348e7103",
+      "fresh": true
+    },
+    {
+      "group": "cover_and_declarations",
+      "source": "/Users/wangjian-macbook13/Library/CloudStorage/SynologyDrive-mac/论文相关/分数阶模型研究/project/papers/paper2_voxel_topology_clogging/submission/cover_letter_draft.md",
+      "staged": "/Users/wangjian-macbook13/Library/CloudStorage/SynologyDrive-mac/论文相关/分数阶模型研究/project/papers/paper2_voxel_topology_clogging/submission_package/journal_submission_files/cover_and_declarations/cover_letter_draft.md",
+      "source_exists": true,
+      "staged_exists": true,
+      "source_sha256": "0961874e77aff7684cb4e80cd4e43039baacdf6ebf0ecf6bd6f8bbb4e505eeb5",
+      "staged_sha256": "0961874e77aff7684cb4e80cd4e43039baacdf6ebf0ecf6bd6f8bbb4e505eeb5",
+      "fresh": true
+    },
+    {
+      "group": "cover_and_declarations",
+      "source": "/Users/wangjian-macbook13/Library/CloudStorage/SynologyDrive-mac/论文相关/分数阶模型研究/project/papers/paper2_voxel_topology_clogging/submission/ces_novelty_statement.md",
+      "staged": "/Users/wangjian-macbook13/Library/CloudStorage/SynologyDrive-mac/论文相关/分数阶模型研究/project/papers/paper2_voxel_topology_clogging/submission_package/journal_submission_files/cover_and_declarations/ces_novelty_statement.md",
+      "source_exists": true,
+      "staged_exists": true,
+      "source_sha256": "c26f4d85a59d66f166e4878aeca38009d28ac694aae0c42b49a7e8855b68b666",
+      "staged_sha256": "c26f4d85a59d66f166e4878aeca38009d28ac694aae0c42b49a7e8855b68b666",
+      "fresh": true
+    },
+    {
+      "group": "cover_and_declarations",
+      "source": "/Users/wangjian-macbook13/Library/CloudStorage/SynologyDrive-mac/论文相关/分数阶模型研究/project/papers/paper2_voxel_topology_clogging/submission/claim_boundary_statement.md",
+      "staged": "/Users/wangjian-macbook13/Library/CloudStorage/SynologyDrive-mac/论文相关/分数阶模型研究/project/papers/paper2_voxel_topology_clogging/submission_package/journal_submission_files/cover_and_declarations/claim_boundary_statement.md",
+      "source_exists": true,
+      "staged_exists": true,
+      "source_sha256": "fcfaa17ff88c046afab51c8586edc282c23768a7af34cc928deeee284cc51419",
+      "staged_sha256": "fcfaa17ff88c046afab51c8586edc282c23768a7af34cc928deeee284cc51419",
+      "fresh": true
+    },
+    {
+      "group": "cover_and_declarations",
+      "source": "/Users/wangjian-macbook13/Library/CloudStorage/SynologyDrive-mac/论文相关/分数阶模型研究/project/papers/paper2_voxel_topology_clogging/submission/submission_checklist.md",
+      "staged": "/Users/wangjian-macbook13/Library/CloudStorage/SynologyDrive-mac/论文相关/分数阶模型研究/project/papers/paper2_voxel_topology_clogging/submission_package/journal_submission_files/cover_and_declarations/submission_checklist.md",
+      "source_exists": true,
+      "staged_exists": true,
+      "source_sha256": "b871482fdb52ec42b59cf7cc9cb1e2fd1b0a16c78d317eaf8a2b52262745697e",
+      "staged_sha256": "b871482fdb52ec42b59cf7cc9cb1e2fd1b0a16c78d317eaf8a2b52262745697e",
+      "fresh": true
+    },
+    {
+      "group": "cover_and_declarations",
+      "source": "/Users/wangjian-macbook13/Library/CloudStorage/SynologyDrive-mac/论文相关/分数阶模型研究/project/papers/paper2_voxel_topology_clogging/submission/submission_metadata_template.md",
+      "staged": "/Users/wangjian-macbook13/Library/CloudStorage/SynologyDrive-mac/论文相关/分数阶模型研究/project/papers/paper2_voxel_topology_clogging/submission_package/journal_submission_files/cover_and_declarations/submission_metadata_template.md",
+      "source_exists": true,
+      "staged_exists": true,
+      "source_sha256": "d6780835968e5a37819fbf61c5273757a05740b34571c8e522552fff392aada2",
+      "staged_sha256": "d6780835968e5a37819fbf61c5273757a05740b34571c8e522552fff392aada2",
+      "fresh": true
+    },
+    {
+      "group": "cover_and_declarations",
+      "source": "/Users/wangjian-macbook13/Library/CloudStorage/SynologyDrive-mac/论文相关/分数阶模型研究/project/papers/paper2_voxel_topology_clogging/submission/author_declarations_checklist.md",
+      "staged": "/Users/wangjian-macbook13/Library/CloudStorage/SynologyDrive-mac/论文相关/分数阶模型研究/project/papers/paper2_voxel_topology_clogging/submission_package/journal_submission_files/cover_and_declarations/author_declarations_checklist.md",
+      "source_exists": true,
+      "staged_exists": true,
+      "source_sha256": "443af9d6c3c0258d7576dbc269fb13b1c1082194aa139543898875b1f37bf5d3",
+      "staged_sha256": "443af9d6c3c0258d7576dbc269fb13b1c1082194aa139543898875b1f37bf5d3",
+      "fresh": true
+    },
+    {
+      "group": "cover_and_declarations",
+      "source": "/Users/wangjian-macbook13/Library/CloudStorage/SynologyDrive-mac/论文相关/分数阶模型研究/project/papers/paper2_voxel_topology_clogging/submission/author_confirmation_sheet.md",
+      "staged": "/Users/wangjian-macbook13/Library/CloudStorage/SynologyDrive-mac/论文相关/分数阶模型研究/project/papers/paper2_voxel_topology_clogging/submission_package/journal_submission_files/cover_and_declarations/author_confirmation_sheet.md",
+      "source_exists": true,
+      "staged_exists": true,
+      "source_sha256": "35d7a1ab9fca84bb6d9d0b313c8e5eb051444cb34298db49fe4555b5d7988faa",
+      "staged_sha256": "35d7a1ab9fca84bb6d9d0b313c8e5eb051444cb34298db49fe4555b5d7988faa",
+      "fresh": true
+    },
+    {
+      "group": "cover_and_declarations",
+      "source": "/Users/wangjian-macbook13/Library/CloudStorage/SynologyDrive-mac/论文相关/分数阶模型研究/project/papers/paper2_voxel_topology_clogging/submission/author_confirmation_request.md",
+      "staged": "/Users/wangjian-macbook13/Library/CloudStorage/SynologyDrive-mac/论文相关/分数阶模型研究/project/papers/paper2_voxel_topology_clogging/submission_package/journal_submission_files/cover_and_declarations/author_confirmation_request.md",
+      "source_exists": true,
+      "staged_exists": true,
+      "source_sha256": "867d5bffe63d4b81c14dd7fff2178e9b02419cd7e6704c79adf096c8c37e6398",
+      "staged_sha256": "867d5bffe63d4b81c14dd7fff2178e9b02419cd7e6704c79adf096c8c37e6398",
+      "fresh": true
+    },
+    {
+      "group": "cover_and_declarations",
+      "source": "/Users/wangjian-macbook13/Library/CloudStorage/SynologyDrive-mac/论文相关/分数阶模型研究/project/papers/paper2_voxel_topology_clogging/submission/author_confirmation_request.json",
+      "staged": "/Users/wangjian-macbook13/Library/CloudStorage/SynologyDrive-mac/论文相关/分数阶模型研究/project/papers/paper2_voxel_topology_clogging/submission_package/journal_submission_files/cover_and_declarations/author_confirmation_request.json",
+      "source_exists": true,
+      "staged_exists": true,
+      "source_sha256": "2d49bf416ae0e9aba12afa42c1c26b5529183f9be54ad1e68528a852d8c16cd1",
+      "staged_sha256": "2d49bf416ae0e9aba12afa42c1c26b5529183f9be54ad1e68528a852d8c16cd1",
+      "fresh": true
+    },
+    {
+      "group": "cover_and_declarations",
+      "source": "/Users/wangjian-macbook13/Library/CloudStorage/SynologyDrive-mac/论文相关/分数阶模型研究/project/papers/paper2_voxel_topology_clogging/submission/author_confirmation_email_zh_en.md",
+      "staged": "/Users/wangjian-macbook13/Library/CloudStorage/SynologyDrive-mac/论文相关/分数阶模型研究/project/papers/paper2_voxel_topology_clogging/submission_package/journal_submission_files/cover_and_declarations/author_confirmation_email_zh_en.md",
+      "source_exists": true,
+      "staged_exists": true,
+      "source_sha256": "3f048ccd81e52fcefbe63bb206e1fad8abc47b0c716e6254a074c4150bf0dc15",
+      "staged_sha256": "3f048ccd81e52fcefbe63bb206e1fad8abc47b0c716e6254a074c4150bf0dc15",
+      "fresh": true
+    },
+    {
+      "group": "cover_and_declarations",
+      "source": "/Users/wangjian-macbook13/Library/CloudStorage/SynologyDrive-mac/论文相关/分数阶模型研究/project/papers/paper2_voxel_topology_clogging/submission/reviewer_precheck.md",
+      "staged": "/Users/wangjian-macbook13/Library/CloudStorage/SynologyDrive-mac/论文相关/分数阶模型研究/project/papers/paper2_voxel_topology_clogging/submission_package/journal_submission_files/cover_and_declarations/reviewer_precheck.md",
+      "source_exists": true,
+      "staged_exists": true,
+      "source_sha256": "6654df8446c3c091e3d2064e4ef80be861853805d82a23d684c7a98d0ebbbdc6",
+      "staged_sha256": "6654df8446c3c091e3d2064e4ef80be861853805d82a23d684c7a98d0ebbbdc6",
+      "fresh": true
+    },
+    {
+      "group": "cover_and_declarations",
+      "source": "/Users/wangjian-macbook13/Library/CloudStorage/SynologyDrive-mac/论文相关/分数阶模型研究/project/papers/paper2_voxel_topology_clogging/submission/reviewer_precheck.json",
+      "staged": "/Users/wangjian-macbook13/Library/CloudStorage/SynologyDrive-mac/论文相关/分数阶模型研究/project/papers/paper2_voxel_topology_clogging/submission_package/journal_submission_files/cover_and_declarations/reviewer_precheck.json",
+      "source_exists": true,
+      "staged_exists": true,
+      "source_sha256": "8fdbf1012cf0bedf382fb2dc678aea560f57329d04577c1a485ed6319b012844",
+      "staged_sha256": "8fdbf1012cf0bedf382fb2dc678aea560f57329d04577c1a485ed6319b012844",
+      "fresh": true
+    },
+    {
+      "group": "cover_and_declarations",
+      "source": "/Users/wangjian-macbook13/Library/CloudStorage/SynologyDrive-mac/论文相关/分数阶模型研究/project/papers/paper2_voxel_topology_clogging/submission/submission_metadata_gaps.json",
+      "staged": "/Users/wangjian-macbook13/Library/CloudStorage/SynologyDrive-mac/论文相关/分数阶模型研究/project/papers/paper2_voxel_topology_clogging/submission_package/journal_submission_files/cover_and_declarations/submission_metadata_gaps.json",
+      "source_exists": true,
+      "staged_exists": true,
+      "source_sha256": "50d0712f2e9ce6be9f74cd12dc64dd4d7ef60ac13017e1e356c1e5420b390ecb",
+      "staged_sha256": "50d0712f2e9ce6be9f74cd12dc64dd4d7ef60ac13017e1e356c1e5420b390ecb",
+      "fresh": true
+    },
+    {
+      "group": "cover_and_declarations",
+      "source": "/Users/wangjian-macbook13/Library/CloudStorage/SynologyDrive-mac/论文相关/分数阶模型研究/project/papers/paper2_voxel_topology_clogging/submission/front_matter_audit.json",
+      "staged": "/Users/wangjian-macbook13/Library/CloudStorage/SynologyDrive-mac/论文相关/分数阶模型研究/project/papers/paper2_voxel_topology_clogging/submission_package/journal_submission_files/cover_and_declarations/front_matter_audit.json",
+      "source_exists": true,
+      "staged_exists": true,
+      "source_sha256": "14a4bd71145778ae3c7cd0a807cb8965bf2765c83689c56890134c4037db2388",
+      "staged_sha256": "14a4bd71145778ae3c7cd0a807cb8965bf2765c83689c56890134c4037db2388",
+      "fresh": true
+    },
+    {
+      "group": "cover_and_declarations",
+      "source": "/Users/wangjian-macbook13/Library/CloudStorage/SynologyDrive-mac/论文相关/分数阶模型研究/project/papers/paper2_voxel_topology_clogging/submission/front_matter_audit.md",
+      "staged": "/Users/wangjian-macbook13/Library/CloudStorage/SynologyDrive-mac/论文相关/分数阶模型研究/project/papers/paper2_voxel_topology_clogging/submission_package/journal_submission_files/cover_and_declarations/front_matter_audit.md",
+      "source_exists": true,
+      "staged_exists": true,
+      "source_sha256": "86a226ab61d065bef16302b686cbdd41a8df477789d792d7951a87e20ac76739",
+      "staged_sha256": "86a226ab61d065bef16302b686cbdd41a8df477789d792d7951a87e20ac76739",
+      "fresh": true
+    },
+    {
+      "group": "cover_and_declarations",
+      "source": "/Users/wangjian-macbook13/Library/CloudStorage/SynologyDrive-mac/论文相关/分数阶模型研究/project/papers/paper2_voxel_topology_clogging/submission/editor_response_map.json",
+      "staged": "/Users/wangjian-macbook13/Library/CloudStorage/SynologyDrive-mac/论文相关/分数阶模型研究/project/papers/paper2_voxel_topology_clogging/submission_package/journal_submission_files/cover_and_declarations/editor_response_map.json",
+      "source_exists": true,
+      "staged_exists": true,
+      "source_sha256": "936de148b52f3abcae60a443e519bc5ba8faac28487a8f4ff0f9640c9ba81a67",
+      "staged_sha256": "936de148b52f3abcae60a443e519bc5ba8faac28487a8f4ff0f9640c9ba81a67",
+      "fresh": true
+    },
+    {
+      "group": "cover_and_declarations",
+      "source": "/Users/wangjian-macbook13/Library/CloudStorage/SynologyDrive-mac/论文相关/分数阶模型研究/project/papers/paper2_voxel_topology_clogging/submission/editor_response_map.md",
+      "staged": "/Users/wangjian-macbook13/Library/CloudStorage/SynologyDrive-mac/论文相关/分数阶模型研究/project/papers/paper2_voxel_topology_clogging/submission_package/journal_submission_files/cover_and_declarations/editor_response_map.md",
+      "source_exists": true,
+      "staged_exists": true,
+      "source_sha256": "06ae0dd8fbfc005cf9d0aebc5a875346bfa9334b461a6f4cd8648d6c39e42b27",
+      "staged_sha256": "06ae0dd8fbfc005cf9d0aebc5a875346bfa9334b461a6f4cd8648d6c39e42b27",
+      "fresh": true
+    },
+    {
+      "group": "cover_and_declarations",
+      "source": "/Users/wangjian-macbook13/Library/CloudStorage/SynologyDrive-mac/论文相关/分数阶模型研究/project/papers/paper2_voxel_topology_clogging/submission/final_author_action_sheet.json",
+      "staged": "/Users/wangjian-macbook13/Library/CloudStorage/SynologyDrive-mac/论文相关/分数阶模型研究/project/papers/paper2_voxel_topology_clogging/submission_package/journal_submission_files/cover_and_declarations/final_author_action_sheet.json",
+      "source_exists": true,
+      "staged_exists": true,
+      "source_sha256": "cb3c70621b6ad9c48ee0e1e7cdd46988bd01e7f877ddc03b2165525708f56033",
+      "staged_sha256": "cb3c70621b6ad9c48ee0e1e7cdd46988bd01e7f877ddc03b2165525708f56033",
+      "fresh": true
+    },
+    {
+      "group": "cover_and_declarations",
+      "source": "/Users/wangjian-macbook13/Library/CloudStorage/SynologyDrive-mac/论文相关/分数阶模型研究/project/papers/paper2_voxel_topology_clogging/submission/final_author_action_sheet.md",
+      "staged": "/Users/wangjian-macbook13/Library/CloudStorage/SynologyDrive-mac/论文相关/分数阶模型研究/project/papers/paper2_voxel_topology_clogging/submission_package/journal_submission_files/cover_and_declarations/final_author_action_sheet.md",
+      "source_exists": true,
+      "staged_exists": true,
+      "source_sha256": "577107444699a05d2f1019fb18f63a0ea32014608738429a3e59ef8591f3c763",
+      "staged_sha256": "577107444699a05d2f1019fb18f63a0ea32014608738429a3e59ef8591f3c763",
+      "fresh": true
+    },
+    {
+      "group": "cover_and_declarations",
+      "source": "/Users/wangjian-macbook13/Library/CloudStorage/SynologyDrive-mac/论文相关/分数阶模型研究/project/papers/paper2_voxel_topology_clogging/submission/final_metadata_completion_packet.json",
+      "staged": "/Users/wangjian-macbook13/Library/CloudStorage/SynologyDrive-mac/论文相关/分数阶模型研究/project/papers/paper2_voxel_topology_clogging/submission_package/journal_submission_files/cover_and_declarations/final_metadata_completion_packet.json",
+      "source_exists": true,
+      "staged_exists": true,
+      "source_sha256": "b33425e5d1dcea4188148eaa42fae2ec36aab91e0bb9e2bcc5dc1a020e746ba2",
+      "staged_sha256": "b33425e5d1dcea4188148eaa42fae2ec36aab91e0bb9e2bcc5dc1a020e746ba2",
+      "fresh": true
+    },
+    {
+      "group": "cover_and_declarations",
+      "source": "/Users/wangjian-macbook13/Library/CloudStorage/SynologyDrive-mac/论文相关/分数阶模型研究/project/papers/paper2_voxel_topology_clogging/submission/final_metadata_completion_packet.md",
+      "staged": "/Users/wangjian-macbook13/Library/CloudStorage/SynologyDrive-mac/论文相关/分数阶模型研究/project/papers/paper2_voxel_topology_clogging/submission_package/journal_submission_files/cover_and_declarations/final_metadata_completion_packet.md",
+      "source_exists": true,
+      "staged_exists": true,
+      "source_sha256": "34486f88dd25fc4cc31064ef99b892fdf1b1750e1ca625a59365005bea9630f1",
+      "staged_sha256": "34486f88dd25fc4cc31064ef99b892fdf1b1750e1ca625a59365005bea9630f1",
+      "fresh": true
+    },
+    {
+      "group": "cover_and_declarations",
+      "source": "/Users/wangjian-macbook13/Library/CloudStorage/SynologyDrive-mac/论文相关/分数阶模型研究/project/papers/paper2_voxel_topology_clogging/submission/final_submission_action_list.json",
+      "staged": "/Users/wangjian-macbook13/Library/CloudStorage/SynologyDrive-mac/论文相关/分数阶模型研究/project/papers/paper2_voxel_topology_clogging/submission_package/journal_submission_files/cover_and_declarations/final_submission_action_list.json",
+      "source_exists": true,
+      "staged_exists": true,
+      "source_sha256": "1383ddf116f21f2f6cea881e117f8c43769f39ce50cdcb143909d80199df214a",
+      "staged_sha256": "1383ddf116f21f2f6cea881e117f8c43769f39ce50cdcb143909d80199df214a",
+      "fresh": true
+    },
+    {
+      "group": "cover_and_declarations",
+      "source": "/Users/wangjian-macbook13/Library/CloudStorage/SynologyDrive-mac/论文相关/分数阶模型研究/project/papers/paper2_voxel_topology_clogging/submission/final_submission_action_list.md",
+      "staged": "/Users/wangjian-macbook13/Library/CloudStorage/SynologyDrive-mac/论文相关/分数阶模型研究/project/papers/paper2_voxel_topology_clogging/submission_package/journal_submission_files/cover_and_declarations/final_submission_action_list.md",
+      "source_exists": true,
+      "staged_exists": true,
+      "source_sha256": "470484de58d428c704c98178359c2453bef9d5460052947598a3c0a1de963e39",
+      "staged_sha256": "470484de58d428c704c98178359c2453bef9d5460052947598a3c0a1de963e39",
+      "fresh": true
+    },
+    {
+      "group": "cover_and_declarations",
+      "source": "/Users/wangjian-macbook13/Library/CloudStorage/SynologyDrive-mac/论文相关/分数阶模型研究/project/papers/paper2_voxel_topology_clogging/submission/repository_upload_packet.json",
+      "staged": "/Users/wangjian-macbook13/Library/CloudStorage/SynologyDrive-mac/论文相关/分数阶模型研究/project/papers/paper2_voxel_topology_clogging/submission_package/journal_submission_files/cover_and_declarations/repository_upload_packet.json",
+      "source_exists": true,
+      "staged_exists": true,
+      "source_sha256": "3b8cdc701dc2fdf1f5b392d6a711ad0dd1769707b667b4ddeae527de882ddcdb",
+      "staged_sha256": "3b8cdc701dc2fdf1f5b392d6a711ad0dd1769707b667b4ddeae527de882ddcdb",
+      "fresh": true
+    },
+    {
+      "group": "cover_and_declarations",
+      "source": "/Users/wangjian-macbook13/Library/CloudStorage/SynologyDrive-mac/论文相关/分数阶模型研究/project/papers/paper2_voxel_topology_clogging/submission/repository_upload_packet.md",
+      "staged": "/Users/wangjian-macbook13/Library/CloudStorage/SynologyDrive-mac/论文相关/分数阶模型研究/project/papers/paper2_voxel_topology_clogging/submission_package/journal_submission_files/cover_and_declarations/repository_upload_packet.md",
+      "source_exists": true,
+      "staged_exists": true,
+      "source_sha256": "bf8fa6b2c7e732466657b4542f9a764f349660ed4ef921a8582c03ac2966cce7",
+      "staged_sha256": "bf8fa6b2c7e732466657b4542f9a764f349660ed4ef921a8582c03ac2966cce7",
+      "fresh": true
+    },
+    {
+      "group": "cover_and_declarations",
+      "source": "/Users/wangjian-macbook13/Library/CloudStorage/SynologyDrive-mac/论文相关/分数阶模型研究/project/papers/paper2_voxel_topology_clogging/submission/elsevier_portal_checklist.json",
+      "staged": "/Users/wangjian-macbook13/Library/CloudStorage/SynologyDrive-mac/论文相关/分数阶模型研究/project/papers/paper2_voxel_topology_clogging/submission_package/journal_submission_files/cover_and_declarations/elsevier_portal_checklist.json",
+      "source_exists": true,
+      "staged_exists": true,
+      "source_sha256": "f4ea58c4131c899ffeb50378e921f2ab3bbc7fadd18cbf03fdf9ed35b6126707",
+      "staged_sha256": "f4ea58c4131c899ffeb50378e921f2ab3bbc7fadd18cbf03fdf9ed35b6126707",
+      "fresh": true
+    },
+    {
+      "group": "cover_and_declarations",
+      "source": "/Users/wangjian-macbook13/Library/CloudStorage/SynologyDrive-mac/论文相关/分数阶模型研究/project/papers/paper2_voxel_topology_clogging/submission/elsevier_portal_checklist.md",
+      "staged": "/Users/wangjian-macbook13/Library/CloudStorage/SynologyDrive-mac/论文相关/分数阶模型研究/project/papers/paper2_voxel_topology_clogging/submission_package/journal_submission_files/cover_and_declarations/elsevier_portal_checklist.md",
+      "source_exists": true,
+      "staged_exists": true,
+      "source_sha256": "351bd1f1712adce2e88f42680aebcf31f2357d4346e4745f7941d49d89d7dbd6",
+      "staged_sha256": "351bd1f1712adce2e88f42680aebcf31f2357d4346e4745f7941d49d89d7dbd6",
+      "fresh": true
+    },
+    {
+      "group": "cover_and_declarations",
+      "source": "/Users/wangjian-macbook13/Library/CloudStorage/SynologyDrive-mac/论文相关/分数阶模型研究/project/papers/paper2_voxel_topology_clogging/submission/submission_decision_ledger.json",
+      "staged": "/Users/wangjian-macbook13/Library/CloudStorage/SynologyDrive-mac/论文相关/分数阶模型研究/project/papers/paper2_voxel_topology_clogging/submission_package/journal_submission_files/cover_and_declarations/submission_decision_ledger.json",
+      "source_exists": true,
+      "staged_exists": true,
+      "source_sha256": "b9b3bf18548c37d96726ec9a84dde6a26dcf7fa083aa86a3a84ca96f251c3501",
+      "staged_sha256": "b9b3bf18548c37d96726ec9a84dde6a26dcf7fa083aa86a3a84ca96f251c3501",
+      "fresh": true
+    },
+    {
+      "group": "cover_and_declarations",
+      "source": "/Users/wangjian-macbook13/Library/CloudStorage/SynologyDrive-mac/论文相关/分数阶模型研究/project/papers/paper2_voxel_topology_clogging/submission/submission_decision_ledger.md",
+      "staged": "/Users/wangjian-macbook13/Library/CloudStorage/SynologyDrive-mac/论文相关/分数阶模型研究/project/papers/paper2_voxel_topology_clogging/submission_package/journal_submission_files/cover_and_declarations/submission_decision_ledger.md",
+      "source_exists": true,
+      "staged_exists": true,
+      "source_sha256": "0932cdbfd730c0f3ae1410373435a164088706944f5c98b713daa08d2a49bc4f",
+      "staged_sha256": "0932cdbfd730c0f3ae1410373435a164088706944f5c98b713daa08d2a49bc4f",
+      "fresh": true
+    },
+    {
+      "group": "cover_and_declarations",
+      "source": "/Users/wangjian-macbook13/Library/CloudStorage/SynologyDrive-mac/论文相关/分数阶模型研究/project/papers/paper2_voxel_topology_clogging/submission/submission_decision_ledger.csv",
+      "staged": "/Users/wangjian-macbook13/Library/CloudStorage/SynologyDrive-mac/论文相关/分数阶模型研究/project/papers/paper2_voxel_topology_clogging/submission_package/journal_submission_files/cover_and_declarations/submission_decision_ledger.csv",
+      "source_exists": true,
+      "staged_exists": true,
+      "source_sha256": "ac41eb0eb2254599c271ff6528f4162581283a50f7f5847438b7088a79159ae7",
+      "staged_sha256": "ac41eb0eb2254599c271ff6528f4162581283a50f7f5847438b7088a79159ae7",
+      "fresh": true
+    },
+    {
+      "group": "cover_and_declarations",
+      "source": "/Users/wangjian-macbook13/Library/CloudStorage/SynologyDrive-mac/论文相关/分数阶模型研究/project/papers/paper2_voxel_topology_clogging/submission/journal_fallback_front_matter.json",
+      "staged": "/Users/wangjian-macbook13/Library/CloudStorage/SynologyDrive-mac/论文相关/分数阶模型研究/project/papers/paper2_voxel_topology_clogging/submission_package/journal_submission_files/cover_and_declarations/journal_fallback_front_matter.json",
+      "source_exists": true,
+      "staged_exists": true,
+      "source_sha256": "26f519bb57e8be398390ed326c848fe48836a898853d651ced9a49565a2ceb59",
+      "staged_sha256": "26f519bb57e8be398390ed326c848fe48836a898853d651ced9a49565a2ceb59",
+      "fresh": true
+    },
+    {
+      "group": "cover_and_declarations",
+      "source": "/Users/wangjian-macbook13/Library/CloudStorage/SynologyDrive-mac/论文相关/分数阶模型研究/project/papers/paper2_voxel_topology_clogging/submission/journal_fallback_front_matter.md",
+      "staged": "/Users/wangjian-macbook13/Library/CloudStorage/SynologyDrive-mac/论文相关/分数阶模型研究/project/papers/paper2_voxel_topology_clogging/submission_package/journal_submission_files/cover_and_declarations/journal_fallback_front_matter.md",
+      "source_exists": true,
+      "staged_exists": true,
+      "source_sha256": "2d3d7dfecef363691a3e309086af7f168916604a9fd2665376f7c34dc7772ce8",
+      "staged_sha256": "2d3d7dfecef363691a3e309086af7f168916604a9fd2665376f7c34dc7772ce8",
+      "fresh": true
+    },
+    {
+      "group": "cover_and_declarations",
+      "source": "/Users/wangjian-macbook13/Library/CloudStorage/SynologyDrive-mac/论文相关/分数阶模型研究/project/papers/paper2_voxel_topology_clogging/notes/paper2_manuscript_argument_map.md",
+      "staged": "/Users/wangjian-macbook13/Library/CloudStorage/SynologyDrive-mac/论文相关/分数阶模型研究/project/papers/paper2_voxel_topology_clogging/submission_package/journal_submission_files/cover_and_declarations/paper2_manuscript_argument_map.md",
+      "source_exists": true,
+      "staged_exists": true,
+      "source_sha256": "c8a85d98a6e883eb768ba15423201736c32c11f28e05e57f9a90d3498128d20e",
+      "staged_sha256": "c8a85d98a6e883eb768ba15423201736c32c11f28e05e57f9a90d3498128d20e",
+      "fresh": true
+    },
+    {
+      "group": "cover_and_declarations",
+      "source": "/Users/wangjian-macbook13/Library/CloudStorage/SynologyDrive-mac/论文相关/分数阶模型研究/project/papers/paper2_voxel_topology_clogging/data/paper2_manuscript_argument_map.json",
+      "staged": "/Users/wangjian-macbook13/Library/CloudStorage/SynologyDrive-mac/论文相关/分数阶模型研究/project/papers/paper2_voxel_topology_clogging/submission_package/journal_submission_files/cover_and_declarations/paper2_manuscript_argument_map.json",
+      "source_exists": true,
+      "staged_exists": true,
+      "source_sha256": "c0fbb8f93139d372724a3d9f6cec4f9d7fa769f0a6dcb9a116f3c15da1a5aa67",
+      "staged_sha256": "c0fbb8f93139d372724a3d9f6cec4f9d7fa769f0a6dcb9a116f3c15da1a5aa67",
+      "fresh": true
+    },
+    {
+      "group": "cover_and_declarations",
+      "source": "/Users/wangjian-macbook13/Library/CloudStorage/SynologyDrive-mac/论文相关/分数阶模型研究/project/papers/paper2_voxel_topology_clogging/tables/paper2_manuscript_argument_map.csv",
+      "staged": "/Users/wangjian-macbook13/Library/CloudStorage/SynologyDrive-mac/论文相关/分数阶模型研究/project/papers/paper2_voxel_topology_clogging/submission_package/journal_submission_files/cover_and_declarations/paper2_manuscript_argument_map.csv",
+      "source_exists": true,
+      "staged_exists": true,
+      "source_sha256": "08af1ce3621e63220b02cbf4f134e2a33e416bc7817e5d3a08bc4a1fbe3c1a94",
+      "staged_sha256": "08af1ce3621e63220b02cbf4f134e2a33e416bc7817e5d3a08bc4a1fbe3c1a94",
+      "fresh": true
+    },
+    {
+      "group": "cover_and_declarations",
+      "source": "/Users/wangjian-macbook13/Library/CloudStorage/SynologyDrive-mac/论文相关/分数阶模型研究/project/papers/paper2_voxel_topology_clogging/notes/paper2_benchmark_boundary_matrix.md",
+      "staged": "/Users/wangjian-macbook13/Library/CloudStorage/SynologyDrive-mac/论文相关/分数阶模型研究/project/papers/paper2_voxel_topology_clogging/submission_package/journal_submission_files/cover_and_declarations/paper2_benchmark_boundary_matrix.md",
+      "source_exists": true,
+      "staged_exists": true,
+      "source_sha256": "18b0922b48b4b875626c15fe7f8f052e98d057a03b7d5c4a051503ea79e554e5",
+      "staged_sha256": "18b0922b48b4b875626c15fe7f8f052e98d057a03b7d5c4a051503ea79e554e5",
+      "fresh": true
+    },
+    {
+      "group": "cover_and_declarations",
+      "source": "/Users/wangjian-macbook13/Library/CloudStorage/SynologyDrive-mac/论文相关/分数阶模型研究/project/papers/paper2_voxel_topology_clogging/data/paper2_benchmark_boundary_matrix.json",
+      "staged": "/Users/wangjian-macbook13/Library/CloudStorage/SynologyDrive-mac/论文相关/分数阶模型研究/project/papers/paper2_voxel_topology_clogging/submission_package/journal_submission_files/cover_and_declarations/paper2_benchmark_boundary_matrix.json",
+      "source_exists": true,
+      "staged_exists": true,
+      "source_sha256": "0b13478f12b78734f08a442747d18e6a69546c056c099b14e32968c4c7a97da9",
+      "staged_sha256": "0b13478f12b78734f08a442747d18e6a69546c056c099b14e32968c4c7a97da9",
+      "fresh": true
+    },
+    {
+      "group": "cover_and_declarations",
+      "source": "/Users/wangjian-macbook13/Library/CloudStorage/SynologyDrive-mac/论文相关/分数阶模型研究/project/papers/paper2_voxel_topology_clogging/tables/paper2_benchmark_boundary_matrix.csv",
+      "staged": "/Users/wangjian-macbook13/Library/CloudStorage/SynologyDrive-mac/论文相关/分数阶模型研究/project/papers/paper2_voxel_topology_clogging/submission_package/journal_submission_files/cover_and_declarations/paper2_benchmark_boundary_matrix.csv",
+      "source_exists": true,
+      "staged_exists": true,
+      "source_sha256": "543d6ccc4497a3cfb4a563ce052d79f9e8ad3e6a8fc241fb196641c0a4da0d42",
+      "staged_sha256": "543d6ccc4497a3cfb4a563ce052d79f9e8ad3e6a8fc241fb196641c0a4da0d42",
+      "fresh": true
+    },
+    {
+      "group": "cover_and_declarations",
+      "source": "/Users/wangjian-macbook13/Library/CloudStorage/SynologyDrive-mac/论文相关/分数阶模型研究/project/papers/paper2_voxel_topology_clogging/notes/paper2_abstract_evidence_alignment.md",
+      "staged": "/Users/wangjian-macbook13/Library/CloudStorage/SynologyDrive-mac/论文相关/分数阶模型研究/project/papers/paper2_voxel_topology_clogging/submission_package/journal_submission_files/cover_and_declarations/paper2_abstract_evidence_alignment.md",
+      "source_exists": true,
+      "staged_exists": true,
+      "source_sha256": "03ab31f314364dfae220f506d97c12f8f269249cb43db5f856ca833538db5ffb",
+      "staged_sha256": "03ab31f314364dfae220f506d97c12f8f269249cb43db5f856ca833538db5ffb",
+      "fresh": true
+    },
+    {
+      "group": "cover_and_declarations",
+      "source": "/Users/wangjian-macbook13/Library/CloudStorage/SynologyDrive-mac/论文相关/分数阶模型研究/project/papers/paper2_voxel_topology_clogging/data/paper2_abstract_evidence_alignment.json",
+      "staged": "/Users/wangjian-macbook13/Library/CloudStorage/SynologyDrive-mac/论文相关/分数阶模型研究/project/papers/paper2_voxel_topology_clogging/submission_package/journal_submission_files/cover_and_declarations/paper2_abstract_evidence_alignment.json",
+      "source_exists": true,
+      "staged_exists": true,
+      "source_sha256": "4c9a0cd0921270870ca1893a3cf6d75b7a3b2905a8d2c41fe6d1b08e33f29cd9",
+      "staged_sha256": "4c9a0cd0921270870ca1893a3cf6d75b7a3b2905a8d2c41fe6d1b08e33f29cd9",
+      "fresh": true
+    },
+    {
+      "group": "cover_and_declarations",
+      "source": "/Users/wangjian-macbook13/Library/CloudStorage/SynologyDrive-mac/论文相关/分数阶模型研究/project/papers/paper2_voxel_topology_clogging/tables/paper2_abstract_evidence_alignment.csv",
+      "staged": "/Users/wangjian-macbook13/Library/CloudStorage/SynologyDrive-mac/论文相关/分数阶模型研究/project/papers/paper2_voxel_topology_clogging/submission_package/journal_submission_files/cover_and_declarations/paper2_abstract_evidence_alignment.csv",
+      "source_exists": true,
+      "staged_exists": true,
+      "source_sha256": "e84b1bdd55a4a0515d994350495f266794377775b95a606989c17d8cc7a76c88",
+      "staged_sha256": "e84b1bdd55a4a0515d994350495f266794377775b95a606989c17d8cc7a76c88",
+      "fresh": true
+    },
+    {
+      "group": "cover_and_declarations",
+      "source": "/Users/wangjian-macbook13/Library/CloudStorage/SynologyDrive-mac/论文相关/分数阶模型研究/project/papers/paper2_voxel_topology_clogging/submission/submission_form_packet.json",
+      "staged": "/Users/wangjian-macbook13/Library/CloudStorage/SynologyDrive-mac/论文相关/分数阶模型研究/project/papers/paper2_voxel_topology_clogging/submission_package/journal_submission_files/cover_and_declarations/submission_form_packet.json",
+      "source_exists": true,
+      "staged_exists": true,
+      "source_sha256": "1fec7a1badc4e1d49cc898ee5cf179d339aacf27fc115a4f7aaa6bc8fe19c233",
+      "staged_sha256": "1fec7a1badc4e1d49cc898ee5cf179d339aacf27fc115a4f7aaa6bc8fe19c233",
+      "fresh": true
+    },
+    {
+      "group": "cover_and_declarations",
+      "source": "/Users/wangjian-macbook13/Library/CloudStorage/SynologyDrive-mac/论文相关/分数阶模型研究/project/papers/paper2_voxel_topology_clogging/submission/submission_form_packet.md",
+      "staged": "/Users/wangjian-macbook13/Library/CloudStorage/SynologyDrive-mac/论文相关/分数阶模型研究/project/papers/paper2_voxel_topology_clogging/submission_package/journal_submission_files/cover_and_declarations/submission_form_packet.md",
+      "source_exists": true,
+      "staged_exists": true,
+      "source_sha256": "cb5c8196279319739559acd1abbac98a72b088b629365937b839a3f8b5655e1a",
+      "staged_sha256": "cb5c8196279319739559acd1abbac98a72b088b629365937b839a3f8b5655e1a",
+      "fresh": true
+    },
+    {
+      "group": "cover_and_declarations",
+      "source": "/Users/wangjian-macbook13/Library/CloudStorage/SynologyDrive-mac/论文相关/分数阶模型研究/project/papers/paper2_voxel_topology_clogging/submission/repository_deposit/CITATION.cff",
+      "staged": "/Users/wangjian-macbook13/Library/CloudStorage/SynologyDrive-mac/论文相关/分数阶模型研究/project/papers/paper2_voxel_topology_clogging/submission_package/journal_submission_files/cover_and_declarations/repository_deposit/CITATION.cff",
+      "source_exists": true,
+      "staged_exists": true,
+      "source_sha256": "7eeee40c36578ec08bcc998a9d37f4823a3a006d82575ab77a3da40a7ed243cb",
+      "staged_sha256": "7eeee40c36578ec08bcc998a9d37f4823a3a006d82575ab77a3da40a7ed243cb",
+      "fresh": true
+    },
+    {
+      "group": "cover_and_declarations",
+      "source": "/Users/wangjian-macbook13/Library/CloudStorage/SynologyDrive-mac/论文相关/分数阶模型研究/project/papers/paper2_voxel_topology_clogging/submission/repository_deposit/UPLOAD_INSTRUCTIONS.md",
+      "staged": "/Users/wangjian-macbook13/Library/CloudStorage/SynologyDrive-mac/论文相关/分数阶模型研究/project/papers/paper2_voxel_topology_clogging/submission_package/journal_submission_files/cover_and_declarations/repository_deposit/UPLOAD_INSTRUCTIONS.md",
+      "source_exists": true,
+      "staged_exists": true,
+      "source_sha256": "63f97bd7c614d8316eb9a9e28e8658fe08a3e0391770db9323df6e149c17faeb",
+      "staged_sha256": "63f97bd7c614d8316eb9a9e28e8658fe08a3e0391770db9323df6e149c17faeb",
+      "fresh": true
+    },
+    {
+      "group": "cover_and_declarations",
+      "source": "/Users/wangjian-macbook13/Library/CloudStorage/SynologyDrive-mac/论文相关/分数阶模型研究/project/papers/paper2_voxel_topology_clogging/submission/repository_deposit/repository_metadata.yaml",
+      "staged": "/Users/wangjian-macbook13/Library/CloudStorage/SynologyDrive-mac/论文相关/分数阶模型研究/project/papers/paper2_voxel_topology_clogging/submission_package/journal_submission_files/cover_and_declarations/repository_deposit/repository_metadata.yaml",
+      "source_exists": true,
+      "staged_exists": true,
+      "source_sha256": "9d5e6f00cf9b83723034a7282ea3bd9a3162cc41e7cd50920a13351ae55d4db5",
+      "staged_sha256": "9d5e6f00cf9b83723034a7282ea3bd9a3162cc41e7cd50920a13351ae55d4db5",
+      "fresh": true
+    },
+    {
+      "group": "cover_and_declarations",
+      "source": "/Users/wangjian-macbook13/Library/CloudStorage/SynologyDrive-mac/论文相关/分数阶模型研究/project/papers/paper2_voxel_topology_clogging/submission/repository_deposit/zenodo_metadata_draft.json",
+      "staged": "/Users/wangjian-macbook13/Library/CloudStorage/SynologyDrive-mac/论文相关/分数阶模型研究/project/papers/paper2_voxel_topology_clogging/submission_package/journal_submission_files/cover_and_declarations/repository_deposit/zenodo_metadata_draft.json",
+      "source_exists": true,
+      "staged_exists": true,
+      "source_sha256": "60c38a46b058603dafb2ec2d8cb2bbafb82a9deb35542562e757ae88f4982031",
+      "staged_sha256": "60c38a46b058603dafb2ec2d8cb2bbafb82a9deb35542562e757ae88f4982031",
+      "fresh": true
+    },
+    {
+      "group": "cover_and_declarations",
+      "source": "/Users/wangjian-macbook13/Library/CloudStorage/SynologyDrive-mac/论文相关/分数阶模型研究/project/papers/paper2_voxel_topology_clogging/submission/data_code_deposit_manifest.md",
+      "staged": "/Users/wangjian-macbook13/Library/CloudStorage/SynologyDrive-mac/论文相关/分数阶模型研究/project/papers/paper2_voxel_topology_clogging/submission_package/journal_submission_files/cover_and_declarations/data_code_deposit_manifest.md",
+      "source_exists": true,
+      "staged_exists": true,
+      "source_sha256": "2587a55105c1aae5ea973cb2e4ec598d736f94df0bfc7989a99a32f3c6fabf27",
+      "staged_sha256": "2587a55105c1aae5ea973cb2e4ec598d736f94df0bfc7989a99a32f3c6fabf27",
+      "fresh": true
+    }
+  ]
+}

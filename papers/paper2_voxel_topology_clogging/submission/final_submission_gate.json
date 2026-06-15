@@ -1,27 +1,26 @@
 {
-  "gate_status": "not_ready_for_submission",
-  "decision": "Files are staged and repeat-seed production has completed, but author/repository confirmations remain before journal submission.",
+  "gate_status": "ready_for_bounded_submission",
+  "decision": "Ready for bounded pre-clogging migration/retention submission.",
   "readiness_counts": {
-    "supported": 139,
-    "needs_confirmation": 1,
+    "supported": 138,
+    "partial": 1,
     "not_required_for_preclogging_scope": 1,
     "not_supported_current_scope": 1
   },
   "reviewer_risk_counts": {
     "unresolved": 3,
     "bounded": 6,
-    "resolved": 1,
-    "needs_confirmation": 1
+    "resolved": 2
   },
   "metadata_gap_counts": {
-    "required_open": 1,
-    "optional_open": 1
+    "required_open": 0,
+    "optional_open": 0
   },
   "upload_files": {
     "journal_submission_archive": {
       "path": "papers/paper2_voxel_topology_clogging/submission_package/archives/paper2_journal_submission_files.zip",
       "exists": true,
-      "size_bytes": 17560411
+      "size_bytes": 17896089
     },
     "journal_submission_archive_sha256": {
       "path": "papers/paper2_voxel_topology_clogging/submission_package/archives/paper2_journal_submission_files.zip.sha256",
@@ -36,12 +35,12 @@
     "journal_submission_manifest": {
       "path": "papers/paper2_voxel_topology_clogging/submission_package/journal_submission_files/MANIFEST.json",
       "exists": true,
-      "size_bytes": 50514
+      "size_bytes": 51751
     },
     "journal_submission_readme": {
       "path": "papers/paper2_voxel_topology_clogging/submission_package/journal_submission_files/README.md",
       "exists": true,
-      "size_bytes": 918
+      "size_bytes": 908
     },
     "data_code_archive": {
       "path": "papers/paper2_voxel_topology_clogging/deposit/archives/paper2_lightweight_deposit.zip",
@@ -60,13 +59,7 @@
     }
   },
   "missing_upload_files": [],
-  "admin_blockers": [
-    {
-      "item": "metadata_corresponding_author",
-      "action": "Confirm corresponding-author name and email for the journal submission system. Missing: name, email.",
-      "evidence": "papers/paper2_voxel_topology_clogging/submission/submission_metadata_gaps.json"
-    }
-  ],
+  "admin_blockers": [],
   "scientific_scope_warnings": [
     {
       "item": "critical_clogging_transition",
@@ -93,11 +86,5 @@
       "mitigation_action": "Do not reintroduce experiment, CT, or critical transition wording unless the evidence changes."
     }
   ],
-  "blocker_reviewer_risks": [
-    {
-      "risk_id": "R11",
-      "risk": "Administrative submission items remain unconfirmed.",
-      "mitigation_action": "Confirm repository DOI/accession, funding, competing interests, acknowledgements, author email/ORCID, and AI disclosure before submission."
-    }
-  ]
+  "blocker_reviewer_risks": []
 }

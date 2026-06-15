@@ -1,0 +1,149 @@
+{
+  "summary": {
+    "decision": "pass",
+    "pdf": "/Users/wangjian-macbook13/Library/CloudStorage/SynologyDrive-mac/论文相关/分数阶模型研究/project/papers/paper2_voxel_topology_clogging/latex/main.pdf",
+    "preview_dir": "/Users/wangjian-macbook13/Library/CloudStorage/SynologyDrive-mac/论文相关/分数阶模型研究/project/papers/paper2_voxel_topology_clogging/latex/pdf_previews_mainfig_current",
+    "main_figure_count": 11,
+    "caption_missing": [],
+    "preview_missing": [],
+    "page_order_ok": true,
+    "detected_pages": [
+      8,
+      9,
+      11,
+      13,
+      14,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21
+    ],
+    "failure_count": 0,
+    "boundary": "Compiled-PDF layout audit only; visual judgement still requires preview inspection."
+  },
+  "figures": [
+    {
+      "figure": "Figure 1",
+      "caption_start": "DEM-derived voxel-topology diagnostic map",
+      "present": true,
+      "page": 8,
+      "all_matched_pages": [
+        8
+      ],
+      "preview_path": "/Users/wangjian-macbook13/Library/CloudStorage/SynologyDrive-mac/论文相关/分数阶模型研究/project/papers/paper2_voxel_topology_clogging/latex/pdf_previews_mainfig_current/page08.png",
+      "preview_exists": true
+    },
+    {
+      "figure": "Figure 2",
+      "caption_start": "DEM-derived structural reference",
+      "present": true,
+      "page": 9,
+      "all_matched_pages": [
+        9
+      ],
+      "preview_path": "/Users/wangjian-macbook13/Library/CloudStorage/SynologyDrive-mac/论文相关/分数阶模型研究/project/papers/paper2_voxel_topology_clogging/latex/pdf_previews_mainfig_current/page09.png",
+      "preview_exists": true
+    },
+    {
+      "figure": "Figure 3",
+      "caption_start": "Drive-controlled penetration",
+      "present": true,
+      "page": 11,
+      "all_matched_pages": [
+        11
+      ],
+      "preview_path": "/Users/wangjian-macbook13/Library/CloudStorage/SynologyDrive-mac/论文相关/分数阶模型研究/project/papers/paper2_voxel_topology_clogging/latex/pdf_previews_mainfig_current/page11.png",
+      "preview_exists": true
+    },
+    {
+      "figure": "Figure 4",
+      "caption_start": "Population splitting",
+      "present": true,
+      "page": 13,
+      "all_matched_pages": [
+        13
+      ],
+      "preview_path": "/Users/wangjian-macbook13/Library/CloudStorage/SynologyDrive-mac/论文相关/分数阶模型研究/project/papers/paper2_voxel_topology_clogging/latex/pdf_previews_mainfig_current/page13.png",
+      "preview_exists": true
+    },
+    {
+      "figure": "Figure 5",
+      "caption_start": "Time-resolved localized-release dynamics",
+      "present": true,
+      "page": 14,
+      "all_matched_pages": [
+        14
+      ],
+      "preview_path": "/Users/wangjian-macbook13/Library/CloudStorage/SynologyDrive-mac/论文相关/分数阶模型研究/project/papers/paper2_voxel_topology_clogging/latex/pdf_previews_mainfig_current/page14.png",
+      "preview_exists": true
+    },
+    {
+      "figure": "Figure 6",
+      "caption_start": "Cropped-domain OpenFOAM model and mesh context",
+      "present": true,
+      "page": 16,
+      "all_matched_pages": [
+        16
+      ],
+      "preview_path": "/Users/wangjian-macbook13/Library/CloudStorage/SynologyDrive-mac/论文相关/分数阶模型研究/project/papers/paper2_voxel_topology_clogging/latex/pdf_previews_mainfig_current/page16.png",
+      "preview_exists": true
+    },
+    {
+      "figure": "Figure 7",
+      "caption_start": "Inventory-controlled local blockage",
+      "present": true,
+      "page": 17,
+      "all_matched_pages": [
+        17
+      ],
+      "preview_path": "/Users/wangjian-macbook13/Library/CloudStorage/SynologyDrive-mac/论文相关/分数阶模型研究/project/papers/paper2_voxel_topology_clogging/latex/pdf_previews_mainfig_current/page17.png",
+      "preview_exists": true
+    },
+    {
+      "figure": "Figure 8",
+      "caption_start": "Interpretive mechanism synthesis",
+      "present": true,
+      "page": 18,
+      "all_matched_pages": [
+        18
+      ],
+      "preview_path": "/Users/wangjian-macbook13/Library/CloudStorage/SynologyDrive-mac/论文相关/分数阶模型研究/project/papers/paper2_voxel_topology_clogging/latex/pdf_previews_mainfig_current/page18.png",
+      "preview_exists": true
+    },
+    {
+      "figure": "Figure 9",
+      "caption_start": "Case-level response landscape",
+      "present": true,
+      "page": 19,
+      "all_matched_pages": [
+        19
+      ],
+      "preview_path": "/Users/wangjian-macbook13/Library/CloudStorage/SynologyDrive-mac/论文相关/分数阶模型研究/project/papers/paper2_voxel_topology_clogging/latex/pdf_previews_mainfig_current/page19.png",
+      "preview_exists": true
+    },
+    {
+      "figure": "Figure 10",
+      "caption_start": "Intra-case sparse-front diagnostics",
+      "present": true,
+      "page": 20,
+      "all_matched_pages": [
+        20
+      ],
+      "preview_path": "/Users/wangjian-macbook13/Library/CloudStorage/SynologyDrive-mac/论文相关/分数阶模型研究/project/papers/paper2_voxel_topology_clogging/latex/pdf_previews_mainfig_current/page20.png",
+      "preview_exists": true
+    },
+    {
+      "figure": "Figure 11",
+      "caption_start": "Time-resolved deposition",
+      "present": true,
+      "page": 21,
+      "all_matched_pages": [
+        21
+      ],
+      "preview_path": "/Users/wangjian-macbook13/Library/CloudStorage/SynologyDrive-mac/论文相关/分数阶模型研究/project/papers/paper2_voxel_topology_clogging/latex/pdf_previews_mainfig_current/page21.png",
+      "preview_exists": true
+    }
+  ]
+}

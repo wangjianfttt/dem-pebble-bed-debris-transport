@@ -15,6 +15,8 @@ PROJECT_ROOT = Path(__file__).resolve().parents[3]
 PAPER_DIR = PROJECT_ROOT / "papers" / "paper2_voxel_topology_clogging"
 DEFAULT_OUT = PAPER_DIR / "submission_package" / "journal_submission_files"
 
+SKIP_STAGED_SUFFIXES = {".aux", ".log", ".fls", ".fdb_latexmk", ".out", ".blg", ".bbl", ".spl"}
+
 SUBMISSION_ITEMS = [
     {
         "group": "manuscript",
@@ -51,6 +53,8 @@ SUBMISSION_ITEMS = [
     {
         "group": "supplementary_material",
         "paths": [
+            "papers/paper2_voxel_topology_clogging/supplementary/supplementary_material.pdf",
+            "papers/paper2_voxel_topology_clogging/supplementary/supplementary_material.tex",
             "papers/paper2_voxel_topology_clogging/supplementary",
             "papers/paper2_voxel_topology_clogging/notes/paper2_figure_package_audit.md",
             "papers/paper2_voxel_topology_clogging/data/paper2_figure_package_audit.json",
@@ -169,6 +173,10 @@ def copy_path(src: Path, dst: Path) -> None:
         for child in src.iterdir():
             copy_path(child, dst / child.name)
     else:
+        if src.suffix in SKIP_STAGED_SUFFIXES:
+            return
+        if dst.parent.name == "supplementary" and src.name in {"supplementary_material.pdf", "supplementary_material.tex"}:
+            return
         dst.parent.mkdir(parents=True, exist_ok=True)
         try:
             with src.open("rb") as source, dst.open("wb") as target:

@@ -1,5 +1,5 @@
 {
-  "created_utc": "2026-06-15T10:17:49.028919+00:00",
+  "created_utc": "2026-06-15T10:32:04.602753+00:00",
   "paper": "paper2_voxel_topology_clogging",
   "staging_directory": "/Users/wangjian-macbook13/Library/CloudStorage/SynologyDrive-mac/\u8bba\u6587\u76f8\u5173/\u5206\u6570\u9636\u6a21\u578b\u7814\u7a76/project/papers/paper2_voxel_topology_clogging/submission_package/journal_submission_files",
   "missing": [],
@@ -123,6 +123,8 @@
     {
       "group": "supplementary_material",
       "paths": [
+        "papers/paper2_voxel_topology_clogging/supplementary/supplementary_material.pdf",
+        "papers/paper2_voxel_topology_clogging/supplementary/supplementary_material.tex",
         "papers/paper2_voxel_topology_clogging/supplementary",
         "papers/paper2_voxel_topology_clogging/notes/paper2_figure_package_audit.md",
         "papers/paper2_voxel_topology_clogging/data/paper2_figure_package_audit.json",
@@ -163,6 +165,14 @@
       ],
       "purpose": "Supplementary tables, supplementary figure catalogue and supplementary figure PDFs.",
       "entries": [
+        {
+          "path": "papers/paper2_voxel_topology_clogging/supplementary/supplementary_material.pdf",
+          "copied": true
+        },
+        {
+          "path": "papers/paper2_voxel_topology_clogging/supplementary/supplementary_material.tex",
+          "copied": true
+        },
         {
           "path": "papers/paper2_voxel_topology_clogging/supplementary",
           "copied": true
@@ -552,8 +562,8 @@
       ]
     }
   ],
-  "file_count": 129,
-  "total_size_bytes": 18550583,
+  "file_count": 131,
+  "total_size_bytes": 29200948,
   "files": [
     {
       "path": "README.md",
@@ -892,13 +902,13 @@
     },
     {
       "path": "manuscript/main.pdf",
-      "size_bytes": 3580809,
-      "sha256": "3f497ea0d489abc3b5b6bfd4a70fe6ceb393729995b92b5d8a6c08b2b9ae0b0e"
+      "size_bytes": 3581123,
+      "sha256": "323b75853f18975a81645b7293be97f81fde468306d3503c7123c333fb0762e1"
     },
     {
       "path": "manuscript/main.tex",
-      "size_bytes": 56435,
-      "sha256": "5fdfdcf4666cf51aef3a73976aff508e658d3cf45a3f5c73653dfaba983fa4cd"
+      "size_bytes": 56830,
+      "sha256": "ff0f261bda7558196803a7399d723a6f25ecab79ab76a7d24e8a6a3d54b9fc6b"
     },
     {
       "path": "manuscript/paper2_references.bib",
@@ -1199,6 +1209,16 @@
       "path": "supplementary_material/supplementary/table_s9_cropped_flow_permeability_summary.csv",
       "size_bytes": 1328,
       "sha256": "18e4f05d02649dc04a6e93c8ab42d21e6ba2ad2b994051f22f3f7722bf7f10ea"
+    },
+    {
+      "path": "supplementary_material/supplementary_material.pdf",
+      "size_bytes": 10625889,
+      "sha256": "56612f9df3a96a6dd6dd6d4b1689134ce423420498f9c55fcd17553ea6f6517a"
+    },
+    {
+      "path": "supplementary_material/supplementary_material.tex",
+      "size_bytes": 23767,
+      "sha256": "b8dfcd00398e4566e5a2d681a3a176852a18280939ebcc9c410375ec49ed84de"
     }
   ]
 }

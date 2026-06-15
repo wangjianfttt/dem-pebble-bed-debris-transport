@@ -15,6 +15,8 @@ PROJECT_ROOT = Path(__file__).resolve().parents[3]
 PAPER_DIR = PROJECT_ROOT / "papers" / "paper2_voxel_topology_clogging"
 DEFAULT_OUT = PAPER_DIR / "submission_package" / "elsevier_portal_upload_files"
 
+SKIP_STAGED_SUFFIXES = {".aux", ".log", ".fls", ".fdb_latexmk", ".out", ".blg", ".bbl", ".spl"}
+
 
 PORTAL_UPLOAD_ITEMS = [
     {
@@ -58,6 +60,8 @@ PORTAL_UPLOAD_ITEMS = [
     {
         "group": "supplementary_material",
         "paths": [
+            "papers/paper2_voxel_topology_clogging/supplementary/supplementary_material.pdf",
+            "papers/paper2_voxel_topology_clogging/supplementary/supplementary_material.tex",
             "papers/paper2_voxel_topology_clogging/supplementary",
             "papers/paper2_voxel_topology_clogging/figures/paper2_figS1_voxel_size_sensitivity.pdf",
             "papers/paper2_voxel_topology_clogging/figures/paper2_figS2_voxel_coarsening_stress_test.pdf",
@@ -142,6 +146,10 @@ def copy_path(src: Path, dst: Path) -> None:
     if src.is_dir():
         for child in src.iterdir():
             copy_path(child, dst / child.name)
+        return
+    if src.suffix in SKIP_STAGED_SUFFIXES:
+        return
+    if dst.parent.name == "supplementary" and src.name in {"supplementary_material.pdf", "supplementary_material.tex"}:
         return
     dst.parent.mkdir(parents=True, exist_ok=True)
     shutil.copy2(src, dst)

@@ -1,0 +1,31 @@
+# Paper 2 submission metadata.
+# Fill this file only with author-confirmed information before running:
+# python3 papers/paper2_voxel_topology_clogging/scripts/apply_submission_metadata.py --metadata papers/paper2_voxel_topology_clogging/submission/submission_metadata.yaml --apply
+
+repository:
+  confirmed: true
+  name: Submitted Paper 2 project package
+  identifier: Processed source data and scripts are included with the submitted project package; no public DOI is assigned in the manuscript.
+  url: Not applicable for the submitted project package.
+  license: Available for peer review and journal-supported supplementary-material use.
+
+funding:
+  confirmed: true
+  statement: This research did not receive any specific grant from funding agencies in the public, commercial or not-for-profit sectors.
+
+competing_interests:
+  confirmed: true
+  statement: "The authors declare that they have no known competing financial interests or personal relationships that could have appeared to influence the work reported in this paper."
+
+acknowledgements:
+  confirmed: true
+  statement: The authors thank the maintainers of LIGGGHTS-INL and the open-source Python scientific-computing ecosystem used in this work.
+
+corresponding_author:
+  confirmed: false
+  name: TBC
+  email: TBC
+
+ai_tool_use:
+  confirmed: false
+  statement: TBC

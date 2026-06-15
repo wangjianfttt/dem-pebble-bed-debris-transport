@@ -1,0 +1,512 @@
+{
+  "paper": "paper2_voxel_topology_clogging",
+  "recommended_repository": "Zenodo/OSF/GitHub release; DOI or accession not yet assigned",
+  "groups": [
+    {
+      "group": "manuscript",
+      "include": [
+        "papers/paper2_voxel_topology_clogging/latex/main.tex",
+        "papers/paper2_voxel_topology_clogging/latex/main.pdf",
+        "papers/paper2_voxel_topology_clogging/references/paper2_references.bib"
+      ],
+      "purpose": "Manuscript source, compiled preview and bibliography.",
+      "required_for_reproduction": true,
+      "entries": [
+        {
+          "path": "papers/paper2_voxel_topology_clogging/latex/main.tex",
+          "exists": true,
+          "is_dir": false,
+          "size_bytes": 56004
+        },
+        {
+          "path": "papers/paper2_voxel_topology_clogging/latex/main.pdf",
+          "exists": true,
+          "is_dir": false,
+          "size_bytes": 3557736
+        },
+        {
+          "path": "papers/paper2_voxel_topology_clogging/references/paper2_references.bib",
+          "exists": true,
+          "is_dir": false,
+          "size_bytes": 5296
+        }
+      ],
+      "all_entries_exist": true,
+      "total_size_bytes": 3619036
+    },
+    {
+      "group": "source_data",
+      "include": [
+        "papers/paper2_voxel_topology_clogging/data",
+        "papers/paper2_voxel_topology_clogging/tables",
+        "papers/paper2_voxel_topology_clogging/flow_domains"
+      ],
+      "purpose": "Processed source data, cropped pore-domain inputs, audits and quantitative claim tables.",
+      "required_for_reproduction": true,
+      "entries": [
+        {
+          "path": "papers/paper2_voxel_topology_clogging/data",
+          "exists": true,
+          "is_dir": true,
+          "size_bytes": 485540
+        },
+        {
+          "path": "papers/paper2_voxel_topology_clogging/tables",
+          "exists": true,
+          "is_dir": true,
+          "size_bytes": 1290328
+        },
+        {
+          "path": "papers/paper2_voxel_topology_clogging/flow_domains",
+          "exists": true,
+          "is_dir": true,
+          "size_bytes": 2890931
+        }
+      ],
+      "all_entries_exist": true,
+      "total_size_bytes": 4666799
+    },
+    {
+      "group": "figure_exports",
+      "include": [
+        "papers/paper2_voxel_topology_clogging/figures"
+      ],
+      "purpose": "Figure exports for main and supplementary figures; the lightweight archive stages PDF/SVG exports and omits PNG previews when CloudStorage raster files are not reliably readable.",
+      "required_for_reproduction": true,
+      "entries": [
+        {
+          "path": "papers/paper2_voxel_topology_clogging/figures",
+          "exists": true,
+          "is_dir": true,
+          "size_bytes": 83089625
+        }
+      ],
+      "all_entries_exist": true,
+      "total_size_bytes": 83089625
+    },
+    {
+      "group": "paper_scripts",
+      "include": [
+        "papers/paper2_voxel_topology_clogging/scripts/analyze_explicit_localized_release_segment.py",
+        "papers/paper2_voxel_topology_clogging/scripts/analyze_localized_mechanism_axes.py",
+        "papers/paper2_voxel_topology_clogging/scripts/analyze_localized_release_mechanism.py",
+        "papers/paper2_voxel_topology_clogging/scripts/analyze_near_threshold_repeat_results.py",
+        "papers/paper2_voxel_topology_clogging/scripts/analyze_paper2_front_migration_metrics.py",
+        "papers/paper2_voxel_topology_clogging/scripts/analyze_paper2_mechanism_evidence.py",
+        "papers/paper2_voxel_topology_clogging/scripts/analyze_paper2_time_resolved_deposition.py",
+        "papers/paper2_voxel_topology_clogging/scripts/analyze_voxel_size_sensitivity.py",
+        "papers/paper2_voxel_topology_clogging/scripts/archive_data_code_deposit.py",
+        "papers/paper2_voxel_topology_clogging/scripts/assemble_openfoam_paraview_case_matrix.py",
+        "papers/paper2_voxel_topology_clogging/scripts/assemble_openfoam_paraview_main_figure.py",
+        "papers/paper2_voxel_topology_clogging/scripts/compute_paper2_pressure_proxy.py",
+        "papers/paper2_voxel_topology_clogging/scripts/make_data_code_deposit_manifest.py",
+        "papers/paper2_voxel_topology_clogging/scripts/make_deep_mechanism_mining.py",
+        "papers/paper2_voxel_topology_clogging/scripts/make_deposition_heterogeneity_mining.py",
+        "papers/paper2_voxel_topology_clogging/scripts/make_dimensionless_mechanism_map.py",
+        "papers/paper2_voxel_topology_clogging/scripts/make_figure_provenance_manifest.py",
+        "papers/paper2_voxel_topology_clogging/scripts/make_mechanistic_decoupling_matrix.py",
+        "papers/paper2_voxel_topology_clogging/scripts/make_observable_response_map.py",
+        "papers/paper2_voxel_topology_clogging/scripts/make_openfoam_evidence_assets.py",
+        "papers/paper2_voxel_topology_clogging/scripts/make_paper2_figures.py",
+        "papers/paper2_voxel_topology_clogging/scripts/make_parameter_evidence_coverage_map.py",
+        "papers/paper2_voxel_topology_clogging/scripts/make_subvoxel_hydraulic_evidence.py",
+        "papers/paper2_voxel_topology_clogging/scripts/make_tail_lag_mechanism_mining.py",
+        "papers/paper2_voxel_topology_clogging/scripts/plot_907_tail_capture_mechanism.py",
+        "papers/paper2_voxel_topology_clogging/scripts/plot_908_spatial_distribution_evidence.py",
+        "papers/paper2_voxel_topology_clogging/scripts/plot_additional_mechanism_figures.py",
+        "papers/paper2_voxel_topology_clogging/scripts/plot_explicit_localized_production_summary.py",
+        "papers/paper2_voxel_topology_clogging/scripts/plot_localized_time_dynamics.py",
+        "papers/paper2_voxel_topology_clogging/scripts/plot_mechanism_synthesis.py",
+        "papers/paper2_voxel_topology_clogging/scripts/plot_source_position_comparison.py",
+        "papers/paper2_voxel_topology_clogging/scripts/plot_time_resolved_deposition_main.py",
+        "papers/paper2_voxel_topology_clogging/scripts/prepare_cropped_flow_domains.py",
+        "papers/paper2_voxel_topology_clogging/scripts/render_openfoam_paraview_figures.py",
+        "papers/paper2_voxel_topology_clogging/scripts/run_3d_resistance_amplification_sensitivity.py",
+        "papers/paper2_voxel_topology_clogging/scripts/run_cropped_flow_domain_permeability.py",
+        "papers/paper2_voxel_topology_clogging/scripts/run_cropped_flow_permeability_sensitivity.py",
+        "papers/paper2_voxel_topology_clogging/scripts/run_voxel_pressure_pilot.py",
+        "papers/paper2_voxel_topology_clogging/scripts/stage_data_code_deposit.py"
+      ],
+      "purpose": "Provenance-listed figure/data scripts plus deposit/provenance manifest generators; internal submission-packaging helpers are excluded from the lightweight public deposit.",
+      "required_for_reproduction": true,
+      "entries": [
+        {
+          "path": "papers/paper2_voxel_topology_clogging/scripts/analyze_explicit_localized_release_segment.py",
+          "exists": true,
+          "is_dir": false,
+          "size_bytes": 9529
+        },
+        {
+          "path": "papers/paper2_voxel_topology_clogging/scripts/analyze_localized_mechanism_axes.py",
+          "exists": true,
+          "is_dir": false,
+          "size_bytes": 16064
+        },
+        {
+          "path": "papers/paper2_voxel_topology_clogging/scripts/analyze_localized_release_mechanism.py",
+          "exists": true,
+          "is_dir": false,
+          "size_bytes": 9611
+        },
+        {
+          "path": "papers/paper2_voxel_topology_clogging/scripts/analyze_near_threshold_repeat_results.py",
+          "exists": true,
+          "is_dir": false,
+          "size_bytes": 16885
+        },
+        {
+          "path": "papers/paper2_voxel_topology_clogging/scripts/analyze_paper2_front_migration_metrics.py",
+          "exists": true,
+          "is_dir": false,
+          "size_bytes": 12965
+        },
+        {
+          "path": "papers/paper2_voxel_topology_clogging/scripts/analyze_paper2_mechanism_evidence.py",
+          "exists": true,
+          "is_dir": false,
+          "size_bytes": 13075
+        },
+        {
+          "path": "papers/paper2_voxel_topology_clogging/scripts/analyze_paper2_time_resolved_deposition.py",
+          "exists": true,
+          "is_dir": false,
+          "size_bytes": 13980
+        },
+        {
+          "path": "papers/paper2_voxel_topology_clogging/scripts/analyze_voxel_size_sensitivity.py",
+          "exists": true,
+          "is_dir": false,
+          "size_bytes": 15239
+        },
+        {
+          "path": "papers/paper2_voxel_topology_clogging/scripts/archive_data_code_deposit.py",
+          "exists": true,
+          "is_dir": false,
+          "size_bytes": 3608
+        },
+        {
+          "path": "papers/paper2_voxel_topology_clogging/scripts/assemble_openfoam_paraview_case_matrix.py",
+          "exists": true,
+          "is_dir": false,
+          "size_bytes": 4658
+        },
+        {
+          "path": "papers/paper2_voxel_topology_clogging/scripts/assemble_openfoam_paraview_main_figure.py",
+          "exists": true,
+          "is_dir": false,
+          "size_bytes": 4930
+        },
+        {
+          "path": "papers/paper2_voxel_topology_clogging/scripts/compute_paper2_pressure_proxy.py",
+          "exists": true,
+          "is_dir": false,
+          "size_bytes": 9443
+        },
+        {
+          "path": "papers/paper2_voxel_topology_clogging/scripts/make_data_code_deposit_manifest.py",
+          "exists": true,
+          "is_dir": false,
+          "size_bytes": 10603
+        },
+        {
+          "path": "papers/paper2_voxel_topology_clogging/scripts/make_deep_mechanism_mining.py",
+          "exists": true,
+          "is_dir": false,
+          "size_bytes": 15835
+        },
+        {
+          "path": "papers/paper2_voxel_topology_clogging/scripts/make_deposition_heterogeneity_mining.py",
+          "exists": true,
+          "is_dir": false,
+          "size_bytes": 12559
+        },
+        {
+          "path": "papers/paper2_voxel_topology_clogging/scripts/make_dimensionless_mechanism_map.py",
+          "exists": true,
+          "is_dir": false,
+          "size_bytes": 25158
+        },
+        {
+          "path": "papers/paper2_voxel_topology_clogging/scripts/make_figure_provenance_manifest.py",
+          "exists": true,
+          "is_dir": false,
+          "size_bytes": 40641
+        },
+        {
+          "path": "papers/paper2_voxel_topology_clogging/scripts/make_mechanistic_decoupling_matrix.py",
+          "exists": true,
+          "is_dir": false,
+          "size_bytes": 15830
+        },
+        {
+          "path": "papers/paper2_voxel_topology_clogging/scripts/make_observable_response_map.py",
+          "exists": true,
+          "is_dir": false,
+          "size_bytes": 20303
+        },
+        {
+          "path": "papers/paper2_voxel_topology_clogging/scripts/make_openfoam_evidence_assets.py",
+          "exists": true,
+          "is_dir": false,
+          "size_bytes": 29820
+        },
+        {
+          "path": "papers/paper2_voxel_topology_clogging/scripts/make_paper2_figures.py",
+          "exists": true,
+          "is_dir": false,
+          "size_bytes": 36878
+        },
+        {
+          "path": "papers/paper2_voxel_topology_clogging/scripts/make_parameter_evidence_coverage_map.py",
+          "exists": true,
+          "is_dir": false,
+          "size_bytes": 14532
+        },
+        {
+          "path": "papers/paper2_voxel_topology_clogging/scripts/make_subvoxel_hydraulic_evidence.py",
+          "exists": true,
+          "is_dir": false,
+          "size_bytes": 12454
+        },
+        {
+          "path": "papers/paper2_voxel_topology_clogging/scripts/make_tail_lag_mechanism_mining.py",
+          "exists": true,
+          "is_dir": false,
+          "size_bytes": 15347
+        },
+        {
+          "path": "papers/paper2_voxel_topology_clogging/scripts/plot_907_tail_capture_mechanism.py",
+          "exists": true,
+          "is_dir": false,
+          "size_bytes": 7828
+        },
+        {
+          "path": "papers/paper2_voxel_topology_clogging/scripts/plot_908_spatial_distribution_evidence.py",
+          "exists": true,
+          "is_dir": false,
+          "size_bytes": 13213
+        },
+        {
+          "path": "papers/paper2_voxel_topology_clogging/scripts/plot_additional_mechanism_figures.py",
+          "exists": true,
+          "is_dir": false,
+          "size_bytes": 16068
+        },
+        {
+          "path": "papers/paper2_voxel_topology_clogging/scripts/plot_explicit_localized_production_summary.py",
+          "exists": true,
+          "is_dir": false,
+          "size_bytes": 12594
+        },
+        {
+          "path": "papers/paper2_voxel_topology_clogging/scripts/plot_localized_time_dynamics.py",
+          "exists": true,
+          "is_dir": false,
+          "size_bytes": 9164
+        },
+        {
+          "path": "papers/paper2_voxel_topology_clogging/scripts/plot_mechanism_synthesis.py",
+          "exists": true,
+          "is_dir": false,
+          "size_bytes": 17238
+        },
+        {
+          "path": "papers/paper2_voxel_topology_clogging/scripts/plot_source_position_comparison.py",
+          "exists": true,
+          "is_dir": false,
+          "size_bytes": 8418
+        },
+        {
+          "path": "papers/paper2_voxel_topology_clogging/scripts/plot_time_resolved_deposition_main.py",
+          "exists": true,
+          "is_dir": false,
+          "size_bytes": 10583
+        },
+        {
+          "path": "papers/paper2_voxel_topology_clogging/scripts/prepare_cropped_flow_domains.py",
+          "exists": true,
+          "is_dir": false,
+          "size_bytes": 14991
+        },
+        {
+          "path": "papers/paper2_voxel_topology_clogging/scripts/render_openfoam_paraview_figures.py",
+          "exists": true,
+          "is_dir": false,
+          "size_bytes": 9355
+        },
+        {
+          "path": "papers/paper2_voxel_topology_clogging/scripts/run_3d_resistance_amplification_sensitivity.py",
+          "exists": true,
+          "is_dir": false,
+          "size_bytes": 13979
+        },
+        {
+          "path": "papers/paper2_voxel_topology_clogging/scripts/run_cropped_flow_domain_permeability.py",
+          "exists": true,
+          "is_dir": false,
+          "size_bytes": 15996
+        },
+        {
+          "path": "papers/paper2_voxel_topology_clogging/scripts/run_cropped_flow_permeability_sensitivity.py",
+          "exists": true,
+          "is_dir": false,
+          "size_bytes": 11795
+        },
+        {
+          "path": "papers/paper2_voxel_topology_clogging/scripts/run_voxel_pressure_pilot.py",
+          "exists": true,
+          "is_dir": false,
+          "size_bytes": 10716
+        },
+        {
+          "path": "papers/paper2_voxel_topology_clogging/scripts/stage_data_code_deposit.py",
+          "exists": true,
+          "is_dir": false,
+          "size_bytes": 11565
+        }
+      ],
+      "all_entries_exist": true,
+      "total_size_bytes": 563450
+    },
+    {
+      "group": "selected_dem_inputs",
+      "include": [
+        "cases/clogging_scan/paper1_velocity_scan_frozen_repeat"
+      ],
+      "purpose": "Selected small DEM input decks for formal near-threshold repeat-seed evidence generation; generated dumps/restarts should be archived separately after runs.",
+      "required_for_reproduction": false,
+      "entries": [
+        {
+          "path": "cases/clogging_scan/paper1_velocity_scan_frozen_repeat",
+          "exists": true,
+          "is_dir": true,
+          "size_bytes": 249781963
+        }
+      ],
+      "all_entries_exist": true,
+      "total_size_bytes": 249781963
+    },
+    {
+      "group": "supplementary_material",
+      "include": [
+        "papers/paper2_voxel_topology_clogging/supplementary"
+      ],
+      "purpose": "Supplementary tables, supplementary-figure catalogue and OpenFOAM model/mesh pressure-note boundary.",
+      "required_for_reproduction": true,
+      "entries": [
+        {
+          "path": "papers/paper2_voxel_topology_clogging/supplementary",
+          "exists": true,
+          "is_dir": true,
+          "size_bytes": 121343
+        }
+      ],
+      "all_entries_exist": true,
+      "total_size_bytes": 121343
+    },
+    {
+      "group": "submission_notes",
+      "include": [
+        "papers/paper2_voxel_topology_clogging/CURRENT_PROJECT_STATUS.md",
+        "papers/paper2_voxel_topology_clogging/submission",
+        "papers/paper2_voxel_topology_clogging/remote_bundle/REMOTE_RUN_README.md",
+        "papers/paper2_voxel_topology_clogging/notes/figure_provenance_manifest.md",
+        "papers/paper2_voxel_topology_clogging/notes/paper2_manuscript_readiness.md",
+        "papers/paper2_voxel_topology_clogging/notes/reviewer_risk_matrix.md",
+        "papers/paper2_voxel_topology_clogging/notes/paper2_dimensionless_mechanism_map.md",
+        "papers/paper2_voxel_topology_clogging/notes/paper2_high_impact_evidence_upgrade_plan.md"
+      ],
+      "purpose": "Claim boundaries, submission checklist, cover-letter draft, repository deposit metadata and evidence audits.",
+      "required_for_reproduction": false,
+      "entries": [
+        {
+          "path": "papers/paper2_voxel_topology_clogging/CURRENT_PROJECT_STATUS.md",
+          "exists": true,
+          "is_dir": false,
+          "size_bytes": 44030
+        },
+        {
+          "path": "papers/paper2_voxel_topology_clogging/submission",
+          "exists": true,
+          "is_dir": true,
+          "size_bytes": 301004
+        },
+        {
+          "path": "papers/paper2_voxel_topology_clogging/remote_bundle/REMOTE_RUN_README.md",
+          "exists": true,
+          "is_dir": false,
+          "size_bytes": 2041
+        },
+        {
+          "path": "papers/paper2_voxel_topology_clogging/notes/figure_provenance_manifest.md",
+          "exists": true,
+          "is_dir": false,
+          "size_bytes": 15957
+        },
+        {
+          "path": "papers/paper2_voxel_topology_clogging/notes/paper2_manuscript_readiness.md",
+          "exists": true,
+          "is_dir": false,
+          "size_bytes": 19746
+        },
+        {
+          "path": "papers/paper2_voxel_topology_clogging/notes/reviewer_risk_matrix.md",
+          "exists": true,
+          "is_dir": false,
+          "size_bytes": 5343
+        },
+        {
+          "path": "papers/paper2_voxel_topology_clogging/notes/paper2_dimensionless_mechanism_map.md",
+          "exists": true,
+          "is_dir": false,
+          "size_bytes": 1703
+        },
+        {
+          "path": "papers/paper2_voxel_topology_clogging/notes/paper2_high_impact_evidence_upgrade_plan.md",
+          "exists": true,
+          "is_dir": false,
+          "size_bytes": 4140
+        }
+      ],
+      "all_entries_exist": true,
+      "total_size_bytes": 393964
+    },
+    {
+      "group": "shared_code",
+      "include": [
+        "src"
+      ],
+      "purpose": "Shared DEM, transport, voxel, topology and model utilities used by the paper-specific scripts.",
+      "required_for_reproduction": true,
+      "entries": [
+        {
+          "path": "src",
+          "exists": true,
+          "is_dir": true,
+          "size_bytes": 293819
+        }
+      ],
+      "all_entries_exist": true,
+      "total_size_bytes": 293819
+    }
+  ],
+  "raw_archive_candidates": [
+    {
+      "path": "cases/clogging_scan/paper2_localized_release",
+      "reason": "Contains LIGGGHTS inputs, logs, dumps and restart files for localized-release production and diagnostic jobs.",
+      "deposit_policy": "optional_raw_archive_large_files",
+      "exists": true,
+      "is_dir": true,
+      "size_bytes": 1116947741
+    },
+    {
+      "path": "data/raw",
+      "reason": "Project-level raw DEM dump location for smaller baseline or synthetic inputs.",
+      "deposit_policy": "include_if_size_allows_or_archive_separately",
+      "exists": true,
+      "is_dir": true,
+      "size_bytes": 4676312
+    }
+  ],
+  "deposit_boundary": "The lightweight deposit should include processed source data, scripts, figures, supplementary material and manuscript source. Large DEM dump/restart files can be archived separately when repository size limits require it."
+}

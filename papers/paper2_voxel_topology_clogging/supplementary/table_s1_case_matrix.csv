@@ -1,0 +1,10 @@
+table_group,case_id,evidence_level,df_over_dp,gas_velocity_m_s,debris_count_or_inventory,final_BTC_or_outlet_fraction,retention_or_source_fraction,x_mean_over_L,x_q99_or_centroid_over_L,note
+representative_drive_state,paper1_df0p025_ug1_seed401,production_result,0.025,1.0,2917,0.0,,0.2083781349179141,0.2084590332533424,low_drive_no_breakthrough
+representative_drive_state,paper1_df0p0225_ug2_seed401,production_result,0.0225,2.0,2830,0.0183333333333333,,0.357509566862976,0.357226148409894,intermediate_drive_weak_breakthrough
+representative_drive_state,paper1_df0p02_ug3_seed401,production_result,0.02,3.0,2752,0.082,,0.5025855836563308,0.4998183139534883,high_drive_stronger_breakthrough
+loading_scan,paper1_df0p0225_ug2_seed401_baseline3000,production_result_single_seed,0.0225,2.0,3000,0.0183333333333333,0.9816666666666668,0.3575095668629755,0.3518178278949104,baseline_3000
+loading_scan,paper1_load6000_df0p0225_ug2_seed401,production_result_single_seed,0.0225,2.0,6000,0.0141666666666666,0.9858333333333332,0.35975705229559557,0.3542605643272926,loading_scan
+loading_scan,paper1_load10000_df0p0225_ug2_seed401,production_result_single_seed,0.0225,2.0,10000,0.0156,0.9844,0.36029958858636,0.3545466984900615,loading_scan
+localized_internal_release,paper2_local_damage_slab_x012_018_df0p1_n15000_seed906_explicit,production_target_reached,0.1,,15000,0.0,0.5793333333333334,0.3957625410814814,0.6254378666666668,"906 upstream source, N=15000"
+localized_internal_release,paper2_local_damage_slab_x024_030_df0p1_n15000_seed907_explicit,production_target_reached,0.1,,15000,0.0,0.8961333333333333,0.6126589753051852,0.6837535333333333,"907 downstream source, N=15000"
+localized_internal_release,paper2_local_damage_slab_x012_018_df0p1_n30000_seed908_explicit,production_target_reached,0.1,,30000,0.0,0.8945,0.3460919432666666,0.4201562666666665,"908 upstream source, N=30000"

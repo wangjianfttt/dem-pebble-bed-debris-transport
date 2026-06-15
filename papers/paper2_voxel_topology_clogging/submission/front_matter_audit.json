@@ -1,0 +1,82 @@
+{
+  "decision": "pass",
+  "failure_count": 0,
+  "target_journal": "Chemical Engineering Science",
+  "title": "Separating breakthrough from pore-network clogging indicators in gas-driven fine-debris transport through Li4SiO4 pebble beds",
+  "highlight_count": 5,
+  "checks": [
+    {
+      "check_id": "title_matches_latex",
+      "status": "pass",
+      "severity": "blocker",
+      "evidence": "Separating breakthrough from pore-network clogging indicators in gas-driven fine-debris transport through Li4SiO4 pebble beds"
+    },
+    {
+      "check_id": "packet_title_matches_latex",
+      "status": "pass",
+      "severity": "blocker",
+      "evidence": "Separating breakthrough from pore-network clogging indicators in gas-driven fine-debris transport through Li4SiO4 pebble beds"
+    },
+    {
+      "check_id": "packet_journal_is_ces",
+      "status": "pass",
+      "severity": "blocker",
+      "evidence": "Chemical Engineering Science"
+    },
+    {
+      "check_id": "cover_letter_mentions_ces_and_title",
+      "status": "pass",
+      "severity": "blocker",
+      "evidence": "cover letter"
+    },
+    {
+      "check_id": "cover_letter_first_submission_language",
+      "status": "pass",
+      "severity": "blocker",
+      "evidence": "cover letter"
+    },
+    {
+      "check_id": "highlights_elsevier_length",
+      "status": "pass",
+      "severity": "blocker",
+      "evidence": "[70, 76, 74, 67, 69]"
+    },
+    {
+      "check_id": "highlights_match_mechanism_story",
+      "status": "pass",
+      "severity": "blocker",
+      "evidence": "highlights mechanism terms"
+    },
+    {
+      "check_id": "graphical_abstract_title_current",
+      "status": "pass",
+      "severity": "blocker",
+      "evidence": "graphical abstract SVG"
+    },
+    {
+      "check_id": "no_old_title_markers",
+      "status": "pass",
+      "severity": "blocker",
+      "evidence": "[]"
+    },
+    {
+      "check_id": "no_forbidden_front_matter_claims",
+      "status": "pass",
+      "severity": "blocker",
+      "evidence": "[]"
+    },
+    {
+      "check_id": "no_fallback_journals_in_copy_ready_front_matter",
+      "status": "pass",
+      "severity": "blocker",
+      "evidence": "[]"
+    },
+    {
+      "check_id": "front_matter_preserves_boundaries",
+      "status": "pass",
+      "severity": "blocker",
+      "evidence": "cover-letter boundary sentence"
+    }
+  ],
+  "evidence_boundary": "front-matter consistency audit only; it does not validate scientific claims."
+}

@@ -1,0 +1,22 @@
+{
+  "row_count": 6,
+  "benchmark_ids": [
+    "B01_packed_bed_fines_clogging",
+    "B02_packed_bed_deposition",
+    "B03_porous_media_clogging_mechanisms",
+    "B04_topology_morphology_descriptors",
+    "B05_pressure_flow_response",
+    "B06_fusion_blanket_relevance"
+  ],
+  "comparison_types": [
+    "application-relevance benchmark",
+    "bounded cropped-domain pressure benchmark",
+    "mechanistic benchmark against clogging-stage concepts",
+    "quantitative morphology/topology benchmark",
+    "quantitative within-study loading benchmark",
+    "semi-quantitative mechanism benchmark"
+  ],
+  "pressure_claim_boundary": "Returned OpenFOAM pressure drops are not experimental pressure validation, not OpenLB/LBM cross-validation and not pressure-calibrated Ib.",
+  "out_csv": "/Users/wangjian-macbook13/Library/CloudStorage/SynologyDrive-mac/\u8bba\u6587\u76f8\u5173/\u5206\u6570\u9636\u6a21\u578b\u7814\u7a76/project/papers/paper2_voxel_topology_clogging/tables/paper2_benchmark_crosswalk.csv",
+  "out_md": "/Users/wangjian-macbook13/Library/CloudStorage/SynologyDrive-mac/\u8bba\u6587\u76f8\u5173/\u5206\u6570\u9636\u6a21\u578b\u7814\u7a76/project/papers/paper2_voxel_topology_clogging/notes/paper2_benchmark_crosswalk.md"
+}

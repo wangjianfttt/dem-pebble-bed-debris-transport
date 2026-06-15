@@ -1,0 +1,22 @@
+{
+  "case_name": "paper2_local_damage_slab_x012_018_df0p1_n15000_seed906_explicit",
+  "status": "short_dynamics_preflight_completed",
+  "mpi_processes": 4,
+  "short_run_steps": 10000,
+  "short_run_physical_time_s": 0.0001,
+  "wall_time_s": 69.8,
+  "atoms_total": 25000,
+  "debris_atoms_t0": 15000,
+  "debris_atoms_t10000": 15000,
+  "kinetic_energy_max": 0.00066689773,
+  "kinetic_energy_final": 0.00054364614,
+  "neighbor_list_builds": 16,
+  "dangerous_builds": 0,
+  "type2_dx_mean_m": 1.06808666666667e-06,
+  "type2_dx_min_m": -0.001788399999999999,
+  "type2_dx_max_m": 0.002059499999999999,
+  "type2_vx_mean_m_s": 0.010627089205999998,
+  "type2_vx_q95_m_s": 0.00295012,
+  "type2_vx_max_m_s": 9.87472,
+  "interpretation": "Initialization and early dynamics are stable over 10000 steps. This is a preflight and performance benchmark, not a full transport or clogging result."
+}

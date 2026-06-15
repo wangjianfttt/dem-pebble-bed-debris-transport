@@ -1,0 +1,10 @@
+case_group,case_label,control_label,control_value,normalized_released_fraction,normalized_outlet_fraction,normalized_penetration_over_L,normalized_front_bulk_gap_over_L,normalized_max_blockage_ratio,normalized_pressure_proxy_ratio,normalized_voxel_conductance_loss,normalized_connectivity_loss
+drive scan,low drive no breakthrough,Fd/W,24.075851214924565,,0.0,0.0,,0.4607696313613568,,,0.0
+drive scan,intermediate drive weak breakthrough,Fd/W,59.4465462096903,,0.2235772357723573,0.18844645499829984,,0.0,,,0.0
+drive scan,high drive stronger breakthrough,Fd/W,112.85555256995887,,1.0,0.3717683792459854,,0.6805585289849962,,,0.0
+loading scan,N=3000,Ndebris,3000.0,,0.2235772357723573,1.0,,0.0,0.0,0.0,0.0
+loading scan,N=6000,Ndebris,6000.0,,0.17276422764227561,1.0,,0.4104046242774567,0.43561359942895217,0.4351359135364613,0.0
+loading scan,N=10000,Ndebris,10000.0,,0.19024390243902436,1.0,,1.0,1.0,1.0,0.0
+localized release,906 upstream,source/inventory,15000.0,0.8932102834541898,0.0,0.2636061688875402,0.5273745523592717,,,,0.0
+localized release,907 downstream,source/inventory,15000.0,1.0,0.0,0.6006970325195516,0.0,,,,0.0
+localized release,908 high inventory,source/inventory,30000.0,0.0,0.0,0.25139947907749277,1.0,,,,0.0

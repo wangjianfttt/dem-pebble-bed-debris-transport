@@ -1,0 +1,30 @@
+cff-version: 1.2.0
+message: "If you use this data/code package, please cite the associated manuscript and this repository record."
+title: "Separating breakthrough from pore-network clogging indicators in gas-driven fine-debris transport through Li4SiO4 pebble beds"
+type: dataset
+authors:
+  - family-names: Wang
+    given-names: Jian
+  - family-names: Liu
+    given-names: Mingzong
+  - family-names: Lei
+    given-names: Mingzhun
+  - family-names: Wu
+    given-names: Qigang
+  - family-names: Wang
+    given-names: Kaisong
+  - family-names: Deng
+    given-names: Haishun
+keywords:
+  - Li4SiO4
+  - ceramic breeder pebble bed
+  - discrete element method
+  - fine debris
+  - purge gas
+  - breakthrough curve
+  - voxel topology
+license: "TBC"
+repository-code: "TBC"
+url: "TBC"
+doi: "TBC"
+abstract: "Data, scripts and reproducibility material supporting a DEM-derived voxel-topology study of gas-driven fine-debris transport and retention in Li4SiO4 ceramic breeder pebble beds."

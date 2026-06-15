@@ -1,0 +1,52 @@
+{
+  "voxel_size": 0.00025,
+  "domain": {
+    "x_min": 0.00825,
+    "x_max": 0.0165,
+    "y_min": 0.0,
+    "y_max": 0.015,
+    "z_min": 0.0,
+    "z_max": 0.01325,
+    "Lx": 0.00825,
+    "Ly": 0.015,
+    "Lz": 0.01325
+  },
+  "particle_count": 10000,
+  "value_map": {
+    "0": "pore",
+    "1": "large_particle_solid",
+    "2": "debris_solid_reserved"
+  },
+  "shape": [
+    33,
+    60,
+    53
+  ],
+  "crop": {
+    "axis": "z",
+    "requested_lower": -4.377999999999977e-06,
+    "requested_upper": 0.013004400000000001,
+    "applied_lower": 0.0,
+    "applied_upper": 0.01325,
+    "start_index": 0,
+    "stop_index": 53
+  },
+  "crop_box": {
+    "x": {
+      "requested_lower": 0.0083749999999999,
+      "requested_upper": 0.0163749999999999,
+      "applied_lower": 0.00825,
+      "applied_upper": 0.0165,
+      "start_index": 33,
+      "stop_index": 66
+    }
+  },
+  "flow_domain_role": "peak_blockage_crop_for_future_pressure_flow_solver",
+  "flow_axis": "x",
+  "source_blockage_profile": "papers/paper2_voxel_topology_clogging/tables/paper2_fig4_loading_blockage_source.csv",
+  "debris_total_number": 3000,
+  "evidence_boundary": "input domain only; not CFD, not LBM and not measured pressure",
+  "blockage_field_npy": "papers/paper2_voxel_topology_clogging/flow_domains/N3000_peak_blockage/blockage_field.npy",
+  "hydraulic_resistance_multiplier_field_npy": "papers/paper2_voxel_topology_clogging/flow_domains/N3000_peak_blockage/hydraulic_resistance_multiplier_field.npy",
+  "hydraulic_resistance_model": "slice-local Ergun viscous resistance multiplier from epsilon_t = epsilon0 * (1 - B)"
+}

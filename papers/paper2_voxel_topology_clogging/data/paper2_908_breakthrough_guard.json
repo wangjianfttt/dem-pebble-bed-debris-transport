@@ -1,0 +1,15 @@
+{
+  "input": "papers/paper2_voxel_topology_clogging/tables/paper2_908_live_evidence_summary.csv",
+  "available_frames": 38,
+  "final_step": 760000,
+  "final_time_s": 0.00385,
+  "final_xmax_over_L": 0.9779822222222222,
+  "final_x99_over_L": 0.4042177777777778,
+  "final_outlet_count": 0,
+  "final_outlet_fraction": 0.0,
+  "near_outlet_xmax_threshold": 0.99,
+  "near_outlet_first_step": 200000,
+  "true_breakthrough_first_step": null,
+  "near_outlet_without_breakthrough": true,
+  "manuscript_guard": "Use 'near-outlet sparse front' when xmax/L approaches one but outlet_count remains zero; reserve 'breakthrough' for outlet_count_x_ge_L > 0."
+}

@@ -1,0 +1,43 @@
+{
+  "created_utc": "2026-06-12T22:44:54.487282+00:00",
+  "decision": "partial_transport_snapshot_ready",
+  "case_name": "paper2_phase2_load6000_df0p0225_ug2_seed501",
+  "case_dir": "/Users/wangjian-macbook13/Library/CloudStorage/SynologyDrive-mac/\u8bba\u6587\u76f8\u5173/\u5206\u6570\u9636\u6a21\u578b\u7814\u7a76/project/papers/paper2_voxel_topology_clogging/remote_results/phase2_loading_20260613_0608_partial/cases/clogging_scan/paper2_phase2_loading_repeats/paper2_phase2_load6000_df0p0225_ug2_seed501",
+  "config_case_dir": "/Users/wangjian-macbook13/Library/CloudStorage/SynologyDrive-mac/\u8bba\u6587\u76f8\u5173/\u5206\u6570\u9636\u6a21\u578b\u7814\u7a76/project/papers/paper2_voxel_topology_clogging/remote_results/phase2_loading_20260613_0608_partial/cases/clogging_scan/paper2_phase2_loading_repeats/paper2_phase2_load6000_df0p0225_ug2_seed501",
+  "dump_file_count": 9,
+  "flow_axis": "x",
+  "outlet_position": 0.045,
+  "dt": 1e-08,
+  "latest_timestep": 12717000,
+  "latest_time_s": 0.12717,
+  "latest_debris_count": 5958,
+  "latest_outlet_count": 0,
+  "latest_partial_btc": 0.0,
+  "latest_partial_retention": 1.0,
+  "latest_x_max": 0.00817846,
+  "latest_z_max": 0.0169364,
+  "latest_inlet_zone_fraction": 0.9880832494125545,
+  "front_speed_m_s": 0.8896232510287992,
+  "mean_cloud_speed_m_s": 0.16817723561026088,
+  "front_to_mean_speed_ratio": 5.289795897766091,
+  "injection_total_target": 6000,
+  "latest_inserted_debris_total_from_log": 6000,
+  "injection_complete_in_log": true,
+  "injection_completion_step": 12599902,
+  "injection_completion_time_s": 0.12599902,
+  "post_injection_frame_count": 2,
+  "latest_dump_after_injection_complete": true,
+  "tables": {
+    "frames": "/Users/wangjian-macbook13/Library/CloudStorage/SynologyDrive-mac/\u8bba\u6587\u76f8\u5173/\u5206\u6570\u9636\u6a21\u578b\u7814\u7a76/project/papers/paper2_voxel_topology_clogging/data/phase2_transport_metrics/paper2_phase2_load6000_df0p0225_ug2_seed501/paper2_phase2_load6000_df0p0225_ug2_seed501_partial_frames.csv",
+    "btc": "/Users/wangjian-macbook13/Library/CloudStorage/SynologyDrive-mac/\u8bba\u6587\u76f8\u5173/\u5206\u6570\u9636\u6a21\u578b\u7814\u7a76/project/papers/paper2_voxel_topology_clogging/data/phase2_transport_metrics/paper2_phase2_load6000_df0p0225_ug2_seed501/paper2_phase2_load6000_df0p0225_ug2_seed501_partial_btc.csv",
+    "profile_flow_axis": "/Users/wangjian-macbook13/Library/CloudStorage/SynologyDrive-mac/\u8bba\u6587\u76f8\u5173/\u5206\u6570\u9636\u6a21\u578b\u7814\u7a76/project/papers/paper2_voxel_topology_clogging/data/phase2_transport_metrics/paper2_phase2_load6000_df0p0225_ug2_seed501/paper2_phase2_load6000_df0p0225_ug2_seed501_partial_profile_x.csv",
+    "profile_z": "/Users/wangjian-macbook13/Library/CloudStorage/SynologyDrive-mac/\u8bba\u6587\u76f8\u5173/\u5206\u6570\u9636\u6a21\u578b\u7814\u7a76/project/papers/paper2_voxel_topology_clogging/data/phase2_transport_metrics/paper2_phase2_load6000_df0p0225_ug2_seed501/paper2_phase2_load6000_df0p0225_ug2_seed501_partial_profile_z.csv"
+  },
+  "figures": {
+    "btc": "/Users/wangjian-macbook13/Library/CloudStorage/SynologyDrive-mac/\u8bba\u6587\u76f8\u5173/\u5206\u6570\u9636\u6a21\u578b\u7814\u7a76/project/papers/paper2_voxel_topology_clogging/figures/phase2_transport_metrics/paper2_phase2_load6000_df0p0225_ug2_seed501/paper2_phase2_load6000_df0p0225_ug2_seed501_partial_btc.png",
+    "profile_flow_axis": "/Users/wangjian-macbook13/Library/CloudStorage/SynologyDrive-mac/\u8bba\u6587\u76f8\u5173/\u5206\u6570\u9636\u6a21\u578b\u7814\u7a76/project/papers/paper2_voxel_topology_clogging/figures/phase2_transport_metrics/paper2_phase2_load6000_df0p0225_ug2_seed501/paper2_phase2_load6000_df0p0225_ug2_seed501_partial_profile_x.png",
+    "profile_z": "/Users/wangjian-macbook13/Library/CloudStorage/SynologyDrive-mac/\u8bba\u6587\u76f8\u5173/\u5206\u6570\u9636\u6a21\u578b\u7814\u7a76/project/papers/paper2_voxel_topology_clogging/figures/phase2_transport_metrics/paper2_phase2_load6000_df0p0225_ug2_seed501/paper2_phase2_load6000_df0p0225_ug2_seed501_partial_profile_z.png",
+    "front_progression": "/Users/wangjian-macbook13/Library/CloudStorage/SynologyDrive-mac/\u8bba\u6587\u76f8\u5173/\u5206\u6570\u9636\u6a21\u578b\u7814\u7a76/project/papers/paper2_voxel_topology_clogging/figures/phase2_transport_metrics/paper2_phase2_load6000_df0p0225_ug2_seed501/paper2_phase2_load6000_df0p0225_ug2_seed501_partial_front_progression.png"
+  },
+  "boundary": "Partial early-run snapshot only; do not use as final Phase-II transport evidence until the case and full campaign complete."
+}

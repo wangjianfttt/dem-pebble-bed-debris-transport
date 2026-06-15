@@ -1,0 +1,31 @@
+{
+  "decision": "pass",
+  "failure_count": 0,
+  "checks": [
+    {
+      "check_id": "R01_geometry_orientation",
+      "description": "Methods states rectangular axial-flow geometry and gravity orientation.",
+      "status": "pass",
+      "evidence": "container, flow axis and gravity"
+    },
+    {
+      "check_id": "R02_material_contact_parameters",
+      "description": "Methods states stiff-particle material and contact parameters.",
+      "status": "pass",
+      "evidence": "density, modulus, Poisson ratio, restitution, friction and contact model"
+    },
+    {
+      "check_id": "R03_timestep_and_stability",
+      "description": "Methods states the hard-particle timestep and high-inventory half timestep.",
+      "status": "pass",
+      "evidence": "standard and half timestep"
+    },
+    {
+      "check_id": "R04_fixed_skeleton_boundary",
+      "description": "Methods states that type-1 pebbles are frozen and why.",
+      "status": "pass",
+      "evidence": "fixed-skeleton approximation"
+    }
+  ],
+  "boundary": "Methods reproducibility audit only; it checks exposed setup parameters and does not validate DEM physics."
+}

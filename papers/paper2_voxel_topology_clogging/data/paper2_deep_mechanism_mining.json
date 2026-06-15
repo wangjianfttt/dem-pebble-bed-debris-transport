@@ -1,0 +1,35 @@
+{
+  "decision": "deep_mechanism_mining_ready",
+  "drive_fit_log10_FdW_to_BTC": {
+    "slope": 0.11725330215363776,
+    "intercept": -0.17011632480173264,
+    "r2": 0.8433882581197566
+  },
+  "loading_fit_Bmax_per_1000_particles": {
+    "slope": 3.556941566007703e-06,
+    "intercept": -2.0968869493924238e-07,
+    "r2": 0.9995675580371662
+  },
+  "pressure_fit_percent_per_1000_particles": {
+    "slope": 0.029875897074908876,
+    "intercept": -0.08962250002173235,
+    "r2": 0.9999999943389709
+  },
+  "max_final_BTC": 0.082,
+  "max_loading_Bmax": 3.54878700564896e-05,
+  "max_openfoam_pressure_increase_percent": 0.2091325773251107,
+  "max_localized_front_bulk_gap_over_L": 0.5744392888888891,
+  "max_rare_tail_fraction_beyond_0p95": 6.666666666666667e-05,
+  "connectivity_loss_cases": 0,
+  "source_rows": 9,
+  "correlation_metrics": [
+    "final_BTC",
+    "max_blockage_ratio",
+    "connectivity_loss",
+    "front_bulk_gap_over_L",
+    "source_fraction",
+    "profile_pressure_increase_ratio",
+    "voxel_conductance_loss"
+  ],
+  "claim_boundary": "Derived data-mining indicators from existing Paper 2 source tables; exploratory synthesis only, not a fitted universal transition law and not pressure-calibrated safety evidence."
+}

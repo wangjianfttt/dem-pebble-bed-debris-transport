@@ -1,0 +1,189 @@
+{
+  "decision": "not_ready_for_submission_form_entry",
+  "summary": {
+    "pass": 8,
+    "blocker": 7,
+    "warning": 2
+  },
+  "rows": [
+    {
+      "item": "title",
+      "category": "submission_form",
+      "status": "pass",
+      "evidence": "submission_form_packet.json",
+      "details": {}
+    },
+    {
+      "item": "abstract",
+      "category": "submission_form",
+      "status": "pass",
+      "evidence": "submission_form_packet.json",
+      "details": {
+        "word_count": 214
+      }
+    },
+    {
+      "item": "authors_and_affiliations",
+      "category": "submission_form",
+      "status": "pass",
+      "evidence": "submission_form_packet.json",
+      "details": {
+        "authors": 6,
+        "affiliations": 2
+      }
+    },
+    {
+      "item": "keywords",
+      "category": "submission_form",
+      "status": "pass",
+      "evidence": "submission_form_packet.json",
+      "details": {
+        "count": 7
+      }
+    },
+    {
+      "item": "highlights",
+      "category": "elsevier_artifact",
+      "status": "pass",
+      "evidence": "submission_form_packet.json",
+      "details": {
+        "count": 5,
+        "lengths": [
+          70,
+          67,
+          69,
+          66,
+          69
+        ]
+      }
+    },
+    {
+      "item": "graphical_abstract",
+      "category": "elsevier_artifact",
+      "status": "pass",
+      "evidence": "submission_form_packet.json",
+      "details": {
+        "missing": [],
+        "png_width": 1983,
+        "png_height": 780
+      }
+    },
+    {
+      "item": "required_metadata_confirmations",
+      "category": "administrative",
+      "status": "blocker",
+      "evidence": "submission_metadata_gaps.json",
+      "details": {
+        "required_open": 5
+      }
+    },
+    {
+      "item": "optional_metadata_confirmations",
+      "category": "administrative",
+      "status": "warning",
+      "evidence": "submission_metadata_gaps.json",
+      "details": {
+        "optional_open": 1
+      }
+    },
+    {
+      "item": "metadata_repository",
+      "category": "administrative",
+      "status": "blocker",
+      "evidence": "submission_metadata.yaml",
+      "details": {
+        "missing_fields": [
+          "name",
+          "identifier",
+          "url",
+          "license"
+        ]
+      }
+    },
+    {
+      "item": "metadata_funding",
+      "category": "administrative",
+      "status": "blocker",
+      "evidence": "submission_metadata.yaml",
+      "details": {
+        "missing_fields": [
+          "statement"
+        ]
+      }
+    },
+    {
+      "item": "metadata_competing_interests",
+      "category": "administrative",
+      "status": "blocker",
+      "evidence": "submission_metadata.yaml",
+      "details": {
+        "missing_fields": []
+      }
+    },
+    {
+      "item": "metadata_acknowledgements",
+      "category": "administrative",
+      "status": "blocker",
+      "evidence": "submission_metadata.yaml",
+      "details": {
+        "missing_fields": [
+          "statement"
+        ]
+      }
+    },
+    {
+      "item": "metadata_corresponding_author",
+      "category": "administrative",
+      "status": "blocker",
+      "evidence": "submission_metadata.yaml",
+      "details": {
+        "missing_fields": [
+          "name",
+          "email"
+        ]
+      }
+    },
+    {
+      "item": "upload_files",
+      "category": "package",
+      "status": "pass",
+      "evidence": "final_submission_gate.json",
+      "details": {
+        "missing_upload_files": []
+      }
+    },
+    {
+      "item": "final_gate_status",
+      "category": "gate",
+      "status": "blocker",
+      "evidence": "final_submission_gate.json",
+      "details": {
+        "gate_status": "not_ready_for_submission",
+        "admin_blockers": 5
+      }
+    },
+    {
+      "item": "scientific_scope_warnings",
+      "category": "scope",
+      "status": "warning",
+      "evidence": "final_submission_gate.json",
+      "details": {
+        "count": 2,
+        "items": [
+          "critical_clogging_transition",
+          "localized_907_908_production_completion"
+        ]
+      }
+    },
+    {
+      "item": "unresolved_reviewer_risks",
+      "category": "scope",
+      "status": "pass",
+      "evidence": "final_submission_gate.json",
+      "details": {
+        "count": 0,
+        "items": []
+      }
+    }
+  ]
+}

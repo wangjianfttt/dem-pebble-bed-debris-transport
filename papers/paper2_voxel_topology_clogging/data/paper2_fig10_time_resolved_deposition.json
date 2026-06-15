@@ -1,0 +1,14 @@
+{
+  "figure": "paper2_fig10_time_resolved_deposition",
+  "input_deposition_rows": 50,
+  "input_blockage_profile_rows": 1000,
+  "first_nonzero_BTC_elapsed_s": 0.0315899999999999,
+  "q99_reaches_0p9_elapsed_s": 0.0356399999999999,
+  "final_BTC": 0.0183333333333333,
+  "final_x_mean_over_L": 0.6401190866666666,
+  "final_x_q99_over_L": 0.9974803111111112,
+  "peak_blockage_ratio": 5.2253180789355115e-05,
+  "peak_blockage_time_s": 0.00729,
+  "peak_blockage_x_over_L": 0.075,
+  "claim_boundary": "Representative time-resolved case only; supports delayed leading-tail breakthrough, not a universal speed law or critical-clogging threshold."
+}

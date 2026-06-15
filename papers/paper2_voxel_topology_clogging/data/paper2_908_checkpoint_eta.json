@@ -1,0 +1,27 @@
+{
+  "source": "remote type2 dump modification times sampled on 2026-06-10 17:40 CST",
+  "current_step": 340000,
+  "current_physical_time_s": 0.00175,
+  "recent_step_interval": 20000,
+  "recent_interval_count": 11,
+  "mean_seconds_per_20k_steps": 651.5604935342616,
+  "median_seconds_per_20k_steps": 650.9810516834259,
+  "eta": [
+    {
+      "step": 360000,
+      "estimated_local_time": "2026-06-10T17:42:05.733565",
+      "purpose": "monitoring frame"
+    },
+    {
+      "step": 380000,
+      "estimated_local_time": "2026-06-10T17:52:56.714617",
+      "purpose": "monitoring frame"
+    },
+    {
+      "step": 400000,
+      "estimated_local_time": "2026-06-10T18:03:47.695669",
+      "purpose": "first coarse decision gate"
+    }
+  ],
+  "decision_rule": "At 400k, if true_outlet_crossing remains false while front_near_saturation and bulk_still_retained remain true, promote only to stable bounded sparse-front-saturation evidence; do not promote to completed BTC or critical clogging."
+}

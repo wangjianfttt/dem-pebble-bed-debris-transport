@@ -1,0 +1,31 @@
+{
+  "created_utc": "2026-06-12T22:44:51.948154+00:00",
+  "decision": "partial_collection_only",
+  "local_root": "/Users/wangjian-macbook13/Library/CloudStorage/SynologyDrive-mac/\u8bba\u6587\u76f8\u5173/\u5206\u6570\u9636\u6a21\u578b\u7814\u7a76/project/papers/paper2_voxel_topology_clogging/remote_results/phase2_loading_20260613_0608_partial",
+  "case_count": 1,
+  "status_counts": {
+    "partial": 1
+  },
+  "cases": [
+    {
+      "case_name": "paper2_phase2_load6000_df0p0225_ug2_seed501",
+      "case_dir": "/Users/wangjian-macbook13/Library/CloudStorage/SynologyDrive-mac/\u8bba\u6587\u76f8\u5173/\u5206\u6570\u9636\u6a21\u578b\u7814\u7a76/project/papers/paper2_voxel_topology_clogging/remote_results/phase2_loading_20260613_0608_partial/cases/clogging_scan/paper2_phase2_loading_repeats/paper2_phase2_load6000_df0p0225_ug2_seed501",
+      "status": "partial",
+      "type2_dump_count": 9,
+      "all_dump_count": 9,
+      "expected_dump_frames": 50,
+      "latest_type2_timestep": 12717000,
+      "latest_all_timestep": 12717000,
+      "final_restart_exists": false,
+      "log_exists": true,
+      "log_size_bytes": 9784,
+      "final_marker_seen": false,
+      "reasons": [
+        "final restart is not collected yet",
+        "type2 dump count 9 < expected 50",
+        "final log marker not seen yet"
+      ]
+    }
+  ],
+  "boundary": "Collected-case summary only; complete transport evidence requires post-processing and audit of full case outputs."
+}

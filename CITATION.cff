@@ -1,0 +1,28 @@
+cff-version: 1.2.0
+message: "If you use this repository, please cite the associated manuscript and this repository release."
+title: "DEM-derived pore reconstruction and fine-debris transport analysis in Li4SiO4 pebble beds"
+authors:
+  - family-names: Wang
+    given-names: Jian
+  - family-names: Liu
+    given-names: Mingzong
+  - family-names: Lei
+    given-names: Mingzhun
+  - family-names: Wu
+    given-names: Qigang
+  - family-names: Wang
+    given-names: Kaisong
+  - family-names: Deng
+    given-names: Haishun
+repository-code: "https://github.com/wangjianfttt/dem-pebble-bed-debris-transport"
+version: "v1.0.0-ces-submission"
+date-released: "2026-06-15"
+keywords:
+  - DEM
+  - Li4SiO4
+  - pebble bed
+  - fine debris
+  - breakthrough curve
+  - pore reconstruction
+  - clogging assessment
+abstract: "Lightweight processed data and code for a bounded DEM-derived workflow separating fine-debris breakthrough, local blockage, connected-pore degradation and hydraulic confirmation indicators in Li4SiO4 pebble beds."

@@ -1,0 +1,146 @@
+{
+  "summary": {
+    "decision": "pass",
+    "expected_order": [
+      "paper2_fig1_voxel_topology_framework",
+      "paper2_fig2_baseline_voxel_topology",
+      "paper2_fig3_representative_debris_blockage",
+      "paper2_908_spatial_distribution_evidence",
+      "paper2_fig7_localized_time_dynamics",
+      "paper2_openfoam_model_mesh_main",
+      "paper2_fig4_loading_clogging_response",
+      "paper2_fig6_mechanism_synthesis",
+      "paper2_fig8_response_landscape",
+      "paper2_fig9_sparse_front_diagnostics",
+      "paper2_fig10_time_resolved_deposition"
+    ],
+    "observed_order": [
+      "paper2_fig1_voxel_topology_framework",
+      "paper2_fig2_baseline_voxel_topology",
+      "paper2_fig3_representative_debris_blockage",
+      "paper2_908_spatial_distribution_evidence",
+      "paper2_fig7_localized_time_dynamics",
+      "paper2_openfoam_model_mesh_main",
+      "paper2_fig4_loading_clogging_response",
+      "paper2_fig6_mechanism_synthesis",
+      "paper2_fig8_response_landscape",
+      "paper2_fig9_sparse_front_diagnostics",
+      "paper2_fig10_time_resolved_deposition"
+    ],
+    "failure_count": 0,
+    "failures": [],
+    "boundary": "Main-figure order and caption audit only; it does not create new scientific evidence."
+  },
+  "figures": [
+    {
+      "expected_figure": "Fig. 1",
+      "stem": "paper2_fig1_voxel_topology_framework",
+      "label": "fig:workflow",
+      "present": true,
+      "order_ok": true,
+      "caption_length": 329,
+      "missing_boundary_markers": [],
+      "forbidden_caption_phrases": []
+    },
+    {
+      "expected_figure": "Fig. 2",
+      "stem": "paper2_fig2_baseline_voxel_topology",
+      "label": "fig:baseline",
+      "present": true,
+      "order_ok": true,
+      "caption_length": 236,
+      "missing_boundary_markers": [],
+      "forbidden_caption_phrases": []
+    },
+    {
+      "expected_figure": "Fig. 3",
+      "stem": "paper2_fig3_representative_debris_blockage",
+      "label": "fig:representative",
+      "present": true,
+      "order_ok": true,
+      "caption_length": 250,
+      "missing_boundary_markers": [],
+      "forbidden_caption_phrases": []
+    },
+    {
+      "expected_figure": "Fig. 4",
+      "stem": "paper2_908_spatial_distribution_evidence",
+      "label": "fig:localized908",
+      "present": true,
+      "order_ok": true,
+      "caption_length": 279,
+      "missing_boundary_markers": [],
+      "forbidden_caption_phrases": []
+    },
+    {
+      "expected_figure": "Fig. 5",
+      "stem": "paper2_fig7_localized_time_dynamics",
+      "label": "fig:localized_time",
+      "present": true,
+      "order_ok": true,
+      "caption_length": 423,
+      "missing_boundary_markers": [],
+      "forbidden_caption_phrases": []
+    },
+    {
+      "expected_figure": "Fig. 6",
+      "stem": "paper2_openfoam_model_mesh_main",
+      "label": "fig:openfoam_model_mesh_main",
+      "present": true,
+      "order_ok": true,
+      "caption_length": 393,
+      "missing_boundary_markers": [],
+      "forbidden_caption_phrases": []
+    },
+    {
+      "expected_figure": "Fig. 7",
+      "stem": "paper2_fig4_loading_clogging_response",
+      "label": "fig:loading",
+      "present": true,
+      "order_ok": true,
+      "caption_length": 464,
+      "missing_boundary_markers": [],
+      "forbidden_caption_phrases": []
+    },
+    {
+      "expected_figure": "Fig. 8",
+      "stem": "paper2_fig6_mechanism_synthesis",
+      "label": "fig:synthesis",
+      "present": true,
+      "order_ok": true,
+      "caption_length": 492,
+      "missing_boundary_markers": [],
+      "forbidden_caption_phrases": []
+    },
+    {
+      "expected_figure": "Fig. 9",
+      "stem": "paper2_fig8_response_landscape",
+      "label": "fig:response_landscape",
+      "present": true,
+      "order_ok": true,
+      "caption_length": 793,
+      "missing_boundary_markers": [],
+      "forbidden_caption_phrases": []
+    },
+    {
+      "expected_figure": "Fig. 10",
+      "stem": "paper2_fig9_sparse_front_diagnostics",
+      "label": "fig:sparse_front_diagnostics",
+      "present": true,
+      "order_ok": true,
+      "caption_length": 447,
+      "missing_boundary_markers": [],
+      "forbidden_caption_phrases": []
+    },
+    {
+      "expected_figure": "Fig. 11",
+      "stem": "paper2_fig10_time_resolved_deposition",
+      "label": "fig:time_resolved_deposition",
+      "present": true,
+      "order_ok": true,
+      "caption_length": 408,
+      "missing_boundary_markers": [],
+      "forbidden_caption_phrases": []
+    }
+  ]
+}

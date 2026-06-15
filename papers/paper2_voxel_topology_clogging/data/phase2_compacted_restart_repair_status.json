@@ -1,0 +1,23 @@
+{
+  "updated_utc": "2026-06-12T21:27:10Z",
+  "stage": "remote_restart_sync_and_preflight",
+  "status": "complete",
+  "repair_method": "Readable vib- and piston-compacted restart files were synchronized from /data1/wangjian/fractional_dem_project on the remote Ubuntu workstation after local CloudStorage short-read artifacts blocked Phase-II preflight.",
+  "remote_host": "wangjian@192.168.3.6",
+  "remote_project": "/data1/wangjian/fractional_dem_project",
+  "vib_restart": {
+    "exists": true,
+    "stat_size": 4894636,
+    "read_len": 64
+  },
+  "piston_restart": {
+    "exists": true,
+    "stat_size": 4944876,
+    "read_len": 64
+  },
+  "phase2_input_audit_decision": "ready_for_liggghts_preflight",
+  "phase2_input_ready_count": 8,
+  "phase2_preflight_run_decision": "pass",
+  "phase2_preflight_passed_count": 8,
+  "boundary": "Restart repair and 10k-step LIGGGHTS preflight only; no Phase-II transport evidence or production transport evidence is created by this status file."
+}

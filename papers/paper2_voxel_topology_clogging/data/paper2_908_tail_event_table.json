@@ -1,0 +1,106 @@
+{
+  "summary": {
+    "event_count": 6,
+    "observed_events": [
+      "front_xmax_ge_0p90",
+      "front_xmax_ge_0p99",
+      "fraction_gt_0p80_positive",
+      "fraction_gt_0p95_positive"
+    ],
+    "missing_events": [
+      "p999_ge_0p50",
+      "true_outlet_crossing"
+    ],
+    "near_outlet_sparse_front_observed": true,
+    "true_breakthrough_observed": false,
+    "final_step": 760000,
+    "final_time_s": 0.00385,
+    "claim_boundary": "Near-outlet maximum-position events are sparse-front evidence. Only true_outlet_crossing supports a breakthrough claim."
+  },
+  "events": [
+    {
+      "event_id": "front_xmax_ge_0p90",
+      "description": "Maximum debris position reaches x/L >= 0.90.",
+      "column": "x_max_over_L",
+      "operator": ">=",
+      "threshold": 0.9,
+      "observed": true,
+      "first_step": 180000.0,
+      "first_time_s": 0.00095,
+      "final_step": 760000,
+      "final_time_s": 0.00385,
+      "final_value": 0.9779822222222222,
+      "claim_use": "near-outlet sparse-front monitoring"
+    },
+    {
+      "event_id": "front_xmax_ge_0p99",
+      "description": "Maximum debris position reaches x/L >= 0.99.",
+      "column": "x_max_over_L",
+      "operator": ">=",
+      "threshold": 0.99,
+      "observed": true,
+      "first_step": 200000.0,
+      "first_time_s": 0.00105,
+      "final_step": 760000,
+      "final_time_s": 0.00385,
+      "final_value": 0.9779822222222222,
+      "claim_use": "near-outlet sparse-front monitoring; not breakthrough alone"
+    },
+    {
+      "event_id": "p999_ge_0p50",
+      "description": "99.9th percentile reaches x/L >= 0.50.",
+      "column": "x_p999_over_L",
+      "operator": ">=",
+      "threshold": 0.5,
+      "observed": false,
+      "first_step": NaN,
+      "first_time_s": NaN,
+      "final_step": 760000,
+      "final_time_s": 0.00385,
+      "final_value": 0.4745800266666666,
+      "claim_use": "rare-tail broadening beyond the source neighborhood"
+    },
+    {
+      "event_id": "fraction_gt_0p80_positive",
+      "description": "At least one debris particle is beyond x/L = 0.80.",
+      "column": "fraction_x_gt_0p80",
+      "operator": ">",
+      "threshold": 0.0,
+      "observed": true,
+      "first_step": 140000.0,
+      "first_time_s": 0.00075,
+      "final_step": 760000,
+      "final_time_s": 0.00385,
+      "final_value": 0.0002333333333333,
+      "claim_use": "rare-tail presence in the downstream bed"
+    },
+    {
+      "event_id": "fraction_gt_0p95_positive",
+      "description": "At least one debris particle is beyond x/L = 0.95.",
+      "column": "fraction_x_gt_0p95",
+      "operator": ">",
+      "threshold": 0.0,
+      "observed": true,
+      "first_step": 200000.0,
+      "first_time_s": 0.00105,
+      "final_step": 760000,
+      "final_time_s": 0.00385,
+      "final_value": 0.0001,
+      "claim_use": "near-outlet rare-tail presence"
+    },
+    {
+      "event_id": "true_outlet_crossing",
+      "description": "At least one debris particle crosses x/L >= 1.0.",
+      "column": "fraction_x_ge_1p00",
+      "operator": ">",
+      "threshold": 0.0,
+      "observed": false,
+      "first_step": NaN,
+      "first_time_s": NaN,
+      "final_step": 760000,
+      "final_time_s": 0.00385,
+      "final_value": 0.0,
+      "claim_use": "first true breakthrough event"
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "summary": {
+    "decision": "pressure_evidence_ready_for_author_review",
+    "row_count": 6,
+    "warning_count": 1,
+    "warnings": [
+      "author review still required before manuscript insertion"
+    ],
+    "valid_pressure_cases": 3,
+    "engineering_screening_cases": 3,
+    "strict_pressure_cases": 3,
+    "manuscript_ready_pressure_evidence": true,
+    "boundary": "Audit only; no CFD pressure values are inferred or created."
+  },
+  "rows": [
+    {
+      "item": "remote_transfer_bundle",
+      "status": "ready",
+      "value": "/Users/wangjian-macbook13/Library/CloudStorage/SynologyDrive-mac/论文相关/分数阶模型研究/project/papers/paper2_voxel_topology_clogging/flow_solver_handoff_archives/paper2_openfoam_remote_transfer_bundle.zip",
+      "warning": "",
+      "boundary": "Transfer bundle is input only; it is not pressure evidence."
+    },
+    {
+      "item": "latest_import_record",
+      "status": "present",
+      "value": "papers/paper2_voxel_topology_clogging/flow_solver_results/archives/paper2_openfoam_handoff_results_20260612T031352Z.tar.gz",
+      "warning": "",
+      "boundary": "Import records are provenance only; pressure values require parser and gate checks."
+    },
+    {
+      "item": "latest_import_archive_exists",
+      "status": "exists",
+      "value": "papers/paper2_voxel_topology_clogging/flow_solver_results/archives/paper2_openfoam_handoff_results_20260612T031352Z.tar.gz",
+      "warning": "",
+      "boundary": "A missing latest archive does not invalidate current empty evidence, but it should not be cited."
+    },
+    {
+      "item": "parsed_openfoam_cases",
+      "status": "available",
+      "value": "3",
+      "warning": "",
+      "boundary": "OpenFOAM result parser only; empty output means no returned solver results were found."
+    },
+    {
+      "item": "pressure_drop_cases",
+      "status": "available",
+      "value": "3",
+      "warning": "",
+      "boundary": "Pressure-drop rows require returned pInlet/pOutlet values and passing logs."
+    },
+    {
+      "item": "manuscript_pressure_gate",
+      "status": "ready",
+      "value": "3",
+      "warning": "author review still required before manuscript insertion",
+      "boundary": "No pressure values are inferred; valid cases require pressure output, aligned inlet/outlet sampling times and passing checkMesh/simpleFoam logs."
+    }
+  ]
+}

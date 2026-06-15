@@ -1,0 +1,33 @@
+{
+  "case_count": 2,
+  "cases": [
+    {
+      "case_name": "paper2_frozen_repeat_df0p0225_ug2_seed501",
+      "seed_offset": 501,
+      "df_over_dp": 0.0225,
+      "gas_velocity_m_s": 2.0,
+      "debris_total_number": 3000,
+      "case_dir": "cases/clogging_scan/paper1_velocity_scan_frozen_repeat/paper2_frozen_repeat_df0p0225_ug2_seed501",
+      "input": "cases/clogging_scan/paper1_velocity_scan_frozen_repeat/paper2_frozen_repeat_df0p0225_ug2_seed501/in.debris_injection",
+      "preflight_input": "cases/clogging_scan/paper1_velocity_scan_frozen_repeat/paper2_frozen_repeat_df0p0225_ug2_seed501/in.preflight_10k",
+      "run_script": "cases/clogging_scan/paper1_velocity_scan_frozen_repeat/paper2_frozen_repeat_df0p0225_ug2_seed501/run.sh",
+      "processed_target": "data/processed/paper1_velocity_scan_frozen/paper2_frozen_repeat_df0p0225_ug2_seed501.json",
+      "evidence_status": "case_generated_not_run",
+      "claim_boundary": "Formal frozen-bed repeat case, but not scientific evidence until LIGGGHTS output is post-processed."
+    },
+    {
+      "case_name": "paper2_frozen_repeat_df0p0225_ug2_seed601",
+      "seed_offset": 601,
+      "df_over_dp": 0.0225,
+      "gas_velocity_m_s": 2.0,
+      "debris_total_number": 3000,
+      "case_dir": "cases/clogging_scan/paper1_velocity_scan_frozen_repeat/paper2_frozen_repeat_df0p0225_ug2_seed601",
+      "input": "cases/clogging_scan/paper1_velocity_scan_frozen_repeat/paper2_frozen_repeat_df0p0225_ug2_seed601/in.debris_injection",
+      "preflight_input": "cases/clogging_scan/paper1_velocity_scan_frozen_repeat/paper2_frozen_repeat_df0p0225_ug2_seed601/in.preflight_10k",
+      "run_script": "cases/clogging_scan/paper1_velocity_scan_frozen_repeat/paper2_frozen_repeat_df0p0225_ug2_seed601/run.sh",
+      "processed_target": "data/processed/paper1_velocity_scan_frozen/paper2_frozen_repeat_df0p0225_ug2_seed601.json",
+      "evidence_status": "case_generated_not_run",
+      "claim_boundary": "Formal frozen-bed repeat case, but not scientific evidence until LIGGGHTS output is post-processed."
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+axis,case_label,drive_to_weight,final_BTC,max_blockage_ratio,connectivity_loss,derived_indicator,source_fraction,downstream_fraction,outlet_fraction,front_bulk_gap_over_L,rare_tail_fraction_beyond_0p95,debris_total_number,pressure_increase_percent,Ib_no_pressure
+drive,low_drive_no_breakthrough,24.075851214924565,0.0,2.2084826555567843e-05,0.0,BTC rises with Stokes-scale drive while connectivity loss remains zero,,,,,,,,
+drive,intermediate_drive_weak_breakthrough,59.4465462096903,0.0183333333333333,1.0631993458219603e-05,0.0,BTC rises with Stokes-scale drive while connectivity loss remains zero,,,,,,,,
+drive,high_drive_stronger_breakthrough,112.85555256995887,0.082,2.7547872272570823e-05,0.0,BTC rises with Stokes-scale drive while connectivity loss remains zero,,,,,,,,
+localized_source,906_upstream_source_continue_1M_to_4M,,,,,Source-retained bulk can coexist with a sparse near-outlet front,0.5793333333333334,0.4203333333333333,0.0,0.3726665777777778,0.0,,,
+localized_source,907_downstream_source_dt5e9_to_10ms,,,,,Source-retained bulk can coexist with a sparse near-outlet front,0.8961333333333333,0.1009333333333333,0.0,0.2988531333333335,0.0,,,
+localized_source,908_high_inventory_dt5e9_to_10ms,,,,,Source-retained bulk can coexist with a sparse near-outlet front,0.8945,0.1012333333333333,0.0,0.5744392888888891,6.666666666666667e-05,,,
+loading_hydraulic,paper1_df0p0225_ug2_seed401_baseline3000,,0.0183333333333333,1.0631993458219603e-05,0.0,Inventory amplifies local blockage much more than cropped-domain pressure response,,,,,,3000.0,0.0,5.315996729109802e-06
+loading_hydraulic,paper1_load6000_df0p0225_ug2_seed401,,0.0141666666666666,2.083296015461943e-05,0.0,Inventory amplifies local blockage much more than cropped-domain pressure response,,,,,,6000.0,0.08964196703296068,1.0416480077309717e-05
+loading_hydraulic,paper1_load10000_df0p0225_ug2_seed401,,0.0156,3.54878700564896e-05,0.0,Inventory amplifies local blockage much more than cropped-domain pressure response,,,,,,10000.0,0.2091325773251107,1.77439350282448e-05

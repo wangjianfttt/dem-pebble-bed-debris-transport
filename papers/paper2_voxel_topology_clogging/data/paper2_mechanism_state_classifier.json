@@ -1,0 +1,46 @@
+{
+  "row_count": 9,
+  "state_count": 3,
+  "state_counts": {
+    "breakthrough with local pre-clogging deposition": 5,
+    "internal retention with local deposition": 1,
+    "source-retained sparse-front slowdown": 3
+  },
+  "family_state_counts": [
+    {
+      "evidence_family": "drive_state",
+      "mechanism_state": "breakthrough with local pre-clogging deposition",
+      "count": 2
+    },
+    {
+      "evidence_family": "drive_state",
+      "mechanism_state": "internal retention with local deposition",
+      "count": 1
+    },
+    {
+      "evidence_family": "loading_state",
+      "mechanism_state": "breakthrough with local pre-clogging deposition",
+      "count": 3
+    },
+    {
+      "evidence_family": "localized_source_state",
+      "mechanism_state": "source-retained sparse-front slowdown",
+      "count": 3
+    }
+  ],
+  "breakthrough_cases": 5,
+  "local_blockage_cases": 6,
+  "connectivity_loss_cases": 0,
+  "sparse_front_cases": 3,
+  "source_retained_cases": 3,
+  "pressure_proxy_cases": 3,
+  "thresholds": {
+    "BTC_THRESHOLD": 0.01,
+    "BLOCKAGE_THRESHOLD": 1e-05,
+    "CONNECTIVITY_LOSS_THRESHOLD": 0.01,
+    "SPARSE_FRONT_GAP_THRESHOLD": 0.25,
+    "NEAR_OUTLET_XMAX_THRESHOLD": 0.95,
+    "SOURCE_RETAINED_THRESHOLD": 0.5
+  },
+  "claim_boundary": "Mechanism states are reviewer-facing labels derived from existing source tables; they should not be cited as a universal phase diagram or critical-clogging criterion."
+}

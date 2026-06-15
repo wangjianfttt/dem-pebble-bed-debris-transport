@@ -1,0 +1,26 @@
+{
+  "status": "complete_pressure_evidence",
+  "valid_pressure_cases": 3,
+  "expected_handoff_cases": 3,
+  "source_results_csv": "/Users/wangjian-macbook13/Library/CloudStorage/SynologyDrive-mac/\u8bba\u6587\u76f8\u5173/\u5206\u6570\u9636\u6a21\u578b\u7814\u7a76/project/papers/paper2_voxel_topology_clogging/tables/paper2_openfoam_handoff_results_summary.csv",
+  "source_handoff_csv": "/Users/wangjian-macbook13/Library/CloudStorage/SynologyDrive-mac/\u8bba\u6587\u76f8\u5173/\u5206\u6570\u9636\u6a21\u578b\u7814\u7a76/project/papers/paper2_voxel_topology_clogging/tables/paper2_flow_solver_handoff_manifest.csv",
+  "out_table": "/Users/wangjian-macbook13/Library/CloudStorage/SynologyDrive-mac/\u8bba\u6587\u76f8\u5173/\u5206\u6570\u9636\u6a21\u578b\u7814\u7a76/project/papers/paper2_voxel_topology_clogging/tables/paper2_openfoam_pressure_evidence_source.csv",
+  "out_screening_table": "/Users/wangjian-macbook13/Library/CloudStorage/SynologyDrive-mac/\u8bba\u6587\u76f8\u5173/\u5206\u6570\u9636\u6a21\u578b\u7814\u7a76/project/papers/paper2_voxel_topology_clogging/tables/paper2_openfoam_pressure_screening_source.csv",
+  "out_geometry_audit": "/Users/wangjian-macbook13/Library/CloudStorage/SynologyDrive-mac/\u8bba\u6587\u76f8\u5173/\u5206\u6570\u9636\u6a21\u578b\u7814\u7a76/project/papers/paper2_voxel_topology_clogging/tables/paper2_openfoam_geometry_audit.csv",
+  "figure_outputs": [
+    "/Users/wangjian-macbook13/Library/CloudStorage/SynologyDrive-mac/\u8bba\u6587\u76f8\u5173/\u5206\u6570\u9636\u6a21\u578b\u7814\u7a76/project/papers/paper2_voxel_topology_clogging/figures/paper2_figS23_openfoam_pressure_evidence.png",
+    "/Users/wangjian-macbook13/Library/CloudStorage/SynologyDrive-mac/\u8bba\u6587\u76f8\u5173/\u5206\u6570\u9636\u6a21\u578b\u7814\u7a76/project/papers/paper2_voxel_topology_clogging/figures/paper2_figS23_openfoam_pressure_evidence.pdf",
+    "/Users/wangjian-macbook13/Library/CloudStorage/SynologyDrive-mac/\u8bba\u6587\u76f8\u5173/\u5206\u6570\u9636\u6a21\u578b\u7814\u7a76/project/papers/paper2_voxel_topology_clogging/figures/paper2_figS23_openfoam_pressure_evidence.svg"
+  ],
+  "figure_base": "/Users/wangjian-macbook13/Library/CloudStorage/SynologyDrive-mac/\u8bba\u6587\u76f8\u5173/\u5206\u6570\u9636\u6a21\u578b\u7814\u7a76/project/papers/paper2_voxel_topology_clogging/figures/paper2_figS23_openfoam_pressure_evidence",
+  "manuscript_ready_pressure_evidence": true,
+  "engineering_screening_cases": 3,
+  "strict_pressure_cases": 3,
+  "stale_result_cases_after_handoff_update": 0,
+  "uncoupled_hydraulic_field_cases": 0,
+  "geometry_audit_available": true,
+  "unique_flow_geometries": 3,
+  "geometry_distinguishable": true,
+  "geometry_gate_boundary": "Flow inputs differ across all expected loading cases.",
+  "evidence_boundary": "No pressure values are inferred; valid cases require pressure output, aligned inlet/outlet sampling times and passing checkMesh/simpleFoam logs."
+}

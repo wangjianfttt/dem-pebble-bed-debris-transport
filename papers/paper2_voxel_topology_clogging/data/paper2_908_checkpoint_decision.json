@@ -1,0 +1,18 @@
+{
+  "final_step": 1990000,
+  "final_time_s": 0.01,
+  "checkpoint_step": 400000,
+  "target_step": 1990000,
+  "target_reached": true,
+  "true_breakthrough_observed": false,
+  "near_outlet_sparse_front_observed": true,
+  "front_near_saturation": true,
+  "front_slowing": true,
+  "bulk_still_retained": true,
+  "state": "stable_sparse_front_saturation_without_breakthrough",
+  "next_action": "write front-saturation mechanism as stable evidence and continue toward target time",
+  "manuscript_use": "bounded high-inventory mechanism evidence",
+  "promote_to_completed_btc_claim": false,
+  "promote_to_stable_saturation_claim": true,
+  "claim_boundary": "Before 400k or true outlet crossing, 908 remains live bounded evidence. At or beyond 400k without outlet crossing, near-outlet sparse-front slowdown may be treated as bounded mechanism evidence, not as a completed BTC, outlet-breakthrough or critical-clogging transition."
+}

@@ -1,0 +1,11 @@
+{
+  "evidence_rows": 9,
+  "representative_cases": 3,
+  "localized_cases": 2,
+  "loading_cases": 3,
+  "claim_boundary": "Integrated mechanism evidence supports a pre-clogging migration/filtering interpretation, not a pressure-calibrated critical-clogging transition.",
+  "outputs": {
+    "csv": "/Users/wangjian-macbook13/Library/CloudStorage/SynologyDrive-mac/\u8bba\u6587\u76f8\u5173/\u5206\u6570\u9636\u6a21\u578b\u7814\u7a76/project/papers/paper2_voxel_topology_clogging/tables/paper2_mechanism_evidence_matrix.csv",
+    "figure_stem": "/Users/wangjian-macbook13/Library/CloudStorage/SynologyDrive-mac/\u8bba\u6587\u76f8\u5173/\u5206\u6570\u9636\u6a21\u578b\u7814\u7a76/project/papers/paper2_voxel_topology_clogging/figures/paper2_figS11_mechanism_evidence_map"
+  }
+}

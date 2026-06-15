@@ -1,0 +1,131 @@
+{
+  "summary": {
+    "unresolved": 3,
+    "bounded": 6,
+    "resolved": 1,
+    "needs_confirmation": 1
+  },
+  "rows": [
+    {
+      "risk_id": "R01",
+      "risk": "Pressure-free clogging index could be misread as a pressure-calibrated safety criterion.",
+      "severity": "major",
+      "status": "unresolved",
+      "reviewer_concern": "Chemical Engineering Science reviewers may ask whether Ib is supported by pressure-drop or CFD data.",
+      "current_boundary": "The manuscript states that Ib is a pressure-free structural pre-screening index and that the Ergun result is only a proxy.",
+      "evidence_path": "papers/paper2_voxel_topology_clogging/latex/main.tex",
+      "mitigation_action": "Keep the current boundary language; upgrade only after CFD/OpenLB/OpenFOAM or measured pressure-gradient data are added.",
+      "submission_decision": "revise_before_submission"
+    },
+    {
+      "risk_id": "R02",
+      "risk": "Critical clogging transition is not demonstrated by the current data.",
+      "severity": "major",
+      "status": "unresolved",
+      "reviewer_concern": "A reviewer could reject any claim of a universal transition because connectivity loss is not measurable in the current cases.",
+      "current_boundary": "The manuscript frames the result as pre-clogging migration/filtering and states that identifying a bed-scale clogging threshold requires higher loading, localized release, or coupled flow.",
+      "evidence_path": "papers/paper2_voxel_topology_clogging/latex/main.tex",
+      "mitigation_action": "Do not claim critical transition in title, abstract, or conclusions unless new localized/high-loading production runs generate connectivity loss or pressure increase.",
+      "submission_decision": "revise_before_submission"
+    },
+    {
+      "risk_id": "R03",
+      "risk": "Loading scan has three single-seed states and cannot support a monotonic law.",
+      "severity": "major",
+      "status": "bounded",
+      "reviewer_concern": "The final BTC values are not monotonic with injected debris count, so reviewers may challenge trend claims.",
+      "current_boundary": "The manuscript says the loading data are bounded loading responses rather than a monotonic breakthrough law.",
+      "evidence_path": "papers/paper2_voxel_topology_clogging/tables/paper2_fig4_loading_summary_source.csv",
+      "mitigation_action": "For a stronger paper, add repeat seeds or reframe the loading scan as a bounded response only.",
+      "submission_decision": "acceptable_if_claims_remain_bounded"
+    },
+    {
+      "risk_id": "R04",
+      "risk": "Localized internal-release cases may be overread as a source-position or source-strength law.",
+      "severity": "major",
+      "status": "resolved",
+      "reviewer_concern": "The localized-release evidence now covers the planned target-time rows, but the case family is still too sparse to fit a general source-position or source-strength law.",
+      "current_boundary": "3/3 localized-release production jobs reached target physical time; the manuscript treats them as mechanism evidence rather than a fitted source-location law.",
+      "evidence_path": "papers/paper2_voxel_topology_clogging/tables/explicit_localized_production_summary.csv",
+      "mitigation_action": "Keep localized-release interpretation bounded to retention, downstream leakage and sparse-front decoupling; add more source positions/seeds only if a scaling law is claimed.",
+      "submission_decision": "acceptable"
+    },
+    {
+      "risk_id": "R05",
+      "risk": "DEM-derived pore fields could be mistaken for experimental CT validation.",
+      "severity": "major",
+      "status": "bounded",
+      "reviewer_concern": "The study has no physical CT/PIV experiment, so imaging terminology must be precise.",
+      "current_boundary": "The manuscript uses DEM-derived pore reconstruction and explicitly rejects experimental computed-tomography interpretation.",
+      "evidence_path": "papers/paper2_voxel_topology_clogging/latex/main.tex",
+      "mitigation_action": "Keep CT out of the title and figure labels; use 'DEM-derived pore reconstruction' or 'voxelized pore field'.",
+      "submission_decision": "acceptable_for_numerical_study"
+    },
+    {
+      "risk_id": "R06",
+      "risk": "One-way Stokes drag omits pore-scale gas redistribution and two-way coupling.",
+      "severity": "major",
+      "status": "bounded",
+      "reviewer_concern": "Reviewers may ask whether drag forcing is physically realistic inside a tortuous packed bed.",
+      "current_boundary": "The manuscript states that the forcing is one-way Stokes drag, reports a dimensional drag-scaling audit, and does not solve the local gas field.",
+      "evidence_path": "papers/paper2_voxel_topology_clogging/latex/main.tex; papers/paper2_voxel_topology_clogging/supplementary/table_s18_drag_scaling_summary.csv; papers/paper2_voxel_topology_clogging/data/paper2_drag_scaling_summary.json",
+      "mitigation_action": "Do not amplify drag nonphysically; use the S18 Reynolds/drag-to-weight audit for scope, and add CFD/OpenLB/OpenFOAM or calibrated pore-flow closure only for resolved gas-flow claims.",
+      "submission_decision": "acceptable_as_first_mechanistic_model"
+    },
+    {
+      "risk_id": "R07",
+      "risk": "Large-pebble motion during debris transport would confound deposition interpretation.",
+      "severity": "minor",
+      "status": "bounded",
+      "reviewer_concern": "If the skeleton moves, transport differences could reflect bed rearrangement rather than debris migration.",
+      "current_boundary": "Formal transport cases use a fixed compacted skeleton so the response is attributed to debris parameters.",
+      "evidence_path": "papers/paper2_voxel_topology_clogging/latex/main.tex",
+      "mitigation_action": "Keep this statement in Methods and verify future LIGGGHTS cases freeze type-1 pebbles.",
+      "submission_decision": "acceptable"
+    },
+    {
+      "risk_id": "R08",
+      "risk": "Figure panels could overstate evidence or look like schematic claims rather than data.",
+      "severity": "minor",
+      "status": "bounded",
+      "reviewer_concern": "Figures with text-heavy panels, black slices, or unclear provenance weaken a mechanism-first journal submission.",
+      "current_boundary": "A figure provenance manifest records source scripts, exports, and claim boundaries for each figure.",
+      "evidence_path": "papers/paper2_voxel_topology_clogging/data/figure_provenance_manifest.json",
+      "mitigation_action": "Use the provenance manifest before final figure edits and avoid large in-figure text blocks.",
+      "submission_decision": "acceptable_with_final_visual_QA"
+    },
+    {
+      "risk_id": "R09",
+      "risk": "Title and framing could sound like an experiment or a critical-clogging paper.",
+      "severity": "minor",
+      "status": "unresolved",
+      "reviewer_concern": "The target journal title should be concise and should not promise unavailable validation or critical transition evidence.",
+      "current_boundary": "The current title is Chemical Engineering Science-oriented and DEM-bounded: Separating breakthrough from pore-network clogging indicators in gas-driven fine-debris transport through Li4SiO4 pebble beds.",
+      "evidence_path": "papers/paper2_voxel_topology_clogging/latex/main.tex",
+      "mitigation_action": "Do not reintroduce experiment, CT, or critical transition wording unless the evidence changes.",
+      "submission_decision": "acceptable"
+    },
+    {
+      "risk_id": "R10",
+      "risk": "Reduced hydraulic sensitivity could be mistaken for resolved CFD pressure evidence.",
+      "severity": "major",
+      "status": "bounded",
+      "reviewer_concern": "Reviewers may ask whether the 3D resistance-amplification result is a calibrated pore-flow or pressure-drop calculation.",
+      "current_boundary": "The manuscript and figure provenance identify Fig. S22/Table S15 as a scalar voxel-network sensitivity test, not OpenFOAM CFD, LBM, measured pressure or pressure-calibrated Ib.",
+      "evidence_path": "papers/paper2_voxel_topology_clogging/tables/paper2_3d_resistance_amplification_sensitivity_source.csv",
+      "mitigation_action": "Keep Fig. S22 in the supplement and do not promote it to validation-grade pressure evidence until a coupled flow solver consumes the resistance field.",
+      "submission_decision": "acceptable_for_preclogging_scope"
+    },
+    {
+      "risk_id": "R11",
+      "risk": "Administrative submission items remain unconfirmed.",
+      "severity": "blocker",
+      "status": "needs_confirmation",
+      "reviewer_concern": "Journal submission requires data availability, funding, competing-interest, and acknowledgement statements.",
+      "current_boundary": "Readiness audit reports 1 needs-confirmation items.",
+      "evidence_path": "papers/paper2_voxel_topology_clogging/data/paper2_manuscript_readiness.json",
+      "mitigation_action": "Confirm repository DOI/accession, funding, competing interests, acknowledgements, author email/ORCID, and AI disclosure before submission.",
+      "submission_decision": "must_resolve_before_submission"
+    }
+  ]
+}

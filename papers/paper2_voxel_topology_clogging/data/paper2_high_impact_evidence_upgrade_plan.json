@@ -1,0 +1,80 @@
+{
+  "decision": "all_primary_scientific_evidence_and_mechanism_map_ready_for_admin_and_polish",
+  "action_count": 5,
+  "top_priority": "none_scientific_evidence_ready",
+  "blocking_evidence_for_cej": [],
+  "pressure_evidence_complete": true,
+  "repeat_seed_uncertainty_complete": true,
+  "actions": [
+    {
+      "priority": 1,
+      "action_id": "E01_openfoam_first_pressure_case",
+      "evidence_gap": "pressure-response calibration for hydraulic consequence",
+      "current_status": "complete_pressure_evidence",
+      "current_evidence": "valid_pressure_cases=3, strict_pressure_cases=3, engineering_screening_cases=3, uncoupled_hydraulic_field_cases=0, solver_hydraulic_field_coupled_cases=3, pressure_drop_unique_values=3, unique_flow_geometries=3, geometry_distinguishable=True, manuscript_ready=True",
+      "recommended_action": "Pressure evidence is complete for the current handoff; keep wording bounded and do not rerun unless the geometry changes.",
+      "minimum_success_criterion": "Complete strict pressure evidence already available for the current handoff.",
+      "stop_or_continue_rule": "Use returned pressure only within the cropped-domain numerical-evidence boundary.",
+      "command": "python3 papers/paper2_voxel_topology_clogging/scripts/make_openfoam_manuscript_snippet.py",
+      "manuscript_upgrade": "Can move pressure discussion from proxy-only to pressure-informed if result passes the evidence gate.",
+      "claim_boundary": "No OpenFOAM pressure claim until returned archive is imported and evidence gate passes."
+    },
+    {
+      "priority": 2,
+      "action_id": "E02_complete_906_localized_release",
+      "evidence_gap": "longer internal-source retention/migration window",
+      "current_status": "main_or_supplementary_evidence",
+      "current_evidence": "final_time_s=0.04, target_s=0.04",
+      "recommended_action": "No further 906 run is needed for the present manuscript; use the target-time 40 ms row and keep source-position claims bounded.",
+      "minimum_success_criterion": "Reach target time and refresh localized production summary with retention, downstream fraction and outlet fraction.",
+      "stop_or_continue_rule": "Completed for the present manuscript; rerun only for repeat seeds or longer windows.",
+      "command": "ONLY=906_upstream_source_continue_1M_to_4M NP=${NP:-16} LIGGGHTS_BIN=${LIGGGHTS_BIN:-lmp_mpi_no_vtk} bash papers/paper2_voxel_topology_clogging/scripts/run_explicit_localized_production_queue.sh",
+      "manuscript_upgrade": "Improves source-zone retention evidence and reduces reliance on partial production windows.",
+      "claim_boundary": "Still not a complete source-location scaling law unless additional source positions/seeds are completed.",
+      "complete": true
+    },
+    {
+      "priority": 3,
+      "action_id": "E03_repeat_seed_near_threshold",
+      "evidence_gap": "near-threshold stochasticity and seed uncertainty",
+      "current_status": "formal_seed_count=3/3",
+      "current_evidence": "summary_decision=repeat_seed_evidence_ready; final_BTC_mean=0.016444444444444446; range=0.013333333333333334--0.018333333333333333",
+      "recommended_action": "No further repeat-seed run is needed for the present CES route; keep the inserted uncertainty wording bounded.",
+      "minimum_success_criterion": "At least three frozen-bed processed rows with final BTC, first-breakthrough time and retention for the near-threshold state.",
+      "stop_or_continue_rule": "Completed for the present manuscript; do not expand repeat evidence unless a new regime map is planned.",
+      "command": "Prepare frozen repeat cases for missing seeds, run LIGGGHTS, then post-process with analyze_debris_transport.py.",
+      "manuscript_upgrade": "Turns the near-threshold statement from single-seed evidence into uncertainty-aware evidence.",
+      "claim_boundary": "Formal repeat-seed uncertainty is available and inserted only as stochastic variability evidence; it is not a critical-transition law.",
+      "complete": true
+    },
+    {
+      "priority": 4,
+      "action_id": "E04_908_high_inventory_diagnostic",
+      "evidence_gap": "higher-inventory localized blockage stress test",
+      "current_status": "main_or_supplementary_evidence",
+      "current_evidence": "final_time_s=0.01, target_s=0.01",
+      "recommended_action": "No further 908 run is needed for the present manuscript.",
+      "minimum_success_criterion": "Reach 10 ms without numerical instability and quantify whether Bmax or connectivity loss leaves the O(1e-5) window.",
+      "stop_or_continue_rule": "If no outlet release or connectivity loss appears at 10 ms, retain the sparse-front/pre-clogging interpretation and avoid further inventory escalation without a new mechanism question.",
+      "command": "ONLY=908_high_inventory_dt5e9_to_10ms NP=${NP:-16} LIGGGHTS_BIN=${LIGGGHTS_BIN:-lmp_mpi_no_vtk} bash papers/paper2_voxel_topology_clogging/scripts/run_explicit_localized_production_queue.sh",
+      "manuscript_upgrade": "May support a stronger stress-test boundary, but it is lower priority than pressure evidence and repeat seeds.",
+      "claim_boundary": "Diagnostic-only until target time and stability checks are complete.",
+      "complete": true
+    },
+    {
+      "priority": 5,
+      "action_id": "E05_expand_dimensionless_map",
+      "evidence_gap": "full regime-map density",
+      "current_status": "current_rows=9; localized_source_rows=3",
+      "current_evidence": "Current dimensionless map is a derived nine-row synthesis covering drive, loading and localized-source mechanism axes.",
+      "recommended_action": "No further dimensionless-map expansion is needed for the present bounded manuscript; only expand if new formal DEM/flow evidence is generated.",
+      "minimum_success_criterion": "At least three drive rows, three loading rows and three localized-source rows have explicit source files, evidence boundaries and no mixed frozen/unfrozen interpretation.",
+      "stop_or_continue_rule": "Do not expand with diagnostic-only rows unless they are visually separated and excluded from formal conclusions; after the three-axis map is complete, move to manuscript polish or new mechanism-generating simulations.",
+      "command": "python3 papers/paper2_voxel_topology_clogging/scripts/make_dimensionless_mechanism_map.py",
+      "manuscript_upgrade": "Converts Fig. S16 from evidence synthesis toward a denser regime map.",
+      "claim_boundary": "Still not universal unless the scan covers broader df/dp, ug, loading and seed variability.",
+      "complete": true
+    }
+  ],
+  "boundary": "This is an execution plan only; it does not create new scientific evidence until runs are completed and imported."
+}

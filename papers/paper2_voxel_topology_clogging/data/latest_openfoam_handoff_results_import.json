@@ -1,0 +1,92 @@
+{
+  "imported_utc": "2026-06-12T04:40:24.894910+00:00",
+  "archive": "papers/paper2_voxel_topology_clogging/flow_solver_results/archives/paper2_openfoam_handoff_results_20260612T043144Z.tar.gz",
+  "archive_size_bytes": 594555005,
+  "sha256": "08befbdc026aeca1dd4bca483077816d789316e0c3a45905c56fff3f0d347e1f",
+  "checksum_file": "/Users/wangjian-macbook13/Library/CloudStorage/SynologyDrive-mac/\u8bba\u6587\u76f8\u5173/\u5206\u6570\u9636\u6a21\u578b\u7814\u7a76/project/papers/paper2_voxel_topology_clogging/flow_solver_results/archives/paper2_openfoam_handoff_results_20260612T043144Z.tar.gz.sha256",
+  "checksum_ok": true,
+  "dry_run": false,
+  "skip_refresh": false,
+  "copied_file_count": 111,
+  "copied_files_preview": [
+    "N10000_peak_blockage/50/U",
+    "N10000_peak_blockage/50/p",
+    "N10000_peak_blockage/50/phi",
+    "N10000_peak_blockage/50/uniform/time",
+    "N10000_peak_blockage/constant/blockage_field.npy",
+    "N10000_peak_blockage/constant/coordinateSystems",
+    "N10000_peak_blockage/constant/fvModels",
+    "N10000_peak_blockage/constant/hydraulic_resistance_multiplier_field.npy",
+    "N10000_peak_blockage/constant/polyMesh/boundary",
+    "N10000_peak_blockage/constant/polyMesh/cellLevel",
+    "N10000_peak_blockage/constant/polyMesh/cellZones",
+    "N10000_peak_blockage/constant/polyMesh/faces",
+    "N10000_peak_blockage/constant/polyMesh/level0Edge",
+    "N10000_peak_blockage/constant/polyMesh/neighbour",
+    "N10000_peak_blockage/constant/polyMesh/owner",
+    "N10000_peak_blockage/constant/polyMesh/pointLevel",
+    "N10000_peak_blockage/constant/polyMesh/points",
+    "N10000_peak_blockage/constant/polyMesh/surfaceIndex",
+    "N10000_peak_blockage/constant/transportProperties",
+    "N10000_peak_blockage/constant/triSurface/solid_interface.stl",
+    "N10000_peak_blockage/constant/turbulenceProperties",
+    "N10000_peak_blockage/latest_time.txt",
+    "N10000_peak_blockage/log.blockMesh",
+    "N10000_peak_blockage/log.checkMesh",
+    "N10000_peak_blockage/log.checkMesh_skew6",
+    "N10000_peak_blockage/log.createZones",
+    "N10000_peak_blockage/log.simpleFoam",
+    "N10000_peak_blockage/log.snappyHexMesh",
+    "N10000_peak_blockage/postProcessing/pInlet/0/surfaceFieldValue.dat",
+    "N10000_peak_blockage/postProcessing/pOutlet/0/surfaceFieldValue.dat",
+    "N10000_peak_blockage/run_summary.json",
+    "N10000_peak_blockage/system/blockMeshDict",
+    "N10000_peak_blockage/system/controlDict",
+    "N10000_peak_blockage/system/createZonesDict",
+    "N10000_peak_blockage/system/fvSchemes",
+    "N10000_peak_blockage/system/fvSolution",
+    "N10000_peak_blockage/system/snappyHexMeshDict",
+    "N3000_peak_blockage/50/U",
+    "N3000_peak_blockage/50/p",
+    "N3000_peak_blockage/50/phi"
+  ],
+  "refresh_result": [
+    {
+      "command": [
+        "python3",
+        "papers/paper2_voxel_topology_clogging/scripts/analyze_openfoam_handoff_results.py"
+      ],
+      "returncode": 0,
+      "stdout_tail": "{\n  \"cases\": 3,\n  \"pressure_drop_cases\": 3\n}\n/Users/wangjian-macbook13/Library/CloudStorage/SynologyDrive-mac/\u8bba\u6587\u76f8\u5173/\u5206\u6570\u9636\u6a21\u578b\u7814\u7a76/project/papers/paper2_voxel_topology_clogging/tables/paper2_openfoam_handoff_results_summary.csv\n",
+      "stderr_tail": ""
+    },
+    {
+      "command": [
+        "python3",
+        "papers/paper2_voxel_topology_clogging/scripts/make_openfoam_evidence_assets.py"
+      ],
+      "returncode": 0,
+      "stdout_tail": "/CloudStorage/SynologyDrive-mac/\\u8bba\\u6587\\u76f8\\u5173/\\u5206\\u6570\\u9636\\u6a21\\u578b\\u7814\\u7a76/project/papers/paper2_voxel_topology_clogging/tables/paper2_openfoam_pressure_screening_source.csv\",\n  \"out_geometry_audit\": \"/Users/wangjian-macbook13/Library/CloudStorage/SynologyDrive-mac/\\u8bba\\u6587\\u76f8\\u5173/\\u5206\\u6570\\u9636\\u6a21\\u578b\\u7814\\u7a76/project/papers/paper2_voxel_topology_clogging/tables/paper2_openfoam_geometry_audit.csv\",\n  \"figure_outputs\": [\n    \"/Users/wangjian-macbook13/Library/CloudStorage/SynologyDrive-mac/\\u8bba\\u6587\\u76f8\\u5173/\\u5206\\u6570\\u9636\\u6a21\\u578b\\u7814\\u7a76/project/papers/paper2_voxel_topology_clogging/figures/paper2_figS23_openfoam_pressure_evidence.png\",\n    \"/Users/wangjian-macbook13/Library/CloudStorage/SynologyDrive-mac/\\u8bba\\u6587\\u76f8\\u5173/\\u5206\\u6570\\u9636\\u6a21\\u578b\\u7814\\u7a76/project/papers/paper2_voxel_topology_clogging/figures/paper2_figS23_openfoam_pressure_evidence.pdf\",\n    \"/Users/wangjian-macbook13/Library/CloudStorage/SynologyDrive-mac/\\u8bba\\u6587\\u76f8\\u5173/\\u5206\\u6570\\u9636\\u6a21\\u578b\\u7814\\u7a76/project/papers/paper2_voxel_topology_clogging/figures/paper2_figS23_openfoam_pressure_evidence.svg\"\n  ],\n  \"figure_base\": \"/Users/wangjian-macbook13/Library/CloudStorage/SynologyDrive-mac/\\u8bba\\u6587\\u76f8\\u5173/\\u5206\\u6570\\u9636\\u6a21\\u578b\\u7814\\u7a76/project/papers/paper2_voxel_topology_clogging/figures/paper2_figS23_openfoam_pressure_evidence\",\n  \"manuscript_ready_pressure_evidence\": true,\n  \"engineering_screening_cases\": 3,\n  \"strict_pressure_cases\": 3,\n  \"stale_result_cases_after_handoff_update\": 0,\n  \"uncoupled_hydraulic_field_cases\": 0,\n  \"geometry_audit_available\": true,\n  \"unique_flow_geometries\": 3,\n  \"geometry_distinguishable\": true,\n  \"geometry_gate_boundary\": \"Flow inputs differ across all expected loading cases.\",\n  \"evidence_boundary\": \"No pressure values are inferred; valid cases require pressure output, aligned inlet/outlet sampling times and passing checkMesh/simpleFoam logs.\"\n}\n",
+      "stderr_tail": ""
+    },
+    {
+      "command": [
+        "python3",
+        "papers/paper2_voxel_topology_clogging/scripts/make_openfoam_manuscript_snippet.py"
+      ],
+      "returncode": 0,
+      "stdout_tail": "{\n  \"may_insert_into_manuscript\": true,\n  \"status\": \"complete_pressure_evidence\",\n  \"valid_pressure_cases\": 3,\n  \"expected_handoff_cases\": 3,\n  \"required_action\": \"author review required before manually updating manuscript and supplementary files\",\n  \"evidence_boundary\": \"OpenFOAM pressure evidence is parser-ready; author review is still required before manuscript insertion.\",\n  \"snippet_path\": \"/Users/wangjian-macbook13/Library/CloudStorage/SynologyDrive-mac/\\u8bba\\u6587\\u76f8\\u5173/\\u5206\\u6570\\u9636\\u6a21\\u578b\\u7814\\u7a76/project/papers/paper2_voxel_topology_clogging/notes/openfoam_manuscript_evidence_snippet.md\",\n  \"source_status\": \"/Users/wangjian-macbook13/Library/CloudStorage/SynologyDrive-mac/\\u8bba\\u6587\\u76f8\\u5173/\\u5206\\u6570\\u9636\\u6a21\\u578b\\u7814\\u7a76/project/papers/paper2_voxel_topology_clogging/data/paper2_openfoam_pressure_evidence_summary.json\",\n  \"source_table\": \"/Users/wangjian-macbook13/Library/CloudStorage/SynologyDrive-mac/\\u8bba\\u6587\\u76f8\\u5173/\\u5206\\u6570\\u9636\\u6a21\\u578b\\u7814\\u7a76/project/papers/paper2_voxel_topology_clogging/tables/paper2_openfoam_pressure_evidence_source.csv\"\n}\n",
+      "stderr_tail": ""
+    },
+    {
+      "command": [
+        "python3",
+        "papers/paper2_voxel_topology_clogging/scripts/audit_openfoam_return_state.py"
+      ],
+      "returncode": 0,
+      "stdout_tail": "{\n  \"decision\": \"pressure_evidence_ready_for_author_review\",\n  \"row_count\": 6,\n  \"warning_count\": 1,\n  \"warnings\": [\n    \"author review still required before manuscript insertion\"\n  ],\n  \"valid_pressure_cases\": 3,\n  \"engineering_screening_cases\": 3,\n  \"strict_pressure_cases\": 3,\n  \"manuscript_ready_pressure_evidence\": true,\n  \"boundary\": \"Audit only; no CFD pressure values are inferred or created.\"\n}\n/Users/wangjian-macbook13/Library/CloudStorage/SynologyDrive-mac/\u8bba\u6587\u76f8\u5173/\u5206\u6570\u9636\u6a21\u578b\u7814\u7a76/project/papers/paper2_voxel_topology_clogging/data/paper2_openfoam_return_state_audit.json\n/Users/wangjian-macbook13/Library/CloudStorage/SynologyDrive-mac/\u8bba\u6587\u76f8\u5173/\u5206\u6570\u9636\u6a21\u578b\u7814\u7a76/project/papers/paper2_voxel_topology_clogging/tables/paper2_openfoam_return_state_audit.csv\n/Users/wangjian-macbook13/Library/CloudStorage/SynologyDrive-mac/\u8bba\u6587\u76f8\u5173/\u5206\u6570\u9636\u6a21\u578b\u7814\u7a76/project/papers/paper2_voxel_topology_clogging/notes/paper2_openfoam_return_state_audit.md\n",
+      "stderr_tail": ""
+    }
+  ],
+  "evidence_boundary": "imports returned OpenFOAM files only; pressure-drop claims require analyzer, evidence-asset and manuscript-gate checks to pass"
+}

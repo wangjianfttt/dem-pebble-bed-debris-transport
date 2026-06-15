@@ -1,0 +1,50 @@
+{
+  "run_count": 0,
+  "skip_count": 3,
+  "run_jobs": [],
+  "skip_jobs": [
+    {
+      "job_id": "906_upstream_source_continue_1M_to_4M",
+      "case_name": "paper2_local_damage_slab_x012_018_df0p1_n15000_seed906_explicit",
+      "case_dir": "cases/clogging_scan/paper2_localized_release/paper2_local_damage_slab_x012_018_df0p1_n15000_seed906_explicit",
+      "input": "in.explicit_segment_1M_to_4M",
+      "priority": 1,
+      "status": "production_target_reached",
+      "evidence_use": "main_or_supplementary_evidence",
+      "final_time_s": 0.04,
+      "target_physical_time_s": 0.04,
+      "remaining_time_s": 0.0,
+      "estimated_remaining_steps": 0,
+      "scientific_question": "Does the upstream internal source eventually produce outlet breakthrough over the full 40 ms window?"
+    },
+    {
+      "job_id": "907_downstream_source_dt5e9_to_10ms",
+      "case_name": "paper2_local_damage_slab_x024_030_df0p1_n15000_seed907_explicit",
+      "case_dir": "cases/clogging_scan/paper2_localized_release/paper2_local_damage_slab_x024_030_df0p1_n15000_seed907_explicit",
+      "input": "in.explicit_dt5e9_from_10k_to_10ms",
+      "priority": 2,
+      "status": "production_target_reached",
+      "evidence_use": "main_or_supplementary_evidence",
+      "final_time_s": 0.01005,
+      "target_physical_time_s": 0.01,
+      "remaining_time_s": 0.0,
+      "estimated_remaining_steps": 0,
+      "scientific_question": "Does a downstream source reach the outlet faster than the upstream source under the same physical drag?"
+    },
+    {
+      "job_id": "908_high_inventory_dt5e9_to_10ms",
+      "case_name": "paper2_local_damage_slab_x012_018_df0p1_n30000_seed908_explicit",
+      "case_dir": "cases/clogging_scan/paper2_localized_release/paper2_local_damage_slab_x012_018_df0p1_n30000_seed908_explicit",
+      "input": "in.explicit_dt5e9_from_10k_to_10ms",
+      "priority": 3,
+      "status": "production_target_reached",
+      "evidence_use": "main_or_supplementary_evidence",
+      "final_time_s": 0.01,
+      "target_physical_time_s": 0.01,
+      "remaining_time_s": 0.0,
+      "estimated_remaining_steps": 0,
+      "scientific_question": "Does higher local source inventory intensify release or blockage without changing drag?"
+    }
+  ],
+  "claim_boundary": "Run only remaining production jobs; do not rerun completed target-time evidence unless adding repeat seeds."
+}

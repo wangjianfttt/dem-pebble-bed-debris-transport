@@ -1,0 +1,5 @@
+stage,interpretation,boundary
+BTC,transport_contamination_indicator,does_not_by_itself_indicate_clogging
+$B_{max}$,deposition_localization_indicator,sub_voxel_local_loading_indicator
+$C_{loss}$,structural_degradation_indicator,resolution_limited_connectivity_metric
+$\Delta p$,hydraulic_confirmation,requires_pressure_solution_or_measurement

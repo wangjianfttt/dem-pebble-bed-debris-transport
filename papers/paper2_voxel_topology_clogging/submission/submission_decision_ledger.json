@@ -1,0 +1,59 @@
+{
+  "summary": {
+    "decision": "repeat_strengthened_ces_ready_after_admin",
+    "route_count": 3,
+    "route_decisions": {
+      "R01_submit_bounded_ces_after_admin": "not_ready_admin_only",
+      "R02_wait_for_repeat_then_ces": "not_ready_admin_only_repeat_evidence_available",
+      "R03_cej_stretch": "do_not_submit_current_version"
+    },
+    "recommended_near_term_route": "R02_wait_for_repeat_then_ces",
+    "fallback_if_time_limited": "R01_submit_bounded_ces_after_admin",
+    "not_recommended_now": "R03_cej_stretch",
+    "boundary": "Decision ledger organizes current evidence and blockers; it does not create new DEM, pressure-flow or submission evidence."
+  },
+  "rows": [
+    {
+      "route_id": "R01_submit_bounded_ces_after_admin",
+      "route": "Chemical Engineering Science bounded mechanism paper",
+      "current_decision": "not_ready_admin_only",
+      "scientific_status": "bounded_supported",
+      "admin_status": "open_admin_blockers=5",
+      "repeat_requirement": "satisfied_strengthening_evidence",
+      "pressure_requirement": "not_required_for_bounded_preclogging_scope",
+      "current_blocker": "administrative confirmations and public repository DOI",
+      "go_condition": "All admin blockers resolved; manuscript keeps pressure-free and pre-clogging boundaries.",
+      "no_go_condition": "Any declaration, repository DOI or corresponding-author metadata remains unconfirmed.",
+      "next_action": "Resolve repository DOI/accession and author metadata; repeat-seed uncertainty is now available.",
+      "evidence_state": "argument_map=pass; gate=not_ready_for_submission; top_gaps=[]"
+    },
+    {
+      "route_id": "R02_wait_for_repeat_then_ces",
+      "route": "Chemical Engineering Science with repeat-seed uncertainty",
+      "current_decision": "not_ready_admin_only_repeat_evidence_available",
+      "scientific_status": "repeat=production_repeat_runs_completed; production_completed=2; formal_processed=3; running=0",
+      "admin_status": "open_admin_blockers=5",
+      "repeat_requirement": "satisfied",
+      "pressure_requirement": "not_required_but_remains_a_review_risk",
+      "current_blocker": "administrative confirmations and public repository DOI",
+      "go_condition": "Final restart files exist, protected pipeline post-processes full dumps, and uncertainty can be inserted without changing claims.",
+      "no_go_condition": "Repeat runs fail, remain incomplete or contradict the current near-threshold mechanism.",
+      "next_action": "Resolve admin metadata and keep repeat wording bounded to stochastic variability.",
+      "evidence_state": "top_action=submission_admin_gate; repeat_running=0; production_completed=2; formal_processed=3"
+    },
+    {
+      "route_id": "R03_cej_stretch",
+      "route": "Chemical Engineering Journal stretch route",
+      "current_decision": "do_not_submit_current_version",
+      "scientific_status": "pressure_evidence_available",
+      "admin_status": "open_admin_blockers=5",
+      "repeat_requirement": "strongly_required",
+      "pressure_requirement": "required_for_this_route",
+      "current_blocker": "validation-grade flow or experimental evidence missing",
+      "go_condition": "Validation-grade OpenFOAM/OpenLB/LBM or experimental pressure evidence supports process-performance claims and repeat uncertainty is available.",
+      "no_go_condition": "Only bounded cropped-domain pressure checks are available, or repeat evidence remains unavailable.",
+      "next_action": "Do not target CEJ until pressure-flow evidence is upgraded beyond bounded cropped-domain screening.",
+      "evidence_state": "valid_pressure_cases=3; pressure_ready=True; formal_processed=3"
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "created_utc": "2026-06-12T23:13:30.361860+00:00",
+  "decision": "partial_transport_snapshots_ready",
+  "local_root": "/Users/wangjian-macbook13/Library/CloudStorage/SynologyDrive-mac/\u8bba\u6587\u76f8\u5173/\u5206\u6570\u9636\u6a21\u578b\u7814\u7a76/project/papers/paper2_voxel_topology_clogging/remote_results/phase2_loading_20260613_0608_partial",
+  "allow_partial": true,
+  "case_count": 1,
+  "analyzed_count": 1,
+  "skipped_count": 0,
+  "final_evidence_count": 0,
+  "collected_status_counts": {
+    "partial": 1
+  },
+  "cases": [
+    {
+      "case_name": "paper2_phase2_load6000_df0p0225_ug2_seed501",
+      "input_status": "partial",
+      "analysis_status": "analyzed",
+      "analysis_source": "cached_partial_summary",
+      "is_final_evidence": false,
+      "dump_file_count": 9,
+      "latest_timestep": 12717000,
+      "latest_debris_count": 5958,
+      "latest_outlet_count": 0,
+      "latest_partial_btc": 0.0,
+      "latest_partial_retention": 1.0,
+      "front_speed_m_s": 0.8896232510287992,
+      "mean_cloud_speed_m_s": 0.16817723561026088,
+      "front_to_mean_speed_ratio": 5.289795897766091,
+      "summary_json": "/Users/wangjian-macbook13/Library/CloudStorage/SynologyDrive-mac/\u8bba\u6587\u76f8\u5173/\u5206\u6570\u9636\u6a21\u578b\u7814\u7a76/project/papers/paper2_voxel_topology_clogging/data/phase2_transport_metrics/paper2_phase2_load6000_df0p0225_ug2_seed501/paper2_phase2_load6000_df0p0225_ug2_seed501_partial_transport_summary.json"
+    }
+  ],
+  "boundary": "Final transport evidence requires complete collected cases; partial snapshots are monitoring diagnostics only."
+}

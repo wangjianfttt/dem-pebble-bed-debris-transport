@@ -1,0 +1,63 @@
+{
+  "decision": "pass",
+  "failure_count": 0,
+  "checks": [
+    {
+      "check_id": "G01_title_no_experiment_or_ct",
+      "description": "Title must not imply experiment or CT validation.",
+      "status": "pass",
+      "severity": "blocker",
+      "evidence": "\\texorpdfstring{Separating breakthrough from pore-network clogging indicators in gas-driven fine-debris transport through \\LiSi pebble beds}{Separating breakthrough from pore-network clogging indicators in gas-driven fine-debris transport through Li4SiO4 pebble beds}"
+    },
+    {
+      "check_id": "G02_abstract_no_pressure_calibrated_claim",
+      "description": "Abstract must not claim pressure-calibrated Ib or safety limits.",
+      "status": "pass",
+      "severity": "blocker",
+      "evidence": " Fine debris in gas-purged ceramic breeder beds can contaminate downstream regions before a bed develops resolved hydraulic degradation, yet outlet breakthrough is often interpreted as part of a single clogging sequence. This can overstate hydraulic risk when a mobile debris tail reaches connected pathways without observed loss of purge access. Here we examine conditional transport--filtering sepa"
+    },
+    {
+      "check_id": "G03_openfoam_claims_blocked_until_ready",
+      "description": "OpenFOAM pressure claims must be absent until the manuscript-insertion gate is true.",
+      "status": "pass",
+      "severity": "blocker",
+      "evidence": "may_insert_openfoam=True"
+    },
+    {
+      "check_id": "G04_ct_wording_is_dem_derived",
+      "description": "The manuscript must retain DEM-derived pore reconstruction wording and reject experimental CT interpretation.",
+      "status": "pass",
+      "severity": "blocker",
+      "evidence": "DEM-derived pore reconstruction boundary present."
+    },
+    {
+      "check_id": "G05_pressure_proxy_boundary_present",
+      "description": "Hydraulic checks must be bounded as proxies or cropped-domain screening and not used to calibrate Ib.",
+      "status": "pass",
+      "severity": "blocker",
+      "evidence": "Hydraulic boundary scan."
+    },
+    {
+      "check_id": "G06_no_universal_transition_claim",
+      "description": "The paper must remain bounded to pre-clogging rather than universal critical transition.",
+      "status": "pass",
+      "severity": "blocker",
+      "evidence": "Pre-clogging boundary scan."
+    },
+    {
+      "check_id": "G07_claim_ledger_no_missing_evidence",
+      "description": "Claim-evidence ledger must have no missing-evidence claims.",
+      "status": "pass",
+      "severity": "blocker",
+      "evidence": "[]"
+    },
+    {
+      "check_id": "G08_benchmark_ledger_no_missing_evidence",
+      "description": "Benchmark ledger must have no missing-evidence benchmarks.",
+      "status": "pass",
+      "severity": "blocker",
+      "evidence": "[]"
+    }
+  ],
+  "evidence_boundary": "overclaim guard only; it does not create new scientific evidence."
+}

@@ -1,0 +1,18 @@
+{
+  "decision": "repeat_seed_evidence_ready",
+  "row_count": 3,
+  "formal_processed_count": 3,
+  "status_counts": {
+    "formal_processed": 3
+  },
+  "preflight_status_counts": {
+    "passed": 2
+  },
+  "preflight_pass_count": 2,
+  "missing_or_pending_cases": [],
+  "claim_boundary": "Repeat-seed uncertainty can enter the manuscript only after at least three formal processed rows are available.",
+  "preflight_boundary": "Passed preflight rows verify executable setup and output plumbing only; they are not DEM transport evidence.",
+  "final_BTC_mean": 0.016444444444444446,
+  "final_BTC_min": 0.013333333333333334,
+  "final_BTC_max": 0.018333333333333333
+}

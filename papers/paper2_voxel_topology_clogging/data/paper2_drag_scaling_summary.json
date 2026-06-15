@@ -1,0 +1,13 @@
+{
+  "row_count": 9,
+  "df_over_dp_min": 0.02,
+  "df_over_dp_max": 0.1,
+  "debris_diameter_um_min": 20.0,
+  "debris_diameter_um_max": 100.0,
+  "particle_Re_min": 0.2091836734693878,
+  "particle_Re_max": 1.6734693877551023,
+  "drag_to_weight_min": 3.0094814018655707,
+  "drag_to_weight_max": 112.85555256995889,
+  "finite_Re_case_count": 3,
+  "boundary": "The table is a dimensional consistency and model-boundary audit for the one-way Stokes drag cases. It does not upgrade the DEM runs to resolved gas-particle coupling."
+}

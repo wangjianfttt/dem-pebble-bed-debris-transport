@@ -1,0 +1,61 @@
+{
+  "metadata": "/Users/wangjian-macbook13/Library/CloudStorage/SynologyDrive-mac/\u8bba\u6587\u76f8\u5173/\u5206\u6570\u9636\u6a21\u578b\u7814\u7a76/project/papers/paper2_voxel_topology_clogging/submission/submission_metadata.yaml",
+  "required_open": 1,
+  "optional_open": 1,
+  "ready_to_apply_metadata": false,
+  "sections": [
+    {
+      "section": "repository",
+      "status": "complete",
+      "confirmed": true,
+      "missing_fields": [],
+      "required": true,
+      "why": "Required for Data availability and Code availability."
+    },
+    {
+      "section": "funding",
+      "status": "complete",
+      "confirmed": true,
+      "missing_fields": [],
+      "required": true,
+      "why": "Required for the manuscript Funding section and journal metadata."
+    },
+    {
+      "section": "competing_interests",
+      "status": "complete",
+      "confirmed": true,
+      "missing_fields": [],
+      "required": true,
+      "why": "Required by the journal and must be confirmed by all authors."
+    },
+    {
+      "section": "acknowledgements",
+      "status": "complete",
+      "confirmed": true,
+      "missing_fields": [],
+      "required": true,
+      "why": "Required to avoid unapproved computing-resource or collaborator wording."
+    },
+    {
+      "section": "corresponding_author",
+      "status": "open",
+      "confirmed": false,
+      "missing_fields": [
+        "name",
+        "email"
+      ],
+      "required": true,
+      "why": "Required for the journal submission system and cover-letter metadata."
+    },
+    {
+      "section": "ai_tool_use",
+      "status": "optional_open",
+      "confirmed": false,
+      "missing_fields": [
+        "statement"
+      ],
+      "required": false,
+      "why": "Required if journal or institutional policy asks for AI/tool-use disclosure."
+    }
+  ]
+}

@@ -1,0 +1,100 @@
+{
+  "imported_utc": "2026-06-11T06:51:07.622247+00:00",
+  "archive": "papers/paper2_voxel_topology_clogging/remote_results/paper2_localized_release_results_20260611_144318.tar.gz",
+  "archive_size_bytes": 91558873,
+  "sha256": "57299db1599a51302c99da835ca8d4fb775748aa54abf022004d2d3752adf562",
+  "checksum_file": "/Users/wangjian-macbook13/Library/CloudStorage/SynologyDrive-mac/\u8bba\u6587\u76f8\u5173/\u5206\u6570\u9636\u6a21\u578b\u7814\u7a76/project/papers/paper2_voxel_topology_clogging/remote_results/paper2_localized_release_results_20260611_144318.tar.gz.sha256",
+  "checksum_ok": true,
+  "dry_run": false,
+  "skip_refresh": false,
+  "copied_file_count": 129,
+  "copied_files_preview": [
+    "REMOTE_RESULTS_README.md",
+    "cases/clogging_scan/paper2_localized_release/paper2_local_damage_slab_x012_018_df0p1_n15000_seed906_explicit/906_upstream_source_continue_1M_to_4M.stdout.log",
+    "cases/clogging_scan/paper2_localized_release/paper2_local_damage_slab_x012_018_df0p1_n15000_seed906_explicit/explicit_4M.restart",
+    "cases/clogging_scan/paper2_localized_release/paper2_local_damage_slab_x012_018_df0p1_n15000_seed906_explicit/explicit_4M_checkpoint_a.restart",
+    "cases/clogging_scan/paper2_localized_release/paper2_local_damage_slab_x012_018_df0p1_n15000_seed906_explicit/explicit_4M_checkpoint_b.restart",
+    "cases/clogging_scan/paper2_localized_release/paper2_local_damage_slab_x012_018_df0p1_n15000_seed906_explicit/explicit_seg4M_type2_1000000.dump",
+    "cases/clogging_scan/paper2_localized_release/paper2_local_damage_slab_x012_018_df0p1_n15000_seed906_explicit/explicit_seg4M_type2_1500000.dump",
+    "cases/clogging_scan/paper2_localized_release/paper2_local_damage_slab_x012_018_df0p1_n15000_seed906_explicit/explicit_seg4M_type2_2000000.dump",
+    "cases/clogging_scan/paper2_localized_release/paper2_local_damage_slab_x012_018_df0p1_n15000_seed906_explicit/explicit_seg4M_type2_2500000.dump",
+    "cases/clogging_scan/paper2_localized_release/paper2_local_damage_slab_x012_018_df0p1_n15000_seed906_explicit/explicit_seg4M_type2_3000000.dump",
+    "cases/clogging_scan/paper2_localized_release/paper2_local_damage_slab_x012_018_df0p1_n15000_seed906_explicit/explicit_seg4M_type2_3500000.dump",
+    "cases/clogging_scan/paper2_localized_release/paper2_local_damage_slab_x012_018_df0p1_n15000_seed906_explicit/explicit_seg4M_type2_4000000.dump",
+    "cases/clogging_scan/paper2_localized_release/paper2_local_damage_slab_x012_018_df0p1_n15000_seed906_explicit/explicit_segment_1M_to_4M.log",
+    "cases/clogging_scan/paper2_localized_release/paper2_local_damage_slab_x012_018_df0p1_n30000_seed908_explicit/908_high_inventory_dt5e9_to_10ms.stdout.log",
+    "cases/clogging_scan/paper2_localized_release/paper2_local_damage_slab_x012_018_df0p1_n30000_seed908_explicit/paper2_local_damage_slab_x012_018_df0p1_n30000_seed908_explicit_dt5e9_10ms.restart",
+    "cases/clogging_scan/paper2_localized_release/paper2_local_damage_slab_x012_018_df0p1_n30000_seed908_explicit/paper2_local_damage_slab_x012_018_df0p1_n30000_seed908_explicit_dt5e9_all_20000.dump",
+    "cases/clogging_scan/paper2_localized_release/paper2_local_damage_slab_x012_018_df0p1_n30000_seed908_explicit/paper2_local_damage_slab_x012_018_df0p1_n30000_seed908_explicit_dt5e9_checkpoint_a.restart",
+    "cases/clogging_scan/paper2_localized_release/paper2_local_damage_slab_x012_018_df0p1_n30000_seed908_explicit/paper2_local_damage_slab_x012_018_df0p1_n30000_seed908_explicit_dt5e9_checkpoint_b.restart",
+    "cases/clogging_scan/paper2_localized_release/paper2_local_damage_slab_x012_018_df0p1_n30000_seed908_explicit/paper2_local_damage_slab_x012_018_df0p1_n30000_seed908_explicit_dt5e9_to_10ms.log",
+    "cases/clogging_scan/paper2_localized_release/paper2_local_damage_slab_x012_018_df0p1_n30000_seed908_explicit/paper2_local_damage_slab_x012_018_df0p1_n30000_seed908_explicit_dt5e9_type2_100000.dump",
+    "cases/clogging_scan/paper2_localized_release/paper2_local_damage_slab_x012_018_df0p1_n30000_seed908_explicit/paper2_local_damage_slab_x012_018_df0p1_n30000_seed908_explicit_dt5e9_type2_1000000.dump",
+    "cases/clogging_scan/paper2_localized_release/paper2_local_damage_slab_x012_018_df0p1_n30000_seed908_explicit/paper2_local_damage_slab_x012_018_df0p1_n30000_seed908_explicit_dt5e9_type2_1020000.dump",
+    "cases/clogging_scan/paper2_localized_release/paper2_local_damage_slab_x012_018_df0p1_n30000_seed908_explicit/paper2_local_damage_slab_x012_018_df0p1_n30000_seed908_explicit_dt5e9_type2_1040000.dump",
+    "cases/clogging_scan/paper2_localized_release/paper2_local_damage_slab_x012_018_df0p1_n30000_seed908_explicit/paper2_local_damage_slab_x012_018_df0p1_n30000_seed908_explicit_dt5e9_type2_1060000.dump",
+    "cases/clogging_scan/paper2_localized_release/paper2_local_damage_slab_x012_018_df0p1_n30000_seed908_explicit/paper2_local_damage_slab_x012_018_df0p1_n30000_seed908_explicit_dt5e9_type2_1080000.dump",
+    "cases/clogging_scan/paper2_localized_release/paper2_local_damage_slab_x012_018_df0p1_n30000_seed908_explicit/paper2_local_damage_slab_x012_018_df0p1_n30000_seed908_explicit_dt5e9_type2_1100000.dump",
+    "cases/clogging_scan/paper2_localized_release/paper2_local_damage_slab_x012_018_df0p1_n30000_seed908_explicit/paper2_local_damage_slab_x012_018_df0p1_n30000_seed908_explicit_dt5e9_type2_1120000.dump",
+    "cases/clogging_scan/paper2_localized_release/paper2_local_damage_slab_x012_018_df0p1_n30000_seed908_explicit/paper2_local_damage_slab_x012_018_df0p1_n30000_seed908_explicit_dt5e9_type2_1140000.dump",
+    "cases/clogging_scan/paper2_localized_release/paper2_local_damage_slab_x012_018_df0p1_n30000_seed908_explicit/paper2_local_damage_slab_x012_018_df0p1_n30000_seed908_explicit_dt5e9_type2_1160000.dump",
+    "cases/clogging_scan/paper2_localized_release/paper2_local_damage_slab_x012_018_df0p1_n30000_seed908_explicit/paper2_local_damage_slab_x012_018_df0p1_n30000_seed908_explicit_dt5e9_type2_1180000.dump"
+  ],
+  "refresh_results": [
+    {
+      "command": [
+        "python3",
+        "papers/paper2_voxel_topology_clogging/scripts/analyze_explicit_localized_production_results.py"
+      ],
+      "returncode": 0,
+      "stdout_tail": "ream_source_continue_1M_to_4M\",\n    \"case_name\": \"paper2_local_damage_slab_x012_018_df0p1_n15000_seed906_explicit\",\n    \"available_frames\": 35,\n    \"final_step\": 4000000,\n    \"final_time_s\": 0.04,\n    \"target_physical_time_s\": 0.04,\n    \"target_time_reached\": true,\n    \"final_debris_count\": 15000,\n    \"debris_count_ok\": true,\n    \"final_source_fraction\": 0.5793333333333334,\n    \"final_downstream_fraction\": 0.42033333333333334,\n    \"final_outlet_fraction\": 0.0,\n    \"final_x_mean_over_L\": 0.39576254108148146,\n    \"final_x_q99_over_L\": 0.6254378666666668,\n    \"final_x_max_over_L\": 0.9981044444444446,\n    \"final_max_abs_velocity_m_s\": 0.964311\n  },\n  {\n    \"job_id\": \"907_downstream_source_dt5e9_to_10ms\",\n    \"case_name\": \"paper2_local_damage_slab_x024_030_df0p1_n15000_seed907_explicit\",\n    \"available_frames\": 97,\n    \"final_step\": 2000000,\n    \"final_time_s\": 0.01005,\n    \"target_physical_time_s\": 0.01,\n    \"target_time_reached\": true,\n    \"final_debris_count\": 15000,\n    \"debris_count_ok\": true,\n    \"final_source_fraction\": 0.8961333333333333,\n    \"final_downstream_fraction\": 0.10093333333333333,\n    \"final_outlet_fraction\": 0.0,\n    \"final_x_mean_over_L\": 0.6126589753051852,\n    \"final_x_q99_over_L\": 0.6837535333333333,\n    \"final_x_max_over_L\": 0.9826066666666667,\n    \"final_max_abs_velocity_m_s\": 3.76114\n  },\n  {\n    \"job_id\": \"908_high_inventory_dt5e9_to_10ms\",\n    \"case_name\": \"paper2_local_damage_slab_x012_018_df0p1_n30000_seed908_explicit\",\n    \"available_frames\": 99,\n    \"final_step\": 1980000,\n    \"final_time_s\": 0.009949999999999999,\n    \"target_physical_time_s\": 0.01,\n    \"target_time_reached\": false,\n    \"final_debris_count\": 30000,\n    \"debris_count_ok\": true,\n    \"final_source_fraction\": 0.895,\n    \"final_downstream_fraction\": 0.10076666666666667,\n    \"final_outlet_fraction\": 0.0,\n    \"final_x_mean_over_L\": 0.34601356762592594,\n    \"final_x_q99_over_L\": 0.4201356666666667,\n    \"final_x_max_over_L\": 0.99468,\n    \"final_max_abs_velocity_m_s\": 4.27069\n  }\n]\n",
+      "stderr_tail": ""
+    },
+    {
+      "command": [
+        "python3",
+        "papers/paper2_voxel_topology_clogging/scripts/analyze_explicit_localized_production_results.py",
+        "--include-diagnostics"
+      ],
+      "returncode": 0,
+      "stdout_tail": "am_source_continue_1M_to_4M\",\n    \"case_name\": \"paper2_local_damage_slab_x012_018_df0p1_n15000_seed906_explicit\",\n    \"available_frames\": 35,\n    \"final_step\": 4000000,\n    \"final_time_s\": 0.04,\n    \"target_physical_time_s\": 0.04,\n    \"target_time_reached\": true,\n    \"final_debris_count\": 15000,\n    \"debris_count_ok\": true,\n    \"final_source_fraction\": 0.5793333333333334,\n    \"final_downstream_fraction\": 0.42033333333333334,\n    \"final_outlet_fraction\": 0.0,\n    \"final_x_mean_over_L\": 0.39576254108148146,\n    \"final_x_q99_over_L\": 0.6254378666666668,\n    \"final_x_max_over_L\": 0.9981044444444446,\n    \"final_max_abs_velocity_m_s\": 0.964311\n  },\n  {\n    \"job_id\": \"907_downstream_source_dt5e9_to_10ms\",\n    \"case_name\": \"paper2_local_damage_slab_x024_030_df0p1_n15000_seed907_explicit\",\n    \"available_frames\": 106,\n    \"final_step\": 2000000,\n    \"final_time_s\": 0.01005,\n    \"target_physical_time_s\": 0.01,\n    \"target_time_reached\": true,\n    \"final_debris_count\": 15000,\n    \"debris_count_ok\": true,\n    \"final_source_fraction\": 0.8961333333333333,\n    \"final_downstream_fraction\": 0.10093333333333333,\n    \"final_outlet_fraction\": 0.0,\n    \"final_x_mean_over_L\": 0.6126589753051852,\n    \"final_x_q99_over_L\": 0.6837535333333333,\n    \"final_x_max_over_L\": 0.9826066666666667,\n    \"final_max_abs_velocity_m_s\": 3.76114\n  },\n  {\n    \"job_id\": \"908_high_inventory_dt5e9_to_10ms\",\n    \"case_name\": \"paper2_local_damage_slab_x012_018_df0p1_n30000_seed908_explicit\",\n    \"available_frames\": 110,\n    \"final_step\": 1980000,\n    \"final_time_s\": 0.009949999999999999,\n    \"target_physical_time_s\": 0.01,\n    \"target_time_reached\": false,\n    \"final_debris_count\": 30000,\n    \"debris_count_ok\": true,\n    \"final_source_fraction\": 0.895,\n    \"final_downstream_fraction\": 0.10076666666666667,\n    \"final_outlet_fraction\": 0.0,\n    \"final_x_mean_over_L\": 0.34601356762592594,\n    \"final_x_q99_over_L\": 0.4201356666666667,\n    \"final_x_max_over_L\": 0.99468,\n    \"final_max_abs_velocity_m_s\": 4.27069\n  }\n]\n",
+      "stderr_tail": ""
+    },
+    {
+      "command": [
+        "python3",
+        "papers/paper2_voxel_topology_clogging/scripts/make_localized_production_status.py"
+      ],
+      "returncode": 0,
+      "stdout_tail": "{\n  \"job_count\": 3,\n  \"evidence_ready_count\": 2,\n  \"bounded_supporting_count\": 1,\n  \"diagnostic_only_count\": 0,\n  \"not_started_count\": 0\n}\n",
+      "stderr_tail": ""
+    },
+    {
+      "command": [
+        "python3",
+        "papers/paper2_voxel_topology_clogging/scripts/make_remaining_localized_run_plan.py"
+      ],
+      "returncode": 0,
+      "stdout_tail": "{\n  \"run_count\": 1,\n  \"skip_count\": 2,\n  \"run_jobs\": [\n    \"908_high_inventory_dt5e9_to_10ms\"\n  ]\n}\n",
+      "stderr_tail": ""
+    },
+    {
+      "command": [
+        "python3",
+        "papers/paper2_voxel_topology_clogging/scripts/audit_paper2_manuscript_readiness.py"
+      ],
+      "returncode": 0,
+      "stdout_tail": "",
+      "stderr_tail": ""
+    },
+    {
+      "command": [
+        "python3",
+        "papers/paper2_voxel_topology_clogging/scripts/audit_final_submission_gate.py"
+      ],
+      "returncode": 0,
+      "stdout_tail": "{\n  \"gate_status\": \"not_ready_for_submission\",\n  \"admin_blockers\": 1,\n  \"missing_upload_files\": []\n}\n/Users/wangjian-macbook13/Library/CloudStorage/SynologyDrive-mac/\u8bba\u6587\u76f8\u5173/\u5206\u6570\u9636\u6a21\u578b\u7814\u7a76/project/papers/paper2_voxel_topology_clogging/submission/final_submission_gate.json\n/Users/wangjian-macbook13/Library/CloudStorage/SynologyDrive-mac/\u8bba\u6587\u76f8\u5173/\u5206\u6570\u9636\u6a21\u578b\u7814\u7a76/project/papers/paper2_voxel_topology_clogging/submission/final_submission_gate.md\n",
+      "stderr_tail": ""
+    }
+  ]
+}

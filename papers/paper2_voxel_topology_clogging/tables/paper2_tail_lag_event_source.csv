@@ -1,0 +1,7 @@
+family,series,threshold,detected,time_s,value
+representative,x_q99_over_L,0.9,True,0.0356399999999999,0.916773888888889
+representative,BTC,0.001,True,0.03321,0.001
+high_inventory_908,x_max_over_L,0.9,True,0.00105,0.9908955555555556
+high_inventory_908,fraction_x_gt_0p95,1e-05,True,0.00105,3.3333333333333335e-05
+localized_release,released_fraction,0.01,True,0.002,0.011466666666666625
+localized_release,front_bulk_gap_over_L,0.5,True,0.015,0.5455308444444446

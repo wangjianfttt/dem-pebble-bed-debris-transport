@@ -1,0 +1,10 @@
+{
+  "latest_remote_bundle": "papers/paper2_voxel_topology_clogging/remote_bundle/paper2_localized_release_remote_20260609_234852.tar.gz",
+  "size_bytes": 50521155,
+  "sha256": "6fd0773527f1572ea5b312fe113ffa59a18b86780560c9847dec0a6320638bd2",
+  "purpose": "Run remaining localized-release production jobs 906 and 908; skip completed 907 by default; collect a standard return archive after completion.",
+  "run_entrypoint": "papers/paper2_voxel_topology_clogging/scripts/run_remaining_localized_production.sh",
+  "result_collector": "papers/paper2_voxel_topology_clogging/scripts/collect_localized_remote_results.sh",
+  "contains_remaining_run_plan": true,
+  "contains_result_collector": true
+}

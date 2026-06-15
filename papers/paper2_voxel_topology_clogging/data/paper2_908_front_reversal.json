@@ -1,0 +1,21 @@
+{
+  "frame_count": 38,
+  "peak_step": 280000,
+  "peak_time_s": 0.00145,
+  "peak_xmax_over_L": 0.9988755555555556,
+  "final_step": 760000,
+  "final_time_s": 0.00385,
+  "final_xmax_over_L": 0.9779822222222222,
+  "final_x99_over_L": 0.4042177777777778,
+  "final_source_fraction": 0.9594333333333334,
+  "final_outlet_fraction": 0.0,
+  "post_peak_frame_count": 25,
+  "post_peak_step_span": 480000,
+  "post_peak_duration_s": 0.0024000000000000002,
+  "post_peak_decline_over_L": -0.02089333333333343,
+  "post_peak_decline_rate_L_per_s": -8.705555555555595,
+  "post_peak_below_peak_at_final": true,
+  "post_peak_consecutive_nonincreasing": false,
+  "front_reversal_evidence": false,
+  "claim_boundary": "Front reversal requires consecutive post-peak non-increase. If false, the table may still support a weaker post-peak-below-maximum or front-slowdown statement, not breakthrough or clogging-transition evidence."
+}

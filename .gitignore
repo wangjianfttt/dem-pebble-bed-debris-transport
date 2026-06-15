@@ -1,0 +1,12 @@
+.DS_Store
+__pycache__/
+*.pyc
+.pytest_cache/
+.mplconfig/
+*.log
+*.aux
+*.out
+*.toc
+*.fls
+*.fdb_latexmk
+*.synctex.gz

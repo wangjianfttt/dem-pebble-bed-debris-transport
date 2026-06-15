@@ -1,0 +1,17 @@
+[
+  {
+    "figure": "paper2_fig8_response_landscape",
+    "input_rows_dimensionless": 9,
+    "input_rows_observable": 9,
+    "note": "Sparse case families are plotted as encoded states, not fitted response laws; panel d gives a staged assessment interpretation rather than a pressure-calibrated clogging criterion."
+  },
+  {
+    "figure": "paper2_fig9_sparse_front_diagnostics",
+    "input_rows": 46,
+    "final_time_ms": 10.0,
+    "final_x99_over_L": 0.4201562666666665,
+    "final_xmax_over_L": 0.9945955555555556,
+    "final_fraction_beyond_0p95": 6.666666666666667e-05,
+    "final_fraction_crossing_outlet": 0.0
+  }
+]

@@ -1,0 +1,31 @@
+{
+  "created_utc": "2026-06-12T22:44:37.409729+00:00",
+  "decision": "collected",
+  "remote_host": "wangjian@192.168.3.6",
+  "remote_run_dir": "/data1/wangjian/fractional_dem_project_phase2_runs/phase2_loading_20260613_0608/paper2_phase2_loading_remote_20260612T220315Z",
+  "local_root": "/Users/wangjian-macbook13/Library/CloudStorage/SynologyDrive-mac/\u8bba\u6587\u76f8\u5173/\u5206\u6570\u9636\u6a21\u578b\u7814\u7a76/project/papers/paper2_voxel_topology_clogging/remote_results/phase2_loading_20260613_0608_partial",
+  "cases": [
+    {
+      "case_name": "paper2_phase2_load6000_df0p0225_ug2_seed501",
+      "returncode": 0,
+      "stdout_tail": "Transfer starting: 23 files\n./\npaper2_phase2_load6000_df0p0225_ug2_seed501_all_12717000.dump\npaper2_phase2_load6000_df0p0225_ug2_seed501_type2_12717000.dump\n\nsent 184 bytes  received 2076995 bytes  20771790000 bytes/sec\ntotal size is 20845891  speedup is 10.04\n",
+      "stderr_tail": "",
+      "local_case_dir": "/Users/wangjian-macbook13/Library/CloudStorage/SynologyDrive-mac/\u8bba\u6587\u76f8\u5173/\u5206\u6570\u9636\u6a21\u578b\u7814\u7a76/project/papers/paper2_voxel_topology_clogging/remote_results/phase2_loading_20260613_0608_partial/cases/clogging_scan/paper2_phase2_loading_repeats/paper2_phase2_load6000_df0p0225_ug2_seed501",
+      "local_file_count": 22,
+      "type2_dump_count": 9,
+      "all_dump_count": 9,
+      "restart_count": 1
+    }
+  ],
+  "logs": {
+    "returncode": 0,
+    "stdout_tail": "Transfer starting: 2 files\nphase2_loading_repeats_remote_20260613_060709.log\n\nsent 6290 bytes  received 4827 bytes  111170000 bytes/sec\ntotal size is 1099760  speedup is 98.93\n",
+    "stderr_tail": "",
+    "local_log_dir": "/Users/wangjian-macbook13/Library/CloudStorage/SynologyDrive-mac/\u8bba\u6587\u76f8\u5173/\u5206\u6570\u9636\u6a21\u578b\u7814\u7a76/project/papers/paper2_voxel_topology_clogging/remote_results/phase2_loading_20260613_0608_partial/papers/paper2_voxel_topology_clogging/logs",
+    "log_file_count": 1,
+    "log_files": [
+      "/Users/wangjian-macbook13/Library/CloudStorage/SynologyDrive-mac/\u8bba\u6587\u76f8\u5173/\u5206\u6570\u9636\u6a21\u578b\u7814\u7a76/project/papers/paper2_voxel_topology_clogging/remote_results/phase2_loading_20260613_0608_partial/papers/paper2_voxel_topology_clogging/logs/phase2_loading_repeats_remote_20260613_060709.log"
+    ]
+  },
+  "boundary": "Collection status only; transported files are not final evidence until post-processing metrics are generated and audited."
+}

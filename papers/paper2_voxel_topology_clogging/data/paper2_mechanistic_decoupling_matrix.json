@@ -1,0 +1,118 @@
+{
+  "summary": {
+    "row_count": 6,
+    "localized_case_count": 3,
+    "loading_case_count": 3,
+    "localized_release_range": [
+      0.0319333333333333,
+      0.1038666666666666
+    ],
+    "front_bulk_gap_range_over_L": [
+      0.2988531333333335,
+      0.5869688666666668
+    ],
+    "max_blockage_range": [
+      1.0631993458219603e-05,
+      3.54878700564896e-05
+    ],
+    "pressure_increase_ratio_range": [
+      3.772039196411413e-06,
+      1.2581232188492602e-05
+    ],
+    "max_connectivity_loss": 0.0,
+    "all_outlet_crossing_zero_for_localized": true,
+    "claim_boundary": "Derived synthesis of existing localized-release and loading evidence. It supports observable decoupling only; it is not a fitted law, not a completed BTC, not pressure-calibrated and not a critical-transition criterion."
+  },
+  "rows": [
+    {
+      "case_group": "localized release",
+      "case_label": "906 upstream",
+      "particle_count": 15000,
+      "final_time_s": 0.01,
+      "released_fraction": 0.0984666666666668,
+      "downstream_fraction": 0.0967333333333333,
+      "outlet_fraction": 0.0,
+      "front_bulk_gap_over_L": 0.4355510666666666,
+      "gap_to_outlet_over_L": 0.14746,
+      "max_blockage_ratio": NaN,
+      "pressure_increase_ratio": NaN,
+      "connectivity_loss": 0.0,
+      "Ib_no_pressure": NaN
+    },
+    {
+      "case_group": "localized release",
+      "case_label": "907 downstream",
+      "particle_count": 15000,
+      "final_time_s": 0.01005,
+      "released_fraction": 0.1038666666666666,
+      "downstream_fraction": 0.1009333333333333,
+      "outlet_fraction": 0.0,
+      "front_bulk_gap_over_L": 0.2988531333333335,
+      "gap_to_outlet_over_L": 0.0173933333333331,
+      "max_blockage_ratio": NaN,
+      "pressure_increase_ratio": NaN,
+      "connectivity_loss": 0.0,
+      "Ib_no_pressure": NaN
+    },
+    {
+      "case_group": "localized release",
+      "case_label": "908 high inventory",
+      "particle_count": 30000,
+      "final_time_s": 0.0030499999999999,
+      "released_fraction": 0.0319333333333333,
+      "downstream_fraction": 0.0267333333333333,
+      "outlet_fraction": 0.0,
+      "front_bulk_gap_over_L": 0.5869688666666668,
+      "gap_to_outlet_over_L": 0.0104888888888887,
+      "max_blockage_ratio": NaN,
+      "pressure_increase_ratio": NaN,
+      "connectivity_loss": 0.0,
+      "Ib_no_pressure": NaN
+    },
+    {
+      "case_group": "loading scan",
+      "case_label": "N=3000",
+      "particle_count": 3000,
+      "final_time_s": NaN,
+      "released_fraction": NaN,
+      "downstream_fraction": NaN,
+      "outlet_fraction": 0.0183333333333333,
+      "front_bulk_gap_over_L": NaN,
+      "gap_to_outlet_over_L": NaN,
+      "max_blockage_ratio": 1.0631993458219603e-05,
+      "pressure_increase_ratio": 3.772039196411413e-06,
+      "connectivity_loss": 0.0,
+      "Ib_no_pressure": 5.315996729109802e-06
+    },
+    {
+      "case_group": "loading scan",
+      "case_label": "N=6000",
+      "particle_count": 6000,
+      "final_time_s": NaN,
+      "released_fraction": NaN,
+      "downstream_fraction": NaN,
+      "outlet_fraction": 0.0141666666666666,
+      "front_bulk_gap_over_L": NaN,
+      "gap_to_outlet_over_L": NaN,
+      "max_blockage_ratio": 2.083296015461943e-05,
+      "pressure_increase_ratio": 7.609443463756201e-06,
+      "connectivity_loss": 0.0,
+      "Ib_no_pressure": 1.0416480077309717e-05
+    },
+    {
+      "case_group": "loading scan",
+      "case_label": "N=10000",
+      "particle_count": 10000,
+      "final_time_s": NaN,
+      "released_fraction": NaN,
+      "downstream_fraction": NaN,
+      "outlet_fraction": 0.0156,
+      "front_bulk_gap_over_L": NaN,
+      "gap_to_outlet_over_L": NaN,
+      "max_blockage_ratio": 3.54878700564896e-05,
+      "pressure_increase_ratio": 1.2581232188492602e-05,
+      "connectivity_loss": 0.0,
+      "Ib_no_pressure": 1.77439350282448e-05
+    }
+  ]
+}

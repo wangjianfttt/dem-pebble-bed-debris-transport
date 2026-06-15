@@ -1,0 +1,12 @@
+{
+  "case_dir": "/Users/wangjian-macbook13/Library/CloudStorage/SynologyDrive-mac/\u8bba\u6587\u76f8\u5173/\u5206\u6570\u9636\u6a21\u578b\u7814\u7a76/project/papers/paper2_voxel_topology_clogging/flow_solver_results/openfoam/N3000_peak_blockage",
+  "case_marker": "/Users/wangjian-macbook13/Library/CloudStorage/SynologyDrive-mac/\u8bba\u6587\u76f8\u5173/\u5206\u6570\u9636\u6a21\u578b\u7814\u7a76/project/papers/paper2_voxel_topology_clogging/flow_solver_results/openfoam/N3000_peak_blockage/N3000_peak_blockage.foam",
+  "solid_interface_stl": "/Users/wangjian-macbook13/Library/CloudStorage/SynologyDrive-mac/\u8bba\u6587\u76f8\u5173/\u5206\u6570\u9636\u6a21\u578b\u7814\u7a76/project/papers/paper2_voxel_topology_clogging/flow_solver_results/openfoam/N3000_peak_blockage/constant/triSurface/solid_interface.stl",
+  "model_render": "/Users/wangjian-macbook13/Library/CloudStorage/SynologyDrive-mac/\u8bba\u6587\u76f8\u5173/\u5206\u6570\u9636\u6a21\u578b\u7814\u7a76/project/papers/paper2_voxel_topology_clogging/figures/openfoam_paraview/N3000_peak_blockage_model_domain_paraview.png",
+  "mesh_slice_render": "/Users/wangjian-macbook13/Library/CloudStorage/SynologyDrive-mac/\u8bba\u6587\u76f8\u5173/\u5206\u6570\u9636\u6a21\u578b\u7814\u7a76/project/papers/paper2_voxel_topology_clogging/figures/openfoam_paraview/N3000_peak_blockage_mesh_slice_paraview.png",
+  "image_resolution": [
+    3200,
+    2200
+  ],
+  "renderer": "ParaView OpenFOAMReader/STLReader"
+}

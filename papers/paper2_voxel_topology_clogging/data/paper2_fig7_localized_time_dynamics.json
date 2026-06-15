@@ -1,0 +1,45 @@
+{
+  "source_table": "papers/paper2_voxel_topology_clogging/tables/explicit_localized_production_timeseries.csv",
+  "figure_stem": "paper2_fig7_localized_time_dynamics",
+  "job_count": 3,
+  "max_final_time_ms": 40.0,
+  "latest": [
+    {
+      "job_id": "906_upstream_source_continue_1M_to_4M",
+      "label": "906 upstream, 15k",
+      "step": 4000000,
+      "time_ms": 40.0,
+      "source_fraction": 0.5793333333333334,
+      "downstream_fraction": 0.4203333333333333,
+      "outlet_fraction": 0.0,
+      "x_q99_over_L": 0.6254378666666668,
+      "x_max_over_L": 0.9981044444444446,
+      "front_bulk_gap_over_L": 0.3726665777777778
+    },
+    {
+      "job_id": "907_downstream_source_dt5e9_to_10ms",
+      "label": "907 downstream, 15k",
+      "step": 2000000,
+      "time_ms": 10.05,
+      "source_fraction": 0.8961333333333333,
+      "downstream_fraction": 0.1009333333333333,
+      "outlet_fraction": 0.0,
+      "x_q99_over_L": 0.6837535333333333,
+      "x_max_over_L": 0.9826066666666669,
+      "front_bulk_gap_over_L": 0.2988531333333335
+    },
+    {
+      "job_id": "908_high_inventory_dt5e9_to_10ms",
+      "label": "908 upstream, 30k",
+      "step": 1990000,
+      "time_ms": 10.0,
+      "source_fraction": 0.8945,
+      "downstream_fraction": 0.1012333333333333,
+      "outlet_fraction": 0.0,
+      "x_q99_over_L": 0.4201562666666665,
+      "x_max_over_L": 0.9945955555555556,
+      "front_bulk_gap_over_L": 0.5744392888888891
+    }
+  ],
+  "claim_boundary": "The figure visualizes existing DEM tracking outputs for localized-release cases. It does not establish a source-position scaling law or a pressure-calibrated clogging threshold."
+}

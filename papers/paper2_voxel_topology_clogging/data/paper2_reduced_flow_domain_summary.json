@@ -1,0 +1,49 @@
+{
+  "reduced_domains": 3,
+  "window_y": 32,
+  "window_z": 32,
+  "out_dir": "/Users/wangjian-macbook13/Library/CloudStorage/SynologyDrive-mac/\u8bba\u6587\u76f8\u5173/\u5206\u6570\u9636\u6a21\u578b\u7814\u7a76/project/papers/paper2_voxel_topology_clogging/flow_domains_reduced",
+  "manifest": "/Users/wangjian-macbook13/Library/CloudStorage/SynologyDrive-mac/\u8bba\u6587\u76f8\u5173/\u5206\u6570\u9636\u6a21\u578b\u7814\u7a76/project/papers/paper2_voxel_topology_clogging/tables/paper2_reduced_flow_domain_manifest.csv",
+  "records": [
+    {
+      "case_name": "N10000_peak_blockage_reduced_y32_z32",
+      "source_case": "N10000_peak_blockage",
+      "debris_total_number": 10000,
+      "shape_x": 33,
+      "shape_y": 32,
+      "shape_z": 32,
+      "y_start_index": 0,
+      "z_start_index": 21,
+      "porosity": 0.41361860795454547,
+      "through_connected_pore_nodes_x": 13813,
+      "output_dir": "papers/paper2_voxel_topology_clogging/flow_domains_reduced/N10000_peak_blockage_reduced_y32_z32"
+    },
+    {
+      "case_name": "N3000_peak_blockage_reduced_y32_z32",
+      "source_case": "N3000_peak_blockage",
+      "debris_total_number": 3000,
+      "shape_x": 33,
+      "shape_y": 32,
+      "shape_z": 32,
+      "y_start_index": 0,
+      "z_start_index": 21,
+      "porosity": 0.41361860795454547,
+      "through_connected_pore_nodes_x": 13813,
+      "output_dir": "papers/paper2_voxel_topology_clogging/flow_domains_reduced/N3000_peak_blockage_reduced_y32_z32"
+    },
+    {
+      "case_name": "N6000_peak_blockage_reduced_y32_z32",
+      "source_case": "N6000_peak_blockage",
+      "debris_total_number": 6000,
+      "shape_x": 33,
+      "shape_y": 32,
+      "shape_z": 32,
+      "y_start_index": 0,
+      "z_start_index": 21,
+      "porosity": 0.41361860795454547,
+      "through_connected_pore_nodes_x": 13813,
+      "output_dir": "papers/paper2_voxel_topology_clogging/flow_domains_reduced/N6000_peak_blockage_reduced_y32_z32"
+    }
+  ],
+  "evidence_boundary": "reduced pore-flow input domains only; no pressure-flow calculation is inferred"
+}

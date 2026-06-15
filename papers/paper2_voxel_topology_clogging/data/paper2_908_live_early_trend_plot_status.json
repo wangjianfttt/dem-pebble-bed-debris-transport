@@ -1,0 +1,16 @@
+{
+  "input": "papers/paper2_voxel_topology_clogging/tables/paper2_908_live_evidence_summary.csv",
+  "available_frames": 38,
+  "min_frames_required": 4,
+  "plotted": true,
+  "reason": "enough frames for a conservative scatter-trend view",
+  "final_step": 760000,
+  "final_time_s": 0.00385,
+  "final_source_fraction": 0.9594333333333334,
+  "final_downstream_fraction": 0.0353,
+  "final_outlet_fraction": 0.0,
+  "final_x_q99_over_L": 0.4042177777777778,
+  "final_x_max_over_L": 0.9779822222222222,
+  "final_sparse_front_gap_over_L": 0.5737644444444444,
+  "sparse_front_gap_monotonic": false
+}

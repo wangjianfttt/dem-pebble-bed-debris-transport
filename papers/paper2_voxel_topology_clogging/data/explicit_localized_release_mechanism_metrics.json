@@ -1,0 +1,20 @@
+{
+  "final_step": 1000000,
+  "final_time_s": 0.01,
+  "final_retained_fraction": 0.9015333333333333,
+  "final_downstream_fraction": 0.09673333333333334,
+  "final_outlet_fraction": 0.0,
+  "final_x_mean_over_L": 0.346076038197037,
+  "final_x_q99_over_L": 0.4169889333333333,
+  "final_x_max_over_L": 0.85254,
+  "source_loss_rate_all_particles_s": 141316.87925726944,
+  "source_loss_rate_late_5_10ms_particles_s": 167457.1428571431,
+  "downstream_growth_rate_all_particles_s": 138641.20087061622,
+  "downstream_growth_rate_late_5_10ms_particles_s": 169685.71428571435,
+  "mean_cloud_speed_all_m_s": 0.05736163758966219,
+  "q99_tail_speed_all_m_s": 0.07575193832636393,
+  "max_tail_speed_late_5_10ms_m_s": 2.6453657142857128,
+  "median_late_downstream_growth_rate_particles_s": 171499.99999999994,
+  "median_late_q99_speed_m_s": 0.10663649999999755,
+  "interpretation": "The localized internal source remains retention dominated: the retained fraction is high, the downstream fraction grows slowly, and no outlet breakthrough occurs by 10 ms."
+}

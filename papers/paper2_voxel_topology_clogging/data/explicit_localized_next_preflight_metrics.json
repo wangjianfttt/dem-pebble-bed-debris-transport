@@ -1,0 +1,32 @@
+[
+  {
+    "case_name": "paper2_local_damage_slab_x024_030_df0p1_n15000_seed907_explicit",
+    "case_dir": "cases/clogging_scan/paper2_localized_release/paper2_local_damage_slab_x024_030_df0p1_n15000_seed907_explicit",
+    "log_file": "cases/clogging_scan/paper2_localized_release/paper2_local_damage_slab_x024_030_df0p1_n15000_seed907_explicit/paper2_local_damage_slab_x024_030_df0p1_n15000_seed907_explicit_preflight_10k.log",
+    "initial_atoms": 25000,
+    "final_atoms": 25000,
+    "final_step": 10000,
+    "initial_ke": 0.0,
+    "max_ke": 0.00090405887,
+    "final_ke": 0.00065481375,
+    "ke_drop_from_peak_fraction": 0.2756956745526981,
+    "dangerous_builds": 0,
+    "loop_time_s": 62.935,
+    "passed_preflight": true
+  },
+  {
+    "case_name": "paper2_local_damage_slab_x012_018_df0p1_n30000_seed908_explicit",
+    "case_dir": "cases/clogging_scan/paper2_localized_release/paper2_local_damage_slab_x012_018_df0p1_n30000_seed908_explicit",
+    "log_file": "cases/clogging_scan/paper2_localized_release/paper2_local_damage_slab_x012_018_df0p1_n30000_seed908_explicit/paper2_local_damage_slab_x012_018_df0p1_n30000_seed908_explicit_preflight_10k.log",
+    "initial_atoms": 40000,
+    "final_atoms": 40000,
+    "final_step": 10000,
+    "initial_ke": 0.0,
+    "max_ke": 0.0014664032,
+    "final_ke": 0.00063089216,
+    "ke_drop_from_peak_fraction": 0.5697689694075955,
+    "dangerous_builds": 0,
+    "loop_time_s": 175.141,
+    "passed_preflight": true
+  }
+]

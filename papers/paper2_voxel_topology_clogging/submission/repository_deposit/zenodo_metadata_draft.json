@@ -1,0 +1,57 @@
+{
+  "title": "Separating breakthrough from pore-network clogging indicators in gas-driven fine-debris transport through Li4SiO4 pebble beds",
+  "upload_type": "dataset",
+  "publication_type": "article",
+  "creators": [
+    {
+      "name": "Wang, Jian",
+      "affiliation": "School of Mechanical Engineering, Anhui University of Science and Technology, Huainan 232001, China"
+    },
+    {
+      "name": "Liu, Mingzong",
+      "affiliation": "School of Mechanical Engineering, Anhui University of Science and Technology, Huainan 232001, China"
+    },
+    {
+      "name": "Lei, Mingzhun",
+      "affiliation": "Institute of Plasma Physics, Chinese Academy of Sciences, Hefei 230031, China"
+    },
+    {
+      "name": "Wu, Qigang",
+      "affiliation": "Institute of Plasma Physics, Chinese Academy of Sciences, Hefei 230031, China"
+    },
+    {
+      "name": "Wang, Kaisong",
+      "affiliation": "School of Mechanical Engineering, Anhui University of Science and Technology, Huainan 232001, China"
+    },
+    {
+      "name": "Deng, Haishun",
+      "affiliation": "School of Mechanical Engineering, Anhui University of Science and Technology, Huainan 232001, China"
+    }
+  ],
+  "description": "Lightweight data and code deposit supporting a DEM-derived voxel-topology study of gas-driven fine-debris transport and retention in Li4SiO4 ceramic breeder pebble beds. The deposit contains manuscript source, processed source data, figure-generation scripts, exported figures, supplementary material, metadata audits, and shared DEM post-processing, voxel-topology and transport analysis utilities. Large raw DEM dump/restart files are documented as optional raw-archive material and may be deposited separately if repository size limits require it.\n",
+  "keywords": [
+    "Li4SiO4",
+    "ceramic breeder pebble bed",
+    "discrete element method",
+    "fine debris",
+    "purge gas",
+    "breakthrough curve",
+    "voxel topology",
+    "particle retention"
+  ],
+  "license": "TBC",
+  "related_identifiers": {
+    "manuscript_doi": "TBC",
+    "repository_doi": "TBC"
+  },
+  "notes": {
+    "scientific_scope": "Bounded DEM-derived voxel-topology study of pre-clogging migration, retention and pore-network response.",
+    "not_claimed": [
+      "Experimental CT validation",
+      "Pressure-calibrated safety limit",
+      "Universal critical clogging transition"
+    ],
+    "raw_data_boundary": "Large DEM dump/restart files can be archived separately when repository size limits require it."
+  },
+  "access_right": "open"
+}

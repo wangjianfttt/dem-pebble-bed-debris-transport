@@ -1,0 +1,15 @@
+{
+  "localized_job_count": 3,
+  "observable_case_count": 9,
+  "final_908_step": 1990000,
+  "final_908_time_s": 0.01,
+  "final_908_source_fraction": 0.8945,
+  "final_908_downstream_fraction": 0.1012333333333333,
+  "final_908_outlet_fraction": 0.0,
+  "final_908_x99_over_L": 0.4201562666666665,
+  "final_908_xmax_over_L": 0.9945955555555556,
+  "final_908_front_bulk_gap_over_L": 0.5744392888888891,
+  "max_connectivity_loss": 0.0,
+  "family_fingerprint_rows": 3,
+  "claim_boundary": "This figure synthesizes existing DEM and voxel post-processing outputs. It is not a fitted law, not CFD validation and not a pressure-calibrated critical-clogging criterion."
+}

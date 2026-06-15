@@ -1,0 +1,17 @@
+{
+  "voxel_path": "data/processed/ct_pipeline_li4sio4_1mm_10k_axial_cuboid_piston_compacted/bed_voxel_effective.npz",
+  "voxel_shape": [
+    180,
+    60,
+    53
+  ],
+  "voxel_size": 0.00025,
+  "pressure_model": "voxel-network Darcy-Laplace",
+  "conductance_exponent": 3.0,
+  "not_cfd": true,
+  "not_lbm": true,
+  "not_pressure_calibrated_Ib": true,
+  "baseline_conductance": 2.275788925938801,
+  "loading_conductance_loss_min": 2.752975078457176e-06,
+  "loading_conductance_loss_max": 9.17882203521625e-06
+}

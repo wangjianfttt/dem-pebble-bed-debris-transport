@@ -1,0 +1,20 @@
+{
+  "rows": 3,
+  "debris_total_numbers": [
+    3000,
+    6000,
+    10000
+  ],
+  "max_subvoxel_blockage_ratio": 1.9520650602178335e-05,
+  "max_ergun_peak_local_pressure_increase_ratio": 8.245492397801376e-05,
+  "openfoam_screening_cases": 1,
+  "openfoam_strict_checkmesh_cases": 0,
+  "openfoam_engineering_skew6_cases": 1,
+  "dominant_interpretation": "current loading cases remain in a pre-clogging hydraulic perturbation regime; stronger local release or higher retained debris loading is needed for critical blockage evidence",
+  "evidence_boundary": "The table combines a sub-voxel Ergun proxy and returned OpenFOAM screening metadata. It is not experimental pressure validation.",
+  "figure_outputs": [
+    "papers/paper2_voxel_topology_clogging/figures/paper2_figS18_subvoxel_hydraulic_evidence.png",
+    "papers/paper2_voxel_topology_clogging/figures/paper2_figS18_subvoxel_hydraulic_evidence.pdf",
+    "papers/paper2_voxel_topology_clogging/figures/paper2_figS18_subvoxel_hydraulic_evidence.svg"
+  ]
+}

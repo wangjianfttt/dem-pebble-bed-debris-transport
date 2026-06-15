@@ -1,0 +1,277 @@
+{
+  "created_utc": "2026-06-12T22:03:15.700034+00:00",
+  "decision": "phase2_loading_remote_bundle_created",
+  "stage_dir": "papers/paper2_voxel_topology_clogging/remote_bundle/paper2_phase2_loading_remote_20260612T220315Z",
+  "tarball": "papers/paper2_voxel_topology_clogging/remote_bundle/paper2_phase2_loading_remote_20260612T220315Z.tar.gz",
+  "tarball_size_bytes": 1943150,
+  "case_count": 8,
+  "case_input_file_count": 40,
+  "restart_file_count": 1,
+  "paper_file_count": 9,
+  "copied_file_count": 51,
+  "copied_files": [
+    {
+      "path": "papers/paper2_voxel_topology_clogging/config_phase2_loading_repeats.yaml",
+      "size_bytes": 3011,
+      "read_head_bytes": 64
+    },
+    {
+      "path": "papers/paper2_voxel_topology_clogging/tables/paper2_phase2_loading_repeat_manifest.csv",
+      "size_bytes": 6106,
+      "read_head_bytes": 64
+    },
+    {
+      "path": "papers/paper2_voxel_topology_clogging/data/paper2_phase2_loading_repeat_manifest.json",
+      "size_bytes": 9676,
+      "read_head_bytes": 64
+    },
+    {
+      "path": "papers/paper2_voxel_topology_clogging/data/paper2_phase2_preflight_run_summary.json",
+      "size_bytes": 9199,
+      "read_head_bytes": 64
+    },
+    {
+      "path": "papers/paper2_voxel_topology_clogging/scripts/audit_phase2_loading_preflight_inputs.py",
+      "size_bytes": 6240,
+      "read_head_bytes": 64
+    },
+    {
+      "path": "papers/paper2_voxel_topology_clogging/scripts/generate_phase2_loading_repeat_cases.py",
+      "size_bytes": 12011,
+      "read_head_bytes": 64
+    },
+    {
+      "path": "papers/paper2_voxel_topology_clogging/scripts/run_phase2_loading_repeats.sh",
+      "size_bytes": 2671,
+      "read_head_bytes": 64
+    },
+    {
+      "path": "papers/paper2_voxel_topology_clogging/scripts/run_phase2_loading_repeats_preflight.sh",
+      "size_bytes": 2636,
+      "read_head_bytes": 64
+    },
+    {
+      "path": "papers/paper2_voxel_topology_clogging/scripts/summarize_phase2_preflight_results.py",
+      "size_bytes": 8644,
+      "read_head_bytes": 64
+    },
+    {
+      "path": "cases/clogging_scan/paper2_phase2_loading_repeats/paper2_phase2_load10000_df0p0225_ug2_seed501/base.yaml",
+      "size_bytes": 1372,
+      "read_head_bytes": 64
+    },
+    {
+      "path": "cases/clogging_scan/paper2_phase2_loading_repeats/paper2_phase2_load10000_df0p0225_ug2_seed501/debris.yaml",
+      "size_bytes": 1426,
+      "read_head_bytes": 64
+    },
+    {
+      "path": "cases/clogging_scan/paper2_phase2_loading_repeats/paper2_phase2_load10000_df0p0225_ug2_seed501/in.debris_injection",
+      "size_bytes": 3600,
+      "read_head_bytes": 64
+    },
+    {
+      "path": "cases/clogging_scan/paper2_phase2_loading_repeats/paper2_phase2_load10000_df0p0225_ug2_seed501/in.preflight_10k",
+      "size_bytes": 3715,
+      "read_head_bytes": 64
+    },
+    {
+      "path": "cases/clogging_scan/paper2_phase2_loading_repeats/paper2_phase2_load10000_df0p0225_ug2_seed501/run.sh",
+      "size_bytes": 757,
+      "read_head_bytes": 64
+    },
+    {
+      "path": "cases/clogging_scan/paper2_phase2_loading_repeats/paper2_phase2_load10000_df0p0225_ug2_seed601/base.yaml",
+      "size_bytes": 1372,
+      "read_head_bytes": 64
+    },
+    {
+      "path": "cases/clogging_scan/paper2_phase2_loading_repeats/paper2_phase2_load10000_df0p0225_ug2_seed601/debris.yaml",
+      "size_bytes": 1426,
+      "read_head_bytes": 64
+    },
+    {
+      "path": "cases/clogging_scan/paper2_phase2_loading_repeats/paper2_phase2_load10000_df0p0225_ug2_seed601/in.debris_injection",
+      "size_bytes": 3600,
+      "read_head_bytes": 64
+    },
+    {
+      "path": "cases/clogging_scan/paper2_phase2_loading_repeats/paper2_phase2_load10000_df0p0225_ug2_seed601/in.preflight_10k",
+      "size_bytes": 3715,
+      "read_head_bytes": 64
+    },
+    {
+      "path": "cases/clogging_scan/paper2_phase2_loading_repeats/paper2_phase2_load10000_df0p0225_ug2_seed601/run.sh",
+      "size_bytes": 757,
+      "read_head_bytes": 64
+    },
+    {
+      "path": "cases/clogging_scan/paper2_phase2_loading_repeats/paper2_phase2_load10000_df0p0225_ug2_seed701/base.yaml",
+      "size_bytes": 1372,
+      "read_head_bytes": 64
+    },
+    {
+      "path": "cases/clogging_scan/paper2_phase2_loading_repeats/paper2_phase2_load10000_df0p0225_ug2_seed701/debris.yaml",
+      "size_bytes": 1426,
+      "read_head_bytes": 64
+    },
+    {
+      "path": "cases/clogging_scan/paper2_phase2_loading_repeats/paper2_phase2_load10000_df0p0225_ug2_seed701/in.debris_injection",
+      "size_bytes": 3600,
+      "read_head_bytes": 64
+    },
+    {
+      "path": "cases/clogging_scan/paper2_phase2_loading_repeats/paper2_phase2_load10000_df0p0225_ug2_seed701/in.preflight_10k",
+      "size_bytes": 3715,
+      "read_head_bytes": 64
+    },
+    {
+      "path": "cases/clogging_scan/paper2_phase2_loading_repeats/paper2_phase2_load10000_df0p0225_ug2_seed701/run.sh",
+      "size_bytes": 757,
+      "read_head_bytes": 64
+    },
+    {
+      "path": "cases/clogging_scan/paper2_phase2_loading_repeats/paper2_phase2_load20000_df0p0225_ug2_seed501/base.yaml",
+      "size_bytes": 1372,
+      "read_head_bytes": 64
+    },
+    {
+      "path": "cases/clogging_scan/paper2_phase2_loading_repeats/paper2_phase2_load20000_df0p0225_ug2_seed501/debris.yaml",
+      "size_bytes": 1425,
+      "read_head_bytes": 64
+    },
+    {
+      "path": "cases/clogging_scan/paper2_phase2_loading_repeats/paper2_phase2_load20000_df0p0225_ug2_seed501/in.debris_injection",
+      "size_bytes": 3600,
+      "read_head_bytes": 64
+    },
+    {
+      "path": "cases/clogging_scan/paper2_phase2_loading_repeats/paper2_phase2_load20000_df0p0225_ug2_seed501/in.preflight_10k",
+      "size_bytes": 3715,
+      "read_head_bytes": 64
+    },
+    {
+      "path": "cases/clogging_scan/paper2_phase2_loading_repeats/paper2_phase2_load20000_df0p0225_ug2_seed501/run.sh",
+      "size_bytes": 757,
+      "read_head_bytes": 64
+    },
+    {
+      "path": "cases/clogging_scan/paper2_phase2_loading_repeats/paper2_phase2_load20000_df0p0225_ug2_seed601/base.yaml",
+      "size_bytes": 1372,
+      "read_head_bytes": 64
+    },
+    {
+      "path": "cases/clogging_scan/paper2_phase2_loading_repeats/paper2_phase2_load20000_df0p0225_ug2_seed601/debris.yaml",
+      "size_bytes": 1425,
+      "read_head_bytes": 64
+    },
+    {
+      "path": "cases/clogging_scan/paper2_phase2_loading_repeats/paper2_phase2_load20000_df0p0225_ug2_seed601/in.debris_injection",
+      "size_bytes": 3600,
+      "read_head_bytes": 64
+    },
+    {
+      "path": "cases/clogging_scan/paper2_phase2_loading_repeats/paper2_phase2_load20000_df0p0225_ug2_seed601/in.preflight_10k",
+      "size_bytes": 3715,
+      "read_head_bytes": 64
+    },
+    {
+      "path": "cases/clogging_scan/paper2_phase2_loading_repeats/paper2_phase2_load20000_df0p0225_ug2_seed601/run.sh",
+      "size_bytes": 757,
+      "read_head_bytes": 64
+    },
+    {
+      "path": "cases/clogging_scan/paper2_phase2_loading_repeats/paper2_phase2_load6000_df0p0225_ug2_seed501/base.yaml",
+      "size_bytes": 1372,
+      "read_head_bytes": 64
+    },
+    {
+      "path": "cases/clogging_scan/paper2_phase2_loading_repeats/paper2_phase2_load6000_df0p0225_ug2_seed501/debris.yaml",
+      "size_bytes": 1418,
+      "read_head_bytes": 64
+    },
+    {
+      "path": "cases/clogging_scan/paper2_phase2_loading_repeats/paper2_phase2_load6000_df0p0225_ug2_seed501/in.debris_injection",
+      "size_bytes": 3593,
+      "read_head_bytes": 64
+    },
+    {
+      "path": "cases/clogging_scan/paper2_phase2_loading_repeats/paper2_phase2_load6000_df0p0225_ug2_seed501/in.preflight_10k",
+      "size_bytes": 3708,
+      "read_head_bytes": 64
+    },
+    {
+      "path": "cases/clogging_scan/paper2_phase2_loading_repeats/paper2_phase2_load6000_df0p0225_ug2_seed501/run.sh",
+      "size_bytes": 757,
+      "read_head_bytes": 64
+    },
+    {
+      "path": "cases/clogging_scan/paper2_phase2_loading_repeats/paper2_phase2_load6000_df0p0225_ug2_seed601/base.yaml",
+      "size_bytes": 1372,
+      "read_head_bytes": 64
+    },
+    {
+      "path": "cases/clogging_scan/paper2_phase2_loading_repeats/paper2_phase2_load6000_df0p0225_ug2_seed601/debris.yaml",
+      "size_bytes": 1418,
+      "read_head_bytes": 64
+    },
+    {
+      "path": "cases/clogging_scan/paper2_phase2_loading_repeats/paper2_phase2_load6000_df0p0225_ug2_seed601/in.debris_injection",
+      "size_bytes": 3593,
+      "read_head_bytes": 64
+    },
+    {
+      "path": "cases/clogging_scan/paper2_phase2_loading_repeats/paper2_phase2_load6000_df0p0225_ug2_seed601/in.preflight_10k",
+      "size_bytes": 3708,
+      "read_head_bytes": 64
+    },
+    {
+      "path": "cases/clogging_scan/paper2_phase2_loading_repeats/paper2_phase2_load6000_df0p0225_ug2_seed601/run.sh",
+      "size_bytes": 757,
+      "read_head_bytes": 64
+    },
+    {
+      "path": "cases/clogging_scan/paper2_phase2_loading_repeats/paper2_phase2_load6000_df0p0225_ug2_seed701/base.yaml",
+      "size_bytes": 1372,
+      "read_head_bytes": 64
+    },
+    {
+      "path": "cases/clogging_scan/paper2_phase2_loading_repeats/paper2_phase2_load6000_df0p0225_ug2_seed701/debris.yaml",
+      "size_bytes": 1418,
+      "read_head_bytes": 64
+    },
+    {
+      "path": "cases/clogging_scan/paper2_phase2_loading_repeats/paper2_phase2_load6000_df0p0225_ug2_seed701/in.debris_injection",
+      "size_bytes": 3593,
+      "read_head_bytes": 64
+    },
+    {
+      "path": "cases/clogging_scan/paper2_phase2_loading_repeats/paper2_phase2_load6000_df0p0225_ug2_seed701/in.preflight_10k",
+      "size_bytes": 3708,
+      "read_head_bytes": 64
+    },
+    {
+      "path": "cases/clogging_scan/paper2_phase2_loading_repeats/paper2_phase2_load6000_df0p0225_ug2_seed701/run.sh",
+      "size_bytes": 757,
+      "read_head_bytes": 64
+    },
+    {
+      "path": "cases/bed_piston_compaction_li4sio4_1mm_10k_axial_cuboid/li4sio4_1mm_10k_axial_cuboid_piston_compacted.restart",
+      "size_bytes": 4944876,
+      "read_head_bytes": 64
+    },
+    {
+      "path": "papers/paper2_voxel_topology_clogging/remote_bundle/paper2_phase2_loading_remote_20260612T220315Z/papers/paper2_voxel_topology_clogging/remote_bundle/PHASE2_LOADING_REMOTE_README.md",
+      "size_bytes": 673,
+      "read_head_bytes": 64
+    }
+  ],
+  "excluded_outputs": [
+    "*_preflight*.dump",
+    "*_preflight.restart",
+    "*_all_*.dump",
+    "*_type2_*.dump",
+    "*.log"
+  ],
+  "boundary": "Remote bundle contains executable Phase-II inputs only; no Phase-II production transport evidence is inferred."
+}

@@ -1,0 +1,4 @@
+case_group,mechanism_family,outlet arrival,penetration,sparse front,local blockage,pressure proxy,connectivity loss
+drive scan,drive,1.0,0.3717683792459854,,0.6805585289849962,,0.0
+localized release,localized,0.0,0.6006970325195516,1.0,,,0.0
+loading scan,loading,0.2235772357723573,1.0,,1.0,1.0,0.0

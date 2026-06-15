@@ -1,0 +1,94 @@
+{
+  "summary": {
+    "decision": "primary_scientific_evidence_ready_for_claim_cleanup",
+    "row_count": 6,
+    "top_action": "submission_admin_gate",
+    "repeat_run_decision": "production_repeat_runs_completed",
+    "repeat_evidence_decision": "repeat_seed_evidence_ready",
+    "formal_processed_repeat_count": 3,
+    "repeat_output_stale_warning_count": 0,
+    "submission_gate_status": "not_ready_for_submission",
+    "ready_to_insert_count": 5,
+    "boundary": "Dashboard only; it organizes evidence actions and does not create new DEM or flow-solver evidence."
+  },
+  "rows": [
+    {
+      "priority": 1,
+      "action_id": "repeat_seed_completion",
+      "evidence_layer": "near-threshold uncertainty",
+      "current_state": "production_running=0, production_completed=2, formal_processed=3, mean_progress=1.0",
+      "why_it_matters": "Separates probabilistic near-threshold breakthrough from a single-seed artifact.",
+      "next_action": "No further repeat action; keep manuscript wording bounded to stochastic variability.",
+      "minimum_success_criterion": "At least three formal frozen-bed rows with BTC, retention and first-breakthrough metrics.",
+      "manuscript_effect": "Can upgrade threshold wording from bounded single-seed evidence to uncertainty-aware evidence.",
+      "claim_boundary": "Repeat-seed uncertainty can enter the manuscript only after at least three formal processed rows are available.",
+      "ready_to_insert": true,
+      "complete": true
+    },
+    {
+      "priority": 2,
+      "action_id": "pressure_response_evidence",
+      "evidence_layer": "hydraulic consequence",
+      "current_state": "valid_pressure_cases=3, strict_pressure_cases=3, engineering_screening_cases=3, manuscript_ready=True, unique_flow_geometries=3, geometry_distinguishable=True; return_audit=pressure_evidence_ready_for_author_review; warnings=1",
+      "why_it_matters": "Pressure or permeability response is needed to separate hydraulic consequence from transport and topology signals.",
+      "next_action": "Pressure evidence is complete for the current handoff; keep wording bounded and do not rerun unless the geometry changes.",
+      "minimum_success_criterion": "Complete strict pressure evidence already available for the current handoff.",
+      "manuscript_effect": "Moves pressure discussion from proxy-only to bounded cropped-domain pressure-informed evidence.",
+      "claim_boundary": "No OpenFOAM pressure claim until returned archive is imported and evidence gate passes.",
+      "ready_to_insert": true,
+      "complete": true
+    },
+    {
+      "priority": 3,
+      "action_id": "high_inventory_localized_tail",
+      "evidence_layer": "high-inventory internal-source stress test",
+      "current_state": "final_time_s=0.01, target_s=0.01",
+      "why_it_matters": "Completing the 908 tail closes the last target-time localized-production row without changing the drag physics.",
+      "next_action": "No further 908 run is needed for the present manuscript.",
+      "minimum_success_criterion": "Reach 10 ms without numerical instability and quantify whether Bmax or connectivity loss leaves the O(1e-5) window.",
+      "manuscript_effect": "May support a stronger stress-test boundary, but it is lower priority than pressure evidence and repeat seeds.",
+      "claim_boundary": "Diagnostic-only until target time and stability checks are complete.",
+      "ready_to_insert": true,
+      "complete": true
+    },
+    {
+      "priority": 4,
+      "action_id": "bounded_claim_cleanup",
+      "evidence_layer": "claim hierarchy",
+      "current_state": "supported=7, bounded=2, awaiting=0, needs_confirmation=1",
+      "why_it_matters": "Keeps the paper strong without overstating critical clogging, pressure calibration or experimental imaging.",
+      "next_action": "Before each manuscript edit, rerun the claim ledger and keep bounded claims explicitly bounded.",
+      "minimum_success_criterion": "No missing-evidence claims and no unsupported CT, safety-limit or pressure-calibrated wording.",
+      "manuscript_effect": "Improves reviewer trust and reduces overclaim risk.",
+      "claim_boundary": "claim-evidence ledger only; it does not upgrade awaiting or bounded claims.",
+      "ready_to_insert": true,
+      "complete": true
+    },
+    {
+      "priority": 5,
+      "action_id": "benchmark_positioning",
+      "evidence_layer": "benchmark and literature positioning",
+      "current_state": "supported=4, bounded=2",
+      "why_it_matters": "Turns the reference paper and related packed-bed literature into scoped comparison instead of forced replication.",
+      "next_action": "Keep benchmark crosswalk near the response-to-reviewer materials and update it after pressure or repeat-seed evidence arrives.",
+      "minimum_success_criterion": "Every benchmark row has a comparable metric, current evidence and explicit cannot-claim boundary.",
+      "manuscript_effect": "Supports a high-quality submission narrative while protecting against validation overclaims.",
+      "claim_boundary": "benchmark ledger only; it is not a numerical validation or replication of cited studies.",
+      "ready_to_insert": true,
+      "complete": true
+    },
+    {
+      "priority": 6,
+      "action_id": "submission_admin_gate",
+      "evidence_layer": "submission readiness",
+      "current_state": "gate=not_ready_for_submission; blockers=5",
+      "why_it_matters": "Scientific readiness and actual journal submission are separate gates.",
+      "next_action": "Resolve DOI/accession, funding, competing interests, acknowledgements and corresponding-author metadata.",
+      "minimum_success_criterion": "No administrative blockers in final submission gate.",
+      "manuscript_effect": "Enables actual submission once scientific evidence gates are acceptable.",
+      "claim_boundary": "Administrative confirmation does not create scientific evidence.",
+      "ready_to_insert": false,
+      "complete": false
+    }
+  ]
+}

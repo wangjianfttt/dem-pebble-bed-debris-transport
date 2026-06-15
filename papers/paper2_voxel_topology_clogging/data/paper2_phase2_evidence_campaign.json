@@ -1,0 +1,79 @@
+{
+  "decision": "phase2_evidence_campaign_ready",
+  "campaign_count": 5,
+  "run_now_count": 3,
+  "top_priority": "P2L-repeat-load6000",
+  "scope": "future evidence plan; no new DEM result is claimed by this file",
+  "records": [
+    {
+      "priority": 1,
+      "campaign_id": "P2L-repeat-load6000",
+      "case_family": "loading_repeat",
+      "parameter_focus": "Ndebris=6000, df/dp=0.0225, ug=2.0 m/s",
+      "recommended_cases": "3 additional seeds",
+      "why_it_matters": "Tests whether the mid-loading local blockage and BTC response are robust rather than seed-specific.",
+      "minimum_success_gate": "At least three valid repeats with final BTC, retention, Bmax and outlet-connected fraction.",
+      "manuscript_upgrade": "Changes loading statement from single-seed sensitivity to seed-bounded loading response.",
+      "claim_if_successful": "Loading mainly amplifies local deposition across repeats without measurable connectivity loss.",
+      "claim_if_not_successful": "Loading response is stochastic; retain only bounded single-window interpretation.",
+      "estimated_cost": "medium",
+      "run_now": true
+    },
+    {
+      "priority": 2,
+      "campaign_id": "P2L-repeat-load10000",
+      "case_family": "loading_repeat",
+      "parameter_focus": "Ndebris=10000, df/dp=0.0225, ug=2.0 m/s",
+      "recommended_cases": "3 additional seeds",
+      "why_it_matters": "Bounds the strongest current local-blockage point and tests whether the 0.21% OpenFOAM pressure-change interpretation is repeat-stable.",
+      "minimum_success_gate": "At least three valid repeats with Bmax, C_loss and pressure-handoff candidate profiles.",
+      "manuscript_upgrade": "Turns the highest loading state into a seed-bounded stress point.",
+      "claim_if_successful": "The present high-loading state remains pre-clogging under seed variation.",
+      "claim_if_not_successful": "A subset of seeds may approach pore-network degradation; identify those for pressure handoff.",
+      "estimated_cost": "medium_high",
+      "run_now": true
+    },
+    {
+      "priority": 3,
+      "campaign_id": "P2L-highload-20000",
+      "case_family": "high_loading_stress",
+      "parameter_focus": "Ndebris=20000, df/dp=0.0225, ug=2.0 m/s",
+      "recommended_cases": "1-2 diagnostic seeds",
+      "why_it_matters": "Tests whether a higher inventory leaves the O(1e-5) blockage window or still remains perturbative.",
+      "minimum_success_gate": "Stable transport to the same observation window; postprocessed BTC, Bmax, C_loss and candidate hydraulic profile.",
+      "manuscript_upgrade": "Adds a stress-test point without claiming a universal critical threshold.",
+      "claim_if_successful": "Even doubled inventory remains pre-clogging, strengthening the decoupling conclusion.",
+      "claim_if_not_successful": "Provides the first candidate transition state for focused hydraulic validation.",
+      "estimated_cost": "high",
+      "run_now": true
+    },
+    {
+      "priority": 4,
+      "campaign_id": "P2D-drag-size-crosscheck",
+      "case_family": "drive_size_crosscheck",
+      "parameter_focus": "two matched Fd/W states using different df/dp and ug",
+      "recommended_cases": "2 diagnostic cases",
+      "why_it_matters": "Tests whether drag-to-weight ratio is a useful organizing coordinate rather than a hidden size-only trend.",
+      "minimum_success_gate": "Matched Fd/W cases show comparable penetration metrics within a bounded tolerance or expose a size-specific correction.",
+      "manuscript_upgrade": "Strengthens the dimensionless mechanism map.",
+      "claim_if_successful": "Fd/W is an interpretable first-order migration coordinate for the current DEM window.",
+      "claim_if_not_successful": "Add debris-size dependence to the mechanism map and avoid compact Fd/W collapse language.",
+      "estimated_cost": "medium",
+      "run_now": false
+    },
+    {
+      "priority": 5,
+      "campaign_id": "P2H-pressure-handoff-selected",
+      "case_family": "hydraulic_followup",
+      "parameter_focus": "worst Bmax/C_loss state selected from Phase-II DEM outputs",
+      "recommended_cases": "1 OpenFOAM cropped-domain handoff",
+      "why_it_matters": "Converts the strongest new local-blockage state into a pressure-response check.",
+      "minimum_success_gate": "Passing mesh/solver logs and a pressure-drop comparison against the current baseline handoff.",
+      "manuscript_upgrade": "Upgrades hydraulic consequence from current cases to the strongest Phase-II stress state.",
+      "claim_if_successful": "Hydraulic response remains perturbative or identifies a pressure-relevant outlier.",
+      "claim_if_not_successful": "Keep OpenFOAM as screening-only and do not use it for pressure-calibrated Ib.",
+      "estimated_cost": "medium_high",
+      "run_now": false
+    }
+  ]
+}

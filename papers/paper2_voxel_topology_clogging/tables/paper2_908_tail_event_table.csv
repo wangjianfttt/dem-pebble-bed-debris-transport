@@ -1,0 +1,7 @@
+event_id,description,column,operator,threshold,observed,first_step,first_time_s,final_step,final_time_s,final_value,claim_use
+front_xmax_ge_0p90,Maximum debris position reaches x/L >= 0.90.,x_max_over_L,>=,0.9,True,180000.0,0.00095,760000,0.00385,0.9779822222222222,near-outlet sparse-front monitoring
+front_xmax_ge_0p99,Maximum debris position reaches x/L >= 0.99.,x_max_over_L,>=,0.99,True,200000.0,0.00105,760000,0.00385,0.9779822222222222,near-outlet sparse-front monitoring; not breakthrough alone
+p999_ge_0p50,99.9th percentile reaches x/L >= 0.50.,x_p999_over_L,>=,0.5,False,,,760000,0.00385,0.4745800266666666,rare-tail broadening beyond the source neighborhood
+fraction_gt_0p80_positive,At least one debris particle is beyond x/L = 0.80.,fraction_x_gt_0p80,>,0.0,True,140000.0,0.00075,760000,0.00385,0.0002333333333333,rare-tail presence in the downstream bed
+fraction_gt_0p95_positive,At least one debris particle is beyond x/L = 0.95.,fraction_x_gt_0p95,>,0.0,True,200000.0,0.00105,760000,0.00385,0.0001,near-outlet rare-tail presence
+true_outlet_crossing,At least one debris particle crosses x/L >= 1.0.,fraction_x_ge_1p00,>,0.0,False,,,760000,0.00385,0.0,first true breakthrough event

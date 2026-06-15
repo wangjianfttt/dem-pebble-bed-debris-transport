@@ -1,0 +1,18 @@
+{
+  "decision": "deposition_heterogeneity_ready",
+  "time_frame_count": 50,
+  "drive_state_count": 3,
+  "initial_gini": 0.95,
+  "final_gini": 0.48122896824478933,
+  "initial_peak_to_mean": 20.0,
+  "final_peak_to_mean": 2.64237633292237,
+  "initial_participation_length_fraction": 0.05,
+  "final_participation_length_fraction": 0.5780459496091306,
+  "final_downstream_fraction_x_gt_0p8": 0.18184311120903832,
+  "peak_blockage_time_s": 0.00729,
+  "peak_blockage_value": 5.2253180789355115e-05,
+  "peak_blockage_gini": 0.883920040677056,
+  "max_drive_state_downstream_fraction": 0.1471536197726025,
+  "min_drive_state_gini": 0.6639041352260802,
+  "claim_boundary": "Derived from existing axial blockage profiles; describes spatial heterogeneity of numerical deposition fields, not pore-scale bridge statistics, experimental imaging or a universal clogging law."
+}

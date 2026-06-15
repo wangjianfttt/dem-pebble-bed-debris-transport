@@ -1,0 +1,23 @@
+{
+  "case_name": "paper2_local_damage_slab_x012_018_df0p1_n15000_seed906_explicit",
+  "final_step": 250000,
+  "final_time_s": 0.0025,
+  "final_debris_count": 15000,
+  "final_btc_approx_x_ge_L": 0,
+  "final_retained_in_source_slab_count": 14759,
+  "final_downstream_of_source_count": 212,
+  "final_upstream_of_source_count": 29,
+  "final_x_mean_over_L": 0.33455083601481483,
+  "final_x_q90_over_L": 0.3876248888888889,
+  "final_x_q99_over_L": 0.40052233333333337,
+  "final_x_max_over_L": 0.5368266666666667,
+  "final_dx_mean_m": 7.9396414e-05,
+  "final_dx_q99_m": 0.00041420700000000015,
+  "final_dx_max_m": 0.0085651,
+  "dangerous_builds": {
+    "short_10k": 0,
+    "segment_50k": 0,
+    "segment_250k": 0
+  },
+  "interpretation": "At 2.5e-3 s the explicit localized release remains mostly retained in the source slab, with no outlet breakthrough and a small downstream tail."
+}

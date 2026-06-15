@@ -1,0 +1,25 @@
+{
+  "may_insert_into_main_claims": false,
+  "may_use_as_bounded_mechanism_evidence": true,
+  "final_step": 1990000,
+  "final_time_s": 0.01,
+  "true_breakthrough_observed": false,
+  "target_time_reached": true,
+  "required_action": "continue the 908 production run before promoting this to final BTC or transition evidence",
+  "evidence_boundary": "Use this only for sparse-front saturation and retained-bulk mechanism wording. Do not use it to claim outlet breakthrough, complete BTC, or critical clogging.",
+  "candidate_results_sentence": "In the high-inventory localized-release case, the maximum debris front reached $x/L=0.9946$ by 10.00 ms, whereas the population remained localized with $x_{99}/L=0.4202$ and a source-retention fraction of 0.8945. Only 14 particles lay beyond $x/L=0.80$ and 2 particles lay beyond $x/L=0.95$; 0 particles crossed the outlet plane. The late maximum-front slope became negative (-5.26% of its early positive value), indicating near-outlet front slowdown/saturation rather than breakthrough.",
+  "latex_candidate_sentence": "In the high-inventory localized-release case, the maximum debris front reached $x/L=0.9946$ by \\SI{10.00}{ms}, whereas the population remained localized with $x_{99}/L=0.4202$ and a source-retention fraction of 0.8945. Only \\num{14} particles lay beyond $x/L=0.80$ and \\num{2} particles lay beyond $x/L=0.95$; \\num{0} particles crossed the outlet plane. The late maximum-front slope became negative (\\SI{-5.26}{\\percent} of its early positive value), indicating near-outlet front slowdown/saturation rather than breakthrough.",
+  "figure_links": [
+    "figures/paper2_908_spatial_distribution_evidence.{pdf,svg,png}",
+    "figures/paper2_908_live_early_trends.{pdf,svg,png}"
+  ],
+  "source_jsons": {
+    "mechanism": "/Users/wangjian-macbook13/Library/CloudStorage/SynologyDrive-mac/论文相关/分数阶模型研究/project/papers/paper2_voxel_topology_clogging/data/paper2_908_mechanism_evidence.json",
+    "spatial": "/Users/wangjian-macbook13/Library/CloudStorage/SynologyDrive-mac/论文相关/分数阶模型研究/project/papers/paper2_voxel_topology_clogging/data/paper2_908_spatial_distribution_evidence.json",
+    "events": "/Users/wangjian-macbook13/Library/CloudStorage/SynologyDrive-mac/论文相关/分数阶模型研究/project/papers/paper2_voxel_topology_clogging/data/paper2_908_tail_event_table.json",
+    "saturation": "/Users/wangjian-macbook13/Library/CloudStorage/SynologyDrive-mac/论文相关/分数阶模型研究/project/papers/paper2_voxel_topology_clogging/data/paper2_908_front_saturation_metrics.json",
+    "population": "/Users/wangjian-macbook13/Library/CloudStorage/SynologyDrive-mac/论文相关/分数阶模型研究/project/papers/paper2_voxel_topology_clogging/data/paper2_908_population_split_evidence.json"
+  },
+  "snippet_path": "/Users/wangjian-macbook13/Library/CloudStorage/SynologyDrive-mac/论文相关/分数阶模型研究/project/papers/paper2_voxel_topology_clogging/notes/paper2_908_manuscript_evidence_snippet.md",
+  "out_json": "/Users/wangjian-macbook13/Library/CloudStorage/SynologyDrive-mac/论文相关/分数阶模型研究/project/papers/paper2_voxel_topology_clogging/data/paper2_908_manuscript_snippet_gate.json"
+}

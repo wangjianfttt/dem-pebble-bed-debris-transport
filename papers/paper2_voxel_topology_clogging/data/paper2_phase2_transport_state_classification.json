@@ -1,0 +1,21 @@
+{
+  "created_utc": "2026-06-12T23:09:22.992265+00:00",
+  "decision": "monitor_post_injection_release",
+  "case_name": "paper2_phase2_load6000_df0p0225_ug2_seed501",
+  "maturity": "monitoring_snapshot",
+  "breakthrough_state": "post_injection_no_breakthrough",
+  "retention_state": "inlet_retention_dominated",
+  "transport_mode": "front_centroid_decoupled",
+  "latest_partial_btc": 0.0,
+  "latest_partial_retention": 1.0,
+  "latest_inlet_zone_fraction": 0.9880832494125545,
+  "front_to_mean_speed_ratio": 5.289795897766091,
+  "post_injection_frame_count": 2,
+  "needed_post_injection_frames_for_trend": 1,
+  "dump_frames": 9,
+  "expected_dump_frames": 50,
+  "needed_total_frames_for_complete_case": 41,
+  "is_final_evidence": false,
+  "next_action": "Collect at least 1 more post-injection frame(s) before fitting a release trend.",
+  "boundary": "Mechanism-state classification is a monitoring aid; it is not final manuscript evidence until complete case outputs are analyzed."
+}

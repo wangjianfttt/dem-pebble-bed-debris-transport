@@ -1,0 +1,53 @@
+dp: 0.001
+rho_p: 2390.0
+df_over_dp: 0.1
+Lx: 0.045
+Ly: 0.015
+Lz: 0.028
+epsilon_target: 0.4
+friction: 0.3
+restitution: 0.5
+ug: 0.1
+mu_g: 1.96e-05
+rho_g: 0.164
+dt: 1.0e-08
+seed: 20260602
+boundary:
+  x: f
+  y: f
+  z: f
+flow:
+  axis: x
+  inlet: x_min
+  outlet: x_max
+  direction: positive
+bed_generation:
+  case_name: li4sio4_1mm_10k_axial_cuboid
+  target_particles: 10000
+  expected_settled_bed_height_m: 0.01292836483
+  insertion_region_margin_dp: 0.5
+  insertion_region_z_max: 0.0275
+  insertion_maxattempt: 10000
+  gravity: 9.81
+  youngs_modulus: 9.0e10
+  poissons_ratio: 0.25
+  settle_steps: 6000000
+  thermo_interval: 100000
+  dump_interval: 100000
+  timestep_check_interval: 1000
+  rayleigh_fraction: 0.1
+  hertz_fraction: 0.1
+  restart_file: li4sio4_1mm_10k_axial_cuboid.restart
+  dump_file: li4sio4_1mm_10k_axial_cuboid_*.dump
+  vibration:
+    enabled: false
+    frequency_hz: 50.0
+    acceleration_m_s2: 9.81
+notes:
+  role: Formal 10k Li4SiO4 axial-flow cuboid bed for the main DEM-to-numerical-CT
+    chain.
+  orientation: x is sweep-gas inlet-to-outlet direction; z is gravity/settling direction.
+  rationale: For 10000 particles at dp=1 mm and epsilon=0.40, a 45 mm x 15 mm bed
+    footprint gives an expected settled height of about 12.93 mm. The 28 mm container
+    height keeps freefall time modest while leaving enough headroom for overlap-free
+    insertion.

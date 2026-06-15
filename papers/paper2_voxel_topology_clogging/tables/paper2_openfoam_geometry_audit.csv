@@ -1,0 +1,3 @@
+case_name,debris_total_number,source_domain,pore_mask_found,voxel_crop_found,pore_mask_sha256,voxel_array_sha256,hydraulic_resistance_field_found,hydraulic_resistance_field_sha256,pore_nodes,solid_nodes,geometry_signature,flow_input_signature
+N3000_peak_blockage,3000,,False,False,,,False,,,,,
+N6000_peak_blockage,6000,,False,False,,,False,,,,,

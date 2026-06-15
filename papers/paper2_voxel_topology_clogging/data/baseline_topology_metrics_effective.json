@@ -1,0 +1,44 @@
+{
+  "connected_void_components": 1418,
+  "euler_number": -18225,
+  "fractal_dimension": 2.6942779927429235,
+  "fractal_fit_r2": 0.99614087412792,
+  "largest_connected_void_fraction": 0.9920801413259499,
+  "metadata": {
+    "crop": {
+      "applied_lower": 0.0,
+      "applied_upper": 0.01325,
+      "axis": "z",
+      "requested_lower": -4.377999999999977e-06,
+      "requested_upper": 0.013004400000000001,
+      "start_index": 0,
+      "stop_index": 53
+    },
+    "domain": {
+      "Lx": 0.045,
+      "Ly": 0.015,
+      "Lz": 0.01325,
+      "x_max": 0.045,
+      "x_min": 0.0,
+      "y_max": 0.015,
+      "y_min": 0.0,
+      "z_max": 0.01325,
+      "z_min": 0.0
+    },
+    "particle_count": 10000,
+    "shape": [
+      180,
+      60,
+      53
+    ],
+    "value_map": {
+      "0": "pore",
+      "1": "large_particle_solid",
+      "2": "debris_solid_reserved"
+    },
+    "voxel_size": 0.00025
+  },
+  "outlet_connected_fraction": 0.9920801413259499,
+  "porosity": 0.4113976240391335,
+  "topological_charge": -0.031839622641509434
+}

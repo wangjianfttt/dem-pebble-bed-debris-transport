@@ -1,0 +1,16 @@
+{
+  "claim_count": 12,
+  "status_counts": {
+    "supported": 9,
+    "bounded": 2,
+    "needs_confirmation": 1
+  },
+  "missing_evidence_claims": [],
+  "awaiting_results_claims": [],
+  "needs_confirmation_claims": [
+    "C10_submission_admin_not_complete"
+  ],
+  "out_csv": "/Users/wangjian-macbook13/Library/CloudStorage/SynologyDrive-mac/\u8bba\u6587\u76f8\u5173/\u5206\u6570\u9636\u6a21\u578b\u7814\u7a76/project/papers/paper2_voxel_topology_clogging/tables/paper2_claim_evidence_ledger.csv",
+  "out_md": "/Users/wangjian-macbook13/Library/CloudStorage/SynologyDrive-mac/\u8bba\u6587\u76f8\u5173/\u5206\u6570\u9636\u6a21\u578b\u7814\u7a76/project/papers/paper2_voxel_topology_clogging/notes/paper2_claim_evidence_ledger.md",
+  "evidence_boundary": "claim-evidence ledger only; it does not upgrade awaiting or bounded claims."
+}

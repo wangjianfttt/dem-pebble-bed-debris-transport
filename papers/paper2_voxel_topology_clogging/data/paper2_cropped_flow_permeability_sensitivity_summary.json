@@ -1,0 +1,31 @@
+{
+  "crop_manifest": "papers/paper2_voxel_topology_clogging/tables/paper2_cropped_flow_domain_manifest.csv",
+  "blockage_profile": "papers/paper2_voxel_topology_clogging/tables/paper2_fig4_loading_blockage_source.csv",
+  "conductance_mapping": "g=(1-B)^n",
+  "conductance_exponents": [
+    1.0,
+    2.0,
+    3.0,
+    5.0,
+    8.0
+  ],
+  "cases": 3,
+  "rows": 15,
+  "min_local_conductance_loss": 3.476103128119412e-06,
+  "max_local_conductance_loss": 9.269008560486292e-05,
+  "case_loss_ranges": {
+    "3000": {
+      "min": 3.476103128119412e-06,
+      "max": 2.7808613027757723e-05
+    },
+    "6000": {
+      "min": 6.944374164152833e-06,
+      "max": 5.555369391985199e-05
+    },
+    "10000": {
+      "min": 1.1586630592752556e-05,
+      "max": 9.269008560486292e-05
+    }
+  },
+  "evidence_boundary": "Cropped voxel-network conductance exponent sensitivity only; no CFD/LBM solver was run."
+}

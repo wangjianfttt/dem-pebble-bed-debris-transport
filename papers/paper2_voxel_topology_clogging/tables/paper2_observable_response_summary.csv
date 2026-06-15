@@ -1,0 +1,9 @@
+metric,metric_label,finite_case_count,min_value,max_value,absolute_range,all_zero,groups_available
+released_fraction,released,3,0.0533,0.1038666666666666,0.05056666666666659,False,localized release
+outlet_fraction,BTC/outlet,9,0.0,0.082,0.082,False,drive scan;loading scan;localized release
+penetration_over_L,penetration,9,0.2083781349179141,0.9997511111111111,0.791372976193197,False,drive scan;loading scan;localized release
+front_bulk_gap_over_L,front-bulk gap,3,0.2988531333333335,0.558057777777778,0.25920464444444447,False,localized release
+max_blockage_ratio,local blockage,6,1.0631993458219603e-05,3.54878700564896e-05,2.4855876598269994e-05,False,drive scan;loading scan
+pressure_proxy_ratio,pressure proxy,3,3.772039196411413e-06,1.2581232188492602e-05,8.809192992081188e-06,False,loading scan
+voxel_conductance_loss,conductance loss,3,2.752975078457176e-06,9.17882203521625e-06,6.425846956759074e-06,False,loading scan
+connectivity_loss,connectivity loss,9,0.0,0.0,0.0,True,drive scan;loading scan;localized release

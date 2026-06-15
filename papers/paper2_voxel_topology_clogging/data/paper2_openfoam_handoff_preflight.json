@@ -1,0 +1,76 @@
+{
+  "cases": [
+    {
+      "case_name": "N3000_peak_blockage",
+      "case_dir": "papers/paper2_voxel_topology_clogging/flow_solver_handoff/openfoam/N3000_peak_blockage",
+      "missing_files": [],
+      "location_in_mesh": [
+        0.012375,
+        0.007375,
+        0.006625
+      ],
+      "location_matches_manifest": true,
+      "location_in_through_connected_pore": true,
+      "through_connected_pore_nodes_x": 42327,
+      "binary_stl": true,
+      "stl_size_bytes": 12488084,
+      "commands_available": {
+        "blockMesh": false,
+        "snappyHexMesh": false,
+        "checkMesh": false,
+        "simpleFoam": false
+      },
+      "static_preflight_ok": true,
+      "solver_can_run_on_this_machine": false,
+      "evidence_boundary": "static OpenFOAM handoff preflight only; no CFD solver was run"
+    },
+    {
+      "case_name": "N6000_peak_blockage",
+      "case_dir": "papers/paper2_voxel_topology_clogging/flow_solver_handoff/openfoam/N6000_peak_blockage",
+      "missing_files": [],
+      "location_in_mesh": [
+        0.012375,
+        0.007375,
+        0.006625
+      ],
+      "location_matches_manifest": true,
+      "location_in_through_connected_pore": true,
+      "through_connected_pore_nodes_x": 42327,
+      "binary_stl": true,
+      "stl_size_bytes": 12488084,
+      "commands_available": {
+        "blockMesh": false,
+        "snappyHexMesh": false,
+        "checkMesh": false,
+        "simpleFoam": false
+      },
+      "static_preflight_ok": true,
+      "solver_can_run_on_this_machine": false,
+      "evidence_boundary": "static OpenFOAM handoff preflight only; no CFD solver was run"
+    },
+    {
+      "case_name": "N10000_peak_blockage",
+      "case_dir": "papers/paper2_voxel_topology_clogging/flow_solver_handoff/openfoam/N10000_peak_blockage",
+      "missing_files": [],
+      "location_in_mesh": [
+        0.012375,
+        0.007375,
+        0.006625
+      ],
+      "location_matches_manifest": true,
+      "location_in_through_connected_pore": true,
+      "through_connected_pore_nodes_x": 42327,
+      "binary_stl": true,
+      "stl_size_bytes": 12488084,
+      "commands_available": {
+        "blockMesh": false,
+        "snappyHexMesh": false,
+        "checkMesh": false,
+        "simpleFoam": false
+      },
+      "static_preflight_ok": true,
+      "solver_can_run_on_this_machine": false,
+      "evidence_boundary": "static OpenFOAM handoff preflight only; no CFD solver was run"
+    }
+  ]
+}

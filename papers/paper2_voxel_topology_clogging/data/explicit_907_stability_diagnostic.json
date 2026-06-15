@@ -1,0 +1,39 @@
+{
+  "case_name": "paper2_local_damage_slab_x024_030_df0p1_n15000_seed907_explicit",
+  "original_run": {
+    "input": "in.explicit_localized_release",
+    "status": "stopped_after_atom_loss",
+    "step_observed": 100000,
+    "atoms_initial": 25000,
+    "atoms_observed": 24999,
+    "type2_initial": 15000,
+    "type2_observed": 14999,
+    "missing_type2_id": 19683,
+    "missing_type2_initial_position_m": {
+      "x": 0.028951,
+      "y": 0.006106,
+      "z": 0.001058
+    },
+    "max_abs_velocity_type2_100k_m_s": 1095.41,
+    "outlet_count_x_ge_L": 0,
+    "interpretation": "Original 1e-8 run is not valid production evidence because one debris particle is lost before 100k steps."
+  },
+  "dt5e9_probe": {
+    "input": "in.explicit_stability_probe_dt5e9_10k_to_100k",
+    "status": "completed",
+    "restart_source": "paper2_local_damage_slab_x024_030_df0p1_n15000_seed907_explicit_preflight_10k.restart",
+    "dt_s": 5e-9,
+    "step_start": 10000,
+    "step_end": 100000,
+    "atoms_initial": 25000,
+    "atoms_final": 25000,
+    "type2_final": 15000,
+    "ke_initial": 0.00011800039,
+    "ke_final": 0.000012910511,
+    "dangerous_builds": 0,
+    "loop_time_s": 606.077,
+    "max_abs_velocity_type2_100k_m_s": 75.8757,
+    "interpretation": "Half-timestep continuation from the relaxed 10k restart conserves particles to 100k with zero dangerous builds."
+  },
+  "recommended_production_input": "in.explicit_dt5e9_from_10k_to_10ms"
+}

@@ -1,0 +1,29 @@
+{
+  "final_step": 1990000,
+  "final_time_s": 0.01,
+  "checkpoint_step": 400000,
+  "target_step": 1990000,
+  "checkpoint_reached": true,
+  "target_reached": true,
+  "checkpoint_remaining_steps": 0,
+  "target_remaining_steps": 0,
+  "fraction_to_checkpoint": 4.975,
+  "fraction_to_target": 1.0,
+  "true_breakthrough_observed": false,
+  "front_near_saturation": true,
+  "bulk_still_retained": true,
+  "decision_state": "stable_sparse_front_saturation_without_breakthrough",
+  "manuscript_use": "bounded high-inventory mechanism evidence",
+  "candidate_sentence": "In the high-inventory localized-release case, the maximum debris front reached $x/L=0.9946$ by 10.00 ms, whereas the population remained localized with $x_{99}/L=0.4202$ and a source-retention fraction of 0.8945. Only 14 particles lay beyond $x/L=0.80$ and 2 particles lay beyond $x/L=0.95$; 0 particles crossed the outlet plane. The late maximum-front slope became negative (-5.26% of its early positive value), indicating near-outlet front slowdown/saturation rather than breakthrough.",
+  "safe_claims": [
+    "near-outlet sparse-front saturation/slowdown",
+    "retained-bulk and sparse-front decoupling",
+    "absence of outlet crossing up to the current returned frame"
+  ],
+  "unsafe_claims": [
+    "completed BTC",
+    "outlet breakthrough",
+    "critical clogging transition",
+    "pressure-calibrated safety boundary"
+  ]
+}

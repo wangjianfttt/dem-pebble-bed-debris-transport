@@ -1,0 +1,25 @@
+{
+  "decision": "tail_lag_mechanism_ready",
+  "source_rows": 5,
+  "event_rows": 6,
+  "representative_first_BTC_time_s": 0.0315899999999999,
+  "representative_final_BTC": 0.0183333333333333,
+  "representative_final_tail_bulk_gap_over_L": 0.3573612244444446,
+  "representative_max_front_to_blockage_gap_over_L": 0.376229690591953,
+  "representative_tail_gap_to_BTC_fit": {
+    "slope": 0.025864741133883023,
+    "intercept": -0.0031718998922562096,
+    "r2": 0.4218943306761077
+  },
+  "high_inventory_908_final_tail_bulk_gap_over_L": 0.5744392888888891,
+  "high_inventory_908_final_fraction_x_gt_0p95": 6.666666666666667e-05,
+  "high_inventory_908_tail_gap_to_rare_tail_fit": {
+    "slope": 0.00021986418144199517,
+    "intercept": -3.998702141117651e-05,
+    "r2": 0.23598108964781805
+  },
+  "localized_max_front_bulk_gap_over_L": 0.5975954888888888,
+  "localized_min_final_source_fraction": 0.5793333333333334,
+  "cdf_rows": 2505,
+  "claim_boundary": "Derived from existing time-resolved and spatial-quantile source tables; supports a sparse-front/retained-bulk mechanism, not an experimentally calibrated residence-time distribution or universal tailing law."
+}

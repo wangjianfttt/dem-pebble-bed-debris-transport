@@ -1,0 +1,171 @@
+{
+  "decision": "formal_repeat_postprocessing_completed",
+  "formal_postprocessing_run": true,
+  "force": false,
+  "monitor_decision_before": "production_repeat_runs_completed",
+  "completed_count_before": 2,
+  "case_count_before": 2,
+  "commands": [
+    {
+      "command": [
+        "/Library/Developer/CommandLineTools/usr/bin/python3",
+        "papers/paper2_voxel_topology_clogging/scripts/monitor_near_threshold_repeat_runs.py"
+      ],
+      "returncode": 0,
+      "stdout_tail": "{\n  \"decision\": \"production_repeat_runs_completed\",\n  \"case_count\": 2,\n  \"status_counts\": {\n    \"completed\": 2\n  },\n  \"completed_count\": 2,\n  \"running_count\": 0,\n  \"mean_progress_fraction\": 1.0,\n  \"min_progress_fraction\": 1.0,\n  \"max_progress_fraction\": 1.0,\n  \"mean_injection_progress_fraction\": 1.0,\n  \"mean_post_injection_observation_fraction\": 1.0,\n  \"scheduled_injection_complete_count\": 2,\n  \"max_uninserted_particles_estimate\": 0,\n  \"max_eta_wall_s\": null,\n  \"max_log_stale_s\": 97.67443656921387,\n  \"max_dump_stale_s\": 129.34359550476074,\n  \"log_stale_warning_count\": 0,\n  \"output_stale_warning_count\": 0,\n  \"boundary\": \"Repeat-seed uncertainty remains unavailable until production runs complete and full dumps are post-processed.\"\n}\n/Users/wangjian-macbook13/Library/CloudStorage/SynologyDrive-mac/论文相关/分数阶模型研究/project/papers/paper2_voxel_topology_clogging/data/paper2_near_threshold_repeat_run_status.json\n/Users/wangjian-macbook13/Library/CloudStorage/SynologyDrive-mac/论文相关/分数阶模型研究/project/papers/paper2_voxel_topology_clogging/tables/paper2_near_threshold_repeat_run_status.csv\n/Users/wangjian-macbook13/Library/CloudStorage/SynologyDrive-mac/论文相关/分数阶模型研究/project/papers/paper2_voxel_topology_clogging/notes/paper2_near_threshold_repeat_run_status.md\n",
+      "stderr_tail": ""
+    },
+    {
+      "command": [
+        "/Library/Developer/CommandLineTools/usr/bin/python3",
+        "papers/paper2_voxel_topology_clogging/scripts/analyze_near_threshold_repeat_results.py",
+        "--analyze-missing-dumps"
+      ],
+      "returncode": 0,
+      "stdout_tail": "reakthrough time: 0.16038\nBreakthrough elapsed from first output: 0\nMax blockage ratio: 0.000006\nWrote: /Users/wangjian-macbook13/Library/CloudStorage/SynologyDrive-mac/论文相关/分数阶模型研究/project/data/processed/paper1_velocity_scan_frozen/paper2_frozen_repeat_df0p0225_ug2_seed501.json\nFrames: 1\nFlow axis: x\nFinal Nout: 40\nFinal BTC: 0.013333\nFinal retention: 0.986667\nBreakthrough time: 0.16038\nBreakthrough elapsed from first output: 0\nMax blockage ratio: 0.000006\nWrote: /Users/wangjian-macbook13/Library/CloudStorage/SynologyDrive-mac/论文相关/分数阶模型研究/project/data/processed/paper1_velocity_scan_frozen/paper2_frozen_repeat_df0p0225_ug2_seed601.json\n{\n  \"decision\": \"repeat_seed_evidence_ready\",\n  \"row_count\": 3,\n  \"formal_processed_count\": 3,\n  \"status_counts\": {\n    \"formal_processed\": 3\n  },\n  \"preflight_status_counts\": {\n    \"passed\": 2\n  },\n  \"preflight_pass_count\": 2,\n  \"missing_or_pending_cases\": [],\n  \"claim_boundary\": \"Repeat-seed uncertainty can enter the manuscript only after at least three formal processed rows are available.\",\n  \"preflight_boundary\": \"Passed preflight rows verify executable setup and output plumbing only; they are not DEM transport evidence.\",\n  \"final_BTC_mean\": 0.016333333333333335,\n  \"final_BTC_min\": 0.013333333333333334,\n  \"final_BTC_max\": 0.018333333333333333\n}\n/Users/wangjian-macbook13/Library/CloudStorage/SynologyDrive-mac/论文相关/分数阶模型研究/project/papers/paper2_voxel_topology_clogging/tables/paper2_near_threshold_repeat_summary.csv\n/Users/wangjian-macbook13/Library/CloudStorage/SynologyDrive-mac/论文相关/分数阶模型研究/project/papers/paper2_voxel_topology_clogging/data/paper2_near_threshold_repeat_summary.json\n/Users/wangjian-macbook13/Library/CloudStorage/SynologyDrive-mac/论文相关/分数阶模型研究/project/papers/paper2_voxel_topology_clogging/notes/paper2_near_threshold_repeat_summary.md\n/Users/wangjian-macbook13/Library/CloudStorage/SynologyDrive-mac/论文相关/分数阶模型研究/project/papers/paper2_voxel_topology_clogging/figures/paper2_figS17_near_threshold_repeat_seed_status.pdf\n",
+      "stderr_tail": ""
+    },
+    {
+      "command": [
+        "/Library/Developer/CommandLineTools/usr/bin/python3",
+        "papers/paper2_voxel_topology_clogging/scripts/make_repeat_seed_manuscript_snippet.py"
+      ],
+      "returncode": 0,
+      "stdout_tail": "variability in the near-threshold DEM setting and does not define a sharp transition.\",\n  \"markdown_candidate_sentence\": \"Near-threshold repeat-seed calculations at `df/dp = 0.0225` and `u_g = 2.0 m s^{-1}` gave a final BTC of 0.01633 +/- 0.0026 and a final retention of 0.9837 +/- 0.0026. This repeatability check is used only to bound stochastic variability in the fixed-bed DEM setting.\",\n  \"stats\": {\n    \"formal_processed_count\": 3,\n    \"final_BTC_mean\": 0.0163333333333333,\n    \"final_BTC_std\": 0.0026457513110645908,\n    \"final_BTC_min\": 0.0133333333333333,\n    \"final_BTC_max\": 0.0183333333333333,\n    \"final_retention_mean\": 0.9836666666666668,\n    \"final_retention_std\": 0.002645751311064593,\n    \"final_retention_min\": 0.9816666666666668,\n    \"final_retention_max\": 0.9866666666666668,\n    \"first_breakthrough_elapsed_s_mean\": 0.01242,\n    \"first_breakthrough_elapsed_s_std\": 0.021512071030005457,\n    \"first_breakthrough_elapsed_s_min\": 0.0,\n    \"first_breakthrough_elapsed_s_max\": 0.03726,\n    \"max_blockage_ratio_mean\": 5.823166382904847e-06,\n    \"max_blockage_ratio_std\": 1.1745229700315524e-07,\n    \"max_blockage_ratio_min\": 5.699045423135374e-06,\n    \"max_blockage_ratio_max\": 5.932561127131031e-06\n  },\n  \"snippet_path\": \"/Users/wangjian-macbook13/Library/CloudStorage/SynologyDrive-mac/论文相关/分数阶模型研究/project/papers/paper2_voxel_topology_clogging/notes/repeat_seed_manuscript_evidence_snippet.md\",\n  \"source_status\": \"/Users/wangjian-macbook13/Library/CloudStorage/SynologyDrive-mac/论文相关/分数阶模型研究/project/papers/paper2_voxel_topology_clogging/data/paper2_near_threshold_repeat_summary.json\",\n  \"source_table\": \"/Users/wangjian-macbook13/Library/CloudStorage/SynologyDrive-mac/论文相关/分数阶模型研究/project/papers/paper2_voxel_topology_clogging/tables/paper2_near_threshold_repeat_summary.csv\",\n  \"out_table\": \"/Users/wangjian-macbook13/Library/CloudStorage/SynologyDrive-mac/论文相关/分数阶模型研究/project/papers/paper2_voxel_topology_clogging/tables/paper2_repeat_seed_manuscript_summary_source.csv\"\n}\n",
+      "stderr_tail": ""
+    },
+    {
+      "command": [
+        "/Library/Developer/CommandLineTools/usr/bin/python3",
+        "papers/paper2_voxel_topology_clogging/scripts/make_manuscript_argument_map.py"
+      ],
+      "returncode": 0,
+      "stdout_tail": "{\n  \"decision\": \"pass\",\n  \"argument_count\": 5,\n  \"missing_argument_ids\": [],\n  \"support_levels\": [\n    \"bounded_quantitative_proxy\",\n    \"conceptual_plus_evidence_map\",\n    \"quantitative_within_study\",\n    \"reviewer_facing_evidence_map\"\n  ],\n  \"boundary\": \"Argument map organizes existing manuscript evidence; it does not create new scientific evidence.\"\n}\n/Users/wangjian-macbook13/Library/CloudStorage/SynologyDrive-mac/论文相关/分数阶模型研究/project/papers/paper2_voxel_topology_clogging/data/paper2_manuscript_argument_map.json\n/Users/wangjian-macbook13/Library/CloudStorage/SynologyDrive-mac/论文相关/分数阶模型研究/project/papers/paper2_voxel_topology_clogging/tables/paper2_manuscript_argument_map.csv\n/Users/wangjian-macbook13/Library/CloudStorage/SynologyDrive-mac/论文相关/分数阶模型研究/project/papers/paper2_voxel_topology_clogging/notes/paper2_manuscript_argument_map.md\n",
+      "stderr_tail": ""
+    },
+    {
+      "command": [
+        "/Library/Developer/CommandLineTools/usr/bin/python3",
+        "papers/paper2_voxel_topology_clogging/scripts/make_submission_decision_ledger.py"
+      ],
+      "returncode": 0,
+      "stdout_tail": "{\n  \"decision\": \"submit_ces_only_after_admin_or_wait_for_repeat_strengthening\",\n  \"route_count\": 3,\n  \"route_decisions\": {\n    \"R01_submit_bounded_ces_after_admin\": \"not_ready_admin_only\",\n    \"R02_wait_for_repeat_then_ces\": \"wait_for_repeat_completion\",\n    \"R03_cej_stretch\": \"do_not_submit_current_version\"\n  },\n  \"recommended_near_term_route\": \"R02_wait_for_repeat_then_ces\",\n  \"fallback_if_time_limited\": \"R01_submit_bounded_ces_after_admin\",\n  \"not_recommended_now\": \"R03_cej_stretch\",\n  \"boundary\": \"Decision ledger organizes current evidence and blockers; it does not create new DEM, pressure-flow or submission evidence.\"\n}\n/Users/wangjian-macbook13/Library/CloudStorage/SynologyDrive-mac/论文相关/分数阶模型研究/project/papers/paper2_voxel_topology_clogging/submission/submission_decision_ledger.json\n/Users/wangjian-macbook13/Library/CloudStorage/SynologyDrive-mac/论文相关/分数阶模型研究/project/papers/paper2_voxel_topology_clogging/submission/submission_decision_ledger.csv\n/Users/wangjian-macbook13/Library/CloudStorage/SynologyDrive-mac/论文相关/分数阶模型研究/project/papers/paper2_voxel_topology_clogging/submission/submission_decision_ledger.md\n",
+      "stderr_tail": ""
+    },
+    {
+      "command": [
+        "/Library/Developer/CommandLineTools/usr/bin/python3",
+        "papers/paper2_voxel_topology_clogging/scripts/make_evidence_action_dashboard.py"
+      ],
+      "returncode": 0,
+      "stdout_tail": "{\n  \"decision\": \"wait_for_repeat_runs_and_prepare_pressure_evidence\",\n  \"row_count\": 5,\n  \"top_action\": \"repeat_seed_completion\",\n  \"repeat_run_decision\": \"production_repeat_runs_completed\",\n  \"repeat_output_stale_warning_count\": 0,\n  \"submission_gate_status\": \"not_ready_for_submission\",\n  \"ready_to_insert_count\": 2,\n  \"boundary\": \"Dashboard only; it organizes evidence actions and does not create new DEM or flow-solver evidence.\"\n}\n/Users/wangjian-macbook13/Library/CloudStorage/SynologyDrive-mac/论文相关/分数阶模型研究/project/papers/paper2_voxel_topology_clogging/data/paper2_evidence_action_dashboard.json\n/Users/wangjian-macbook13/Library/CloudStorage/SynologyDrive-mac/论文相关/分数阶模型研究/project/papers/paper2_voxel_topology_clogging/tables/paper2_evidence_action_dashboard.csv\n/Users/wangjian-macbook13/Library/CloudStorage/SynologyDrive-mac/论文相关/分数阶模型研究/project/papers/paper2_voxel_topology_clogging/notes/paper2_evidence_action_dashboard.md\n",
+      "stderr_tail": ""
+    },
+    {
+      "command": [
+        "/Library/Developer/CommandLineTools/usr/bin/python3",
+        "papers/paper2_voxel_topology_clogging/scripts/make_submission_gap_overview.py"
+      ],
+      "returncode": 0,
+      "stdout_tail": "{\n  \"decision\": \"bounded_manuscript_scientifically_controlled_but_not_submission_ready\",\n  \"row_count\": 5,\n  \"gate_status\": \"not_ready_for_submission\",\n  \"required_submission_gap_count\": 1,\n  \"high_impact_scientific_gap_count\": 2,\n  \"top_scientific_gaps\": [\n    \"G01_repeat_seed_uncertainty\",\n    \"G02_pressure_response\"\n  ],\n  \"boundary\": \"Overview only; it separates evidence gaps from administrative blockers and does not alter manuscript claims.\"\n}\n/Users/wangjian-macbook13/Library/CloudStorage/SynologyDrive-mac/论文相关/分数阶模型研究/project/papers/paper2_voxel_topology_clogging/data/paper2_submission_gap_overview.json\n/Users/wangjian-macbook13/Library/CloudStorage/SynologyDrive-mac/论文相关/分数阶模型研究/project/papers/paper2_voxel_topology_clogging/tables/paper2_submission_gap_overview.csv\n/Users/wangjian-macbook13/Library/CloudStorage/SynologyDrive-mac/论文相关/分数阶模型研究/project/papers/paper2_voxel_topology_clogging/notes/paper2_submission_gap_overview.md\n",
+      "stderr_tail": ""
+    },
+    {
+      "command": [
+        "/Library/Developer/CommandLineTools/usr/bin/python3",
+        "papers/paper2_voxel_topology_clogging/scripts/make_submission_action_index.py"
+      ],
+      "returncode": 0,
+      "stdout_tail": "{\n  \"decision\": \"continue_waiting_for_repeat_while_submission_actions_are_indexed\",\n  \"row_count\": 5,\n  \"top_action\": \"A01_wait_or_process_repeat_seed_runs\",\n  \"waiting_or_awaiting_count\": 1,\n  \"repeat_run_decision\": \"production_repeat_runs_completed\",\n  \"repeat_mean_progress_fraction\": 1.0,\n  \"boundary\": \"Action index is a project-management layer; it does not create or certify new scientific evidence.\"\n}\n/Users/wangjian-macbook13/Library/CloudStorage/SynologyDrive-mac/论文相关/分数阶模型研究/project/papers/paper2_voxel_topology_clogging/data/paper2_submission_action_index.json\n/Users/wangjian-macbook13/Library/CloudStorage/SynologyDrive-mac/论文相关/分数阶模型研究/project/papers/paper2_voxel_topology_clogging/tables/paper2_submission_action_index.csv\n/Users/wangjian-macbook13/Library/CloudStorage/SynologyDrive-mac/论文相关/分数阶模型研究/project/papers/paper2_voxel_topology_clogging/notes/paper2_submission_action_index.md\n",
+      "stderr_tail": ""
+    },
+    {
+      "command": [
+        "/Library/Developer/CommandLineTools/usr/bin/python3",
+        "papers/paper2_voxel_topology_clogging/scripts/make_reviewer_precheck.py"
+      ],
+      "returncode": 0,
+      "stdout_tail": "{\n  \"out_md\": \"/Users/wangjian-macbook13/Library/CloudStorage/SynologyDrive-mac/\\u8bba\\u6587\\u76f8\\u5173/\\u5206\\u6570\\u9636\\u6a21\\u578b\\u7814\\u7a76/project/papers/paper2_voxel_topology_clogging/submission/reviewer_precheck.md\",\n  \"out_json\": \"/Users/wangjian-macbook13/Library/CloudStorage/SynologyDrive-mac/\\u8bba\\u6587\\u76f8\\u5173/\\u5206\\u6570\\u9636\\u6a21\\u578b\\u7814\\u7a76/project/papers/paper2_voxel_topology_clogging/submission/reviewer_precheck.json\",\n  \"qa_items\": 8\n}\n",
+      "stderr_tail": ""
+    },
+    {
+      "command": [
+        "/Library/Developer/CommandLineTools/usr/bin/python3",
+        "papers/paper2_voxel_topology_clogging/scripts/make_submission_form_packet.py"
+      ],
+      "returncode": 0,
+      "stdout_tail": "{\n  \"title\": \"Breakthrough without pore-network clogging in gas-driven fine-particle transport through Li4SiO4 pebble beds\",\n  \"authors\": 6,\n  \"keywords\": 7,\n  \"highlights\": 5\n}\n/Users/wangjian-macbook13/Library/CloudStorage/SynologyDrive-mac/论文相关/分数阶模型研究/project/papers/paper2_voxel_topology_clogging/submission/submission_form_packet.json\n/Users/wangjian-macbook13/Library/CloudStorage/SynologyDrive-mac/论文相关/分数阶模型研究/project/papers/paper2_voxel_topology_clogging/submission/submission_form_packet.md\n",
+      "stderr_tail": ""
+    },
+    {
+      "command": [
+        "latexmk",
+        "-cd",
+        "-pdf",
+        "-interaction=nonstopmode",
+        "-halt-on-error",
+        "papers/paper2_voxel_topology_clogging/latex/main.tex"
+      ],
+      "returncode": 0,
+      "stdout_tail": "Latexmk: All targets (main.pdf) are up-to-date\n",
+      "stderr_tail": "Rc files read:\n  NONE\nLatexmk: This is Latexmk, John Collins, 29 September 2020, version: 4.70b.\nLatexmk: Changing directory to 'papers/paper2_voxel_topology_clogging/latex/'\nLatexmk: Undoing directory change\n"
+    },
+    {
+      "command": [
+        "/Library/Developer/CommandLineTools/usr/bin/python3",
+        "papers/paper2_voxel_topology_clogging/scripts/stage_journal_submission_files.py",
+        "--force"
+      ],
+      "returncode": 0,
+      "stdout_tail": "{\n  \"out\": \"/Users/wangjian-macbook13/Library/CloudStorage/SynologyDrive-mac/\\u8bba\\u6587\\u76f8\\u5173/\\u5206\\u6570\\u9636\\u6a21\\u578b\\u7814\\u7a76/project/papers/paper2_voxel_topology_clogging/submission_package/journal_submission_files\",\n  \"missing\": [],\n  \"file_count\": 84,\n  \"total_size_bytes\": 1976240\n}\n",
+      "stderr_tail": ""
+    },
+    {
+      "command": [
+        "/Library/Developer/CommandLineTools/usr/bin/python3",
+        "papers/paper2_voxel_topology_clogging/scripts/archive_journal_submission_files.py",
+        "--force"
+      ],
+      "returncode": 0,
+      "stdout_tail": "{\n  \"created_utc\": \"2026-06-09T23:45:28.480240+00:00\",\n  \"staging_dir\": \"/Users/wangjian-macbook13/Library/CloudStorage/SynologyDrive-mac/\\u8bba\\u6587\\u76f8\\u5173/\\u5206\\u6570\\u9636\\u6a21\\u578b\\u7814\\u7a76/project/papers/paper2_voxel_topology_clogging/submission_package/journal_submission_files\",\n  \"archive_path\": \"/Users/wangjian-macbook13/Library/CloudStorage/SynologyDrive-mac/\\u8bba\\u6587\\u76f8\\u5173/\\u5206\\u6570\\u9636\\u6a21\\u578b\\u7814\\u7a76/project/papers/paper2_voxel_topology_clogging/submission_package/archives/paper2_journal_submission_files.zip\",\n  \"sha256_path\": \"/Users/wangjian-macbook13/Library/CloudStorage/SynologyDrive-mac/\\u8bba\\u6587\\u76f8\\u5173/\\u5206\\u6570\\u9636\\u6a21\\u578b\\u7814\\u7a76/project/papers/paper2_voxel_topology_clogging/submission_package/archives/paper2_journal_submission_files.zip.sha256\",\n  \"archive_size_bytes\": 1634579,\n  \"sha256\": \"25758fa2651148fe5cb9a4d927b3a729a17c9e26e2b819928e92d5964238a41f\",\n  \"staged_file_count\": 85,\n  \"summary_path\": \"/Users/wangjian-macbook13/Library/CloudStorage/SynologyDrive-mac/\\u8bba\\u6587\\u76f8\\u5173/\\u5206\\u6570\\u9636\\u6a21\\u578b\\u7814\\u7a76/project/papers/paper2_voxel_topology_clogging/submission_package/archives/paper2_journal_submission_files_archive_summary.json\"\n}\n",
+      "stderr_tail": ""
+    },
+    {
+      "command": [
+        "/Library/Developer/CommandLineTools/usr/bin/python3",
+        "papers/paper2_voxel_topology_clogging/scripts/audit_journal_submission_archive.py"
+      ],
+      "returncode": 0,
+      "stdout_tail": "{\n  \"decision\": \"pass\",\n  \"failure_count\": 0\n}\n/Users/wangjian-macbook13/Library/CloudStorage/SynologyDrive-mac/论文相关/分数阶模型研究/project/papers/paper2_voxel_topology_clogging/submission_package/archives/paper2_journal_submission_archive_audit.json\n/Users/wangjian-macbook13/Library/CloudStorage/SynologyDrive-mac/论文相关/分数阶模型研究/project/papers/paper2_voxel_topology_clogging/submission_package/archives/paper2_journal_submission_archive_audit.md\n",
+      "stderr_tail": ""
+    },
+    {
+      "command": [
+        "/Library/Developer/CommandLineTools/usr/bin/python3",
+        "papers/paper2_voxel_topology_clogging/scripts/audit_paper2_manuscript_readiness.py"
+      ],
+      "returncode": 0,
+      "stdout_tail": "{\"needs_confirmation\": 5, \"not_required_for_preclogging_scope\": 1, \"not_supported_current_scope\": 2, \"partial\": 1, \"supported\": 122}\nWrote: /Users/wangjian-macbook13/Library/CloudStorage/SynologyDrive-mac/论文相关/分数阶模型研究/project/papers/paper2_voxel_topology_clogging/data/paper2_manuscript_readiness.json\nWrote: /Users/wangjian-macbook13/Library/CloudStorage/SynologyDrive-mac/论文相关/分数阶模型研究/project/papers/paper2_voxel_topology_clogging/notes/paper2_manuscript_readiness.md\n",
+      "stderr_tail": ""
+    },
+    {
+      "command": [
+        "/Library/Developer/CommandLineTools/usr/bin/python3",
+        "papers/paper2_voxel_topology_clogging/scripts/audit_final_submission_gate.py"
+      ],
+      "returncode": 0,
+      "stdout_tail": "{\n  \"gate_status\": \"not_ready_for_submission\",\n  \"admin_blockers\": 5,\n  \"missing_upload_files\": []\n}\n/Users/wangjian-macbook13/Library/CloudStorage/SynologyDrive-mac/论文相关/分数阶模型研究/project/papers/paper2_voxel_topology_clogging/submission/final_submission_gate.json\n/Users/wangjian-macbook13/Library/CloudStorage/SynologyDrive-mac/论文相关/分数阶模型研究/project/papers/paper2_voxel_topology_clogging/submission/final_submission_gate.md\n",
+      "stderr_tail": ""
+    },
+    {
+      "command": [
+        "/Library/Developer/CommandLineTools/usr/bin/python3",
+        "papers/paper2_voxel_topology_clogging/scripts/make_current_project_status.py"
+      ],
+      "returncode": 0,
+      "stdout_tail": "/Users/wangjian-macbook13/Library/CloudStorage/SynologyDrive-mac/论文相关/分数阶模型研究/project/papers/paper2_voxel_topology_clogging/CURRENT_PROJECT_STATUS.md\n",
+      "stderr_tail": ""
+    }
+  ],
+  "boundary": "Formal repeat-seed evidence is generated only when monitor reports completed production runs, unless --force is used for diagnostics."
+}

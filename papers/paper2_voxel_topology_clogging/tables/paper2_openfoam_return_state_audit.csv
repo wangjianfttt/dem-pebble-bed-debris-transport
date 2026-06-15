@@ -1,0 +1,7 @@
+item,status,value,warning,boundary
+remote_transfer_bundle,ready,/Users/wangjian-macbook13/Library/CloudStorage/SynologyDrive-mac/论文相关/分数阶模型研究/project/papers/paper2_voxel_topology_clogging/flow_solver_handoff_archives/paper2_openfoam_remote_transfer_bundle.zip,,Transfer bundle is input only; it is not pressure evidence.
+latest_import_record,present,papers/paper2_voxel_topology_clogging/flow_solver_results/archives/paper2_openfoam_handoff_results_20260612T031352Z.tar.gz,,Import records are provenance only; pressure values require parser and gate checks.
+latest_import_archive_exists,exists,papers/paper2_voxel_topology_clogging/flow_solver_results/archives/paper2_openfoam_handoff_results_20260612T031352Z.tar.gz,,"A missing latest archive does not invalidate current empty evidence, but it should not be cited."
+parsed_openfoam_cases,available,3,,OpenFOAM result parser only; empty output means no returned solver results were found.
+pressure_drop_cases,available,3,,Pressure-drop rows require returned pInlet/pOutlet values and passing logs.
+manuscript_pressure_gate,ready,3,author review still required before manuscript insertion,"No pressure values are inferred; valid cases require pressure output, aligned inlet/outlet sampling times and passing checkMesh/simpleFoam logs."

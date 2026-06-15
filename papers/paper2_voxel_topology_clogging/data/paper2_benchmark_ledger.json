@@ -1,0 +1,15 @@
+{
+  "benchmark_count": 6,
+  "status_counts": {
+    "supported": 4,
+    "bounded": 2
+  },
+  "missing_evidence_benchmarks": [],
+  "bounded_benchmarks": [
+    "B05_pressure_flow_response",
+    "B06_fusion_blanket_relevance"
+  ],
+  "out_csv": "/Users/wangjian-macbook13/Library/CloudStorage/SynologyDrive-mac/\u8bba\u6587\u76f8\u5173/\u5206\u6570\u9636\u6a21\u578b\u7814\u7a76/project/papers/paper2_voxel_topology_clogging/tables/paper2_benchmark_ledger.csv",
+  "out_md": "/Users/wangjian-macbook13/Library/CloudStorage/SynologyDrive-mac/\u8bba\u6587\u76f8\u5173/\u5206\u6570\u9636\u6a21\u578b\u7814\u7a76/project/papers/paper2_voxel_topology_clogging/notes/paper2_benchmark_ledger.md",
+  "evidence_boundary": "benchmark ledger only; it is not a numerical validation or replication of cited studies."
+}

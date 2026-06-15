@@ -1,0 +1,158 @@
+{
+  "decision": "admin_actions_required",
+  "gate_status": "not_ready_for_submission",
+  "required_open_count": 5,
+  "optional_open_count": 1,
+  "high_impact_pending_count": 0,
+  "required_open_actions": [
+    "A01_repository",
+    "A02_funding",
+    "A03_competing_interests",
+    "A04_acknowledgements",
+    "A05_corresponding_author"
+  ],
+  "optional_open_actions": [
+    "A06_ai_tool_use"
+  ],
+  "high_impact_pending_scientific_actions": [],
+  "missing_upload_files": [],
+  "journal_submission_archive": "papers/paper2_voxel_topology_clogging/submission_package/archives/paper2_journal_submission_files.zip",
+  "data_code_archive": "papers/paper2_voxel_topology_clogging/deposit/archives/paper2_lightweight_deposit.zip",
+  "actions": [
+    {
+      "action_id": "A01_repository",
+      "section": "repository",
+      "required": true,
+      "status": "open",
+      "owner": "corresponding author or data manager",
+      "blocker_item": "public_repository_doi",
+      "missing_fields": [
+        "name",
+        "identifier",
+        "url",
+        "license"
+      ],
+      "why": "Required for Data availability and Code availability.",
+      "action": "Required for Data availability and Code availability.",
+      "required_output": "repository name, DOI/accession, URL and license in submission_metadata.yaml",
+      "write_to": "papers/paper2_voxel_topology_clogging/submission/submission_metadata.yaml",
+      "verification_commands": [
+        "python3 papers/paper2_voxel_topology_clogging/scripts/audit_submission_metadata_gaps.py",
+        "python3 papers/paper2_voxel_topology_clogging/scripts/apply_submission_metadata.py --apply",
+        "cd papers/paper2_voxel_topology_clogging/latex && pdflatex -interaction=nonstopmode main.tex && bibtex main && pdflatex -interaction=nonstopmode main.tex && pdflatex -interaction=nonstopmode main.tex",
+        "python3 papers/paper2_voxel_topology_clogging/scripts/audit_final_submission_gate.py"
+      ]
+    },
+    {
+      "action_id": "A02_funding",
+      "section": "funding",
+      "required": true,
+      "status": "open",
+      "owner": "corresponding author",
+      "blocker_item": "funding_confirmation",
+      "missing_fields": [
+        "statement"
+      ],
+      "why": "Required for the manuscript Funding section and journal metadata.",
+      "action": "Required for the manuscript Funding section and journal metadata.",
+      "required_output": "approved funding statement in submission_metadata.yaml",
+      "write_to": "papers/paper2_voxel_topology_clogging/submission/submission_metadata.yaml",
+      "verification_commands": [
+        "python3 papers/paper2_voxel_topology_clogging/scripts/audit_submission_metadata_gaps.py",
+        "python3 papers/paper2_voxel_topology_clogging/scripts/apply_submission_metadata.py --apply",
+        "cd papers/paper2_voxel_topology_clogging/latex && pdflatex -interaction=nonstopmode main.tex && bibtex main && pdflatex -interaction=nonstopmode main.tex && pdflatex -interaction=nonstopmode main.tex",
+        "python3 papers/paper2_voxel_topology_clogging/scripts/audit_final_submission_gate.py"
+      ]
+    },
+    {
+      "action_id": "A03_competing_interests",
+      "section": "competing_interests",
+      "required": true,
+      "status": "open",
+      "owner": "all authors",
+      "blocker_item": "competing_interest_confirmation",
+      "missing_fields": [],
+      "why": "Required by the journal and must be confirmed by all authors.",
+      "action": "Required by the journal and must be confirmed by all authors.",
+      "required_output": "author-confirmed competing-interest statement",
+      "write_to": "papers/paper2_voxel_topology_clogging/submission/submission_metadata.yaml",
+      "verification_commands": [
+        "python3 papers/paper2_voxel_topology_clogging/scripts/audit_submission_metadata_gaps.py",
+        "python3 papers/paper2_voxel_topology_clogging/scripts/apply_submission_metadata.py --apply",
+        "cd papers/paper2_voxel_topology_clogging/latex && pdflatex -interaction=nonstopmode main.tex && bibtex main && pdflatex -interaction=nonstopmode main.tex && pdflatex -interaction=nonstopmode main.tex",
+        "python3 papers/paper2_voxel_topology_clogging/scripts/audit_final_submission_gate.py"
+      ]
+    },
+    {
+      "action_id": "A04_acknowledgements",
+      "section": "acknowledgements",
+      "required": true,
+      "status": "open",
+      "owner": "corresponding author",
+      "blocker_item": "acknowledgement_confirmation",
+      "missing_fields": [
+        "statement"
+      ],
+      "why": "Required to avoid unapproved computing-resource or collaborator wording.",
+      "action": "Required to avoid unapproved computing-resource or collaborator wording.",
+      "required_output": "approved acknowledgement and computing-resource wording",
+      "write_to": "papers/paper2_voxel_topology_clogging/submission/submission_metadata.yaml",
+      "verification_commands": [
+        "python3 papers/paper2_voxel_topology_clogging/scripts/audit_submission_metadata_gaps.py",
+        "python3 papers/paper2_voxel_topology_clogging/scripts/apply_submission_metadata.py --apply",
+        "cd papers/paper2_voxel_topology_clogging/latex && pdflatex -interaction=nonstopmode main.tex && bibtex main && pdflatex -interaction=nonstopmode main.tex && pdflatex -interaction=nonstopmode main.tex",
+        "python3 papers/paper2_voxel_topology_clogging/scripts/audit_final_submission_gate.py"
+      ]
+    },
+    {
+      "action_id": "A05_corresponding_author",
+      "section": "corresponding_author",
+      "required": true,
+      "status": "open",
+      "owner": "corresponding author",
+      "blocker_item": "corresponding_author_confirmation",
+      "missing_fields": [
+        "name",
+        "email"
+      ],
+      "why": "Required for the journal submission system and cover-letter metadata.",
+      "action": "Required for the journal submission system and cover-letter metadata.",
+      "required_output": "name and email for the journal submission system",
+      "write_to": "papers/paper2_voxel_topology_clogging/submission/submission_metadata.yaml",
+      "verification_commands": [
+        "python3 papers/paper2_voxel_topology_clogging/scripts/audit_submission_metadata_gaps.py",
+        "python3 papers/paper2_voxel_topology_clogging/scripts/apply_submission_metadata.py --apply",
+        "cd papers/paper2_voxel_topology_clogging/latex && pdflatex -interaction=nonstopmode main.tex && bibtex main && pdflatex -interaction=nonstopmode main.tex && pdflatex -interaction=nonstopmode main.tex",
+        "python3 papers/paper2_voxel_topology_clogging/scripts/audit_final_submission_gate.py"
+      ]
+    },
+    {
+      "action_id": "A06_ai_tool_use",
+      "section": "ai_tool_use",
+      "required": false,
+      "status": "optional_open",
+      "owner": "corresponding author or institution policy owner",
+      "blocker_item": null,
+      "missing_fields": [
+        "statement"
+      ],
+      "why": "Required if journal or institutional policy asks for AI/tool-use disclosure.",
+      "action": "Required if journal or institutional policy asks for AI/tool-use disclosure.",
+      "required_output": "AI/tool-use disclosure if journal or institutional policy requires it",
+      "write_to": "papers/paper2_voxel_topology_clogging/submission/submission_metadata.yaml",
+      "verification_commands": [
+        "python3 papers/paper2_voxel_topology_clogging/scripts/audit_submission_metadata_gaps.py"
+      ]
+    }
+  ],
+  "final_verification_commands": [
+    "python3 papers/paper2_voxel_topology_clogging/scripts/audit_submission_metadata_gaps.py",
+    "python3 papers/paper2_voxel_topology_clogging/scripts/apply_submission_metadata.py --apply",
+    "cd papers/paper2_voxel_topology_clogging/latex && pdflatex -interaction=nonstopmode main.tex && bibtex main && pdflatex -interaction=nonstopmode main.tex && pdflatex -interaction=nonstopmode main.tex",
+    "PYTHONPATH=. python3 papers/paper2_voxel_topology_clogging/scripts/audit_paper2_manuscript_readiness.py",
+    "python3 papers/paper2_voxel_topology_clogging/scripts/audit_final_submission_gate.py",
+    "python3 papers/paper2_voxel_topology_clogging/scripts/stage_journal_submission_files.py --force",
+    "python3 papers/paper2_voxel_topology_clogging/scripts/archive_journal_submission_files.py --force"
+  ],
+  "boundary": "Administrative action list only; it does not change scientific evidence or manuscript scope."
+}

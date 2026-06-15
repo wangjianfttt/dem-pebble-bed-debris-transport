@@ -1,0 +1,14 @@
+{
+  "decision": "pass",
+  "failure_count": 0,
+  "failures": [],
+  "tex_file_count": 2,
+  "citation_key_count": 25,
+  "unique_citation_key_count": 16,
+  "bib_key_count": 16,
+  "missing_bib_keys": [],
+  "unused_bib_keys": [],
+  "duplicate_bib_keys": [],
+  "citation_log_warnings": [],
+  "boundary": "Citation-key and compile-log audit only; it does not judge reference quality or topical completeness."
+}

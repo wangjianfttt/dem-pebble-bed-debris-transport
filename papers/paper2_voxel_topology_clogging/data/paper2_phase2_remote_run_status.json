@@ -1,0 +1,9 @@
+{
+  "created_utc": "2026-06-12T23:00:03.980652+00:00",
+  "remote_host": "wangjian@192.168.3.6",
+  "remote_run_dir": "/data1/wangjian/fractional_dem_project_phase2_runs/phase2_loading_20260613_0608/paper2_phase2_loading_remote_20260612T220315Z",
+  "decision": "status_check_failed",
+  "returncode": 255,
+  "stderr_tail": "Permission denied, please try again.\nPermission denied, please try again.\nwangjian@192.168.3.6: Permission denied (publickey,password).\n",
+  "boundary": "Remote status check failed; no production evidence is inferred."
+}

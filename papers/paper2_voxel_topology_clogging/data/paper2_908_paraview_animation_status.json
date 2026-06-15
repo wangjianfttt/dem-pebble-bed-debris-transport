@@ -1,0 +1,10 @@
+{
+  "frame_count": 37,
+  "fps": 6.0,
+  "duration_s": 6.166666666666667,
+  "first_frame": "/Users/wangjian-macbook13/Library/CloudStorage/SynologyDrive-mac/论文相关/分数阶模型研究/project/results/animations/frames/paper2_908_high_inventory_live_preview/frame.0000.png",
+  "last_frame": "/Users/wangjian-macbook13/Library/CloudStorage/SynologyDrive-mac/论文相关/分数阶模型研究/project/results/animations/frames/paper2_908_high_inventory_live_preview/frame.0036.png",
+  "out_gif": "/Users/wangjian-macbook13/Library/CloudStorage/SynologyDrive-mac/论文相关/分数阶模型研究/project/results/animations/paper2_908_high_inventory_live_preview.gif",
+  "out_gif_size_bytes": 8411046,
+  "claim_boundary": "Animation is a visual preview of returned DEM-derived particle frames; scientific claims must use the quantitative JSON/CSV evidence tables."
+}

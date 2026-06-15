@@ -1,0 +1,15 @@
+category,name,import_name,available,version,path,boundary
+runtime,python,python,True,"3.9.6 (default, Jan  9 2026, 11:03:41)  [Clang 17.0.0 (clang-1700.6.4.2)]",/Library/Developer/CommandLineTools/usr/bin/python3,Python runtime used to generate this manifest.
+platform,platform,platform,True,macOS-26.5-arm64-arm-64bit,,Host platform information for reproducibility context.
+python_package,numpy,numpy,True,2.0.2,,Python package availability for reproducing post-processing scripts.
+python_package,pandas,pandas,True,2.3.3,,Python package availability for reproducing post-processing scripts.
+python_package,PyYAML,yaml,True,6.0.3,,Python package availability for reproducing post-processing scripts.
+python_package,pytest,pytest,True,8.4.2,,Python package availability for reproducing post-processing scripts.
+python_package,matplotlib,matplotlib,True,3.9.4,,Python package availability for reproducing post-processing scripts.
+python_package,scipy,scipy,True,1.13.1,,Python package availability for reproducing post-processing scripts.
+python_package,scikit-image,skimage,True,0.24.0,,Python package availability for reproducing post-processing scripts.
+python_package,scikit-learn,sklearn,True,1.6.1,,Python package availability for reproducing post-processing scripts.
+dem_solver,LIGGGHTS,liggghts-iNL,False,,,"DEM solver availability record; production results still require case logs, dumps and final restart files."
+dem_solver,LIGGGHTS,liggghts,False,,,"DEM solver availability record; production results still require case logs, dumps and final restart files."
+dem_solver,LIGGGHTS,/Users/wangjian-macbook13/Library/CloudStorage/SynologyDrive-mac/颗粒破碎研究claude/LIGGGHTS-INL-inl/src/lmp_mpi_no_vtk,True, local                           mesh/stl                        ,/Users/wangjian-macbook13/Library/CloudStorage/SynologyDrive-mac/颗粒破碎研究claude/LIGGGHTS-INL-inl/src/lmp_mpi_no_vtk,"DEM solver availability record; production results still require case logs, dumps and final restart files."
+live_run_boundary,near_threshold_repeat_runs,monitor,True,production_repeat_runs_completed,papers/paper2_voxel_topology_clogging/data/paper2_near_threshold_repeat_run_status.json,No live repeat-run warning from the current monitor summary.

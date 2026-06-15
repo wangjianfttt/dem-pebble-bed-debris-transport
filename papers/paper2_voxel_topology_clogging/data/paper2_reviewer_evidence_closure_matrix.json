@@ -1,0 +1,15 @@
+{
+  "risk_count": 11,
+  "closure_counts": {
+    "bounded_by_current_evidence": 6,
+    "closed_by_current_evidence": 1,
+    "open_admin_confirmation": 1,
+    "requires_review": 3
+  },
+  "major_or_blocker_count": 8,
+  "broken_claim_links": 0,
+  "broken_benchmark_links": 0,
+  "out_csv": "/Users/wangjian-macbook13/Library/CloudStorage/SynologyDrive-mac/\u8bba\u6587\u76f8\u5173/\u5206\u6570\u9636\u6a21\u578b\u7814\u7a76/project/papers/paper2_voxel_topology_clogging/tables/paper2_reviewer_evidence_closure_matrix.csv",
+  "out_md": "/Users/wangjian-macbook13/Library/CloudStorage/SynologyDrive-mac/\u8bba\u6587\u76f8\u5173/\u5206\u6570\u9636\u6a21\u578b\u7814\u7a76/project/papers/paper2_voxel_topology_clogging/notes/paper2_reviewer_evidence_closure_matrix.md",
+  "evidence_boundary": "reviewer evidence-closure matrix only; it does not upgrade bounded evidence into validation evidence."
+}

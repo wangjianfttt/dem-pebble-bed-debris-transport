@@ -1,0 +1,30 @@
+{
+  "row_count": 9,
+  "family_counts": {
+    "drive_state": 3,
+    "loading_state": 3,
+    "localized_source_state": 3
+  },
+  "df_over_dp_range_with_gas_velocity": [
+    0.02,
+    0.025
+  ],
+  "gas_velocity_range_m_s": [
+    1.0,
+    3.0
+  ],
+  "debris_total_number_range": [
+    2752,
+    30000
+  ],
+  "formal_repeat_seed_count": 3,
+  "mechanism_regimes": [
+    "breakthrough without topology loss",
+    "retention/internal filtering",
+    "source-retained sparse front"
+  ],
+  "boundary": "Discrete evidence coverage only; not a full factorial sweep, interpolated phase map or universal critical-clogging diagram.",
+  "out_table": "/Users/wangjian-macbook13/Library/CloudStorage/SynologyDrive-mac/\u8bba\u6587\u76f8\u5173/\u5206\u6570\u9636\u6a21\u578b\u7814\u7a76/project/papers/paper2_voxel_topology_clogging/tables/paper2_parameter_evidence_coverage_source.csv",
+  "out_md": "/Users/wangjian-macbook13/Library/CloudStorage/SynologyDrive-mac/\u8bba\u6587\u76f8\u5173/\u5206\u6570\u9636\u6a21\u578b\u7814\u7a76/project/papers/paper2_voxel_topology_clogging/notes/paper2_parameter_evidence_coverage_map.md",
+  "figure_stem": "paper2_figS25_parameter_evidence_coverage"
+}

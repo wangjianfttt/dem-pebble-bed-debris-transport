@@ -1,0 +1,140 @@
+{
+  "summary": {
+    "decision": "environment_recorded",
+    "python": "3.9.6",
+    "missing_python_packages": [],
+    "available_liggghts_candidates": 1,
+    "repeat_run_decision": "production_repeat_runs_completed",
+    "repeat_running_count": 0,
+    "deposit_refresh_allowed": true,
+    "boundary": "Environment manifest only; it does not refresh archives or create new scientific evidence."
+  },
+  "rows": [
+    {
+      "category": "runtime",
+      "name": "python",
+      "import_name": "python",
+      "available": true,
+      "version": "3.9.6 (default, Jan  9 2026, 11:03:41)  [Clang 17.0.0 (clang-1700.6.4.2)]",
+      "path": "/Library/Developer/CommandLineTools/usr/bin/python3",
+      "boundary": "Python runtime used to generate this manifest."
+    },
+    {
+      "category": "platform",
+      "name": "platform",
+      "import_name": "platform",
+      "available": true,
+      "version": "macOS-26.5-arm64-arm-64bit",
+      "path": "",
+      "boundary": "Host platform information for reproducibility context."
+    },
+    {
+      "category": "python_package",
+      "name": "numpy",
+      "import_name": "numpy",
+      "available": true,
+      "version": "2.0.2",
+      "path": "",
+      "boundary": "Python package availability for reproducing post-processing scripts."
+    },
+    {
+      "category": "python_package",
+      "name": "pandas",
+      "import_name": "pandas",
+      "available": true,
+      "version": "2.3.3",
+      "path": "",
+      "boundary": "Python package availability for reproducing post-processing scripts."
+    },
+    {
+      "category": "python_package",
+      "name": "PyYAML",
+      "import_name": "yaml",
+      "available": true,
+      "version": "6.0.3",
+      "path": "",
+      "boundary": "Python package availability for reproducing post-processing scripts."
+    },
+    {
+      "category": "python_package",
+      "name": "pytest",
+      "import_name": "pytest",
+      "available": true,
+      "version": "8.4.2",
+      "path": "",
+      "boundary": "Python package availability for reproducing post-processing scripts."
+    },
+    {
+      "category": "python_package",
+      "name": "matplotlib",
+      "import_name": "matplotlib",
+      "available": true,
+      "version": "3.9.4",
+      "path": "",
+      "boundary": "Python package availability for reproducing post-processing scripts."
+    },
+    {
+      "category": "python_package",
+      "name": "scipy",
+      "import_name": "scipy",
+      "available": true,
+      "version": "1.13.1",
+      "path": "",
+      "boundary": "Python package availability for reproducing post-processing scripts."
+    },
+    {
+      "category": "python_package",
+      "name": "scikit-image",
+      "import_name": "skimage",
+      "available": true,
+      "version": "0.24.0",
+      "path": "",
+      "boundary": "Python package availability for reproducing post-processing scripts."
+    },
+    {
+      "category": "python_package",
+      "name": "scikit-learn",
+      "import_name": "sklearn",
+      "available": true,
+      "version": "1.6.1",
+      "path": "",
+      "boundary": "Python package availability for reproducing post-processing scripts."
+    },
+    {
+      "category": "dem_solver",
+      "name": "LIGGGHTS",
+      "import_name": "liggghts-iNL",
+      "available": false,
+      "version": null,
+      "path": "",
+      "boundary": "DEM solver availability record; production results still require case logs, dumps and final restart files."
+    },
+    {
+      "category": "dem_solver",
+      "name": "LIGGGHTS",
+      "import_name": "liggghts",
+      "available": false,
+      "version": null,
+      "path": "",
+      "boundary": "DEM solver availability record; production results still require case logs, dumps and final restart files."
+    },
+    {
+      "category": "dem_solver",
+      "name": "LIGGGHTS",
+      "import_name": "/Users/wangjian-macbook13/Library/CloudStorage/SynologyDrive-mac/颗粒破碎研究claude/LIGGGHTS-INL-inl/src/lmp_mpi_no_vtk",
+      "available": true,
+      "version": " local                           mesh/stl                        ",
+      "path": "/Users/wangjian-macbook13/Library/CloudStorage/SynologyDrive-mac/颗粒破碎研究claude/LIGGGHTS-INL-inl/src/lmp_mpi_no_vtk",
+      "boundary": "DEM solver availability record; production results still require case logs, dumps and final restart files."
+    },
+    {
+      "category": "live_run_boundary",
+      "name": "near_threshold_repeat_runs",
+      "import_name": "monitor",
+      "available": true,
+      "version": "production_repeat_runs_completed",
+      "path": "papers/paper2_voxel_topology_clogging/data/paper2_near_threshold_repeat_run_status.json",
+      "boundary": "No live repeat-run warning from the current monitor summary."
+    }
+  ]
+}

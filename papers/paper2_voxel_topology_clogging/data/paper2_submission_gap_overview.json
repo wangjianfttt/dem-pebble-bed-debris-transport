@@ -1,0 +1,69 @@
+{
+  "summary": {
+    "decision": "bounded_manuscript_scientifically_controlled_but_not_submission_ready",
+    "row_count": 5,
+    "gate_status": "not_ready_for_submission",
+    "required_submission_gap_count": 1,
+    "high_impact_scientific_gap_count": 0,
+    "top_scientific_gaps": [],
+    "repeat_seed_gap_open": false,
+    "boundary": "Overview only; it separates evidence gaps from administrative blockers and does not alter manuscript claims."
+  },
+  "rows": [
+    {
+      "priority": 1,
+      "gap_id": "G01_repeat_seed_uncertainty",
+      "gap_type": "scientific_upgrade",
+      "current_status": "production_running=0, production_completed=2, formal_processed=3, mean_progress=1.0",
+      "why_it_matters": "Near-threshold breakthrough should not rely on one formal seed.",
+      "required_to_submit_bounded_paper": false,
+      "required_for_higher_impact_claim": false,
+      "next_action": "No further repeat action; keep manuscript wording bounded to stochastic variability.",
+      "evidence_boundary": "Repeat-seed uncertainty can enter the manuscript only after at least three formal processed rows are available."
+    },
+    {
+      "priority": 2,
+      "gap_id": "G02_pressure_response",
+      "gap_type": "scientific_upgrade",
+      "current_status": "valid_pressure_cases=3, strict_pressure_cases=3, engineering_screening_cases=3, manuscript_ready=True, unique_flow_geometries=3, geometry_distinguishable=True; return_audit=pressure_evidence_ready_for_author_review; warnings=1",
+      "why_it_matters": "Pressure-flow response is the strongest missing layer for hydraulic consequence.",
+      "required_to_submit_bounded_paper": false,
+      "required_for_higher_impact_claim": false,
+      "next_action": "Pressure evidence is complete for the current handoff; keep wording bounded and do not rerun unless the geometry changes.",
+      "evidence_boundary": "No OpenFOAM pressure claim until returned archive is imported and evidence gate passes."
+    },
+    {
+      "priority": 3,
+      "gap_id": "G03_scope_boundaries",
+      "gap_type": "claim_control",
+      "current_status": "risk_summary={'bounded': 8, 'resolved': 2, 'needs_confirmation': 1}; scientific_scope_warnings=1",
+      "why_it_matters": "The manuscript is credible only if it stays in the pre-clogging numerical-mechanism scope.",
+      "required_to_submit_bounded_paper": true,
+      "required_for_higher_impact_claim": true,
+      "next_action": "Keep critical-transition, pressure-calibrated and experimental-imaging claims out of title, abstract, figures and conclusions.",
+      "evidence_boundary": "Boundary language is a claim-control requirement, not new evidence."
+    },
+    {
+      "priority": 4,
+      "gap_id": "G04_benchmark_positioning",
+      "gap_type": "reviewer_positioning",
+      "current_status": "claims={'supported': 7, 'bounded': 2, 'needs_confirmation': 1}; benchmarks={'supported': 4, 'bounded': 2}",
+      "why_it_matters": "Benchmarking should show comparable trends and boundaries, not force replication of the reference paper.",
+      "required_to_submit_bounded_paper": true,
+      "required_for_higher_impact_claim": true,
+      "next_action": "Keep benchmark crosswalk and response-ready evidence maps synchronized after new repeat or pressure evidence.",
+      "evidence_boundary": "Benchmark positioning is scoped comparison, not experimental validation."
+    },
+    {
+      "priority": 5,
+      "gap_id": "G05_administrative_submission",
+      "gap_type": "administrative_blocker",
+      "current_status": "required_open=5; gate=not_ready_for_submission",
+      "why_it_matters": "The paper cannot be submitted until repository and author metadata are confirmed.",
+      "required_to_submit_bounded_paper": true,
+      "required_for_higher_impact_claim": false,
+      "next_action": "Resolve DOI/accession, funding, competing interests, acknowledgements and corresponding-author metadata.",
+      "evidence_boundary": "Administrative readiness does not change scientific evidence."
+    }
+  ]
+}

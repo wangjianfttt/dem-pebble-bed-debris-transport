@@ -1,0 +1,36 @@
+{
+  "row_count": 9,
+  "drive_state_count": 3,
+  "loading_state_count": 3,
+  "localized_source_state_count": 3,
+  "mechanism_regimes": [
+    "breakthrough without topology loss",
+    "retention/internal filtering",
+    "source-retained sparse front"
+  ],
+  "evidence_boundary": "Derived synthesis from existing Paper 2 tables; no new DEM or CFD result.",
+  "drive_correlations": {
+    "FdW_vs_final_BTC": 0.9815880401243109,
+    "FdW_vs_x_mean_over_L": 0.9922311896894641,
+    "FdW_vs_blockage_centroid_over_L": 0.9912796789956255
+  },
+  "loading_correlations": {
+    "dimensionless_loading_vs_max_blockage": 0.9997837556377711,
+    "debris_count_vs_Ib_no_pressure": 0.9997837556377711,
+    "debris_count_vs_connectivity_loss": null
+  },
+  "localized_source_correlations": {
+    "source_fraction_vs_downstream_fraction": -0.9999932923516995,
+    "source_fraction_vs_front_bulk_gap": 0.25460456570682644,
+    "downstream_fraction_vs_x_mean": -0.3413066451494233
+  },
+  "max_values": {
+    "final_BTC": 0.082,
+    "max_blockage_ratio": 3.54878700564896e-05,
+    "connectivity_loss": 0.0,
+    "Ib_no_pressure": 1.77439350282448e-05,
+    "front_bulk_gap_over_L": 0.5744392888888891,
+    "profile_pressure_increase_ratio": 1.2581232188492602e-05,
+    "voxel_conductance_loss": 9.17882203521625e-06
+  }
+}

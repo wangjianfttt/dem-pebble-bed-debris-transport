@@ -1,0 +1,43 @@
+{
+  "decision": "pass",
+  "failure_count": 0,
+  "checks": [
+    {
+      "check_id": "M01_core_mechanism_repeated_across_sections",
+      "description": "Abstract, Results, Discussion and Conclusions all state the pre-clogging separation mechanism.",
+      "status": "pass",
+      "evidence": "core mechanism phrase scan"
+    },
+    {
+      "check_id": "M02_three_axes_are_named",
+      "description": "The manuscript keeps drive, localized-source and inventory axes distinct.",
+      "status": "pass",
+      "evidence": "mechanism-axis wording"
+    },
+    {
+      "check_id": "M03_pressure_boundary_is_preserved",
+      "description": "Pressure evidence is bounded and not used as pressure-calibrated Ib or validation.",
+      "status": "pass",
+      "evidence": "pressure-boundary wording"
+    },
+    {
+      "check_id": "M04_no_old_checkpoint_language",
+      "description": "Argument map and manuscript no longer contain obsolete 908 checkpoint language.",
+      "status": "pass",
+      "evidence": "obsolete localized-release wording scan"
+    },
+    {
+      "check_id": "M05_no_experimental_ct_wording",
+      "description": "Voxel fields are described as DEM-derived reconstructions rather than experimental CT.",
+      "status": "pass",
+      "evidence": "DEM-derived reconstruction wording"
+    },
+    {
+      "check_id": "M06_claim_ledger_supports_core_claims",
+      "description": "Claim ledger has no missing-evidence claims and preserves boundaries for central mechanism claims.",
+      "status": "pass",
+      "evidence": "claim-ledger rows C03 and C05"
+    }
+  ],
+  "boundary": "Narrative-coherence audit only; it verifies wording alignment and linked evidence, not new physics."
+}

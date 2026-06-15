@@ -1,0 +1,103 @@
+{
+  "decision": "pass",
+  "title": "Separating breakthrough from pore-network clogging indicators in gas-driven fine-debris transport through Li4SiO4 pebble beds",
+  "abstract_word_count": 333,
+  "claim_count": 9,
+  "keyword_count": 7,
+  "unsupported_keywords": [],
+  "missing_evidence_claims": [],
+  "out_csv": "papers/paper2_voxel_topology_clogging/tables/paper2_abstract_evidence_alignment.csv",
+  "out_md": "papers/paper2_voxel_topology_clogging/notes/paper2_abstract_evidence_alignment.md",
+  "rows": [
+    {
+      "claim_id": "A01_title_breakthrough_without_clogging",
+      "location": "title",
+      "claim": "The title claims breakthrough without pore-network clogging.",
+      "status": "supported",
+      "evidence_files": "papers/paper2_voxel_topology_clogging/tables/paper2_fig3_representative_state_source.csv; papers/paper2_voxel_topology_clogging/tables/paper2_fig4_loading_summary_source.csv; papers/paper2_voxel_topology_clogging/figures/paper2_fig4_loading_clogging_response.pdf",
+      "missing_files": "",
+      "missing_text": "",
+      "boundary": "Supported only for the current DEM parameter window, not a universal no-clogging law."
+    },
+    {
+      "claim_id": "A02_diagnostic_separation",
+      "location": "abstract",
+      "claim": "Outlet breakthrough, local deposition and pore-network degradation are separated as non-equivalent observables.",
+      "status": "supported",
+      "evidence_files": "papers/paper2_voxel_topology_clogging/data/paper2_claim_evidence_ledger.json; papers/paper2_voxel_topology_clogging/tables/paper2_mechanism_evidence_matrix.csv; papers/paper2_voxel_topology_clogging/figures/paper2_figS11_mechanism_evidence_map.pdf",
+      "missing_files": "",
+      "missing_text": "",
+      "boundary": "Diagnostic separation is an interpretation of DEM/voxel evidence, not direct experimental observation."
+    },
+    {
+      "claim_id": "A03_method_object_and_stiff_bed",
+      "location": "abstract",
+      "claim": "The study uses DEM debris tracking and DEM-derived pore reconstruction for a stiff 10,000-pebble Li4SiO4 bed with 1 mm pebbles.",
+      "status": "supported",
+      "evidence_files": "papers/paper2_voxel_topology_clogging/tables/paper2_fig1_baseline_topology_source.csv; papers/paper2_voxel_topology_clogging/data/paper2_claim_evidence_ledger.json; papers/paper2_voxel_topology_clogging/figures/paper2_fig1_voxel_topology_framework.pdf",
+      "missing_files": "",
+      "missing_text": "",
+      "boundary": "DEM-derived pore reconstruction only; not experimental CT."
+    },
+    {
+      "claim_id": "A04_baseline_topology_numbers",
+      "location": "abstract",
+      "claim": "Baseline porosity, largest connected void fraction and box-counting dimension are reported numerically.",
+      "status": "supported",
+      "evidence_files": "papers/paper2_voxel_topology_clogging/tables/paper2_fig1_baseline_topology_source.csv; papers/paper2_voxel_topology_clogging/tables/paper2_fig2_box_counting_source.csv; papers/paper2_voxel_topology_clogging/figures/paper2_fig2_baseline_voxel_topology.pdf",
+      "missing_files": "",
+      "missing_text": "",
+      "boundary": "Voxel-size-dependent topology metrics from the reconstructed DEM bed."
+    },
+    {
+      "claim_id": "A05_drag_response",
+      "location": "abstract",
+      "claim": "Increasing Stokes drag-to-weight ratio shifts debris downstream and raises final BTC from zero to 0.0820.",
+      "status": "supported",
+      "evidence_files": "papers/paper2_voxel_topology_clogging/tables/paper2_fig3_representative_state_source.csv; papers/paper2_voxel_topology_clogging/tables/paper2_mechanism_evidence_matrix.csv; papers/paper2_voxel_topology_clogging/figures/paper2_fig3_representative_debris_blockage.pdf",
+      "missing_files": "",
+      "missing_text": "",
+      "boundary": "Current drag cases only; no local pore-flow solution is claimed."
+    },
+    {
+      "claim_id": "A06_loading_response",
+      "location": "abstract",
+      "claim": "Increasing debris count from 3000 to 10000 raises local blockage while the pressure-free clogging index stays very small.",
+      "status": "supported",
+      "evidence_files": "papers/paper2_voxel_topology_clogging/tables/paper2_fig4_loading_summary_source.csv; papers/paper2_voxel_topology_clogging/tables/paper2_fig4_loading_blockage_source.csv; papers/paper2_voxel_topology_clogging/figures/paper2_fig4_loading_clogging_response.pdf",
+      "missing_files": "",
+      "missing_text": "",
+      "boundary": "Three single-seed loading states; no fitted loading law or critical transition is claimed."
+    },
+    {
+      "claim_id": "A07_pre_clogging_interpretation",
+      "location": "abstract",
+      "claim": "The abstract interprets the studied regime as pre-clogging migration/filtering, where weak breakthrough is a transport signal.",
+      "status": "supported",
+      "evidence_files": "papers/paper2_voxel_topology_clogging/data/paper2_claim_evidence_ledger.json; papers/paper2_voxel_topology_clogging/data/paper2_overclaim_guard.json; papers/paper2_voxel_topology_clogging/figures/paper2_fig1_voxel_topology_framework.pdf",
+      "missing_files": "",
+      "missing_text": "",
+      "boundary": "Interpretation is bounded by DEM conditions and does not establish a validated safety limit."
+    },
+    {
+      "claim_id": "A08_index_scope_and_future_pressure",
+      "location": "abstract",
+      "claim": "The workflow combines local blockage, connected-pore loss and hydraulic consequence rather than relying on BTC alone.",
+      "status": "supported",
+      "evidence_files": "papers/paper2_voxel_topology_clogging/data/paper2_claim_evidence_ledger.json; papers/paper2_voxel_topology_clogging/data/paper2_overclaim_guard.json; papers/paper2_voxel_topology_clogging/tables/paper2_fig4_loading_summary_source.csv",
+      "missing_files": "",
+      "missing_text": "",
+      "boundary": "Pressure response is future/calibration-facing; the current manuscript is not pressure-calibrated."
+    },
+    {
+      "claim_id": "A09_high_inventory_sparse_front",
+      "location": "abstract",
+      "claim": "The high-inventory localized-release case supports sparse-front saturation without outlet crossing while the bulk remains near the source.",
+      "status": "supported",
+      "evidence_files": "papers/paper2_voxel_topology_clogging/tables/paper2_908_spatial_quantiles.csv; papers/paper2_voxel_topology_clogging/tables/paper2_908_population_split_evidence.csv; papers/paper2_voxel_topology_clogging/tables/paper2_908_front_reversal.csv; papers/paper2_voxel_topology_clogging/data/paper2_908_checkpoint_decision.json; papers/paper2_voxel_topology_clogging/figures/paper2_908_spatial_distribution_evidence.pdf",
+      "missing_files": "",
+      "missing_text": "",
+      "boundary": "Target-time high-inventory mechanism evidence; not an outlet-breakthrough or critical-clogging claim."
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "may_insert_into_manuscript": true,
+  "status": "complete_pressure_evidence",
+  "valid_pressure_cases": 3,
+  "expected_handoff_cases": 3,
+  "required_action": "manuscript insertion detected; author review should confirm wording, units and bounded cropped-domain pressure interpretation",
+  "evidence_boundary": "OpenFOAM pressure evidence is inserted in the manuscript with numerical values, supplementary references and non-validation boundary wording.",
+  "manuscript_insertion_audit": {
+    "manuscript_path": "/Users/wangjian-macbook13/Library/CloudStorage/SynologyDrive-mac/\u8bba\u6587\u76f8\u5173/\u5206\u6570\u9636\u6a21\u578b\u7814\u7a76/project/papers/paper2_voxel_topology_clogging/latex/main.tex",
+    "manuscript_found": true,
+    "manuscript_pressure_evidence_inserted": true,
+    "markers": {
+      "openfoam_keyword": true,
+      "pressure_values": true,
+      "relative_increase": true,
+      "supplementary_pressure_figure": true,
+      "supplementary_model_mesh_figure": true,
+      "supplementary_pressure_table": true,
+      "cropped_domain_boundary": true,
+      "not_experimental_validation": true,
+      "not_pressure_calibrated": true
+    },
+    "missing_markers": []
+  },
+  "snippet_path": "/Users/wangjian-macbook13/Library/CloudStorage/SynologyDrive-mac/\u8bba\u6587\u76f8\u5173/\u5206\u6570\u9636\u6a21\u578b\u7814\u7a76/project/papers/paper2_voxel_topology_clogging/notes/openfoam_manuscript_evidence_snippet.md",
+  "source_status": "/Users/wangjian-macbook13/Library/CloudStorage/SynologyDrive-mac/\u8bba\u6587\u76f8\u5173/\u5206\u6570\u9636\u6a21\u578b\u7814\u7a76/project/papers/paper2_voxel_topology_clogging/data/paper2_openfoam_pressure_evidence_summary.json",
+  "source_table": "/Users/wangjian-macbook13/Library/CloudStorage/SynologyDrive-mac/\u8bba\u6587\u76f8\u5173/\u5206\u6570\u9636\u6a21\u578b\u7814\u7a76/project/papers/paper2_voxel_topology_clogging/tables/paper2_openfoam_pressure_evidence_source.csv"
+}

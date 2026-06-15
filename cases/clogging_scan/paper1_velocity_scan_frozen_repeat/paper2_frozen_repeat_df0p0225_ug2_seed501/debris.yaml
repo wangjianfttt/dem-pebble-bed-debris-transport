@@ -1,0 +1,38 @@
+debris_density: 2390.0
+debris_injection_rate: 500000.0
+debris_total_number: 3000
+insertion_mode: rate_region
+insertion_interval_steps: 200
+simulation_time: 0.0405
+output_interval: 81000
+insertion_maxattempt: 50000
+restart_interval: 810000
+drag_axis: x
+drag_model: stokes_addforce
+restart_file: ../../../bed_piston_compaction_li4sio4_1mm_10k_axial_cuboid/li4sio4_1mm_10k_axial_cuboid_piston_compacted.restart
+injection_region:
+  x_min: 0.0005
+  x_max: 0.0015
+  y_min: 0.001
+  y_max: 0.014
+  z_min: 0.001
+  z_max: 0.0125
+injection_velocity:
+  vx: 0.02
+  vy: 0.0
+  vz: 0.0
+df_over_dp: 0.0225
+gas_velocity: 2.0
+seed_offset: 501
+case_name: paper2_frozen_repeat_df0p0225_ug2_seed501
+restart_prefix: paper2_frozen_repeat_df0p0225_ug2_seed501
+dump_file_all: paper2_frozen_repeat_df0p0225_ug2_seed501_all_*.dump
+dump_file_debris: paper2_frozen_repeat_df0p0225_ug2_seed501_type2_*.dump
+log_file: paper2_frozen_repeat_df0p0225_ug2_seed501.log
+restart_out: paper2_frozen_repeat_df0p0225_ug2_seed501.restart
+notes:
+  role: Paper 2 formal frozen-bed near-threshold repeat seed.
+  priority: formal_repeat_seed
+  reason: Quantify near-threshold stochasticity for df/dp=0.0225, ug=2.0 m/s.
+  physical_constraint: Physical Stokes drag; fixed large-pebble restart; no artificial
+    drag multiplier.

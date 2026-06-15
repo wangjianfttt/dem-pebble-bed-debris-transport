@@ -1,0 +1,24 @@
+{
+  "summary": {
+    "case_count": 9,
+    "case_group_counts": {
+      "drive scan": 3,
+      "loading scan": 3,
+      "localized release": 3
+    },
+    "metric_count": 8,
+    "connectivity_loss_max": 0.0,
+    "localized_highest_front_gap_case": "908 high inventory",
+    "localized_highest_release_case": "907 downstream",
+    "loading_highest_pressure_case": "N=10000",
+    "loading_highest_blockage_case": "N=10000",
+    "localized_release_front_gap_spearman": -1.0,
+    "loading_inventory_blockage_spearman": 1.0,
+    "loading_inventory_pressure_spearman": 1.0,
+    "drive_drag_btc_spearman": 1.0,
+    "claim_boundary": "Derived cross-observable synthesis of existing DEM and voxel post-processing outputs. It supports mechanism separation only; it is not a fitted response law, not a completed BTC for the high-inventory case, not CFD validation and not a pressure-calibrated critical-clogging criterion."
+  },
+  "case_table": "papers/paper2_voxel_topology_clogging/tables/paper2_observable_response_cases.csv",
+  "response_table": "papers/paper2_voxel_topology_clogging/tables/paper2_observable_response_summary.csv",
+  "figure": "papers/paper2_voxel_topology_clogging/figures/paper2_figS21_observable_response_map.pdf"
+}

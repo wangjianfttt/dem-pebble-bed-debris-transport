@@ -1,0 +1,18 @@
+{
+  "frame_count": 46,
+  "first_step": 20000,
+  "final_step": 1990000,
+  "final_time_s": 0.01,
+  "final_n": 30000,
+  "final_x_p50_over_L": 0.34549222222222226,
+  "final_x_p90_over_L": 0.40021999999999996,
+  "final_x_p99_over_L": 0.42015626666666656,
+  "final_x_p999_over_L": 0.6437581022222232,
+  "final_x_max_over_L": 0.9945955555555556,
+  "final_fraction_x_gt_0p60": 0.0012666666666666666,
+  "final_fraction_x_gt_0p80": 0.00046666666666666666,
+  "final_fraction_x_gt_0p95": 6.666666666666667e-05,
+  "final_fraction_x_ge_1p00": 0.0,
+  "tail_fraction_95_to_100_over_L": 6.666666666666667e-05,
+  "claim_boundary": "Spatial distribution evidence supports sparse-front transport and retained-bulk separation; outlet breakthrough requires fraction_x_ge_1p00 > 0."
+}

@@ -1,0 +1,2 @@
+case_name,status,type2_dump_count,all_dump_count,expected_dump_frames,latest_type2_timestep,final_restart_exists,final_marker_seen,reasons
+paper2_phase2_load6000_df0p0225_ug2_seed501,partial,9,9,50,12717000,False,False,"['final restart is not collected yet', 'type2 dump count 9 < expected 50', 'final log marker not seen yet']"

@@ -1,0 +1,31 @@
+{
+  "crop_manifest": "papers/paper2_voxel_topology_clogging/tables/paper2_cropped_flow_domain_manifest.csv",
+  "resistance_mapping": "R_eff=1+factor*(R-1); g=1/R_eff",
+  "amplification_factors": [
+    1.0,
+    3.0,
+    10.0,
+    30.0,
+    100.0,
+    300.0
+  ],
+  "cases": 3,
+  "rows": 18,
+  "min_local_conductance_loss": 1.5212152160937187e-05,
+  "max_local_conductance_loss": 0.014976001743872924,
+  "case_loss_ranges": {
+    "3000": {
+      "min": 1.5212152160937187e-05,
+      "max": 0.004542923904185203
+    },
+    "6000": {
+      "min": 3.037640241665418e-05,
+      "max": 0.009030744776051702
+    },
+    "10000": {
+      "min": 5.0677730004444754e-05,
+      "max": 0.014976001743872924
+    }
+  },
+  "evidence_boundary": "Reduced 3D resistance sensitivity only; no CFD/LBM solver was run."
+}

@@ -1,0 +1,46 @@
+{
+  "source": "Xie, Wang and Shen, Chemical Engineering Science 231 (2021) 116261",
+  "source_doi": "10.1016/j.ces.2020.116261",
+  "source_figure": "Fig. 21",
+  "source_page": 16,
+  "render_resolution_dpi": 300,
+  "method": "cyan-bar pixel height normalized by the r/R=0.25 full-scale bar",
+  "rows": [
+    {
+      "size_ratio_r_over_R": 0.1,
+      "retained_fraction_digitized": 0.014285714285714285,
+      "bar_x0_px": 402,
+      "bar_x1_px": 495,
+      "bar_top_y_px": 1857,
+      "bar_bottom_y_px": 1864,
+      "cyan_pixel_count": 752
+    },
+    {
+      "size_ratio_r_over_R": 0.15,
+      "retained_fraction_digitized": 0.6321428571428571,
+      "bar_x0_px": 594,
+      "bar_x1_px": 687,
+      "bar_top_y_px": 1511,
+      "bar_bottom_y_px": 1864,
+      "cyan_pixel_count": 33276
+    },
+    {
+      "size_ratio_r_over_R": 0.2,
+      "retained_fraction_digitized": 0.9892857142857143,
+      "bar_x0_px": 786,
+      "bar_x1_px": 879,
+      "bar_top_y_px": 1311,
+      "bar_bottom_y_px": 1864,
+      "cyan_pixel_count": 52076
+    },
+    {
+      "size_ratio_r_over_R": 0.25,
+      "retained_fraction_digitized": 1.0,
+      "bar_x0_px": 978,
+      "bar_x1_px": 1071,
+      "bar_top_y_px": 1305,
+      "bar_bottom_y_px": 1864,
+      "cyan_pixel_count": 52640
+    }
+  ]
+}

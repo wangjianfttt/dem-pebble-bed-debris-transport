@@ -1,6 +1,7 @@
 # Repository Manifest
 
-This repository is a lightweight public deposit assembled from the Paper 2 project workspace.
+This repository contains a lightweight Paper 2 deposit and a separate minimal
+Paper 3 code/processed-data directory.
 
 - Files: 438 at initial upload.
 - Approximate size: 41 MB.
@@ -9,5 +10,7 @@ This repository is a lightweight public deposit assembled from the Paper 2 proje
 - Compiled manuscript preview: `papers/paper2_voxel_topology_clogging/latex/main.pdf`
 - Main figure source tables: `papers/paper2_voxel_topology_clogging/tables/`
 - Shared analysis code: `src/`
+- Minimal Paper 3 package: `paper3_minimal/`
+- Paper 3 manuscripts, figures and raw solver outputs: excluded
 
 Use `git tag v1.0.0-ces-submission` for the first review-ready release.

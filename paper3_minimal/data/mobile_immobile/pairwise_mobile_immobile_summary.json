@@ -1,0 +1,980 @@
+{
+  "status": "complete",
+  "model_version": 3,
+  "eligible_group_count": 4,
+  "groups_with_two_or_more_releases": 4,
+  "eligible_case_count": 12,
+  "input_signature_count": 24,
+  "input_signatures": [
+    {
+      "gas_velocity_m_s": 0.1,
+      "df_over_dp": 0.05,
+      "training_release_seed": 20260713,
+      "prediction_release_seed": 20260714,
+      "input_signature": {
+        "training_trajectories": [
+          {
+            "name": "particle_trajectories.csv.gz",
+            "sha256": "36534efa6a9783db4e7539e5d690b9c0d3ceaeb54b5878b4c0e8a52eb9980679"
+          }
+        ],
+        "training_waiting_fits": [
+          {
+            "name": "model_fits.json",
+            "sha256": "6dcb4368e49419c24cf1528d8701fdbecc09bf857a8f437e3deeef1bc8ed26f9"
+          }
+        ],
+        "training_metadata": [
+          {
+            "name": "metadata.json",
+            "sha256": "399a029b69273d06d49b6d67360db3041d157a3d2e657adaca41d4a63dcfe6d0"
+          }
+        ],
+        "prediction_trajectory": {
+          "name": "particle_trajectories.csv.gz",
+          "sha256": "22b55805111c68207aeae1a891339ffb92a40fa9441d2da580bb786869e644a2"
+        },
+        "prediction_metadata": {
+          "name": "metadata.json",
+          "sha256": "2963aae8e33258b4b25864d76e5d221b17343a1051f50e8a9cfd29b9f8d694e2"
+        },
+        "config": {
+          "name": "ces_reviewer_revision.yaml",
+          "sha256": "70910b6dc398dc89dd24573b9f125e1ab724cf4ad43794a89864fd4d85b853dc"
+        }
+      }
+    },
+    {
+      "gas_velocity_m_s": 0.1,
+      "df_over_dp": 0.05,
+      "training_release_seed": 20260713,
+      "prediction_release_seed": 20260715,
+      "input_signature": {
+        "training_trajectories": [
+          {
+            "name": "particle_trajectories.csv.gz",
+            "sha256": "36534efa6a9783db4e7539e5d690b9c0d3ceaeb54b5878b4c0e8a52eb9980679"
+          }
+        ],
+        "training_waiting_fits": [
+          {
+            "name": "model_fits.json",
+            "sha256": "6dcb4368e49419c24cf1528d8701fdbecc09bf857a8f437e3deeef1bc8ed26f9"
+          }
+        ],
+        "training_metadata": [
+          {
+            "name": "metadata.json",
+            "sha256": "399a029b69273d06d49b6d67360db3041d157a3d2e657adaca41d4a63dcfe6d0"
+          }
+        ],
+        "prediction_trajectory": {
+          "name": "particle_trajectories.csv.gz",
+          "sha256": "0c157874621e5953d32e7178c535e0dafb92b3f547d0ede0893d25cc553818c4"
+        },
+        "prediction_metadata": {
+          "name": "metadata.json",
+          "sha256": "ac9db4ddf6fdf709386c4c7b6467fbcfeada88cbb317174f8d532546d6a45cc0"
+        },
+        "config": {
+          "name": "ces_reviewer_revision.yaml",
+          "sha256": "70910b6dc398dc89dd24573b9f125e1ab724cf4ad43794a89864fd4d85b853dc"
+        }
+      }
+    },
+    {
+      "gas_velocity_m_s": 0.1,
+      "df_over_dp": 0.05,
+      "training_release_seed": 20260714,
+      "prediction_release_seed": 20260713,
+      "input_signature": {
+        "training_trajectories": [
+          {
+            "name": "particle_trajectories.csv.gz",
+            "sha256": "22b55805111c68207aeae1a891339ffb92a40fa9441d2da580bb786869e644a2"
+          }
+        ],
+        "training_waiting_fits": [
+          {
+            "name": "model_fits.json",
+            "sha256": "3f32ffa8a492b1848f9963397c80beaa4da37e4c7c87f7510499ff91a80d1586"
+          }
+        ],
+        "training_metadata": [
+          {
+            "name": "metadata.json",
+            "sha256": "2963aae8e33258b4b25864d76e5d221b17343a1051f50e8a9cfd29b9f8d694e2"
+          }
+        ],
+        "prediction_trajectory": {
+          "name": "particle_trajectories.csv.gz",
+          "sha256": "36534efa6a9783db4e7539e5d690b9c0d3ceaeb54b5878b4c0e8a52eb9980679"
+        },
+        "prediction_metadata": {
+          "name": "metadata.json",
+          "sha256": "399a029b69273d06d49b6d67360db3041d157a3d2e657adaca41d4a63dcfe6d0"
+        },
+        "config": {
+          "name": "ces_reviewer_revision.yaml",
+          "sha256": "70910b6dc398dc89dd24573b9f125e1ab724cf4ad43794a89864fd4d85b853dc"
+        }
+      }
+    },
+    {
+      "gas_velocity_m_s": 0.1,
+      "df_over_dp": 0.05,
+      "training_release_seed": 20260714,
+      "prediction_release_seed": 20260715,
+      "input_signature": {
+        "training_trajectories": [
+          {
+            "name": "particle_trajectories.csv.gz",
+            "sha256": "22b55805111c68207aeae1a891339ffb92a40fa9441d2da580bb786869e644a2"
+          }
+        ],
+        "training_waiting_fits": [
+          {
+            "name": "model_fits.json",
+            "sha256": "3f32ffa8a492b1848f9963397c80beaa4da37e4c7c87f7510499ff91a80d1586"
+          }
+        ],
+        "training_metadata": [
+          {
+            "name": "metadata.json",
+            "sha256": "2963aae8e33258b4b25864d76e5d221b17343a1051f50e8a9cfd29b9f8d694e2"
+          }
+        ],
+        "prediction_trajectory": {
+          "name": "particle_trajectories.csv.gz",
+          "sha256": "0c157874621e5953d32e7178c535e0dafb92b3f547d0ede0893d25cc553818c4"
+        },
+        "prediction_metadata": {
+          "name": "metadata.json",
+          "sha256": "ac9db4ddf6fdf709386c4c7b6467fbcfeada88cbb317174f8d532546d6a45cc0"
+        },
+        "config": {
+          "name": "ces_reviewer_revision.yaml",
+          "sha256": "70910b6dc398dc89dd24573b9f125e1ab724cf4ad43794a89864fd4d85b853dc"
+        }
+      }
+    },
+    {
+      "gas_velocity_m_s": 0.1,
+      "df_over_dp": 0.05,
+      "training_release_seed": 20260715,
+      "prediction_release_seed": 20260713,
+      "input_signature": {
+        "training_trajectories": [
+          {
+            "name": "particle_trajectories.csv.gz",
+            "sha256": "0c157874621e5953d32e7178c535e0dafb92b3f547d0ede0893d25cc553818c4"
+          }
+        ],
+        "training_waiting_fits": [
+          {
+            "name": "model_fits.json",
+            "sha256": "96042e91d8bfa3a9051628586de694c0f1d22749aea12441052d1aa0a5980f01"
+          }
+        ],
+        "training_metadata": [
+          {
+            "name": "metadata.json",
+            "sha256": "ac9db4ddf6fdf709386c4c7b6467fbcfeada88cbb317174f8d532546d6a45cc0"
+          }
+        ],
+        "prediction_trajectory": {
+          "name": "particle_trajectories.csv.gz",
+          "sha256": "36534efa6a9783db4e7539e5d690b9c0d3ceaeb54b5878b4c0e8a52eb9980679"
+        },
+        "prediction_metadata": {
+          "name": "metadata.json",
+          "sha256": "399a029b69273d06d49b6d67360db3041d157a3d2e657adaca41d4a63dcfe6d0"
+        },
+        "config": {
+          "name": "ces_reviewer_revision.yaml",
+          "sha256": "70910b6dc398dc89dd24573b9f125e1ab724cf4ad43794a89864fd4d85b853dc"
+        }
+      }
+    },
+    {
+      "gas_velocity_m_s": 0.1,
+      "df_over_dp": 0.05,
+      "training_release_seed": 20260715,
+      "prediction_release_seed": 20260714,
+      "input_signature": {
+        "training_trajectories": [
+          {
+            "name": "particle_trajectories.csv.gz",
+            "sha256": "0c157874621e5953d32e7178c535e0dafb92b3f547d0ede0893d25cc553818c4"
+          }
+        ],
+        "training_waiting_fits": [
+          {
+            "name": "model_fits.json",
+            "sha256": "96042e91d8bfa3a9051628586de694c0f1d22749aea12441052d1aa0a5980f01"
+          }
+        ],
+        "training_metadata": [
+          {
+            "name": "metadata.json",
+            "sha256": "ac9db4ddf6fdf709386c4c7b6467fbcfeada88cbb317174f8d532546d6a45cc0"
+          }
+        ],
+        "prediction_trajectory": {
+          "name": "particle_trajectories.csv.gz",
+          "sha256": "22b55805111c68207aeae1a891339ffb92a40fa9441d2da580bb786869e644a2"
+        },
+        "prediction_metadata": {
+          "name": "metadata.json",
+          "sha256": "2963aae8e33258b4b25864d76e5d221b17343a1051f50e8a9cfd29b9f8d694e2"
+        },
+        "config": {
+          "name": "ces_reviewer_revision.yaml",
+          "sha256": "70910b6dc398dc89dd24573b9f125e1ab724cf4ad43794a89864fd4d85b853dc"
+        }
+      }
+    },
+    {
+      "gas_velocity_m_s": 0.1,
+      "df_over_dp": 0.1,
+      "training_release_seed": 20260713,
+      "prediction_release_seed": 20260714,
+      "input_signature": {
+        "training_trajectories": [
+          {
+            "name": "particle_trajectories.csv.gz",
+            "sha256": "36beea21c3683371fd540f645825e8959fc3ccf364eb71682ce3062bbca9f927"
+          }
+        ],
+        "training_waiting_fits": [
+          {
+            "name": "model_fits.json",
+            "sha256": "48d1ad18d787526074adb3d9ee58c0148ad021b5ce65b6efa79b35889fcd31a6"
+          }
+        ],
+        "training_metadata": [
+          {
+            "name": "metadata.json",
+            "sha256": "e05457bf67a79b681ebb216b2a779e94c2efdbced05921ab52fe3a21cc87757c"
+          }
+        ],
+        "prediction_trajectory": {
+          "name": "particle_trajectories.csv.gz",
+          "sha256": "61f7e0eee8c5d0f3f3d247fa08be698a97d14cea2b7d4f34a5620902dd4ec643"
+        },
+        "prediction_metadata": {
+          "name": "metadata.json",
+          "sha256": "c128f2bb28797f5c4a21f7e6e3d92812b819e3e9b61248b9c8183816141a81cf"
+        },
+        "config": {
+          "name": "ces_reviewer_revision.yaml",
+          "sha256": "70910b6dc398dc89dd24573b9f125e1ab724cf4ad43794a89864fd4d85b853dc"
+        }
+      }
+    },
+    {
+      "gas_velocity_m_s": 0.1,
+      "df_over_dp": 0.1,
+      "training_release_seed": 20260713,
+      "prediction_release_seed": 20260715,
+      "input_signature": {
+        "training_trajectories": [
+          {
+            "name": "particle_trajectories.csv.gz",
+            "sha256": "36beea21c3683371fd540f645825e8959fc3ccf364eb71682ce3062bbca9f927"
+          }
+        ],
+        "training_waiting_fits": [
+          {
+            "name": "model_fits.json",
+            "sha256": "48d1ad18d787526074adb3d9ee58c0148ad021b5ce65b6efa79b35889fcd31a6"
+          }
+        ],
+        "training_metadata": [
+          {
+            "name": "metadata.json",
+            "sha256": "e05457bf67a79b681ebb216b2a779e94c2efdbced05921ab52fe3a21cc87757c"
+          }
+        ],
+        "prediction_trajectory": {
+          "name": "particle_trajectories.csv.gz",
+          "sha256": "5f7ab52ea0b12802680296c60a5356a1296ed131239cb6319db1a1bdce379f8e"
+        },
+        "prediction_metadata": {
+          "name": "metadata.json",
+          "sha256": "f77db7c233ced31b5bb890d434844bc34d155a7f4592c41a19be14cf1d5e846f"
+        },
+        "config": {
+          "name": "ces_reviewer_revision.yaml",
+          "sha256": "70910b6dc398dc89dd24573b9f125e1ab724cf4ad43794a89864fd4d85b853dc"
+        }
+      }
+    },
+    {
+      "gas_velocity_m_s": 0.1,
+      "df_over_dp": 0.1,
+      "training_release_seed": 20260714,
+      "prediction_release_seed": 20260713,
+      "input_signature": {
+        "training_trajectories": [
+          {
+            "name": "particle_trajectories.csv.gz",
+            "sha256": "61f7e0eee8c5d0f3f3d247fa08be698a97d14cea2b7d4f34a5620902dd4ec643"
+          }
+        ],
+        "training_waiting_fits": [
+          {
+            "name": "model_fits.json",
+            "sha256": "98c48f47b38b7514a8029922929e7b8b571df3962b8a3d0402bf4032fe6b8f8b"
+          }
+        ],
+        "training_metadata": [
+          {
+            "name": "metadata.json",
+            "sha256": "c128f2bb28797f5c4a21f7e6e3d92812b819e3e9b61248b9c8183816141a81cf"
+          }
+        ],
+        "prediction_trajectory": {
+          "name": "particle_trajectories.csv.gz",
+          "sha256": "36beea21c3683371fd540f645825e8959fc3ccf364eb71682ce3062bbca9f927"
+        },
+        "prediction_metadata": {
+          "name": "metadata.json",
+          "sha256": "e05457bf67a79b681ebb216b2a779e94c2efdbced05921ab52fe3a21cc87757c"
+        },
+        "config": {
+          "name": "ces_reviewer_revision.yaml",
+          "sha256": "70910b6dc398dc89dd24573b9f125e1ab724cf4ad43794a89864fd4d85b853dc"
+        }
+      }
+    },
+    {
+      "gas_velocity_m_s": 0.1,
+      "df_over_dp": 0.1,
+      "training_release_seed": 20260714,
+      "prediction_release_seed": 20260715,
+      "input_signature": {
+        "training_trajectories": [
+          {
+            "name": "particle_trajectories.csv.gz",
+            "sha256": "61f7e0eee8c5d0f3f3d247fa08be698a97d14cea2b7d4f34a5620902dd4ec643"
+          }
+        ],
+        "training_waiting_fits": [
+          {
+            "name": "model_fits.json",
+            "sha256": "98c48f47b38b7514a8029922929e7b8b571df3962b8a3d0402bf4032fe6b8f8b"
+          }
+        ],
+        "training_metadata": [
+          {
+            "name": "metadata.json",
+            "sha256": "c128f2bb28797f5c4a21f7e6e3d92812b819e3e9b61248b9c8183816141a81cf"
+          }
+        ],
+        "prediction_trajectory": {
+          "name": "particle_trajectories.csv.gz",
+          "sha256": "5f7ab52ea0b12802680296c60a5356a1296ed131239cb6319db1a1bdce379f8e"
+        },
+        "prediction_metadata": {
+          "name": "metadata.json",
+          "sha256": "f77db7c233ced31b5bb890d434844bc34d155a7f4592c41a19be14cf1d5e846f"
+        },
+        "config": {
+          "name": "ces_reviewer_revision.yaml",
+          "sha256": "70910b6dc398dc89dd24573b9f125e1ab724cf4ad43794a89864fd4d85b853dc"
+        }
+      }
+    },
+    {
+      "gas_velocity_m_s": 0.1,
+      "df_over_dp": 0.1,
+      "training_release_seed": 20260715,
+      "prediction_release_seed": 20260713,
+      "input_signature": {
+        "training_trajectories": [
+          {
+            "name": "particle_trajectories.csv.gz",
+            "sha256": "5f7ab52ea0b12802680296c60a5356a1296ed131239cb6319db1a1bdce379f8e"
+          }
+        ],
+        "training_waiting_fits": [
+          {
+            "name": "model_fits.json",
+            "sha256": "80d5fe5c0f12bfc212ab92f033c4ce3b7de43beaa7831761fd6c36e84a6c2418"
+          }
+        ],
+        "training_metadata": [
+          {
+            "name": "metadata.json",
+            "sha256": "f77db7c233ced31b5bb890d434844bc34d155a7f4592c41a19be14cf1d5e846f"
+          }
+        ],
+        "prediction_trajectory": {
+          "name": "particle_trajectories.csv.gz",
+          "sha256": "36beea21c3683371fd540f645825e8959fc3ccf364eb71682ce3062bbca9f927"
+        },
+        "prediction_metadata": {
+          "name": "metadata.json",
+          "sha256": "e05457bf67a79b681ebb216b2a779e94c2efdbced05921ab52fe3a21cc87757c"
+        },
+        "config": {
+          "name": "ces_reviewer_revision.yaml",
+          "sha256": "70910b6dc398dc89dd24573b9f125e1ab724cf4ad43794a89864fd4d85b853dc"
+        }
+      }
+    },
+    {
+      "gas_velocity_m_s": 0.1,
+      "df_over_dp": 0.1,
+      "training_release_seed": 20260715,
+      "prediction_release_seed": 20260714,
+      "input_signature": {
+        "training_trajectories": [
+          {
+            "name": "particle_trajectories.csv.gz",
+            "sha256": "5f7ab52ea0b12802680296c60a5356a1296ed131239cb6319db1a1bdce379f8e"
+          }
+        ],
+        "training_waiting_fits": [
+          {
+            "name": "model_fits.json",
+            "sha256": "80d5fe5c0f12bfc212ab92f033c4ce3b7de43beaa7831761fd6c36e84a6c2418"
+          }
+        ],
+        "training_metadata": [
+          {
+            "name": "metadata.json",
+            "sha256": "f77db7c233ced31b5bb890d434844bc34d155a7f4592c41a19be14cf1d5e846f"
+          }
+        ],
+        "prediction_trajectory": {
+          "name": "particle_trajectories.csv.gz",
+          "sha256": "61f7e0eee8c5d0f3f3d247fa08be698a97d14cea2b7d4f34a5620902dd4ec643"
+        },
+        "prediction_metadata": {
+          "name": "metadata.json",
+          "sha256": "c128f2bb28797f5c4a21f7e6e3d92812b819e3e9b61248b9c8183816141a81cf"
+        },
+        "config": {
+          "name": "ces_reviewer_revision.yaml",
+          "sha256": "70910b6dc398dc89dd24573b9f125e1ab724cf4ad43794a89864fd4d85b853dc"
+        }
+      }
+    },
+    {
+      "gas_velocity_m_s": 0.2,
+      "df_over_dp": 0.05,
+      "training_release_seed": 20260713,
+      "prediction_release_seed": 20260714,
+      "input_signature": {
+        "training_trajectories": [
+          {
+            "name": "particle_trajectories.csv.gz",
+            "sha256": "a4255c316759701686b5b4adf10be83e9217c170022a234bac9c115e3812d7b7"
+          }
+        ],
+        "training_waiting_fits": [
+          {
+            "name": "model_fits.json",
+            "sha256": "112e04456d731768bc5da93bf082363c3aa19e88637b01eea9a35ac498501f94"
+          }
+        ],
+        "training_metadata": [
+          {
+            "name": "metadata.json",
+            "sha256": "7a999974059855a9e6dad2effe3b3c92c00c6292c76618b1bb450bf84b06cf55"
+          }
+        ],
+        "prediction_trajectory": {
+          "name": "particle_trajectories.csv.gz",
+          "sha256": "40bac2f3eedfc814193c7bf9c786d0ddd2d57b8f4cb296899f2cb20a81e6715f"
+        },
+        "prediction_metadata": {
+          "name": "metadata.json",
+          "sha256": "1ceda7e82b4784a23c2938055f4f72e42ecb4795a4c830b2024e218cfdf2613d"
+        },
+        "config": {
+          "name": "ces_reviewer_revision.yaml",
+          "sha256": "70910b6dc398dc89dd24573b9f125e1ab724cf4ad43794a89864fd4d85b853dc"
+        }
+      }
+    },
+    {
+      "gas_velocity_m_s": 0.2,
+      "df_over_dp": 0.05,
+      "training_release_seed": 20260713,
+      "prediction_release_seed": 20260715,
+      "input_signature": {
+        "training_trajectories": [
+          {
+            "name": "particle_trajectories.csv.gz",
+            "sha256": "a4255c316759701686b5b4adf10be83e9217c170022a234bac9c115e3812d7b7"
+          }
+        ],
+        "training_waiting_fits": [
+          {
+            "name": "model_fits.json",
+            "sha256": "112e04456d731768bc5da93bf082363c3aa19e88637b01eea9a35ac498501f94"
+          }
+        ],
+        "training_metadata": [
+          {
+            "name": "metadata.json",
+            "sha256": "7a999974059855a9e6dad2effe3b3c92c00c6292c76618b1bb450bf84b06cf55"
+          }
+        ],
+        "prediction_trajectory": {
+          "name": "particle_trajectories.csv.gz",
+          "sha256": "e62b58d2e18d2714985cdd2bdcd7e927587cc41694c89a27a43f553c258570bc"
+        },
+        "prediction_metadata": {
+          "name": "metadata.json",
+          "sha256": "877de5a534253e4d65b82e03c819dcc526b05378eaa293d0dd4d971ee3e68501"
+        },
+        "config": {
+          "name": "ces_reviewer_revision.yaml",
+          "sha256": "70910b6dc398dc89dd24573b9f125e1ab724cf4ad43794a89864fd4d85b853dc"
+        }
+      }
+    },
+    {
+      "gas_velocity_m_s": 0.2,
+      "df_over_dp": 0.05,
+      "training_release_seed": 20260714,
+      "prediction_release_seed": 20260713,
+      "input_signature": {
+        "training_trajectories": [
+          {
+            "name": "particle_trajectories.csv.gz",
+            "sha256": "40bac2f3eedfc814193c7bf9c786d0ddd2d57b8f4cb296899f2cb20a81e6715f"
+          }
+        ],
+        "training_waiting_fits": [
+          {
+            "name": "model_fits.json",
+            "sha256": "54a606bab13abb8b6a70e365a608d6d1a7fe8379366d55ac60153eb5070a83d9"
+          }
+        ],
+        "training_metadata": [
+          {
+            "name": "metadata.json",
+            "sha256": "1ceda7e82b4784a23c2938055f4f72e42ecb4795a4c830b2024e218cfdf2613d"
+          }
+        ],
+        "prediction_trajectory": {
+          "name": "particle_trajectories.csv.gz",
+          "sha256": "a4255c316759701686b5b4adf10be83e9217c170022a234bac9c115e3812d7b7"
+        },
+        "prediction_metadata": {
+          "name": "metadata.json",
+          "sha256": "7a999974059855a9e6dad2effe3b3c92c00c6292c76618b1bb450bf84b06cf55"
+        },
+        "config": {
+          "name": "ces_reviewer_revision.yaml",
+          "sha256": "70910b6dc398dc89dd24573b9f125e1ab724cf4ad43794a89864fd4d85b853dc"
+        }
+      }
+    },
+    {
+      "gas_velocity_m_s": 0.2,
+      "df_over_dp": 0.05,
+      "training_release_seed": 20260714,
+      "prediction_release_seed": 20260715,
+      "input_signature": {
+        "training_trajectories": [
+          {
+            "name": "particle_trajectories.csv.gz",
+            "sha256": "40bac2f3eedfc814193c7bf9c786d0ddd2d57b8f4cb296899f2cb20a81e6715f"
+          }
+        ],
+        "training_waiting_fits": [
+          {
+            "name": "model_fits.json",
+            "sha256": "54a606bab13abb8b6a70e365a608d6d1a7fe8379366d55ac60153eb5070a83d9"
+          }
+        ],
+        "training_metadata": [
+          {
+            "name": "metadata.json",
+            "sha256": "1ceda7e82b4784a23c2938055f4f72e42ecb4795a4c830b2024e218cfdf2613d"
+          }
+        ],
+        "prediction_trajectory": {
+          "name": "particle_trajectories.csv.gz",
+          "sha256": "e62b58d2e18d2714985cdd2bdcd7e927587cc41694c89a27a43f553c258570bc"
+        },
+        "prediction_metadata": {
+          "name": "metadata.json",
+          "sha256": "877de5a534253e4d65b82e03c819dcc526b05378eaa293d0dd4d971ee3e68501"
+        },
+        "config": {
+          "name": "ces_reviewer_revision.yaml",
+          "sha256": "70910b6dc398dc89dd24573b9f125e1ab724cf4ad43794a89864fd4d85b853dc"
+        }
+      }
+    },
+    {
+      "gas_velocity_m_s": 0.2,
+      "df_over_dp": 0.05,
+      "training_release_seed": 20260715,
+      "prediction_release_seed": 20260713,
+      "input_signature": {
+        "training_trajectories": [
+          {
+            "name": "particle_trajectories.csv.gz",
+            "sha256": "e62b58d2e18d2714985cdd2bdcd7e927587cc41694c89a27a43f553c258570bc"
+          }
+        ],
+        "training_waiting_fits": [
+          {
+            "name": "model_fits.json",
+            "sha256": "f9126ebef870ff764cf9da33e51477e4267785643e4615cdc05ef9a6c6dd564f"
+          }
+        ],
+        "training_metadata": [
+          {
+            "name": "metadata.json",
+            "sha256": "877de5a534253e4d65b82e03c819dcc526b05378eaa293d0dd4d971ee3e68501"
+          }
+        ],
+        "prediction_trajectory": {
+          "name": "particle_trajectories.csv.gz",
+          "sha256": "a4255c316759701686b5b4adf10be83e9217c170022a234bac9c115e3812d7b7"
+        },
+        "prediction_metadata": {
+          "name": "metadata.json",
+          "sha256": "7a999974059855a9e6dad2effe3b3c92c00c6292c76618b1bb450bf84b06cf55"
+        },
+        "config": {
+          "name": "ces_reviewer_revision.yaml",
+          "sha256": "70910b6dc398dc89dd24573b9f125e1ab724cf4ad43794a89864fd4d85b853dc"
+        }
+      }
+    },
+    {
+      "gas_velocity_m_s": 0.2,
+      "df_over_dp": 0.05,
+      "training_release_seed": 20260715,
+      "prediction_release_seed": 20260714,
+      "input_signature": {
+        "training_trajectories": [
+          {
+            "name": "particle_trajectories.csv.gz",
+            "sha256": "e62b58d2e18d2714985cdd2bdcd7e927587cc41694c89a27a43f553c258570bc"
+          }
+        ],
+        "training_waiting_fits": [
+          {
+            "name": "model_fits.json",
+            "sha256": "f9126ebef870ff764cf9da33e51477e4267785643e4615cdc05ef9a6c6dd564f"
+          }
+        ],
+        "training_metadata": [
+          {
+            "name": "metadata.json",
+            "sha256": "877de5a534253e4d65b82e03c819dcc526b05378eaa293d0dd4d971ee3e68501"
+          }
+        ],
+        "prediction_trajectory": {
+          "name": "particle_trajectories.csv.gz",
+          "sha256": "40bac2f3eedfc814193c7bf9c786d0ddd2d57b8f4cb296899f2cb20a81e6715f"
+        },
+        "prediction_metadata": {
+          "name": "metadata.json",
+          "sha256": "1ceda7e82b4784a23c2938055f4f72e42ecb4795a4c830b2024e218cfdf2613d"
+        },
+        "config": {
+          "name": "ces_reviewer_revision.yaml",
+          "sha256": "70910b6dc398dc89dd24573b9f125e1ab724cf4ad43794a89864fd4d85b853dc"
+        }
+      }
+    },
+    {
+      "gas_velocity_m_s": 0.2,
+      "df_over_dp": 0.1,
+      "training_release_seed": 20260713,
+      "prediction_release_seed": 20260714,
+      "input_signature": {
+        "training_trajectories": [
+          {
+            "name": "particle_trajectories.csv.gz",
+            "sha256": "76937f502a72e3c9b4800b6ab8c80d9858be74b0527654e2e23f5c6288790a1f"
+          }
+        ],
+        "training_waiting_fits": [
+          {
+            "name": "model_fits.json",
+            "sha256": "6908f76c50f7b9c0e0d614a89a1ecc9bf01faf93b2c6c2616c03aabde3ca6b93"
+          }
+        ],
+        "training_metadata": [
+          {
+            "name": "metadata.json",
+            "sha256": "ccf5ded8d13bf8f237b7640c66e9fb85bf9798051299676f96c5c8d131157213"
+          }
+        ],
+        "prediction_trajectory": {
+          "name": "particle_trajectories.csv.gz",
+          "sha256": "619979500cba34bbde32eb2e76dc3e57034284053fc7f7d565f88464e93e3586"
+        },
+        "prediction_metadata": {
+          "name": "metadata.json",
+          "sha256": "257a52256f32217cce503fe141f2d6548fc65204e67a4a0d2d4d40c8abb496f8"
+        },
+        "config": {
+          "name": "ces_reviewer_revision.yaml",
+          "sha256": "70910b6dc398dc89dd24573b9f125e1ab724cf4ad43794a89864fd4d85b853dc"
+        }
+      }
+    },
+    {
+      "gas_velocity_m_s": 0.2,
+      "df_over_dp": 0.1,
+      "training_release_seed": 20260713,
+      "prediction_release_seed": 20260715,
+      "input_signature": {
+        "training_trajectories": [
+          {
+            "name": "particle_trajectories.csv.gz",
+            "sha256": "76937f502a72e3c9b4800b6ab8c80d9858be74b0527654e2e23f5c6288790a1f"
+          }
+        ],
+        "training_waiting_fits": [
+          {
+            "name": "model_fits.json",
+            "sha256": "6908f76c50f7b9c0e0d614a89a1ecc9bf01faf93b2c6c2616c03aabde3ca6b93"
+          }
+        ],
+        "training_metadata": [
+          {
+            "name": "metadata.json",
+            "sha256": "ccf5ded8d13bf8f237b7640c66e9fb85bf9798051299676f96c5c8d131157213"
+          }
+        ],
+        "prediction_trajectory": {
+          "name": "particle_trajectories.csv.gz",
+          "sha256": "22c5f12df7185626a11736dd4f71dccbc94159d91158e54db5acf099ab1f5ca5"
+        },
+        "prediction_metadata": {
+          "name": "metadata.json",
+          "sha256": "506ebd8161e9d3ba506dd77adbc318cff8bf043a7d02c979dc54f7099a2682a8"
+        },
+        "config": {
+          "name": "ces_reviewer_revision.yaml",
+          "sha256": "70910b6dc398dc89dd24573b9f125e1ab724cf4ad43794a89864fd4d85b853dc"
+        }
+      }
+    },
+    {
+      "gas_velocity_m_s": 0.2,
+      "df_over_dp": 0.1,
+      "training_release_seed": 20260714,
+      "prediction_release_seed": 20260713,
+      "input_signature": {
+        "training_trajectories": [
+          {
+            "name": "particle_trajectories.csv.gz",
+            "sha256": "619979500cba34bbde32eb2e76dc3e57034284053fc7f7d565f88464e93e3586"
+          }
+        ],
+        "training_waiting_fits": [
+          {
+            "name": "model_fits.json",
+            "sha256": "9adafe212cfe63adabc81a4f3a693be2ebdf0b8f4d3bbb6b1674bbff0c1d513d"
+          }
+        ],
+        "training_metadata": [
+          {
+            "name": "metadata.json",
+            "sha256": "257a52256f32217cce503fe141f2d6548fc65204e67a4a0d2d4d40c8abb496f8"
+          }
+        ],
+        "prediction_trajectory": {
+          "name": "particle_trajectories.csv.gz",
+          "sha256": "76937f502a72e3c9b4800b6ab8c80d9858be74b0527654e2e23f5c6288790a1f"
+        },
+        "prediction_metadata": {
+          "name": "metadata.json",
+          "sha256": "ccf5ded8d13bf8f237b7640c66e9fb85bf9798051299676f96c5c8d131157213"
+        },
+        "config": {
+          "name": "ces_reviewer_revision.yaml",
+          "sha256": "70910b6dc398dc89dd24573b9f125e1ab724cf4ad43794a89864fd4d85b853dc"
+        }
+      }
+    },
+    {
+      "gas_velocity_m_s": 0.2,
+      "df_over_dp": 0.1,
+      "training_release_seed": 20260714,
+      "prediction_release_seed": 20260715,
+      "input_signature": {
+        "training_trajectories": [
+          {
+            "name": "particle_trajectories.csv.gz",
+            "sha256": "619979500cba34bbde32eb2e76dc3e57034284053fc7f7d565f88464e93e3586"
+          }
+        ],
+        "training_waiting_fits": [
+          {
+            "name": "model_fits.json",
+            "sha256": "9adafe212cfe63adabc81a4f3a693be2ebdf0b8f4d3bbb6b1674bbff0c1d513d"
+          }
+        ],
+        "training_metadata": [
+          {
+            "name": "metadata.json",
+            "sha256": "257a52256f32217cce503fe141f2d6548fc65204e67a4a0d2d4d40c8abb496f8"
+          }
+        ],
+        "prediction_trajectory": {
+          "name": "particle_trajectories.csv.gz",
+          "sha256": "22c5f12df7185626a11736dd4f71dccbc94159d91158e54db5acf099ab1f5ca5"
+        },
+        "prediction_metadata": {
+          "name": "metadata.json",
+          "sha256": "506ebd8161e9d3ba506dd77adbc318cff8bf043a7d02c979dc54f7099a2682a8"
+        },
+        "config": {
+          "name": "ces_reviewer_revision.yaml",
+          "sha256": "70910b6dc398dc89dd24573b9f125e1ab724cf4ad43794a89864fd4d85b853dc"
+        }
+      }
+    },
+    {
+      "gas_velocity_m_s": 0.2,
+      "df_over_dp": 0.1,
+      "training_release_seed": 20260715,
+      "prediction_release_seed": 20260713,
+      "input_signature": {
+        "training_trajectories": [
+          {
+            "name": "particle_trajectories.csv.gz",
+            "sha256": "22c5f12df7185626a11736dd4f71dccbc94159d91158e54db5acf099ab1f5ca5"
+          }
+        ],
+        "training_waiting_fits": [
+          {
+            "name": "model_fits.json",
+            "sha256": "489988aa065ee18fa22f3f706f413368af24b26cd32abb24cf432aeb75ca225a"
+          }
+        ],
+        "training_metadata": [
+          {
+            "name": "metadata.json",
+            "sha256": "506ebd8161e9d3ba506dd77adbc318cff8bf043a7d02c979dc54f7099a2682a8"
+          }
+        ],
+        "prediction_trajectory": {
+          "name": "particle_trajectories.csv.gz",
+          "sha256": "76937f502a72e3c9b4800b6ab8c80d9858be74b0527654e2e23f5c6288790a1f"
+        },
+        "prediction_metadata": {
+          "name": "metadata.json",
+          "sha256": "ccf5ded8d13bf8f237b7640c66e9fb85bf9798051299676f96c5c8d131157213"
+        },
+        "config": {
+          "name": "ces_reviewer_revision.yaml",
+          "sha256": "70910b6dc398dc89dd24573b9f125e1ab724cf4ad43794a89864fd4d85b853dc"
+        }
+      }
+    },
+    {
+      "gas_velocity_m_s": 0.2,
+      "df_over_dp": 0.1,
+      "training_release_seed": 20260715,
+      "prediction_release_seed": 20260714,
+      "input_signature": {
+        "training_trajectories": [
+          {
+            "name": "particle_trajectories.csv.gz",
+            "sha256": "22c5f12df7185626a11736dd4f71dccbc94159d91158e54db5acf099ab1f5ca5"
+          }
+        ],
+        "training_waiting_fits": [
+          {
+            "name": "model_fits.json",
+            "sha256": "489988aa065ee18fa22f3f706f413368af24b26cd32abb24cf432aeb75ca225a"
+          }
+        ],
+        "training_metadata": [
+          {
+            "name": "metadata.json",
+            "sha256": "506ebd8161e9d3ba506dd77adbc318cff8bf043a7d02c979dc54f7099a2682a8"
+          }
+        ],
+        "prediction_trajectory": {
+          "name": "particle_trajectories.csv.gz",
+          "sha256": "619979500cba34bbde32eb2e76dc3e57034284053fc7f7d565f88464e93e3586"
+        },
+        "prediction_metadata": {
+          "name": "metadata.json",
+          "sha256": "257a52256f32217cce503fe141f2d6548fc65204e67a4a0d2d4d40c8abb496f8"
+        },
+        "config": {
+          "name": "ces_reviewer_revision.yaml",
+          "sha256": "70910b6dc398dc89dd24573b9f125e1ab724cf4ad43794a89864fd4d85b853dc"
+        }
+      }
+    }
+  ],
+  "pair_count": 24,
+  "models": [
+    {
+      "model": "heterogeneous_fitted_residence_mobile_immobile",
+      "prediction_count": 24,
+      "mean_cdf_rmse": 0.07799497651814816,
+      "median_cdf_rmse": 0.0826866046426596,
+      "minimum_cdf_rmse": 0.01618565105270715,
+      "maximum_cdf_rmse": 0.15262090478626375,
+      "win_count": 6
+    },
+    {
+      "model": "heterogeneous_advection_dispersion",
+      "prediction_count": 24,
+      "mean_cdf_rmse": 0.08008012741728986,
+      "median_cdf_rmse": 0.06674443209558581,
+      "minimum_cdf_rmse": 0.014809995873658362,
+      "maximum_cdf_rmse": 0.1955819305730124,
+      "win_count": 11
+    },
+    {
+      "model": "heterogeneous_correlated_fitted_residence_ctrw",
+      "prediction_count": 24,
+      "mean_cdf_rmse": 0.08135717715036726,
+      "median_cdf_rmse": 0.08889519548176258,
+      "minimum_cdf_rmse": 0.01548343092900709,
+      "maximum_cdf_rmse": 0.1659769864904302,
+      "win_count": 7
+    },
+    {
+      "model": "heterogeneous_exponential_mobile_immobile",
+      "prediction_count": 24,
+      "mean_cdf_rmse": 0.09172358124339702,
+      "median_cdf_rmse": 0.08359031374773168,
+      "minimum_cdf_rmse": 0.02082422494222641,
+      "maximum_cdf_rmse": 0.18615463240721858,
+      "win_count": 0
+    },
+    {
+      "model": "homogeneous_exponential_mobile_immobile",
+      "prediction_count": 24,
+      "mean_cdf_rmse": 0.2010094745893971,
+      "median_cdf_rmse": 0.19054200205650362,
+      "minimum_cdf_rmse": 0.08372773780401438,
+      "maximum_cdf_rmse": 0.3393153868044038,
+      "win_count": 0
+    },
+    {
+      "model": "classical_ade",
+      "prediction_count": 24,
+      "mean_cdf_rmse": 0.23869976743981644,
+      "median_cdf_rmse": 0.2578803009665148,
+      "minimum_cdf_rmse": 0.0806414973819311,
+      "maximum_cdf_rmse": 0.39915491520628094,
+      "win_count": 0
+    }
+  ],
+  "table": "pairwise_mobile_immobile_predictions.csv"
+}

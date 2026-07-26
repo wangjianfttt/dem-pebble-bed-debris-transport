@@ -15,6 +15,10 @@ The repository does not provide a universal clogging transition law, a safety cr
 
 ## Repository Contents
 
+- `paper3_minimal/`: minimal code and processed tables for the Paper 3
+  CFD--DEM transport, fractional first-passage, mobile--immobile, CTRW,
+  mechanism-control and four-point Xie retention results. It intentionally
+  excludes manuscripts, figures and raw solver output.
 - `src/`: shared Python utilities for DEM dump parsing, voxelization, topology metrics, transport metrics and model fitting.
 - `papers/paper2_voxel_topology_clogging/latex/`: manuscript source and compiled PDF preview.
 - `papers/paper2_voxel_topology_clogging/scripts/`: paper-specific data mining, figure generation and audit scripts.
@@ -26,11 +30,13 @@ The repository does not provide a universal clogging transition law, a safety cr
 
 Large raw DEM dump/restart files are not included in this lightweight repository because of size. They are retained by the authors and can be requested for audit or reproduction needs.
 
-## Archived DOI
+## Archived DOI (Paper 2 only)
 
-This repository release is archived on Zenodo:
+The existing Zenodo record covers the Paper 2 release only:
 
 **DOI:** [10.5281/zenodo.20699272](https://doi.org/10.5281/zenodo.20699272)
+
+It must not be cited as the data DOI for `paper3_minimal/`.
 
 ## Quick Start
 
@@ -46,6 +52,13 @@ Run selected paper scripts from the repository root, for example:
 python papers/paper2_voxel_topology_clogging/scripts/plot_additional_mechanism_figures.py
 python papers/paper2_voxel_topology_clogging/scripts/audit_abstract_evidence_alignment.py
 python papers/paper2_voxel_topology_clogging/scripts/audit_main_figure_order.py
+```
+
+Check the complete minimal Paper 3 package with:
+
+```bash
+python -m pip install -r paper3_minimal/requirements.txt
+python paper3_minimal/code/verify_release.py
 ```
 
 Compile the manuscript if a TeX distribution is available:

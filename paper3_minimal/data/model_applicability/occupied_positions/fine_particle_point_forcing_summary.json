@@ -1,0 +1,411 @@
+{
+  "comparison_window_x_m": [
+    0.0,
+    0.01
+  ],
+  "created_utc": "2026-08-30T13:31:16.580170+00:00",
+  "debris_dump_dir": "<raw source path omitted from minimal package>",
+  "field_sampling_validity": {
+    "invalid_in_either_field": 150,
+    "invalid_particle_contact_fraction_median": 0.7504165278240587,
+    "invalid_voidfraction_clipped_fraction": 0.5733333333333334,
+    "selected_rows": 1229,
+    "valid_fraction": 0.8779495524816925,
+    "valid_in_both_fields": 1079,
+    "valid_particle_contact_fraction_median": 0.5491502832389203,
+    "valid_voidfraction_clipped_fraction": 0.42910101946246526
+  },
+  "groups": {
+    "all": {
+      "carrier_velocity": {
+        "direction_cosine_p10_p50_p90": [
+          0.4849977231901155,
+          0.8197681716989181,
+          0.9760564715833289
+        ],
+        "magnitude_ratio_p10_p50_p90": [
+          0.08911308133899876,
+          0.8039084418712357,
+          4.7686179487618885
+        ],
+        "n": 1079,
+        "opposite_direction_fraction": 0.005560704355885079,
+        "relative_l2": 1.6580954091144988
+      },
+      "fixed_coefficient_drag": {
+        "direction_cosine_p10_p50_p90": [
+          -0.5073849010721677,
+          0.13749102726300896,
+          0.8389806397926113
+        ],
+        "magnitude_ratio_p10_p50_p90": [
+          0.44598436630709587,
+          8.29562743433221,
+          53.33286996136906
+        ],
+        "n": 1079,
+        "opposite_direction_fraction": 0.41241890639481,
+        "relative_l2": 3.0001692403116214
+      },
+      "production_field_sampling_consistency": {
+        "direction_cosine_p10_p50_p90": [
+          0.9993973375591549,
+          0.9999224601499348,
+          0.999993801516322
+        ],
+        "magnitude_ratio_p10_p50_p90": [
+          0.36038347240695595,
+          0.872980638867634,
+          1.313618922448604
+        ],
+        "n": 1079,
+        "opposite_direction_fraction": 0.0,
+        "relative_l2": 0.4237249357778382
+      }
+    },
+    "particle_contact_fraction_above_median": {
+      "carrier_velocity": {
+        "direction_cosine_p10_p50_p90": [
+          0.4419757697361801,
+          0.7829920212184566,
+          0.9591176775838886
+        ],
+        "magnitude_ratio_p10_p50_p90": [
+          0.07569959237390207,
+          0.6508524852368476,
+          2.918430838174678
+        ],
+        "n": 538,
+        "opposite_direction_fraction": 0.0037174721189591076,
+        "relative_l2": 1.2227619637041545
+      },
+      "fixed_coefficient_drag": {
+        "direction_cosine_p10_p50_p90": [
+          -0.48747057228276075,
+          0.10212314863978197,
+          0.8553762780715983
+        ],
+        "magnitude_ratio_p10_p50_p90": [
+          0.40936159962415564,
+          7.5259933524791345,
+          42.36722191289827
+        ],
+        "n": 538,
+        "opposite_direction_fraction": 0.4516728624535316,
+        "relative_l2": 2.430027683715688
+      },
+      "production_field_sampling_consistency": {
+        "direction_cosine_p10_p50_p90": [
+          0.9995794811076694,
+          0.9999418049307087,
+          0.9999953281263165
+        ],
+        "magnitude_ratio_p10_p50_p90": [
+          0.4260750959468127,
+          1.0064080712420587,
+          1.3134958841312618
+        ],
+        "n": 538,
+        "opposite_direction_fraction": 0.0,
+        "relative_l2": 0.3586836259894979
+      }
+    },
+    "particle_contact_fraction_below_median": {
+      "carrier_velocity": {
+        "direction_cosine_p10_p50_p90": [
+          0.5521999194648656,
+          0.8548512354958527,
+          0.9845259291543894
+        ],
+        "magnitude_ratio_p10_p50_p90": [
+          0.12496512958978474,
+          0.9945819165735573,
+          9.85904696534922
+        ],
+        "n": 541,
+        "opposite_direction_fraction": 0.0073937153419593345,
+        "relative_l2": 2.048710451198631
+      },
+      "fixed_coefficient_drag": {
+        "direction_cosine_p10_p50_p90": [
+          -0.5656010898094778,
+          0.1693090493249924,
+          0.8278623623719812
+        ],
+        "magnitude_ratio_p10_p50_p90": [
+          0.5230755581194166,
+          10.222955899082205,
+          77.88622479938154
+        ],
+        "n": 541,
+        "opposite_direction_fraction": 0.3733826247689464,
+        "relative_l2": 3.6124983371322155
+      },
+      "production_field_sampling_consistency": {
+        "direction_cosine_p10_p50_p90": [
+          0.9992667755397792,
+          0.9999076100866786,
+          0.9999924663902227
+        ],
+        "magnitude_ratio_p10_p50_p90": [
+          0.31186654312312584,
+          0.6161745149904556,
+          1.3135049880733605
+        ],
+        "n": 541,
+        "opposite_direction_fraction": 0.0,
+        "relative_l2": 0.4881552301886865
+      }
+    },
+    "slip_high": {
+      "carrier_velocity": {
+        "direction_cosine_p10_p50_p90": [
+          0.3871411142191761,
+          0.7139541607056052,
+          0.8860174248747703
+        ],
+        "magnitude_ratio_p10_p50_p90": [
+          0.0243120831047476,
+          0.3433955215600968,
+          1.8761960976444103
+        ],
+        "n": 260,
+        "opposite_direction_fraction": 0.011538461538461539,
+        "relative_l2": 1.1591509771098454
+      },
+      "fixed_coefficient_drag": {
+        "direction_cosine_p10_p50_p90": [
+          -0.33117102755337574,
+          0.22424115965684194,
+          0.8139964676121824
+        ],
+        "magnitude_ratio_p10_p50_p90": [
+          0.22846893120096431,
+          0.6008641609328305,
+          1.8244519757660784
+        ],
+        "n": 260,
+        "opposite_direction_fraction": 0.3038461538461538,
+        "relative_l2": 1.3047246763665967
+      },
+      "production_field_sampling_consistency": {
+        "direction_cosine_p10_p50_p90": [
+          0.9993705769791292,
+          0.9999101409511085,
+          0.9999924922633818
+        ],
+        "magnitude_ratio_p10_p50_p90": [
+          0.35664999025339383,
+          0.8772980559143966,
+          1.2409153319911095
+        ],
+        "n": 260,
+        "opposite_direction_fraction": 0.0,
+        "relative_l2": 0.4312925253277346
+      }
+    },
+    "slip_low": {
+      "carrier_velocity": {
+        "direction_cosine_p10_p50_p90": [
+          0.5427474434461699,
+          0.8667254286610765,
+          0.978319795455252
+        ],
+        "magnitude_ratio_p10_p50_p90": [
+          0.23891998752191154,
+          1.2432175824860485,
+          6.164572000428526
+        ],
+        "n": 431,
+        "opposite_direction_fraction": 0.004640371229698376,
+        "relative_l2": 1.833381829586195
+      },
+      "fixed_coefficient_drag": {
+        "direction_cosine_p10_p50_p90": [
+          -0.6560367779413556,
+          0.12164380614139021,
+          0.7919774706925823
+        ],
+        "magnitude_ratio_p10_p50_p90": [
+          12.103917514250025,
+          29.9969588884582,
+          87.91734230501137
+        ],
+        "n": 431,
+        "opposite_direction_fraction": 0.42923433874709976,
+        "relative_l2": 47.69533018436668
+      },
+      "production_field_sampling_consistency": {
+        "direction_cosine_p10_p50_p90": [
+          0.9995925690177814,
+          0.9999289865899633,
+          0.9999947559101544
+        ],
+        "magnitude_ratio_p10_p50_p90": [
+          0.367757581883065,
+          0.8676049814027706,
+          1.3234779527216725
+        ],
+        "n": 431,
+        "opposite_direction_fraction": 0.0,
+        "relative_l2": 0.4142255345431967
+      }
+    },
+    "slip_mid": {
+      "carrier_velocity": {
+        "direction_cosine_p10_p50_p90": [
+          0.5765213687600069,
+          0.8556247080771957,
+          0.9825886435878413
+        ],
+        "magnitude_ratio_p10_p50_p90": [
+          0.11219906561690324,
+          0.8164591896038454,
+          6.130992033116694
+        ],
+        "n": 388,
+        "opposite_direction_fraction": 0.002577319587628866,
+        "relative_l2": 1.8258309882203072
+      },
+      "fixed_coefficient_drag": {
+        "direction_cosine_p10_p50_p90": [
+          -0.5020153252195697,
+          0.06852951072239763,
+          0.8751091923251806
+        ],
+        "magnitude_ratio_p10_p50_p90": [
+          0.6544369588334106,
+          4.307949106872355,
+          22.924797797157783
+        ],
+        "n": 388,
+        "opposite_direction_fraction": 0.46649484536082475,
+        "relative_l2": 3.757283137776279
+      },
+      "production_field_sampling_consistency": {
+        "direction_cosine_p10_p50_p90": [
+          0.9993024490653635,
+          0.9999210767661375,
+          0.9999943780457956
+        ],
+        "magnitude_ratio_p10_p50_p90": [
+          0.350260721616353,
+          0.880993734981851,
+          1.376175327005161
+        ],
+        "n": 388,
+        "opposite_direction_fraction": 0.0,
+        "relative_l2": 0.4272617837570796
+      }
+    },
+    "voidfraction_clipped": {
+      "carrier_velocity": {
+        "direction_cosine_p10_p50_p90": [
+          0.45618742715928545,
+          0.8150219591664021,
+          0.9673054737990933
+        ],
+        "magnitude_ratio_p10_p50_p90": [
+          0.0756446584474009,
+          0.5755907503174761,
+          2.7843439405244053
+        ],
+        "n": 463,
+        "opposite_direction_fraction": 0.0064794816414686825,
+        "relative_l2": 1.1423255772523648
+      },
+      "fixed_coefficient_drag": {
+        "direction_cosine_p10_p50_p90": [
+          -0.48894009630183666,
+          0.04997785778268514,
+          0.7683209407184792
+        ],
+        "magnitude_ratio_p10_p50_p90": [
+          0.39449075154141044,
+          7.363917767958273,
+          44.46112211292395
+        ],
+        "n": 463,
+        "opposite_direction_fraction": 0.46652267818574517,
+        "relative_l2": 2.251650840507937
+      },
+      "production_field_sampling_consistency": {
+        "direction_cosine_p10_p50_p90": [
+          0.9996115466326423,
+          0.9999470873151881,
+          0.9999956924409859
+        ],
+        "magnitude_ratio_p10_p50_p90": [
+          0.48221795204829543,
+          1.0084349266078623,
+          1.3711303979855756
+        ],
+        "n": 463,
+        "opposite_direction_fraction": 0.0,
+        "relative_l2": 0.31992927784605474
+      }
+    },
+    "voidfraction_not_clipped": {
+      "carrier_velocity": {
+        "direction_cosine_p10_p50_p90": [
+          0.5291786835326295,
+          0.8209860790163728,
+          0.9826567925889045
+        ],
+        "magnitude_ratio_p10_p50_p90": [
+          0.12570964225100373,
+          1.0396055152327024,
+          8.162540289699724
+        ],
+        "n": 616,
+        "opposite_direction_fraction": 0.00487012987012987,
+        "relative_l2": 1.9289941098977472
+      },
+      "fixed_coefficient_drag": {
+        "direction_cosine_p10_p50_p90": [
+          -0.5560723571213613,
+          0.22266781565075505,
+          0.867835003970483
+        ],
+        "magnitude_ratio_p10_p50_p90": [
+          0.5406684148332875,
+          10.124732538774259,
+          62.31062960249951
+        ],
+        "n": 616,
+        "opposite_direction_fraction": 0.3717532467532468,
+        "relative_l2": 3.758957278620516
+      },
+      "production_field_sampling_consistency": {
+        "direction_cosine_p10_p50_p90": [
+          0.9992697677838056,
+          0.9999014245174327,
+          0.99999154706363
+        ],
+        "magnitude_ratio_p10_p50_p90": [
+          0.3120730704353049,
+          0.615623093378481,
+          1.262938960638659
+        ],
+        "n": 616,
+        "opposite_direction_fraction": 0.0,
+        "relative_l2": 0.4811164459217813
+      }
+    }
+  },
+  "interpretation": "Point-sampling diagnostic. The production particle velocity and logged Koch--Hill force-per-slip coefficient are retained while the sampled carrier velocity is replaced by the pore-resolved value. This isolates carrier-field sensitivity and is not a resolved fine-particle surface-traction validation.",
+  "maximum_probe_to_dem_dump_position_error_m": 6.688650480344969e-14,
+  "probe_dir": "<raw source path omitted from minimal package>",
+  "raw_probe_rows_in_window": 126597,
+  "resolved_case": "<raw source path omitted from minimal package>",
+  "resolved_time": 316.0,
+  "sample_csv_sha256": "6aa689d59143171e658d84478cea4e64084c5418c3494fa98910f20333f84dfb",
+  "selected_rows_before_field_validity": 1229,
+  "slip_speed_tercile_boundaries_m_per_s": {
+    "lower_tercile": 0.006934329559348618,
+    "upper_tercile": 0.11594550165606243
+  },
+  "unresolved_case": "<raw source path omitted from minimal package>",
+  "unresolved_time": 0.0,
+  "valid_selected_rows": 1079
+}

@@ -1,0 +1,17 @@
+{
+  "corrected_solver_log_sha256": "4270932db2b73bf0c9f1d92378c240a5073f27eccc66584c189c6b9881fa53bc",
+  "created_utc": "2026-08-30T14:09:38.153197+00:00",
+  "final_absolute_outlet_to_inlet_flow_ratio": 1.00000000512821,
+  "final_inlet_area_average_kinematic_p_m2_per_s2": 144.9910861,
+  "final_inlet_phi_m3_per_s": -1.949998146e-05,
+  "final_kinematic_pressure_drop_m2_per_s2": 144.9910861,
+  "final_outlet_area_average_kinematic_p_m2_per_s2": 0.0,
+  "final_outlet_phi_m3_per_s": 1.949998156e-05,
+  "full_inlet_area_m2": 0.000195,
+  "imposed_open_patch_velocity_m_per_s": 0.262167249260554,
+  "imposed_volume_flow_m3_per_s": 1.950000000000001e-05,
+  "open_area_fraction": 0.38143589743589745,
+  "open_inlet_area_m2": 7.438e-05,
+  "target_superficial_velocity_m_per_s": 0.1,
+  "target_volume_flow_m3_per_s": 1.95e-05
+}

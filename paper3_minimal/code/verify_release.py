@@ -23,6 +23,7 @@ from verify_mobile_immobile_summary_consistency import (  # noqa: E402
     verify_pairwise,
 )
 from verify_multiscale_ctrw_design_consistency import verify as verify_ctrw  # noqa: E402
+from verify_model_applicability import verify as verify_model_applicability  # noqa: E402
 from verify_pooled_first_passage_consistency import verify as verify_fpt  # noqa: E402
 from verify_transport_mechanism_pairing_consistency import (  # noqa: E402
     verify as verify_mechanism,
@@ -240,6 +241,9 @@ def main() -> int:
                 DATA / "mechanism/transport_mechanism_paired_particle_differences.csv",
                 DATA / "mechanism/transport_mechanism_paired_bootstrap.csv",
                 DATA / "mechanism/transport_mechanism_sensitivity_changes.csv",
+            ),
+            "model_applicability": verify_model_applicability(
+                DATA / "model_applicability"
             ),
             "xie_20s": verify_xie(),
             "temporary_directory_used": output.name,

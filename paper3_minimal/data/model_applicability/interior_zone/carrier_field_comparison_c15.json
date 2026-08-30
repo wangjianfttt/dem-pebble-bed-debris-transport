@@ -1,0 +1,144 @@
+{
+  "coarse_bin_shape": [
+    3,
+    6,
+    5
+  ],
+  "coarse_bins": 90,
+  "comparison_window_m": {
+    "resolved_x": [
+      0.00225,
+      0.00975
+    ],
+    "unresolved_x": [
+      0.025,
+      0.0325
+    ],
+    "y": [
+      0.0,
+      0.015
+    ],
+    "z": [
+      0.0,
+      0.013
+    ]
+  },
+  "created_utc": "2026-08-30T13:31:07.184346+00:00",
+  "cross_sectional_pressure": {
+    "absolute_gradient_ratio_resolved_over_unresolved": 1.4387009692851003,
+    "resolved_dpdx_m_per_s2_per_m": -12762.946705920247,
+    "resolved_intercept_m2_per_s2": 146.99508358853788,
+    "resolved_mean_p_m2_per_s2": [
+      102.87862836555576,
+      69.3096868575388,
+      39.063894835954564
+    ],
+    "resolved_x_centres_m": [
+      0.0034999999999999996,
+      0.006,
+      0.0085
+    ],
+    "unresolved_dpdx_m_per_s2_per_m": -8871.160149605124,
+    "unresolved_intercept_m2_per_s2": 373.5424408769452,
+    "unresolved_mean_p_m2_per_s2": [
+      140.6889932708623,
+      118.46757393369526,
+      96.33319252283663
+    ],
+    "unresolved_x_centres_m": [
+      0.026250000000000002,
+      0.028749999999999998,
+      0.03125
+    ]
+  },
+  "ergun_reference": {
+    "dynamic_pressure_gradient_Pa_per_m": 1802.1907882195999,
+    "kinematic_pressure_gradient_m_per_s2_per_m": 10988.968220851219,
+    "porosity": 0.39356519605784934,
+    "resolved_to_ergun_gradient_ratio": 1.1614326704215014,
+    "superficial_velocity_m_per_s": 0.1,
+    "unresolved_to_ergun_gradient_ratio": 0.8072787154641488
+  },
+  "metrics_resolved_minus_unresolved": {
+    "fluid_phase_ux_m_per_s": {
+      "bias": 0.016162907976517184,
+      "mae": 0.05332775182325616,
+      "n": 90,
+      "pearson_r": 0.8277367838072284,
+      "relative_l2": 0.2424811089746282,
+      "rmse": 0.06469283558969971
+    },
+    "raw_voidfraction": {
+      "bias": -0.01036669697578038,
+      "mae": 0.01780613977461257,
+      "n": 90,
+      "pearson_r": 0.8400469429632923,
+      "relative_l2": 0.06261631019067943,
+      "rmse": 0.024791237253765714
+    },
+    "superficial_qx_m_per_s": {
+      "bias": 0.0021458745480481705,
+      "mae": 0.0225890606969855,
+      "n": 90,
+      "pearson_r": 0.8820383580599747,
+      "relative_l2": 0.24325864258755642,
+      "rmse": 0.027846412733271673
+    }
+  },
+  "nominal_window_porosity_from_sphere_box_integration": 0.39356519605784934,
+  "output_sha256": {
+    "carrier_field_bins_c15.csv": "9a96ca84547b48fe0d4d326c88287b15cbb912cc2000c2848d24508caff1b719"
+  },
+  "resolved_case": "<raw source path omitted from minimal package>",
+  "resolved_cells_in_comparison_window": 1892442,
+  "resolved_cells_per_dp": 15,
+  "resolved_internal_cells_total": 3063652,
+  "resolved_time": 149.0,
+  "resolved_window_porosity": 0.3834007145343692,
+  "resolved_window_porosity_error": -0.010164481523480151,
+  "unresolved_case": "<raw source path omitted from minimal package>",
+  "unresolved_cell_speed_distribution": {
+    "speed_quantiles_m_per_s": {
+      "p10": 0.12672824660927184,
+      "p50": 0.2384841538808316,
+      "p90": 0.40661328493274446,
+      "p95": 0.507445024641036,
+      "p99": 0.5471496385934754
+    },
+    "ux_quantiles_m_per_s": {
+      "p10": 0.12658165209786412,
+      "p50": 0.23814386483171868,
+      "p90": 0.40615908907964365,
+      "p95": 0.5073085313468843,
+      "p99": 0.546890757769677
+    },
+    "volume_fraction_speed_above_2_Us": 0.651844981981545,
+    "volume_fraction_speed_above_5_Us": 0.0680371462258622,
+    "volume_fraction_speed_below_0p1_Us": 0.0,
+    "volume_fraction_speed_below_0p5_Us": 0.0
+  },
+  "unresolved_fraction_below_drag_cutoff_0p4": 0.6333333333333333,
+  "unresolved_time": 0.0,
+  "unresolved_window_mean_raw_voidfraction": 0.393767386674881,
+  "unresolved_window_porosity_error": 0.00020219061703163899,
+  "void_space_speed_distribution": {
+    "speed_quantiles_m_per_s": {
+      "p10": 0.05819316684060449,
+      "p50": 0.24523971027453173,
+      "p90": 0.7088684250099491,
+      "p95": 0.9295734962651869,
+      "p99": 1.4917222570778463
+    },
+    "ux_quantiles_m_per_s": {
+      "p10": 0.02376383007273226,
+      "p50": 0.17809420625864958,
+      "p90": 0.609570068439905,
+      "p95": 0.8253859807029217,
+      "p99": 1.3896911706717194
+    },
+    "volume_fraction_speed_above_2_Us": 0.5822339990933566,
+    "volume_fraction_speed_above_5_Us": 0.20555825074310316,
+    "volume_fraction_speed_below_0p1_Us": 0.006707734944684051,
+    "volume_fraction_speed_below_0p5_Us": 0.08071898056857146
+  }
+}

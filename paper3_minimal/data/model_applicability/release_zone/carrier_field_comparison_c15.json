@@ -1,0 +1,138 @@
+{
+  "coarse_bin_shape": [
+    4,
+    6,
+    5
+  ],
+  "coarse_bins": 120,
+  "comparison_window_m": {
+    "x": [
+      0.0,
+      0.01
+    ],
+    "y": [
+      0.0,
+      0.015
+    ],
+    "z": [
+      0.0,
+      0.013
+    ]
+  },
+  "created_utc": "2026-08-30T13:02:00.903405+00:00",
+  "cross_sectional_pressure": {
+    "absolute_gradient_ratio_resolved_over_unresolved": 1.4757566160981068,
+    "resolved_dpdx_m_per_s2_per_m": -10981.274785438109,
+    "resolved_intercept_m2_per_s2": 128.21058230090256,
+    "resolved_mean_p_m2_per_s2": [
+      114.69880043576893,
+      86.59648221486347,
+      59.801819323214765,
+      32.11973152100091
+    ],
+    "unresolved_dpdx_m_per_s2_per_m": -7441.11506304647,
+    "unresolved_intercept_m2_per_s2": 359.4978644617198,
+    "unresolved_mean_p_m2_per_s2": [
+      348.85234226852754,
+      333.1984039491701,
+      313.8138384630826,
+      293.3045719051695
+    ],
+    "x_centres_m": [
+      0.00125,
+      0.00375,
+      0.00625,
+      0.00875
+    ]
+  },
+  "ergun_reference": {
+    "dynamic_pressure_gradient_Pa_per_m": 1499.042255130134,
+    "kinematic_pressure_gradient_m_per_s2_per_m": 9140.501555671548,
+    "porosity": 0.4106498298087854,
+    "resolved_to_ergun_gradient_ratio": 1.2013864576856166,
+    "superficial_velocity_m_per_s": 0.1,
+    "unresolved_to_ergun_gradient_ratio": 0.8140817019422054
+  },
+  "metrics_resolved_minus_unresolved": {
+    "fluid_phase_ux_m_per_s": {
+      "bias": 0.03528013073542479,
+      "mae": 0.06777364589369092,
+      "n": 120,
+      "pearson_r": 0.7300928755125007,
+      "relative_l2": 0.35269311928250496,
+      "rmse": 0.08377715229205442
+    },
+    "raw_voidfraction": {
+      "bias": -0.007361914321021009,
+      "mae": 0.018744419085149646,
+      "n": 120,
+      "pearson_r": 0.8943362446795754,
+      "relative_l2": 0.05817643367104599,
+      "rmse": 0.024074058783987624
+    },
+    "superficial_qx_m_per_s": {
+      "bias": 0.011928806715538144,
+      "mae": 0.028698326060183445,
+      "n": 120,
+      "pearson_r": 0.8084191403981528,
+      "relative_l2": 0.3362797114437362,
+      "rmse": 0.035971437994527324
+    }
+  },
+  "nominal_window_porosity_from_sphere_box_integration": 0.4106498298087854,
+  "output_sha256": {
+    "carrier_field_bins_c15.csv": "c3eae84a953ef1eb8587fd2908b6354cc26b05baa359deefa409b74008c3425b"
+  },
+  "resolved_case": "<raw source path omitted from minimal package>",
+  "resolved_cells_in_comparison_window": 2654036,
+  "resolved_cells_per_dp": 15,
+  "resolved_internal_cells_total": 3172752,
+  "resolved_time": 196.0,
+  "resolved_window_porosity": 0.40327230979578116,
+  "resolved_window_porosity_error": -0.007377520013004235,
+  "unresolved_case": "<raw source path omitted from minimal package>",
+  "unresolved_cell_speed_distribution": {
+    "speed_quantiles_m_per_s": {
+      "p10": 0.08301945283855539,
+      "p50": 0.2070791064806047,
+      "p90": 0.3738160069468234,
+      "p95": 0.42449165446836695,
+      "p99": 0.5723751050586577
+    },
+    "ux_quantiles_m_per_s": {
+      "p10": 0.08301554634009668,
+      "p50": 0.20693072154846723,
+      "p90": 0.37353683814770433,
+      "p95": 0.42387743202080347,
+      "p99": 0.5718154755280278
+    },
+    "volume_fraction_speed_above_2_Us": 0.5400572735333021,
+    "volume_fraction_speed_above_5_Us": 0.031027693844166572,
+    "volume_fraction_speed_below_0p1_Us": 0.0,
+    "volume_fraction_speed_below_0p5_Us": 0.02360933273413837
+  },
+  "unresolved_fraction_below_drag_cutoff_0p4": 0.4583333333333333,
+  "unresolved_time": 0.0,
+  "unresolved_window_mean_raw_voidfraction": 0.41063421964645386,
+  "unresolved_window_porosity_error": -1.5610162331536337e-05,
+  "void_space_speed_distribution": {
+    "speed_quantiles_m_per_s": {
+      "p10": 0.05517917492100591,
+      "p50": 0.23181271897788056,
+      "p90": 0.6922205058259471,
+      "p95": 0.910456172575329,
+      "p99": 1.519669361830512
+    },
+    "ux_quantiles_m_per_s": {
+      "p10": 0.021457919604651255,
+      "p50": 0.16105493817056368,
+      "p90": 0.5887109045725565,
+      "p95": 0.8104161974615748,
+      "p99": 1.4253193622705216
+    },
+    "volume_fraction_speed_above_2_Us": 0.5598662236530912,
+    "volume_fraction_speed_above_5_Us": 0.19290057399536678,
+    "volume_fraction_speed_below_0p1_Us": 0.007750082806214185,
+    "volume_fraction_speed_below_0p5_Us": 0.08752330012186708
+  }
+}

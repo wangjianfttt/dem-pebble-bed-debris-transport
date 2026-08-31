@@ -1,0 +1,13 @@
+condition,measure,value
+Reference,CFD-DEM 5d[p] passage,0.77
+Local-fluid initial velocity,CFD-DEM 5d[p] passage,0.79
+Debris gravity = 0,CFD-DEM 5d[p] passage,0.86
+Reference,No-contact 5d[p] passage,1
+Local-fluid initial velocity,No-contact 5d[p] passage,1
+Debris gravity = 0,No-contact 5d[p] passage,1
+Reference,Any sampled contact,1
+Local-fluid initial velocity,Any sampled contact,0.99
+Debris gravity = 0,Any sampled contact,0.98
+Reference,Bottom-wall contact,0.14034988337220927
+Local-fluid initial velocity,Bottom-wall contact,0.14432855714761744
+Debris gravity = 0,Bottom-wall contact,0.03736421192935688

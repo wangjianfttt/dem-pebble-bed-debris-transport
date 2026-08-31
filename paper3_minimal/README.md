@@ -11,7 +11,10 @@ principal numerical summaries retained for Paper 3:
 - four completed 20 s Xie et al. retention cases at
   \(d_f/d_p=0.10,0.15,0.20,0.25\); and
 - processed release-zone and interior-window pore-resolved carrier-flow
-  comparisons plus a fine-particle occupied-position sensitivity diagnostic.
+  comparisons plus a fine-particle occupied-position sensitivity diagnostic;
+  and
+- twelve compact source-data tables and an R script that reproduce all five
+  main-paper figures without requiring the raw CFD--DEM cases.
 
 The package contains processed CSV/JSON tables and the code that recomputes
 their main internal consistency checks. It is deliberately not a complete
@@ -25,6 +28,17 @@ Python 3.10 or newer is recommended.
 python -m pip install -r requirements.txt
 python code/verify_release.py
 ```
+
+To reproduce the five main figures with R 4.2 or newer, install `ggplot2`,
+`patchwork`, `dplyr`, `tidyr`, `readr`, `scales`, `svglite`, and `ragg`, then
+write the outputs to a directory outside this minimal package:
+
+```bash
+Rscript code/plotting/reproduce_main_figures.R ../paper3_reproduced_figures
+```
+
+The script writes SVG, PDF, 600-dpi TIFF, and PNG variants. None of these
+generated image files is included in the repository release.
 
 The last command checks all SHA256 values, the 12-case design, the four
 first-passage cells and 12 held-out folds, 24 ordered mobile--immobile pairs
@@ -59,8 +73,10 @@ resolved fine-particle surface-force validation.
 - `data/model_applicability/`: processed grid, filtered carrier-field and
   occupied-position diagnostics used to define the interpretation limits of
   the unresolved CFD--DEM calculation.
+- `data/figure_source/`: compact source tables consumed by the R figure script.
 - `data/xie/`: digitized reference values and compact per-particle/per-time
   results for four 20 s cases.
+- `code/plotting/`: self-contained R figure-reproduction code.
 - `SHA256SUMS`: hashes of every file in this directory except itself.
 
 ## Intentionally excluded

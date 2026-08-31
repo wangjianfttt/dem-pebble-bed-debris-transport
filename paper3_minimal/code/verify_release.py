@@ -177,6 +177,28 @@ def verify_main_transport() -> dict[str, object]:
     }
 
 
+def verify_figure_source() -> dict[str, int]:
+    expected_rows = {
+        "model_applicability_grid_source.csv": 5,
+        "model_applicability_occupied_position_source.csv": 1079,
+        "pooled_first_passage_curve_source.csv": 330,
+        "pooled_first_passage_cv_source.csv": 24,
+        "postequilibrated_transport_matrix_release_source.csv": 12,
+        "postequilibrated_transport_matrix_summary_source.csv": 24,
+        "postequilibrated_transport_memory_source.csv": 12,
+        "transition_scaling_source.csv": 144,
+        "transport_mechanism_displacement_source.csv": 4,
+        "transport_mechanism_fraction_source.csv": 12,
+        "transport_mechanism_msd_source.csv": 294,
+        "waiting_survival_envelope_source.csv": 327,
+    }
+    base = DATA / "figure_source"
+    actual = {path.name: len(read_csv(path)) for path in sorted(base.glob("*.csv"))}
+    if actual != expected_rows:
+        raise ValueError("the released main-figure source tables are incomplete")
+    return actual
+
+
 def verify_xie() -> dict[str, object]:
     paired, histories, summary = collect(
         DATA / "xie/reference/reference_digitized.csv",
@@ -220,6 +242,7 @@ def main() -> int:
             "checksummed_file_count": verify_sha256(),
             "minimal_public_file_count": verify_public_scope(),
             "main_transport": verify_main_transport(),
+            "main_figure_source_rows": verify_figure_source(),
             "pooled_first_passage": verify_fpt(
                 DATA / "first_passage/pooled_first_passage_summary.csv",
                 DATA / "first_passage/pooled_first_passage_leave_one_release_out.csv",
